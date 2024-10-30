@@ -1,4 +1,4 @@
-package com.openelements.oss.license.data;
+package com.openelements.oss.license.scanner.data;
 
 import java.util.Objects;
 
@@ -21,6 +21,9 @@ public record License(String name, String url) {
             return true;
         }
         if(Objects.equals(url, "http://www.apache.org/licenses/LICENSE-2.0")) {
+            return true;
+        }
+        if(Objects.equals(url, "https://www.apache.org/licenses/LICENSE-2.0")) {
             return true;
         }
         return false;

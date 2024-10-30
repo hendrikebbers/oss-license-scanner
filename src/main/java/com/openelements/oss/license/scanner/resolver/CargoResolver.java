@@ -1,10 +1,10 @@
-package com.openelements.oss.license.resolver;
+package com.openelements.oss.license.scanner.resolver;
 
-import com.openelements.oss.license.data.Dependency;
-import com.openelements.oss.license.clients.GitHubClient;
-import com.openelements.oss.license.data.Identifier;
-import com.openelements.oss.license.data.License;
-import com.openelements.oss.license.Resolver;
+import com.openelements.oss.license.scanner.data.Dependency;
+import com.openelements.oss.license.scanner.clients.GitHubClient;
+import com.openelements.oss.license.scanner.data.Identifier;
+import com.openelements.oss.license.scanner.data.License;
+import com.openelements.oss.license.scanner.Resolver;
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.IOException;

@@ -1,7 +1,7 @@
-package com.openelements.oss.license.clients;
+package com.openelements.oss.license.scanner.clients;
 
-import com.openelements.oss.license.data.Identifier;
-import com.openelements.oss.license.data.License;
+import com.openelements.oss.license.scanner.data.Identifier;
+import com.openelements.oss.license.scanner.data.License;
 import java.io.ByteArrayInputStream;
 import java.io.InputStream;
 import java.net.URI;
@@ -13,14 +13,16 @@ import java.nio.charset.StandardCharsets;
 import java.util.Optional;
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
-import org.xml.sax.XMLReader;
-import org.xml.sax.helpers.XMLReaderFactory;
 
 public class MavenCentralClient {
+
+    private final static Logger log = LoggerFactory.getLogger(MavenCentralClient.class);
 
     private final HttpClient client;
 
@@ -30,8 +32,11 @@ public class MavenCentralClient {
 
     private String getPom(Identifier identifier) throws Exception {
         final String urlPrefix = "https://repo1.maven.org/maven2/";
-        final String urlPath = identifier.name().replace(".", "/").replace(":", "/");
-        final String urlFile = identifier.name().split(":")[1] + "-" + identifier.version() + ".pom";
+
+        final String[] split = identifier.name().split(":");
+
+        final String urlPath = split[0].replace(".", "/") + "/" + split[1];
+        final String urlFile = split[1] + "-" + identifier.version() + ".pom";
         final String url = urlPrefix + urlPath + "/" + identifier.version() + "/" + urlFile;
         HttpRequest request = HttpRequest.newBuilder()
                 .uri(new URI(url)).build();
@@ -42,6 +47,7 @@ public class MavenCentralClient {
 
     public Optional<License> getLicenceFromPom(Identifier identifier) {
         try {
+            log.info("Reading license from pom for " + identifier);
             final String pom = getPom(identifier);
             InputStream stream = new ByteArrayInputStream(pom.getBytes(StandardCharsets.UTF_8));
 
@@ -107,7 +113,9 @@ public class MavenCentralClient {
     }
 
     public Optional<String> getRepository(Identifier identifier) {
+
         try {
+            log.info("Reading repository url from pom for " + identifier);
             final String pom = getPom(identifier);
             InputStream stream = new ByteArrayInputStream(pom.getBytes(StandardCharsets.UTF_8));
 
@@ -135,6 +143,7 @@ public class MavenCentralClient {
             }
 
             //get repository from parent pom
+            log.info("checking for parent pom for " + identifier);
             NodeList parentList = document.getElementsByTagName("parent");
             if (parentList.getLength() > 0) {
                 Node parentNode = parentList.item(0);

@@ -1,4 +1,4 @@
-package com.openelements.oss.license.data;
+package com.openelements.oss.license.scanner.data;
 
 import java.util.Set;
 

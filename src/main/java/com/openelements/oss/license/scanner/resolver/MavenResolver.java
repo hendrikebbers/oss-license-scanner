@@ -1,17 +1,13 @@
-package com.openelements.oss.license.resolver;
+package com.openelements.oss.license.scanner.resolver;
 
-import com.openelements.oss.license.Resolver;
-import com.openelements.oss.license.clients.MavenCentralClient;
-import com.openelements.oss.license.data.Dependency;
-import com.openelements.oss.license.data.Identifier;
-import com.openelements.oss.license.data.License;
-import com.openelements.oss.license.clients.GitHubClient;
+import com.openelements.oss.license.scanner.Resolver;
+import com.openelements.oss.license.scanner.clients.MavenCentralClient;
+import com.openelements.oss.license.scanner.data.Dependency;
+import com.openelements.oss.license.scanner.data.Identifier;
+import com.openelements.oss.license.scanner.data.License;
+import com.openelements.oss.license.scanner.clients.GitHubClient;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
-import java.net.URI;
-import java.net.http.HttpRequest;
-import java.net.http.HttpResponse;
-import java.net.http.HttpResponse.BodyHandlers;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.Collections;
@@ -90,11 +86,12 @@ public class MavenResolver implements Resolver {
 
     private License getLicense(Identifier identifier) {
         //https://repo1.maven.org/maven2/javax/servlet/javax.servlet-api/4.0.0/javax.servlet-api-4.0.0.pom
-
+        log.info("Getting license for: " + identifier);
         MavenCentralClient mavenCentralClient = new MavenCentralClient();
         try {
             final Optional<String> repository = mavenCentralClient.getRepository(identifier);
             if (repository.isPresent()) {
+                log.info("Getting license from repository: " + repository.get());
                 return gitHubClient.getLicense(repository.get());
             }
         } catch (Exception e) {
@@ -108,6 +105,7 @@ public class MavenResolver implements Resolver {
         } catch (Exception e) {
             log.error("Error in getting license from pom", e);
         }
+        log.warn("No license found for: " + identifier);
         return License.UNKNOWN;
     }
 

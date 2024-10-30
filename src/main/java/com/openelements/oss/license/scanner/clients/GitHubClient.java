@@ -1,9 +1,9 @@
-package com.openelements.oss.license.clients;
+package com.openelements.oss.license.scanner.clients;
 
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
-import com.openelements.oss.license.data.License;
+import com.openelements.oss.license.scanner.data.License;
 import java.io.BufferedInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
