@@ -6,7 +6,7 @@ import com.openelements.oss.license.Resolver;
 import com.openelements.oss.license.data.Dependency;
 import com.openelements.oss.license.data.Identifier;
 import com.openelements.oss.license.data.License;
-import com.openelements.oss.license.git.GitHubClient;
+import com.openelements.oss.license.clients.GitHubClient;
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.IOException;

@@ -1,13 +1,10 @@
-package com.openelements.oss.license.git;
+package com.openelements.oss.license.clients;
 
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
-import com.openelements.oss.license.data.Dependency;
-import com.openelements.oss.license.data.Identifier;
 import com.openelements.oss.license.data.License;
 import java.io.BufferedInputStream;
-import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
@@ -21,13 +18,11 @@ import java.net.http.HttpResponse.BodyHandlers;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
-import java.util.Comparator;
 import java.util.Map;
 import java.util.Optional;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
-import java.util.stream.Stream;
 import java.util.zip.ZipEntry;
 import java.util.zip.ZipInputStream;
 import org.slf4j.Logger;
@@ -72,6 +67,15 @@ public class GitHubClient {
         }
         if(githubUrl.startsWith("ssh://git@")) {
             return parseRepository("https://" + githubUrl.substring(10));
+        }
+        if(githubUrl.startsWith("scm:")) {
+            return parseRepository(githubUrl.substring(4));
+        }
+        if(githubUrl.startsWith("http://github.com")) {
+            return parseRepository("https://github.com" + githubUrl.substring(17));
+        }
+        if(githubUrl.startsWith("git@github.com")) {
+            return parseRepository("https://github.com" + githubUrl.substring(14));
         }
         if(githubUrl.endsWith("#main")) {
             return parseRepository(githubUrl.substring(0, githubUrl.length() - 5));

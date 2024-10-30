@@ -6,7 +6,7 @@ import com.openelements.oss.license.Resolver;
 import com.openelements.oss.license.data.Dependency;
 import com.openelements.oss.license.data.Identifier;
 import com.openelements.oss.license.data.License;
-import com.openelements.oss.license.git.GitHubClient;
+import com.openelements.oss.license.clients.GitHubClient;
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.IOException;
@@ -36,7 +36,7 @@ public class NpmResolver implements Resolver {
 
     @Override
     public Set<Dependency> resolve(Identifier identifier) {
-        log.info("Resolving dependencies for: {}", identifier);
+        log.debug("Resolving dependencies for: {}", identifier);
         final Dependency asDependency = fromNpmShow(identifier).orElseThrow(() -> new RuntimeException("Dependency not found: " + identifier));
         final String repositoryUrl = asDependency.repository();
         final String tag = gitHubClient.findMatchingTag(repositoryUrl, identifier.version())
@@ -90,7 +90,7 @@ public class NpmResolver implements Resolver {
     private Set<Dependency> getAllDependencies(Path pathToProject) {
         executeNpmInstall(pathToProject);
         try {
-            ProcessBuilder processBuilder = new ProcessBuilder("npm", "ls", "--all", "--json");
+            ProcessBuilder processBuilder = new ProcessBuilder("npm", "ls", "--production", "--json");
             processBuilder.directory(pathToProject.toFile());
             Process process = processBuilder.start();
             BufferedReader reader = new BufferedReader(new InputStreamReader(process.getInputStream()));
@@ -119,7 +119,7 @@ public class NpmResolver implements Resolver {
             return Optional.of(cache.get(identifier));
         }
         try {
-            log.info("Executing npm show for: {}", identifier);
+            log.debug("Executing npm show for: {}", identifier);
             ProcessBuilder processBuilder = new ProcessBuilder("npm", "show", identifier.name() + "@" + identifier.version(), "--json");
             Process process = processBuilder.start();
             BufferedReader reader = new BufferedReader(new InputStreamReader(process.getInputStream()));
@@ -164,7 +164,7 @@ public class NpmResolver implements Resolver {
             Process process = processBuilder.start();
             BufferedReader reader = new BufferedReader(new InputStreamReader(process.getInputStream()));
             BufferedReader errorReader = new BufferedReader(new InputStreamReader(process.getErrorStream()));
-            reader.lines().forEach(l -> log.info(l));
+            reader.lines().forEach(l -> log.debug(l));
             int exitCode = process.waitFor();
             if (exitCode != 0) {
                 errorReader.lines().forEach(l -> log.error(l));

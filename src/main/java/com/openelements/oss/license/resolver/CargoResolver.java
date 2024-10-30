@@ -1,7 +1,7 @@
 package com.openelements.oss.license.resolver;
 
 import com.openelements.oss.license.data.Dependency;
-import com.openelements.oss.license.git.GitHubClient;
+import com.openelements.oss.license.clients.GitHubClient;
 import com.openelements.oss.license.data.Identifier;
 import com.openelements.oss.license.data.License;
 import com.openelements.oss.license.Resolver;
