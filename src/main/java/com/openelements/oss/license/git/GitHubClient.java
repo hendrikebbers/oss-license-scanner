@@ -73,6 +73,9 @@ public class GitHubClient {
         if(githubUrl.startsWith("ssh://git@")) {
             return parseRepository("https://" + githubUrl.substring(10));
         }
+        if(githubUrl.endsWith("#main")) {
+            return parseRepository(githubUrl.substring(0, githubUrl.length() - 5));
+        }
         if(githubUrl.startsWith("https://@github.com/")) {
             return parseRepository("https://github.com/" + githubUrl.substring(23));
         }
@@ -106,19 +109,21 @@ public class GitHubClient {
         return response;
     }
 
-    private final Map<String, License> licenseCache = new ConcurrentHashMap<>();
+    private final Map<Repository, License> licenseCache = new ConcurrentHashMap<>();
 
     public License getLicense(String repositoryUrl) {
-        if(licenseCache.containsKey(repositoryUrl)) {
-            return licenseCache.get(repositoryUrl);
+        final Repository repository = parseRepository(repositoryUrl);
+        if(licenseCache.containsKey(repository)) {
+            return licenseCache.get(repository);
         }
+        log.info("Getting license for repository {}/{}", repository.owner, repository.repo);
         try {
-            log.info("Getting license for repository: {}", repositoryUrl);
-            final Repository repository = parseRepository(repositoryUrl);
             final String apiUrl = String.format("repos/%s/%s", repository.owner, repository.repo);
             final HttpResponse<String>  response = sendRequest(GITHUB_API_URL + "/" + apiUrl);
             if (response.statusCode() != 200) {
-                throw new RuntimeException("Failed to get repository info: " + response.body());
+                log.error("Failed to get repository info for {}/{}", repository.owner, repository.repo);
+                licenseCache.put(repository, License.UNKNOWN);
+                return License.UNKNOWN;
             }
             final String body = response.body();
             final JsonObject jsonObject = JsonParser.parseString(body).getAsJsonObject();
@@ -127,13 +132,13 @@ public class GitHubClient {
                 final String name = getOrDefault(licenseObject, "name", "Unknown");
                 final String url = getOrDefault(licenseObject, "url", "Unknown");
                 License license = new License(name, url);
-                licenseCache.put(repositoryUrl, license);
+                licenseCache.put(repository, license);
                 return license;
             }
-            licenseCache.put(repositoryUrl, License.UNKNOWN);
+            licenseCache.put(repository, License.UNKNOWN);
             return License.UNKNOWN;
         } catch (Exception e) {
-            throw new RuntimeException("Failed to get license for repository: " + repositoryUrl, e);
+            throw new RuntimeException("Failed to get license for repository: " + repository.owner + "/" + repository.repo, e);
         }
     }
 

@@ -16,8 +16,10 @@ import java.nio.file.Path;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.HashSet;
+import java.util.Map;
+import java.util.Optional;
 import java.util.Set;
-import java.util.stream.Collectors;
+import java.util.concurrent.ConcurrentHashMap;
 import java.util.stream.Stream;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -35,7 +37,7 @@ public class NpmResolver implements Resolver {
     @Override
     public Set<Dependency> resolve(Identifier identifier) {
         log.info("Resolving dependencies for: {}", identifier);
-        final Dependency asDependency = fromNpmShow(identifier);
+        final Dependency asDependency = fromNpmShow(identifier).orElseThrow(() -> new RuntimeException("Dependency not found: " + identifier));
         final String repositoryUrl = asDependency.repository();
         final String tag = gitHubClient.findMatchingTag(repositoryUrl, identifier.version())
                 .orElseThrow(() -> new RuntimeException("No tag found for version: " + identifier.version()));
@@ -53,16 +55,40 @@ public class NpmResolver implements Resolver {
                 }
             }
         }
+    }
 
+    private Set<Dependency> getDependencies(final JsonObject jsonObject) {
+        final Set<Dependency> dependencies = new HashSet<>();
+        jsonObject.get("dependencies").getAsJsonObject().entrySet().stream().parallel()
+                .map(e -> {
+                    final String name = e.getKey();
+                    if (!e.getValue().getAsJsonObject().has("version")) {
+                        log.error("No version found for dependency: {}", name);
+                        return new Identifier(name, "UNKNOWN");
+                    }
+                    final String version = e.getValue().getAsJsonObject().get("version").getAsString();
+                    return new Identifier(name, version);
+                })
+                .map(identifier -> {
+                    final Optional<Dependency> dependency = fromNpmShow(identifier);
+                    if(dependency.isEmpty()) {
+                        log.error("Dependency not found: {}", identifier);
+                    }
+                    return dependency;
+                }).forEach(o -> o.ifPresent(dependencies::add));
 
-      //  https://www.npmjs.com/package/@hashgraph/sdk/v/2.52.0
-
-      //  npm show @hashgraph/sdk@2.52 --json
+        jsonObject.get("dependencies").getAsJsonObject().entrySet().stream().parallel()
+                .forEach(e -> {
+                    if (e.getValue().getAsJsonObject().has("dependencies")) {
+                        Set<Dependency> transitiveDependencies = getDependencies(e.getValue().getAsJsonObject());
+                        dependencies.addAll(transitiveDependencies);
+                    }
+                });
+        return dependencies;
     }
 
     private Set<Dependency> getAllDependencies(Path pathToProject) {
         executeNpmInstall(pathToProject);
-
         try {
             ProcessBuilder processBuilder = new ProcessBuilder("npm", "ls", "--all", "--json");
             processBuilder.directory(pathToProject.toFile());
@@ -72,16 +98,7 @@ public class NpmResolver implements Resolver {
 
             Set<Dependency> dependencies = new HashSet<>();
             final JsonObject jsonObject = JsonParser.parseReader(reader).getAsJsonObject();
-            System.out.println(jsonObject);
-
-            jsonObject.get("dependencies").getAsJsonObject().entrySet().stream()
-                    .map(e -> {
-                        final String name = e.getKey();
-                        final String version = e.getValue().getAsJsonObject().get("version").getAsString();
-                        return new Identifier(name, version);
-                    })
-                    .map(this::fromNpmShow)
-                    .forEach(dependencies::add);
+            dependencies.addAll(getDependencies(jsonObject));
 
             int exitCode = process.waitFor();
             if (exitCode != 0) {
@@ -92,11 +109,17 @@ public class NpmResolver implements Resolver {
         } catch (Exception e) {
             log.error("Error in executing npm install", e);
         }
-        return null;
+        return Set.of();
     }
 
-    private Dependency fromNpmShow(Identifier identifier) {
+    private final Map<Identifier, Dependency> cache = new ConcurrentHashMap<>();
+
+    private Optional<Dependency> fromNpmShow(Identifier identifier) {
+        if(cache.containsKey(identifier)) {
+            return Optional.of(cache.get(identifier));
+        }
         try {
+            log.info("Executing npm show for: {}", identifier);
             ProcessBuilder processBuilder = new ProcessBuilder("npm", "show", identifier.name() + "@" + identifier.version(), "--json");
             Process process = processBuilder.start();
             BufferedReader reader = new BufferedReader(new InputStreamReader(process.getInputStream()));
@@ -105,7 +128,21 @@ public class NpmResolver implements Resolver {
             final JsonObject jsonObject = JsonParser.parseReader(reader).getAsJsonObject();
             String scope = "unknown";
             Set<Dependency> dependencies = Set.of();
-            String repository = jsonObject.get("repository").getAsJsonObject().get("url").getAsString();
+            String repository;
+            if(!jsonObject.has("repository")) {
+                log.error("No repository found for: {}", identifier);
+                repository = "UNKNOWN";
+            }
+            if(!jsonObject.get("repository").isJsonObject()) {
+                log.error("No repository found for: {}", identifier);
+                repository = "UNKNOWN";
+            }
+            if(!jsonObject.get("repository").getAsJsonObject().has("url")) {
+                log.error("No repository url found for: {}", identifier);
+                repository = "UNKNOWN";
+            } else {
+                repository = jsonObject.get("repository").getAsJsonObject().get("url").getAsString();
+            }
             License license = gitHubClient.getLicense(repository);
 
             int exitCode = process.waitFor();
@@ -113,14 +150,14 @@ public class NpmResolver implements Resolver {
                 errorReader.lines().forEach(l -> log.error(l));
                 new RuntimeException("Error in calling 'npm': " + exitCode);
             }
-            return new Dependency(identifier, scope, dependencies, license, repository);
+            Dependency dependency = new Dependency(identifier, scope, dependencies, license, repository);
+            cache.put(identifier, dependency);
+            return Optional.of(dependency);
         } catch (Exception e) {
-            log.error("Error in executing npm install", e);
+            log.error("Error in executing npm show for " + identifier, e);
         }
-        return null;
+        return Optional.empty();
     }
-
-
 
     public void executeNpmInstall(Path pathToProject) {
         try {
