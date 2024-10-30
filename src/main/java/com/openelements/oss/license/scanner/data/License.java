@@ -34,6 +34,9 @@ public record License(String name, String url) {
     }
 
     public boolean isBsd3() {
+        if(Objects.equals(url, "https://asm.ow2.io/license.html")) {
+            return true;
+        }
         return Objects.equals(url, "https://api.github.com/licenses/bsd-3-clause");
     }
 
@@ -44,4 +47,33 @@ public record License(String name, String url) {
     public boolean isEpl2() {
         return Objects.equals(url, "https://api.github.com/licenses/epl-2.0");
     }
+
+    public boolean isPublicDomain() {
+        return Objects.equals(url, "https://api.github.com/licenses/unlicense");
+    }
+
+    public boolean isGpl3() {
+        return Objects.equals(url, "https://api.github.com/licenses/gpl-3.0");
+    }
+
+    public boolean isGpl2() {
+        return Objects.equals(url, "https://api.github.com/licenses/gpl-2.0");
+    }
+
+    public boolean isLgpl3() {
+        return Objects.equals(url, "https://api.github.com/licenses/lgpl-3.0");
+    }
+
+    public boolean isLgpl2() {
+        return Objects.equals(url, "https://api.github.com/licenses/lgpl-2.1");
+    }
+
+    public boolean isMozilla() {
+        return Objects.equals(url, "https://api.github.com/licenses/mpl-2.0");
+    }
+
+    public boolean isCddl() {
+        return Objects.equals(url, "https://api.github.com/licenses/cddl-1.0");
+    }
+
 }
