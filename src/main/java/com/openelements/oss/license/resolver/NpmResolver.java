@@ -132,12 +132,10 @@ public class NpmResolver implements Resolver {
             if(!jsonObject.has("repository")) {
                 log.error("No repository found for: {}", identifier);
                 repository = "UNKNOWN";
-            }
-            if(!jsonObject.get("repository").isJsonObject()) {
+            }else if(!jsonObject.get("repository").isJsonObject()) {
                 log.error("No repository found for: {}", identifier);
                 repository = "UNKNOWN";
-            }
-            if(!jsonObject.get("repository").getAsJsonObject().has("url")) {
+            } else if(!jsonObject.get("repository").getAsJsonObject().has("url")) {
                 log.error("No repository url found for: {}", identifier);
                 repository = "UNKNOWN";
             } else {
