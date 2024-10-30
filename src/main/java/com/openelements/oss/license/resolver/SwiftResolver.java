@@ -35,16 +35,9 @@ public class SwiftResolver implements Resolver {
     public Set<Dependency> resolve(Identifier identifier) {
         log.info("Resolving dependencies for: {}", identifier);
         final String repositoryUrl = identifier.name();
-        final Path pathToProject;
-        if (gitHubClient.existsTag(repositoryUrl, identifier.version())) {
-            pathToProject = gitHubClient.download(repositoryUrl, identifier.version());
-        } else if (identifier.version().startsWith("v") && gitHubClient.existsTag(repositoryUrl,
-                identifier.version().substring(1))) {
-            pathToProject = gitHubClient.download(repositoryUrl, identifier.version().substring(1));
-        } else {
-            pathToProject = null;
-            throw new RuntimeException("No tag found for version: " + identifier.version());
-        }
+        final String tag = gitHubClient.findMatchingTag(repositoryUrl, identifier.version())
+                .orElseThrow(() -> new RuntimeException("No tag found for version: " + identifier.version()));
+        final Path pathToProject = gitHubClient.download(repositoryUrl, tag);
         try {
             return getAllDependencies(pathToProject);
         } finally {

@@ -3,8 +3,11 @@ package com.openelements.oss.license.git;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
+import com.openelements.oss.license.data.Dependency;
+import com.openelements.oss.license.data.Identifier;
 import com.openelements.oss.license.data.License;
 import java.io.BufferedInputStream;
+import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
@@ -18,10 +21,13 @@ import java.net.http.HttpResponse.BodyHandlers;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
+import java.util.Comparator;
 import java.util.Map;
+import java.util.Optional;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
+import java.util.stream.Stream;
 import java.util.zip.ZipEntry;
 import java.util.zip.ZipInputStream;
 import org.slf4j.Logger;
@@ -57,6 +63,18 @@ public class GitHubClient {
     public static Repository parseRepository(String githubUrl) {
         if(githubUrl.endsWith(".git")) {
             return parseRepository(githubUrl.substring(0, githubUrl.length() - 4));
+        }
+        if(githubUrl.startsWith("git+")) {
+            return parseRepository(githubUrl.substring(4));
+        }
+        if(githubUrl.startsWith("git://")) {
+            return parseRepository("https://" + githubUrl.substring(6));
+        }
+        if(githubUrl.startsWith("ssh://git@")) {
+            return parseRepository("https://" + githubUrl.substring(10));
+        }
+        if(githubUrl.startsWith("https://@github.com/")) {
+            return parseRepository("https://github.com/" + githubUrl.substring(23));
         }
         Pattern pattern = Pattern.compile("https://github.com/([^/]+)/([^/]+)");
         Matcher matcher = pattern.matcher(githubUrl);
@@ -119,10 +137,22 @@ public class GitHubClient {
         }
     }
 
+    public Optional<String> findMatchingTag(String repositoryUrl, String tag) {
+        if (existsTag(repositoryUrl, tag)) {
+            return Optional.of(tag);
+        } else if (tag.startsWith("v") && existsTag(repositoryUrl, tag.substring(1))) {
+            return Optional.of(tag.substring(1));
+        } else if (existsTag(repositoryUrl, "v" + tag)) {
+            return Optional.of("v" + tag);
+        }
+        return Optional.empty();
+    }
+
     public boolean existsTag(String repositoryUrl, String tag) {
         try {
-            log.info("Checking if tag '{}' exists for repository: {}", tag, repositoryUrl);
             final Repository repository = parseRepository(repositoryUrl);
+            log.info("Checking if tag '{}' exists for repository: {}/{}", tag, repository.owner, repository.repo);
+
             final String apiUrl = String.format("repos/%s/%s/tags", repository.owner, repository.repo);
             final HttpResponse<String>  response = sendRequest(GITHUB_API_URL + "/" + apiUrl);
             if (response.statusCode() != 200) {
@@ -131,11 +161,11 @@ public class GitHubClient {
             final String body = response.body();
             final JsonElement jsonElement = JsonParser.parseString(body);
 
-               return jsonElement.getAsJsonArray().asList().stream()
-                        .map(elem -> elem.getAsJsonObject().get("name").getAsString())
-                        .filter(t -> t.equals(tag))
-                        .findAny()
-                        .isPresent();
+           return jsonElement.getAsJsonArray().asList().stream()
+                    .map(elem -> elem.getAsJsonObject().get("name").getAsString())
+                    .filter(t -> t.equals(tag))
+                    .findAny()
+                    .isPresent();
 
         } catch (Exception e) {
             throw new RuntimeException("Failed to get tags for repository: " + repositoryUrl, e);
