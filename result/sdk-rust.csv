@@ -1,0 +1,214 @@
+name,version,repository,license,license-url,license-source
+num-integer,v0.1.46,https://github.com/rust-num/num-integer,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/rust-num/num-integer
+hmac,v0.12.1,https://github.com/RustCrypto/MACs,Unknown,Unknown,Manually Added
+socket2,v0.5.7,https://github.com/rust-lang/socket2,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/rust-lang/socket2
+num-bigint,v0.4.6,https://github.com/rust-num/num-bigint,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/rust-num/num-bigint
+utf8parse,v0.2.2,https://github.com/alacritty/vte,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/alacritty/vte
+keccak,v0.1.5,https://github.com/RustCrypto/sponges/tree/master/keccak,Unknown,Unknown,Manually Added
+quote,v1.0.36,https://github.com/dtolnay/quote,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/dtolnay/quote
+hyper,v0.14.30,https://github.com/hyperium/hyper,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/hyperium/hyper
+digest,v0.10.7,https://github.com/RustCrypto/traits,Unknown,Unknown,Manually Added
+hashbrown,v0.12.3,https://github.com/rust-lang/hashbrown,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/rust-lang/hashbrown
+cbc,v0.1.2,https://github.com/RustCrypto/block-modes,Unknown,Unknown,Manually Added
+signature,v2.2.0,https://github.com/RustCrypto/traits/tree/master/signature,Unknown,Unknown,Manually Added
+matchit,v0.7.3,https://github.com/ibraheemdev/matchit,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/ibraheemdev/matchit
+futures-sink,v0.3.30,https://github.com/rust-lang/futures-rs,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/rust-lang/futures-rs
+crypto-common,v0.1.6,https://github.com/RustCrypto/traits,Unknown,Unknown,Manually Added
+futures-util,v0.3.30,https://github.com/rust-lang/futures-rs,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/rust-lang/futures-rs
+anyhow,v1.0.86,https://github.com/dtolnay/anyhow,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/dtolnay/anyhow
+rfc6979,v0.4.0,https://github.com/RustCrypto/signatures/tree/master/rfc6979,Unknown,Unknown,Manually Added
+ppv-lite86,v0.2.20,https://github.com/cryptocorrosion/cryptocorrosion,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/cryptocorrosion/cryptocorrosion
+base64,v0.22.1,https://github.com/marshallpierce/rust-base64,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/marshallpierce/rust-base64
+rustls,v0.22.4,https://github.com/rustls/rustls,Unknown,Unknown,Manually Added
+rustls-pemfile,v2.1.3,https://github.com/rustls/pemfile,Unknown,Unknown,Manually Added
+tonic,v0.11.0,https://github.com/hyperium/tonic,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/hyperium/tonic
+unicode-ident,v1.0.12,https://github.com/dtolnay/unicode-ident,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/dtolnay/unicode-ident
+thiserror-impl,v1.0.63,https://github.com/dtolnay/thiserror,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/dtolnay/thiserror
+tokio-util,v0.7.11,https://github.com/tokio-rs/tokio,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/tokio-rs/tokio
+axum-core,v0.3.4,https://github.com/tokio-rs/axum,Unknown,Unknown,Manually Added
+curve25519-dalek,v4.1.3,https://github.com/dalek-cryptography/curve25519-dalek/tree/main/curve25519-dalek,Unknown,Unknown,Manually Added
+rustix,v0.38.34,https://github.com/bytecodealliance/rustix,Unknown,Unknown,Manually Added
+autocfg,v1.3.0,https://github.com/cuviper/autocfg,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/cuviper/autocfg
+zerocopy,v0.7.35,https://github.com/google/zerocopy,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/google/zerocopy
+block-buffer,v0.10.4,https://github.com/RustCrypto/utils,Unknown,Unknown,Manually Added
+zerocopy-derive,v0.7.35,https://github.com/google/zerocopy,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/google/zerocopy
+sha2,v0.10.8,https://github.com/RustCrypto/hashes,Unknown,Unknown,Manually Added
+subtle,v2.6.1,https://github.com/dalek-cryptography/subtle,"BSD 3-Clause ""New"" or ""Revised"" License",https://api.github.com/licenses/bsd-3-clause,https://api.github.com/repos/dalek-cryptography/subtle
+bytes,v1.7.1,https://github.com/tokio-rs/bytes,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/tokio-rs/bytes
+rustc-hex,v2.1.0,https://github.com/debris/rustc-hex,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/debris/rustc-hex
+arrayvec,v0.7.4,https://github.com/bluss/arrayvec,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/bluss/arrayvec
+instant,v0.1.13,https://github.com/sebcrozet/instant,"BSD 3-Clause ""New"" or ""Revised"" License",https://api.github.com/licenses/bsd-3-clause,https://api.github.com/repos/sebcrozet/instant
+rustc_version,v0.4.0,https://github.com/Kimundi/rustc-version-rs,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/Kimundi/rustc-version-rs
+serde,v1.0.205,https://github.com/serde-rs/serde,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/serde-rs/serde
+sec1,v0.7.3,https://github.com/RustCrypto/formats/tree/master/sec1,Unknown,Unknown,Manually Added
+zeroize,v1.8.1,https://github.com/RustCrypto/utils/tree/master/zeroize,Unknown,Unknown,Manually Added
+itoa,v1.0.11,https://github.com/dtolnay/itoa,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/dtolnay/itoa
+tracing,v0.1.40,https://github.com/tokio-rs/tracing,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/tokio-rs/tracing
+anstyle-query,v1.1.1,https://github.com/rust-cli/anstyle,Unknown,Unknown,Manually Added
+tokio-io-timeout,v1.2.0,https://github.com/sfackler/tokio-io-timeout,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/sfackler/tokio-io-timeout
+slab,v0.4.9,https://github.com/tokio-rs/slab,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/tokio-rs/slab
+lock_api,v0.4.12,https://github.com/Amanieu/parking_lot,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/Amanieu/parking_lot
+time-core,v0.1.2,https://github.com/time-rs/time,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/time-rs/time
+unsize,v1.1.0,https://github.com/HeroicKatora/static-alloc,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/HeroicKatora/static-alloc
+pem,v3.0.4,https://github.com/jcreekmore/pem-rs.git,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/jcreekmore/pem-rs
+try-lock,v0.2.5,https://github.com/seanmonstar/try-lock,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/seanmonstar/try-lock
+petgraph,v0.6.5,https://github.com/petgraph/petgraph,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/petgraph/petgraph
+rand_chacha,v0.3.1,https://github.com/rust-random/rand,Unknown,Unknown,Manually Added
+proc-macro2,v1.0.86,https://github.com/dtolnay/proc-macro2,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/dtolnay/proc-macro2
+version_check,v0.9.5,https://github.com/SergioBenitez/version_check,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/SergioBenitez/version_check
+humantime,v2.1.0,https://github.com/tailhook/humantime,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/tailhook/humantime
+fnv,v1.0.7,https://github.com/servo/rust-fnv,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/servo/rust-fnv
+untrusted,v0.9.0,https://github.com/briansmith/untrusted,Unknown,Unknown,Manually Added
+parking_lot_core,v0.9.10,https://github.com/Amanieu/parking_lot,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/Amanieu/parking_lot
+miniserde,v0.1.39,https://github.com/dtolnay/miniserde,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/dtolnay/miniserde
+log,v0.4.22,https://github.com/rust-lang/log,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/rust-lang/log
+pin-project-lite,v0.2.14,https://github.com/taiki-e/pin-project-lite,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/taiki-e/pin-project-lite
+ff,v0.13.0,https://github.com/zkcrypto/ff,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/zkcrypto/ff
+futures-core,v0.3.30,https://github.com/rust-lang/futures-rs,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/rust-lang/futures-rs
+expect-test,v1.5.0,https://github.com/rust-analyzer/expect-test,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/rust-analyzer/expect-test
+md5,v0.7.0,https://github.com/stainless-steel/md5,Unknown,Unknown,Manually Added
+http,v1.1.0,https://github.com/hyperium/http,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/hyperium/http
+assert_matches,v1.5.0,https://github.com/murarth/assert_matches,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/murarth/assert_matches
+bitflags,v2.6.0,https://github.com/bitflags/bitflags,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/bitflags/bitflags
+cpufeatures,v0.2.12,https://github.com/RustCrypto/utils,Unknown,Unknown,Manually Added
+heck,v0.5.0,https://github.com/withoutboats/heck,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/withoutboats/heck
+fixedbitset,v0.4.2,https://github.com/petgraph/fixedbitset,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/petgraph/fixedbitset
+sync_wrapper,v0.1.2,https://github.com/Actyx/sync_wrapper,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/Actyx/sync_wrapper
+num-complex,v0.4.6,https://github.com/rust-num/num-complex,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/rust-num/num-complex
+indexmap,v2.3.0,https://github.com/indexmap-rs/indexmap,Unknown,Unknown,Manually Added
+fastrand,v2.1.0,https://github.com/smol-rs/fastrand,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/smol-rs/fastrand
+salsa20,v0.10.2,https://github.com/RustCrypto/stream-ciphers,Unknown,Unknown,Manually Added
+ecdsa,v0.16.9,https://github.com/RustCrypto/signatures/tree/master/ecdsa,Unknown,Unknown,Manually Added
+futures-task,v0.3.30,https://github.com/rust-lang/futures-rs,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/rust-lang/futures-rs
+rustls-pki-types,v1.8.0,https://github.com/rustls/pki-types,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/rustls/pki-types
+is_terminal_polyfill,v1.70.1,https://github.com/polyfill-rs/is_terminal_polyfill,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/polyfill-rs/is_terminal_polyfill
+fs_extra,v1.3.0,https://github.com/webdesus/fs_extra,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/webdesus/fs_extra
+cc,v1.1.8,https://github.com/rust-lang/cc-rs,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/rust-lang/cc-rs
+num-iter,v0.1.45,https://github.com/rust-num/num-iter,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/rust-num/num-iter
+syn,v2.0.72,https://github.com/dtolnay/syn,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/dtolnay/syn
+parking_lot,v0.12.3,https://github.com/Amanieu/parking_lot,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/Amanieu/parking_lot
+time,v0.3.36,https://github.com/time-rs/time,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/time-rs/time
+generic-array,v0.14.7,https://github.com/fizyk20/generic-array.git,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/fizyk20/generic-array
+aes,v0.8.4,https://github.com/RustCrypto/block-ciphers,Unknown,Unknown,Manually Added
+serde_json,v1.0.122,https://github.com/serde-rs/json,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/serde-rs/json
+axum,v0.6.20,https://github.com/tokio-rs/axum,Unknown,Unknown,Manually Added
+sha3,v0.10.8,https://github.com/RustCrypto/hashes,Unknown,Unknown,Manually Added
+displaydoc,v0.2.5,https://github.com/yaahc/displaydoc,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/yaahc/displaydoc
+hashbrown,v0.14.5,https://github.com/rust-lang/hashbrown,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/rust-lang/hashbrown
+tracing-core,v0.1.32,https://github.com/tokio-rs/tracing,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/tokio-rs/tracing
+webpki-roots,v0.26.3,https://github.com/rustls/webpki-roots,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/rustls/webpki-roots
+num-conv,v0.1.0,https://github.com/jhpratt/num-conv,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/jhpratt/num-conv
+arc-swap,v1.7.1,https://github.com/vorner/arc-swap,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/vorner/arc-swap
+multimap,v0.10.0,https://github.com/havarnov/multimap,Unknown,Unknown,Manually Added
+percent-encoding,v2.3.1,https://github.com/servo/rust-url/,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/servo/rust-url
+tonic-build,v0.11.0,https://github.com/hyperium/tonic,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/hyperium/tonic
+ed25519,v2.2.3,https://github.com/RustCrypto/signatures/tree/master/ed25519,Unknown,Unknown,Manually Added
+hex-literal,v0.4.1,https://github.com/RustCrypto/utils,Unknown,Unknown,Manually Added
+http-body,v0.4.6,https://github.com/hyperium/http-body,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/hyperium/http-body
+k256,v0.13.3,https://github.com/RustCrypto/elliptic-curves/tree/master/k256,Unknown,Unknown,Manually Added
+spki,v0.7.3,https://github.com/RustCrypto/formats/tree/master/spki,Unknown,Unknown,Manually Added
+tower,v0.4.13,https://github.com/tower-rs/tower,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/tower-rs/tower
+clap_lex,v0.7.2,https://github.com/clap-rs/clap,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/clap-rs/clap
+ryu,v1.0.18,https://github.com/dtolnay/ryu,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/dtolnay/ryu
+rand,v0.8.5,https://github.com/rust-random/rand,Unknown,Unknown,Manually Added
+group,v0.13.0,https://github.com/zkcrypto/group,Unknown,Unknown,Manually Added
+scopeguard,v1.2.0,https://github.com/bluss/scopeguard,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/bluss/scopeguard
+hedera-proto,v0.14.0,https://github.com/hashgraph/hedera-sdk-rust,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/hashgraph/hedera-sdk-rust
+rustls-webpki,v0.102.6,https://github.com/rustls/webpki,Unknown,Unknown,Manually Added
+rustversion,v1.0.17,https://github.com/dtolnay/rustversion,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/dtolnay/rustversion
+num,v0.4.3,https://github.com/rust-num/num,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/rust-num/num
+colorchoice,v1.0.2,https://github.com/rust-cli/anstyle,Unknown,Unknown,Manually Added
+rlp,v0.5.2,https://github.com/paritytech/parity-common,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/paritytech/parity-common
+prost-types,v0.12.6,https://github.com/tokio-rs/prost,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/tokio-rs/prost
+env_logger,v0.11.5,https://github.com/rust-cli/env_logger,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/rust-cli/env_logger
+anstyle-parse,v0.2.5,https://github.com/rust-cli/anstyle.git,Unknown,Unknown,Manually Added
+aho-corasick,v1.1.3,https://github.com/BurntSushi/aho-corasick,The Unlicense,https://api.github.com/licenses/unlicense,https://api.github.com/repos/BurntSushi/aho-corasick
+either,v1.13.0,https://github.com/rayon-rs/either,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/rayon-rs/either
+libc,v0.2.155,https://github.com/rust-lang/libc,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/rust-lang/libc
+const-oid,v0.9.6,https://github.com/RustCrypto/formats/tree/master/const-oid,Unknown,Unknown,Manually Added
+semver,v1.0.23,https://github.com/dtolnay/semver,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/dtolnay/semver
+base64,v0.21.7,https://github.com/marshallpierce/rust-base64,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/marshallpierce/rust-base64
+pin-project-internal,v1.1.5,https://github.com/taiki-e/pin-project,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/taiki-e/pin-project
+itertools,v0.12.1,https://github.com/rust-itertools/itertools,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/rust-itertools/itertools
+der,v0.7.9,https://github.com/RustCrypto/formats/tree/master/der,Unknown,Unknown,Manually Added
+futures-channel,v0.3.30,https://github.com/rust-lang/futures-rs,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/rust-lang/futures-rs
+dissimilar,v1.0.9,https://github.com/dtolnay/dissimilar,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/dtolnay/dissimilar
+pin-utils,v0.1.0,https://github.com/rust-lang-nursery/pin-utils,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/rust-lang-nursery/pin-utils
+once_cell,v1.19.0,https://github.com/matklad/once_cell,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/matklad/once_cell
+want,v0.3.1,https://github.com/seanmonstar/want,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/seanmonstar/want
+rand_core,v0.6.4,https://github.com/rust-random/rand,Unknown,Unknown,Manually Added
+mini-internal,v0.1.39,https://github.com/dtolnay/miniserde,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/dtolnay/miniserde
+deranged,v0.3.11,https://github.com/jhpratt/deranged,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/jhpratt/deranged
+clap_builder,v4.5.14,https://github.com/clap-rs/clap,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/clap-rs/clap
+num-rational,v0.4.2,https://github.com/rust-num/num-rational,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/rust-num/num-rational
+thiserror,v1.0.63,https://github.com/dtolnay/thiserror,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/dtolnay/thiserror
+block-padding,v0.3.3,https://github.com/RustCrypto/utils,Unknown,Unknown,Manually Added
+pbkdf2,v0.12.2,https://github.com/RustCrypto/password-hashes/tree/master/pbkdf2,Unknown,Unknown,Manually Added
+typenum,v1.17.0,https://github.com/paholg/typenum,Unknown,Unknown,Manually Added
+hyper-timeout,v0.4.1,https://github.com/hjr3/hyper-timeout,Unknown,Unknown,Manually Added
+h2,v0.4.6,https://github.com/hyperium/h2,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/hyperium/h2
+tracing-attributes,v0.1.27,https://github.com/tokio-rs/tracing,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/tokio-rs/tracing
+num-traits,v0.2.19,https://github.com/rust-num/num-traits,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/rust-num/num-traits
+anstream,v0.6.15,https://github.com/rust-cli/anstyle.git,Unknown,Unknown,Manually Added
+inout,v0.1.3,https://github.com/RustCrypto/utils,Unknown,Unknown,Manually Added
+async-stream-impl,v0.3.5,https://github.com/tokio-rs/async-stream,Unknown,Unknown,Manually Added
+http,v0.2.12,https://github.com/hyperium/http,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/hyperium/http
+prettyplease,v0.2.20,https://github.com/dtolnay/prettyplease,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/dtolnay/prettyplease
+hedera,v0.29.0,https://github.com/hashgraph/hedera-sdk-rust,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/hashgraph/hedera-sdk-rust
+smallvec,v1.13.2,https://github.com/servo/rust-smallvec,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/servo/rust-smallvec
+rust_decimal,v1.35.0,https://github.com/paupino/rust-decimal,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/paupino/rust-decimal
+regex-syntax,v0.8.4,https://github.com/rust-lang/regex/tree/master/regex-syntax,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/rust-lang/regex
+mime,v0.3.17,https://github.com/hyperium/mime,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/hyperium/mime
+getrandom,v0.2.15,https://github.com/rust-random/getrandom,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/rust-random/getrandom
+tempfile,v3.12.0,https://github.com/Stebalien/tempfile,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/Stebalien/tempfile
+cipher,v0.4.4,https://github.com/RustCrypto/traits,Unknown,Unknown,Manually Added
+crypto-bigint,v0.5.5,https://github.com/RustCrypto/crypto-bigint,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/RustCrypto/crypto-bigint
+ring,v0.17.8,https://github.com/briansmith/ring,Unknown,Unknown,Manually Added
+h2,v0.3.26,https://github.com/hyperium/h2,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/hyperium/h2
+httpdate,v1.0.3,https://github.com/pyfisch/httpdate,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/pyfisch/httpdate
+hyper,v1.4.1,https://github.com/hyperium/hyper,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/hyperium/hyper
+anstyle,v1.0.8,https://github.com/rust-cli/anstyle.git,Unknown,Unknown,Manually Added
+elliptic-curve,v0.13.8,https://github.com/RustCrypto/traits/tree/master/elliptic-curve,Unknown,Unknown,Manually Added
+memchr,v2.7.4,https://github.com/BurntSushi/memchr,The Unlicense,https://api.github.com/licenses/unlicense,https://api.github.com/repos/BurntSushi/memchr
+prost,v0.12.6,https://github.com/tokio-rs/prost,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/tokio-rs/prost
+tower-layer,v0.3.2,https://github.com/tower-rs/tower,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/tower-rs/tower
+indexmap,v1.9.3,https://github.com/bluss/indexmap,Unknown,Unknown,Manually Added
+byteorder,v1.5.0,https://github.com/BurntSushi/byteorder,The Unlicense,https://api.github.com/licenses/unlicense,https://api.github.com/repos/BurntSushi/byteorder
+env_filter,v0.1.2,https://github.com/rust-cli/env_logger,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/rust-cli/env_logger
+mio,v1.0.1,https://github.com/tokio-rs/mio,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/tokio-rs/mio
+pkcs8,v0.10.2,https://github.com/RustCrypto/formats/tree/master/pkcs8,Unknown,Unknown,Manually Added
+base16ct,v0.2.0,https://github.com/RustCrypto/formats/tree/master/base16ct,Unknown,Unknown,Manually Added
+equivalent,v1.0.1,https://github.com/cuviper/equivalent,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/cuviper/equivalent
+tower-service,v0.3.2,https://github.com/tower-rs/tower,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/tower-rs/tower
+errno,v0.3.9,https://github.com/lambda-fairy/rust-errno,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/lambda-fairy/rust-errno
+fraction,v0.15.3,https://github.com/dnsl48/fraction.git,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/dnsl48/fraction
+scrypt,v0.11.0,https://github.com/RustCrypto/password-hashes/tree/master/scrypt,Unknown,Unknown,Manually Added
+tokio,v1.39.2,https://github.com/tokio-rs/tokio,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/tokio-rs/tokio
+pkcs5,v0.7.1,https://github.com/RustCrypto/formats/tree/master/pkcs5,Unknown,Unknown,Manually Added
+atomic-waker,v1.1.2,https://github.com/smol-rs/atomic-waker,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/smol-rs/atomic-waker
+regex-automata,v0.4.7,https://github.com/rust-lang/regex/tree/master/regex-automata,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/rust-lang/regex
+clap,v4.5.14,https://github.com/clap-rs/clap,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/clap-rs/clap
+serde_derive,v1.0.205,https://github.com/serde-rs/serde,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/serde-rs/serde
+tokio-stream,v0.1.15,https://github.com/tokio-rs/tokio,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/tokio-rs/tokio
+pin-project,v1.1.5,https://github.com/taiki-e/pin-project,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/taiki-e/pin-project
+httparse,v1.9.4,https://github.com/seanmonstar/httparse,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/seanmonstar/httparse
+http-body,v1.0.1,https://github.com/hyperium/http-body,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/hyperium/http-body
+spin,v0.9.8,https://github.com/mvdnes/spin-rs.git,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/mvdnes/spin-rs
+powerfmt,v0.2.0,https://github.com/jhpratt/powerfmt,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/jhpratt/powerfmt
+clap_derive,v4.5.13,https://github.com/clap-rs/clap,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/clap-rs/clap
+hex,v0.4.3,https://github.com/KokaKiwi/rust-hex,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/KokaKiwi/rust-hex
+async-trait,v0.1.81,https://github.com/dtolnay/async-trait,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/dtolnay/async-trait
+cfg-if,v1.0.0,https://github.com/alexcrichton/cfg-if,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/alexcrichton/cfg-if
+strsim,v0.11.1,https://github.com/rapidfuzz/strsim-rs,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/rapidfuzz/strsim-rs
+regex,v1.10.6,https://github.com/rust-lang/regex,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/rust-lang/regex
+async-stream,v0.3.5,https://github.com/tokio-rs/async-stream,Unknown,Unknown,Manually Added
+triomphe,v0.1.13,https://github.com/Manishearth/triomphe,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/Manishearth/triomphe
+bitflags,v1.3.2,https://github.com/bitflags/bitflags,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/bitflags/bitflags
+ed25519-dalek,v2.1.1,https://github.com/dalek-cryptography/curve25519-dalek/tree/main/ed25519-dalek,Unknown,Unknown,Manually Added
+prost-build,v0.12.6,https://github.com/tokio-rs/prost,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/tokio-rs/prost
+tinystr,v0.7.6,https://github.com/unicode-org/icu4x,Unknown,Unknown,Manually Added
+backoff,v0.4.0,https://github.com/ihrwein/backoff,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/ihrwein/backoff
+dotenvy,v0.15.7,https://github.com/allan2/dotenvy,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/allan2/dotenvy
+tokio-macros,v2.4.0,https://github.com/tokio-rs/tokio,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/tokio-rs/tokio
+tokio-rustls,v0.25.0,https://github.com/rustls/tokio-rustls,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/rustls/tokio-rustls
+prost-derive,v0.12.6,https://github.com/tokio-rs/prost,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/tokio-rs/prost

@@ -1,0 +1,19 @@
+name,version,repository,license,license-url,license-source
+@ethersproject/rlp,5.7.0,https://github.com/ethers-io/ethers.js,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/ethers-io/ethers.js
+@ethersproject/abi,5.7.0,https://github.com/ethers-io/ethers.js,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/ethers-io/ethers.js
+js-base64,3.7.7,https://github.com/dankogai/js-base64,"BSD 3-Clause ""New"" or ""Revised"" License",https://api.github.com/licenses/bsd-3-clause,https://api.github.com/repos/dankogai/js-base64
+@hashgraph/cryptography,1.4.8-beta.9,https://github.com/hashgraph/hedera-sdk-js,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/hashgraph/hedera-sdk-js
+pino,8.21.0,https://github.com/pinojs/pino,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/pinojs/pino
+@ethersproject/bignumber,5.7.0,https://github.com/ethers-io/ethers.js,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/ethers-io/ethers.js
+@ethersproject/bytes,5.7.0,https://github.com/ethers-io/ethers.js,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/ethers-io/ethers.js
+pino-pretty,10.3.1,https://github.com/pinojs/pino-pretty,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/pinojs/pino-pretty
+bignumber.js,9.1.2,https://github.com/MikeMcl/bignumber.js,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/MikeMcl/bignumber.js
+@hashgraph/proto,2.15.0-beta.4,https://github.com/hashgraph/hedera-sdk-js,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/hashgraph/hedera-sdk-js
+protobufjs,7.2.5,https://github.com/protobufjs/protobuf.js,Unknown,Unknown,Manually Added
+axios,1.7.7,https://github.com/axios/axios,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/axios/axios
+@grpc/grpc-js,1.8.2,https://github.com/grpc/grpc-node/tree/master/packages/grpc-js,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/grpc/grpc-node
+utf8,3.0.0,https://github.com/mathiasbynens/utf8.js,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/mathiasbynens/utf8.js
+crypto-js,4.2.0,https://github.com/brix/crypto-js,Unknown,Unknown,Manually Added
+rfc4648,1.5.3,https://github.com/swansontec/rfc4648.js,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/swansontec/rfc4648.js
+bn.js,5.2.1,https://github.com/indutny/bn.js,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/indutny/bn.js
+long,4.0.0,https://github.com/dcodeIO/long.js,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/dcodeIO/long.js

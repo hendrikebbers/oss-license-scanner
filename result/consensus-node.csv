@@ -1,0 +1,128 @@
+name,version,repository,license,license-url,license-source
+org.slf4j:slf4j-api,2.0.10,https://github.com/qos-ch/slf4j,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/qos-ch/slf4j
+javax.inject:javax.inject,1,UNKNOWN,"The Apache Software License, Version 2.0",http://www.apache.org/licenses/LICENSE-2.0.txt,pom(javax.inject:javax.inject:1)
+io.netty:netty-codec-http2,4.1.100.Final,https://github.com/netty/netty,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/netty/netty
+com.swirlds:swirlds-metrics-api,0.55.2,https://github.com/hashgraph/hedera-services,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/hashgraph/hedera-services
+com.google.j2objc:j2objc-annotations,2.8,UNKNOWN,"Apache License, Version 2.0",http://www.apache.org/licenses/LICENSE-2.0.txt,pom(com.google.j2objc:j2objc-annotations:2.8)
+io.prometheus:simpleclient,0.16.0,https://github.com/prometheus/client_java,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/prometheus/client_java
+com.fasterxml.jackson.datatype:jackson-datatype-jsr310,2.16.0,https://github.com/FasterXML/jackson-modules-java8,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/FasterXML/jackson-modules-java8
+info.picocli:picocli,4.6.3,https://github.com/remkop/picocli/tree/master,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/remkop/picocli
+com.hedera.hashgraph:app-service-token,0.55.2,https://github.com/hashgraph/hedera-services,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/hashgraph/hedera-services
+io.grpc:grpc-stub,1.64.0,https://github.com/grpc/grpc-java,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/grpc/grpc-java
+commons-codec:commons-codec,1.15,https://github.com/apache/commons-codec,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/apache/commons-codec
+com.hedera.hashgraph:app-service-contract-impl,0.55.2,https://github.com/hashgraph/hedera-services,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/hashgraph/hedera-services
+io.perfmark:perfmark-api,0.26.0,https://github.com/perfmark/perfmark,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/perfmark/perfmark
+com.hedera.hashgraph:app-hapi-fees,0.55.2,https://github.com/hashgraph/hedera-services,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/hashgraph/hedera-services
+com.google.android:annotations,4.1.1.4,UNKNOWN,Apache 2.0,http://www.apache.org/licenses/LICENSE-2.0,pom(com.google.android:annotations:4.1.1.4)
+com.hedera.hashgraph:app-service-schedule,0.55.2,https://github.com/hashgraph/hedera-services,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/hashgraph/hedera-services
+com.hedera.hashgraph:app-service-network-admin-impl,0.55.2,https://github.com/hashgraph/hedera-services,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/hashgraph/hedera-services
+com.hedera.hashgraph:app-service-network-admin,0.55.2,https://github.com/hashgraph/hedera-services,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/hashgraph/hedera-services
+commons-io:commons-io,2.15.1,https://github.com/apache/maven-apache-parent/tree/${project.scm.tag},Apache-2.0,https://www.apache.org/licenses/LICENSE-2.0.txt,pom(org.apache:apache:31)
+com.fasterxml.jackson.core:jackson-annotations,2.16.0,https://github.com/FasterXML/jackson-annotations,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/FasterXML/jackson-annotations
+org.jetbrains.kotlin:kotlin-stdlib,1.8.21,https://github.com/JetBrains/kotlin,"The Apache License, Version 2.0",http://www.apache.org/licenses/LICENSE-2.0.txt,pom(org.jetbrains.kotlin:kotlin-stdlib:1.8.21)
+com.swirlds:swirlds-metrics-impl,0.55.2,https://github.com/hashgraph/hedera-services,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/hashgraph/hedera-services
+com.hedera.hashgraph:app-service-util,0.55.2,https://github.com/hashgraph/hedera-services,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/hashgraph/hedera-services
+com.swirlds:swirlds-common,0.55.2,https://github.com/hashgraph/hedera-services,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/hashgraph/hedera-services
+com.fasterxml.jackson.core:jackson-databind,2.16.0,https://github.com/FasterXML/jackson-databind,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/FasterXML/jackson-databind
+io.prometheus:simpleclient_tracer_otel_agent,0.16.0,https://github.com/prometheus/client_java,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/prometheus/client_java
+io.grpc:grpc-api,1.64.0,https://github.com/grpc/grpc-java,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/grpc/grpc-java
+com.swirlds:swirlds-fcqueue,0.55.2,https://github.com/hashgraph/hedera-services,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/hashgraph/hedera-services
+com.hedera.hashgraph:app-service-token-impl,0.55.2,https://github.com/hashgraph/hedera-services,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/hashgraph/hedera-services
+org.jetbrains.kotlin:kotlin-stdlib-common,1.8.21,https://github.com/JetBrains/kotlin,"The Apache License, Version 2.0",http://www.apache.org/licenses/LICENSE-2.0.txt,pom(org.jetbrains.kotlin:kotlin-stdlib-common:1.8.21)
+org.apache.logging.log4j:log4j-api,2.21.1,https://github.com/apache/logging-log4j2,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/apache/logging-log4j2
+com.swirlds:swirlds-merkledb,0.55.2,https://github.com/hashgraph/hedera-services,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/hashgraph/hedera-services
+com.goterl:resource-loader,2.0.1,https://github.com/terl/resource-loader,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/terl/resource-loader
+io.netty:netty-transport-native-epoll,4.1.110.Final,https://github.com/netty/netty,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/netty/netty
+org.bouncycastle:bcutil-jdk18on,1.78,https://github.com/bcgit/bc-java,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/bcgit/bc-java
+com.hedera.pbj:pbj-runtime,0.9.2,https://github.com/hashgraph/pbj,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/hashgraph/pbj
+io.netty:netty-buffer,4.1.110.Final,https://github.com/netty/netty,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/netty/netty
+io.netty:netty-transport-native-unix-common,4.1.100.Final,https://github.com/netty/netty,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/netty/netty
+io.netty:netty-common,4.1.110.Final,https://github.com/netty/netty,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/netty/netty
+org.apache.commons:commons-lang3,3.14.0,https://github.com/apache/maven-apache-parent/tree/${project.scm.tag},Apache-2.0,https://www.apache.org/licenses/LICENSE-2.0.txt,pom(org.apache:apache:30)
+com.hedera.hashgraph:app-service-util-impl,0.55.2,https://github.com/hashgraph/hedera-services,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/hashgraph/hedera-services
+io.prometheus:simpleclient_httpserver,0.16.0,https://github.com/prometheus/client_java,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/prometheus/client_java
+io.tmio:tuweni-bytes,2.4.2,https://github.com/tmio/incubator-tuweni,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/tmio/incubator-tuweni
+com.google.dagger:dagger,2.42,https://github.com/google/dagger/,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/google/dagger
+com.google.guava:guava,33.0.0-jre,https://github.com/google/guava,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/google/guava
+com.google.code.findbugs:jsr305,3.0.2,UNKNOWN,"The Apache Software License, Version 2.0",http://www.apache.org/licenses/LICENSE-2.0.txt,pom(com.google.code.findbugs:jsr305:3.0.2)
+com.swirlds:swirlds-config-impl,0.55.2,https://github.com/hashgraph/hedera-services,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/hashgraph/hedera-services
+io.netty:netty-codec-socks,4.1.100.Final,https://github.com/netty/netty,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/netty/netty
+com.google.protobuf:protobuf-java,4.28.2,https://github.com/protocolbuffers/protobuf,BSD 3-Clause,https://api.github.com/licenses/bsd-3-clause,https://developers.google.com/open-source/licenses/bsd
+com.google.api.grpc:proto-google-common-protos,2.29.0,https://github.com/googleapis/sdk-platform-java,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/googleapis/sdk-platform-java
+org.hyperledger.besu.internal:rlp,24.3.3,UNKNOWN,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://github.com/hyperledger/besu/?tab=Apache-2.0-1-ov-file#readme
+com.hedera.hashgraph:app-service-consensus-impl,0.55.2,https://github.com/hashgraph/hedera-services,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/hashgraph/hedera-services
+io.grpc:grpc-protobuf-lite,1.64.0,https://github.com/grpc/grpc-java,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/grpc/grpc-java
+com.hedera.hashgraph:hapi,0.55.2,https://github.com/hashgraph/hedera-services,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/hashgraph/hedera-services
+com.goterl:lazysodium-java,5.1.1,https://github.com/terl/lazysodium-java,Mozilla Public License 2.0,https://api.github.com/licenses/mpl-2.0,https://api.github.com/repos/terl/lazysodium-java
+io.grpc:grpc-util,1.64.0,https://github.com/grpc/grpc-java,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/grpc/grpc-java
+org.eclipse.collections:eclipse-collections,10.4.0,https://github.com/eclipse/eclipse-collections,Eclipse Public License - v 1.0,https://www.eclipse.org/legal/epl-v10.html,pom(org.eclipse.collections:eclipse-collections-parent:10.4.0)
+com.swirlds:swirlds-fchashmap,0.55.2,https://github.com/hashgraph/hedera-services,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/hashgraph/hedera-services
+org.connid:framework-internal,1.3.2,UNKNOWN,CDDL 1.0,http://www.sun.com/cddl/cddl.html,pom(org.connid:connid:1.3.2)
+io.tmio:tuweni-units,2.4.2,https://github.com/tmio/incubator-tuweni,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/tmio/incubator-tuweni
+org.hyperledger.besu:blake2bf,0.8.2,UNKNOWN,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://github.com/hyperledger/besu/?tab=Apache-2.0-1-ov-file#readme
+org.bouncycastle:bcprov-jdk18on,1.78,https://github.com/bcgit/bc-java,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/bcgit/bc-java
+io.grpc:grpc-core,1.64.0,https://github.com/grpc/grpc-java,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/grpc/grpc-java
+org.hyperledger.besu:bls12-381,0.8.2,UNKNOWN,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://github.com/hyperledger/besu/?tab=Apache-2.0-1-ov-file#readme
+io.grpc:grpc-protobuf,1.64.0,https://github.com/grpc/grpc-java,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/grpc/grpc-java
+io.netty:netty-transport,4.1.110.Final,https://github.com/netty/netty,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/netty/netty
+com.swirlds:swirlds-platform-core,0.55.2,https://github.com/hashgraph/hedera-services,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/hashgraph/hedera-services
+org.connid:framework,1.3.2,UNKNOWN,CDDL 1.0,http://www.sun.com/cddl/cddl.html,pom(org.connid:connid:1.3.2)
+com.swirlds:swirlds-state-api,0.55.2,https://github.com/hashgraph/hedera-services,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/hashgraph/hedera-services
+io.grpc:grpc-netty,1.64.0,https://github.com/grpc/grpc-java,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/grpc/grpc-java
+com.hedera.hashgraph:app-service-contract,0.55.2,https://github.com/hashgraph/hedera-services,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/hashgraph/hedera-services
+org.bouncycastle:bcpkix-jdk18on,1.78,https://github.com/bcgit/bc-java,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/bcgit/bc-java
+io.prometheus:simpleclient_common,0.16.0,https://github.com/prometheus/client_java,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/prometheus/client_java
+org.hyperledger.besu:secp256k1,0.8.2,UNKNOWN,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://github.com/hyperledger/besu/?tab=Apache-2.0-1-ov-file#readme
+com.swirlds:swirlds-config-extensions,0.55.2,https://github.com/hashgraph/hedera-services,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/hashgraph/hedera-services
+com.fasterxml.jackson.core:jackson-core,2.16.0,https://github.com/FasterXML/jackson-core,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/FasterXML/jackson-core
+org.jetbrains.kotlin:kotlin-stdlib-jdk7,1.8.21,https://github.com/JetBrains/kotlin,"The Apache License, Version 2.0",http://www.apache.org/licenses/LICENSE-2.0.txt,pom(org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.8.21)
+io.netty:netty-resolver,4.1.110.Final,https://github.com/netty/netty,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/netty/netty
+com.github.spotbugs:spotbugs-annotations,4.7.3,https://github.com/spotbugs/spotbugs/,GNU Lesser General Public License v2.1,https://api.github.com/licenses/lgpl-2.1,https://api.github.com/repos/spotbugs/spotbugs
+org.checkerframework:checker-qual,3.41.0,https://github.com/typetools/checker-framework,Unknown,Unknown,Manually Added
+org.hyperledger.besu:evm,24.3.3,UNKNOWN,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://github.com/hyperledger/besu/?tab=Apache-2.0-1-ov-file#readme
+org.codehaus.mojo:animal-sniffer-annotations,1.23,https://github.com/mojohaus/animal-sniffer/tree/master,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/mojohaus/animal-sniffer
+com.hedera.hashgraph:app-service-addressbook,0.55.2,https://github.com/hashgraph/hedera-services,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/hashgraph/hedera-services
+org.apache.logging.log4j:log4j-core,2.21.1,https://github.com/apache/logging-log4j2,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/apache/logging-log4j2
+com.hedera.hashgraph:app-hapi-utils,0.55.2,https://github.com/hashgraph/hedera-services,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/hashgraph/hedera-services
+com.hedera.hashgraph:app-service-file-impl,0.55.2,https://github.com/hashgraph/hedera-services,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/hashgraph/hedera-services
+net.i2p.crypto:eddsa,0.3.0,https://github.com/str4d/ed25519-java,Creative Commons Zero v1.0 Universal,https://api.github.com/licenses/cc0-1.0,https://api.github.com/repos/str4d/ed25519-java
+com.hedera.hashgraph:app-service-consensus,0.55.2,https://github.com/hashgraph/hedera-services,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/hashgraph/hedera-services
+io.netty:netty-transport-classes-epoll,4.1.110.Final,https://github.com/netty/netty,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/netty/netty
+com.google.guava:failureaccess,1.0.2,https://github.com/google/guava,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/google/guava
+com.swirlds:swirlds-base,0.55.2,https://github.com/hashgraph/hedera-services,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/hashgraph/hedera-services
+com.google.guava:listenablefuture,9999.0-empty-to-avoid-conflict-with-guava,https://github.com/google/guava,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/google/guava
+io.netty:netty-codec-http,4.1.100.Final,https://github.com/netty/netty,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/netty/netty
+org.hyperledger.besu:besu-datatypes,24.3.3,UNKNOWN,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://github.com/hyperledger/besu/?tab=Apache-2.0-1-ov-file#readme
+org.jetbrains:annotations,13.0,https://github.com/JetBrains/intellij-community,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/JetBrains/intellij-community
+com.hedera.hashgraph:app-spi,0.55.2,https://github.com/hashgraph/hedera-services,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/hashgraph/hedera-services
+tech.pegasys:jc-kzg-4844,0.8.0,UNKNOWN,Unknown,Unknown,Manually Added
+com.github.ben-manes.caffeine:caffeine,3.1.8,https://github.com/ben-manes/caffeine,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/ben-manes/caffeine
+com.swirlds:swirlds-virtualmap,0.55.2,https://github.com/hashgraph/hedera-services,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/hashgraph/hedera-services
+com.swirlds:swirlds-config-api,0.55.2,https://github.com/hashgraph/hedera-services,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/hashgraph/hedera-services
+io.prometheus:simpleclient_tracer_common,0.16.0,https://github.com/prometheus/client_java,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/prometheus/client_java
+com.google.code.gson:gson,2.9.0,https://github.com/google/gson/,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/google/gson
+org.hyperledger.besu:arithmetic,0.8.2,UNKNOWN,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://github.com/hyperledger/besu/?tab=Apache-2.0-1-ov-file#readme
+com.google.errorprone:error_prone_annotations,2.23.0,https://github.com/google/error-prone,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/google/error-prone
+io.github.classgraph:classgraph,4.8.65,https://github.com/classgraph/classgraph,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/classgraph/classgraph
+org.antlr:antlr4-runtime,4.13.1,https://github.com/antlr/antlr4/tree/master,"BSD 3-Clause ""New"" or ""Revised"" License",https://api.github.com/licenses/bsd-3-clause,https://api.github.com/repos/antlr/antlr4
+com.hedera.hashgraph:app-service-addressbook-impl,0.55.2,https://github.com/hashgraph/hedera-services,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/hashgraph/hedera-services
+com.google.auto.service:auto-service-annotations,1.1.1,https://github.com/google/auto,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/google/auto
+org.yaml:snakeyaml,2.2,UNKNOWN,"Apache License, Version 2.0",http://www.apache.org/licenses/LICENSE-2.0.txt,pom(org.yaml:snakeyaml:2.2)
+io.grpc:grpc-context,1.64.0,https://github.com/grpc/grpc-java,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/grpc/grpc-java
+org.eclipse.collections:eclipse-collections-api,10.4.0,https://github.com/eclipse/eclipse-collections,Eclipse Public License - v 1.0,https://www.eclipse.org/legal/epl-v10.html,pom(org.eclipse.collections:eclipse-collections-parent:10.4.0)
+io.netty:netty-handler,4.1.110.Final,https://github.com/netty/netty,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/netty/netty
+com.hedera.hashgraph:app-service-file,0.55.2,https://github.com/hashgraph/hedera-services,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/hashgraph/hedera-services
+com.hedera.hashgraph:app-service-schedule-impl,0.55.2,https://github.com/hashgraph/hedera-services,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/hashgraph/hedera-services
+org.jetbrains.kotlin:kotlin-stdlib-jdk8,1.8.21,https://github.com/JetBrains/kotlin,"The Apache License, Version 2.0",http://www.apache.org/licenses/LICENSE-2.0.txt,pom(org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.21)
+com.fasterxml.jackson.dataformat:jackson-dataformat-yaml,2.16.0,https://github.com/FasterXML/jackson-dataformats-text,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/FasterXML/jackson-dataformats-text
+com.esaulpaugh:headlong,6.1.1,https://github.com/esaulpaugh/headlong,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/esaulpaugh/headlong
+org.hyperledger.besu.internal:algorithms,24.3.3,UNKNOWN,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://github.com/hyperledger/besu/?tab=Apache-2.0-1-ov-file#readme
+com.swirlds:swirlds-merkle,0.55.2,https://github.com/hashgraph/hedera-services,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/hashgraph/hedera-services
+com.swirlds:swirlds-logging,0.55.2,https://github.com/hashgraph/hedera-services,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/hashgraph/hedera-services
+com.hedera.hashgraph:config,0.55.2,https://github.com/hashgraph/hedera-services,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/hashgraph/hedera-services
+org.hyperledger.besu:secp256r1,0.8.2,UNKNOWN,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://github.com/hyperledger/besu/?tab=Apache-2.0-1-ov-file#readme
+io.netty:netty-codec,4.1.110.Final,https://github.com/netty/netty,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/netty/netty
+net.java.dev.jna:jna,5.14.0,https://github.com/java-native-access/jna,Unknown,Unknown,Manually Added
+io.prometheus:simpleclient_tracer_otel,0.16.0,https://github.com/prometheus/client_java,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/prometheus/client_java
+io.netty:netty-handler-proxy,4.1.100.Final,https://github.com/netty/netty,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/netty/netty
+com.swirlds:swirlds-cli,0.55.2,https://github.com/hashgraph/hedera-services,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/hashgraph/hedera-services

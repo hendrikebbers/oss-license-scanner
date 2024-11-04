@@ -1,0 +1,28 @@
+name,version,repository,license,license-url,license-source
+esm,3.2.25,https://github.com/standard-things/esm,js,Unknown,Manually Added
+ts-node,10.9.2,https://github.com/TypeStrong/ts-node,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/TypeStrong/ts-node
+figlet,1.8.0,https://github.com/patorjk/figlet.js,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/patorjk/figlet.js
+yaml,2.6.0,https://github.com/eemeli/yaml,ISC License,https://api.github.com/licenses/isc,https://api.github.com/repos/eemeli/yaml
+@kubernetes/client-node,0.22.2,https://github.com/kubernetes-client/javascript,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/kubernetes-client/javascript
+stream-buffers,3.0.3,https://github.com/samcday/node-stream-buffer,The Unlicense,https://api.github.com/licenses/unlicense,https://api.github.com/repos/samcday/node-stream-buffer
+enquirer,2.4.1,https://github.com/enquirer/enquirer,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/enquirer/enquirer
+dotenv,16.4.5,https://github.com/motdotla/dotenv,"BSD 2-Clause ""Simplified"" License",https://api.github.com/licenses/bsd-2-clause,https://api.github.com/repos/motdotla/dotenv
+uuid,11.0.2,https://github.com/uuidjs/uuid,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/uuidjs/uuid
+jsdoc,4.0.4,https://github.com/jsdoc/jsdoc,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/jsdoc/jsdoc
+@peculiar/x509,1.12.3,https://github.com/PeculiarVentures/x509,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/PeculiarVentures/x509
+js-base64,3.7.7,https://github.com/dankogai/js-base64,"BSD 3-Clause ""New"" or ""Revised"" License",https://api.github.com/licenses/bsd-3-clause,https://api.github.com/repos/dankogai/js-base64
+ip,2.0.1,https://github.com/indutny/node-ip,js,Unknown,Manually Added
+js-yaml,4.1.0,https://github.com/nodeca/js-yaml,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/nodeca/js-yaml
+@hashgraph/sdk,2.52.0,https://github.com/hashgraph/hedera-sdk-js,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/hashgraph/hedera-sdk-js
+chalk,5.3.0,https://github.com/chalk/chalk,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/chalk/chalk
+adm-zip,0.5.16,https://github.com/cthackers/adm-zip,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/cthackers/adm-zip
+got,14.4.3,https://github.com/sindresorhus/got,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/sindresorhus/got
+tar,7.4.3,https://github.com/isaacs/node-tar,ISC License,https://api.github.com/licenses/isc,https://api.github.com/repos/isaacs/node-tar
+@eslint/eslintrc,3.1.0,https://github.com/eslint/eslintrc,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/eslint/eslintrc
+listr2,8.2.5,https://github.com/listr2/listr2,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/listr2/listr2
+winston,3.15.0,https://github.com/winstonjs/winston,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/winstonjs/winston
+yargs,17.7.2,https://github.com/yargs/yargs,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/yargs/yargs
+dot-object,2.1.5,https://github.com/rhalff/dot-object,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/rhalff/dot-object
+@listr2/prompt-adapter-enquirer,2.0.12,https://github.com/listr2/listr2,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/listr2/listr2
+semver,7.6.3,https://github.com/npm/node-semver,ISC License,https://api.github.com/licenses/isc,https://api.github.com/repos/npm/node-semver
+inquirer,12.0.1,https://github.com/SBoudrias/Inquirer.js,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/SBoudrias/Inquirer.js

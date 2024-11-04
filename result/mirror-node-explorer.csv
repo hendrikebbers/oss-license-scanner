@@ -1,0 +1,26 @@
+name,version,repository,license,license-url,license-source
+base32-encode,2.0.0,https://github.com/LinusU/base32-encode,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/LinusU/base32-encode
+@kabuto-sh/ns,0.14.2,,Unknown,Unknown,Unknown
+@fortawesome/free-brands-svg-icons,6.6.0,https://github.com/FortAwesome/Font-Awesome,CC-BY-4.0 AND MIT,https://www.npmjs.com/package/@fortawesome/free-brands-svg-icons,https://www.npmjs.com/package/@fortawesome/free-brands-svg-icons
+vue-router,4.4.5,https://github.com/vuejs/router,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/vuejs/router
+axios,1.7.7,https://github.com/axios/axios,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/axios/axios
+@hashgraph/proto,2.15.0,https://github.com/hashgraph/hedera-sdk-js,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/hashgraph/hedera-sdk-js
+multiformats,13.3.0,https://github.com/multiformats/js-multiformats,Unknown,Unknown,Manually Added
+ethers,6.13.4,https://github.com/ethers-io/ethers.js,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/ethers-io/ethers.js
+jszip,3.10.1,https://github.com/Stuk/jszip,Unknown,Unknown,Manually Added
+@hashgraph/sdk,2.52.0,https://github.com/hashgraph/hedera-sdk-js,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/hashgraph/hedera-sdk-js
+@bladelabs/blade-web3.js,1.2.2,https://github.com/Blade-Labs/blade-web3.js,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/Blade-Labs/blade-web3.js
+file-saver,2.0.5,https://github.com/eligrey/FileSaver.js,Unknown,Unknown,Manually Added
+base32-decode,1.0.0,https://github.com/LinusU/base32-decode,Unknown,Unknown,Manually Added
+@fortawesome/vue-fontawesome,3.0.8,https://github.com/FortAwesome/vue-fontawesome,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/FortAwesome/vue-fontawesome
+@fortawesome/free-solid-svg-icons,6.6.0,https://github.com/FortAwesome/Font-Awesome,CC-BY-4.0 AND MIT,https://www.npmjs.com/package/@fortawesome/free-brands-svg-icons,https://www.npmjs.com/package/@fortawesome/free-brands-svg-icons
+bulma,0.9.4,https://github.com/jgthms/bulma,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/jgthms/bulma
+@ethereum-sourcify/bytecode-utils,1.2.12,https://github.com/ethereum/sourcify,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/ethereum/sourcify
+@fortawesome/fontawesome-svg-core,6.6.0,https://github.com/FortAwesome/Font-Awesome,MIT License,https://api.github.com/licenses/mit,https://github.com/FortAwesome/Font-Awesome?tab=License-1-ov-file#readme
+@hedera-name-service/hns-resolution-sdk,2.0.11,https://github.com/hedera-name-service/hns-resolution-sdk,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/hedera-name-service/hns-resolution-sdk
+hashconnect,0.1.10,https://github.com/Hashpack/hashconnect,BSD Zero Clause License,https://api.github.com/licenses/0bsd,https://api.github.com/repos/Hashpack/hashconnect
+core-js,3.38.1,https://github.com/zloirock/core-js,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/zloirock/core-js
+prismjs,1.29.0,https://github.com/PrismJS/prism,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/PrismJS/prism
+@oruga-ui/oruga-next,0.7.0,https://github.com/oruga-ui/oruga,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/oruga-ui/oruga
+@vuepic/vue-datepicker,9.0.3,https://github.com/Vuepic/vue-datepicker,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/Vuepic/vue-datepicker
+vue,3.5.12,https://github.com/vuejs/core,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/vuejs/core

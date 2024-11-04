@@ -1,0 +1,15 @@
+name,version,repository,license,license-url,license-source
+ts-mocha,10.0.0,https://github.com/piotrwitek/ts-mocha,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/piotrwitek/ts-mocha
+js-yaml,4.1.0,https://github.com/nodeca/js-yaml,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/nodeca/js-yaml
+shelljs,0.8.5,https://github.com/shelljs/shelljs,"BSD 3-Clause ""New"" or ""Revised"" License",https://api.github.com/licenses/bsd-3-clause,https://api.github.com/repos/shelljs/shelljs
+@hashgraph/sdk,2.50.0,https://github.com/hashgraph/hedera-sdk-js,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/hashgraph/hedera-sdk-js
+csv-parser,3.0.0,https://github.com/mafintosh/csv-parser,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/mafintosh/csv-parser
+blessed,0.1.81,https://github.com/chjj/blessed,Unknown,Unknown,Manually Added
+yargs,17.7.2,https://github.com/yargs/yargs,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/yargs/yargs
+detect-port,1.6.1,https://github.com/node-modules/detect-port,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/node-modules/detect-port
+rimraf,6.0.1,https://github.com/isaacs/rimraf,ISC License,https://api.github.com/licenses/isc,https://api.github.com/repos/isaacs/rimraf
+blessed-terminal,0.1.22,https://github.com/glazarov95/blessed-terminal,Unknown,Unknown,Manually Added
+dockerode,4.0.2,https://github.com/apocas/dockerode,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/apocas/dockerode
+dotenv,16.4.5,https://github.com/motdotla/dotenv,"BSD 2-Clause ""Simplified"" License",https://api.github.com/licenses/bsd-2-clause,https://api.github.com/repos/motdotla/dotenv
+ethers,6.13.2,https://github.com/ethers-io/ethers.js,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/ethers-io/ethers.js
+semver,7.6.3,https://github.com/npm/node-semver,ISC License,https://api.github.com/licenses/isc,https://api.github.com/repos/npm/node-semver
