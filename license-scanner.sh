@@ -6,5 +6,5 @@ if [ -f .env ]; then
     export $(grep -v '^#' .env | xargs)
 fi
 
-./mvnw verify
+./mvnw verify >&2
 java -jar target/license-scanner.jar "$@"

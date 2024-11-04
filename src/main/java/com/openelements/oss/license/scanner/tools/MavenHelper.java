@@ -15,7 +15,7 @@ public class MavenHelper {
     private final static Logger log = LoggerFactory.getLogger(MavenHelper.class);
 
     private static void installMavenWrapper(Path pathToProject) {
-        ProcessHelper.execute(l -> l.forEach(log::debug), pathToProject.toFile(), "mvn", "wrapper:wrapper");
+        ProcessHelper.execute(l -> l.forEach(log::info), pathToProject.toFile(), "mvn", "wrapper:wrapper");
     }
 
     private static Set<MavenIdentifier> extractDependenciesFromMavenOut(List<String> lines) {

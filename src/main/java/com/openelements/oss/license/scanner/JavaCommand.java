@@ -16,7 +16,7 @@ import picocli.CommandLine.Option;
 public class JavaCommand extends AbstractCommand {
 
     public static void main(String[] args) {
-        new CommandLine(new JavaCommand()).execute("-n", "com.hedera.hashgraph:app", "-v", "0.55.2");
+        new CommandLine(new JavaCommand()).execute("-n", "com.open-elements.hedera:hedera-enterprise", "-v", "0.9.0");
     }
 
     @Override
