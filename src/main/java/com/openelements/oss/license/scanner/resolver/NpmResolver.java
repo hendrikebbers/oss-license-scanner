@@ -1,10 +1,11 @@
 package com.openelements.oss.license.scanner.resolver;
 
 import com.google.gson.JsonObject;
-import com.openelements.oss.license.scanner.Resolver;
+import com.openelements.oss.license.scanner.api.License;
+import com.openelements.oss.license.scanner.api.Resolver;
 import com.openelements.oss.license.scanner.clients.GitHubClient;
-import com.openelements.oss.license.scanner.data.Dependency;
-import com.openelements.oss.license.scanner.data.Identifier;
+import com.openelements.oss.license.scanner.api.Dependency;
+import com.openelements.oss.license.scanner.api.Identifier;
 import com.openelements.oss.license.scanner.tools.NpmHelper;
 import java.io.File;
 import java.io.IOException;
@@ -35,6 +36,9 @@ public class NpmResolver implements Resolver {
         log.debug("Resolving dependencies for: {}", identifier);
         final Dependency asDependency = fromNpmShow(identifier).orElseThrow(() -> new RuntimeException("Dependency not found: " + identifier));
         final String repositoryUrl = asDependency.repository();
+        if(repositoryUrl == null) {
+            throw new RuntimeException("No repository found for lib: " + identifier);
+        }
         final String tag = gitHubClient.findMatchingTag(repositoryUrl, identifier.version())
                 .orElseThrow(() -> new RuntimeException("No tag found for version: " + identifier.version()));
         final Path pathToProject = gitHubClient.download(repositoryUrl, tag);
@@ -92,12 +96,12 @@ public class NpmResolver implements Resolver {
 
     private Optional<Dependency> fromNpmShow(Identifier identifier) {
         if(cache.containsKey(identifier)) {
-            return Optional.ofNullable(cache.get(identifier));
+            return Optional.of(cache.get(identifier));
         }
         final Dependency dependency = NpmHelper.callNpmShowAndReturnRepository(identifier)
                 .map(repository -> new Dependency(identifier, gitHubClient.getLicense(repository), repository))
-                .orElseGet(() -> null);
+                .orElseGet(() -> new Dependency(identifier, License.UNKNOWN, null));
         cache.put(identifier, dependency);
-        return Optional.ofNullable(dependency);
+        return Optional.of(dependency);
     }
 }

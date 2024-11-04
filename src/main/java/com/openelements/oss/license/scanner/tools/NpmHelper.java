@@ -2,7 +2,8 @@ package com.openelements.oss.license.scanner.tools;
 
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
-import com.openelements.oss.license.scanner.data.Identifier;
+import com.openelements.oss.license.scanner.api.Identifier;
+import com.openelements.oss.license.scanner.clients.GitHubClient;
 import java.io.StringReader;
 import java.nio.file.Path;
 import java.util.List;
@@ -36,7 +37,8 @@ public class NpmHelper {
             return Optional.empty();
         } else {
             final String repository = jsonObject.get("repository").getAsJsonObject().get("url").getAsString();
-            return Optional.of(repository);
+            final String normalizedUrl = GitHubClient.normalizeUrl(repository);
+            return Optional.of(normalizedUrl);
         }
     }
 

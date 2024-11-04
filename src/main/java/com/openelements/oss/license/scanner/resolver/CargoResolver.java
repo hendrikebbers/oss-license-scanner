@@ -1,9 +1,9 @@
 package com.openelements.oss.license.scanner.resolver;
 
 import com.openelements.oss.license.scanner.clients.GitHubClient;
-import com.openelements.oss.license.scanner.data.Dependency;
-import com.openelements.oss.license.scanner.data.Identifier;
-import com.openelements.oss.license.scanner.data.License;
+import com.openelements.oss.license.scanner.api.Dependency;
+import com.openelements.oss.license.scanner.api.Identifier;
+import com.openelements.oss.license.scanner.api.License;
 import com.openelements.oss.license.scanner.tools.CargoHelper;
 import com.openelements.oss.license.scanner.tools.CargoHelper.CargoLibrary;
 import java.util.Set;

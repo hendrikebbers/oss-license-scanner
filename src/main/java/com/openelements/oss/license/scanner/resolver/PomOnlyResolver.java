@@ -1,12 +1,12 @@
 package com.openelements.oss.license.scanner.resolver;
 
-import com.openelements.oss.license.scanner.Resolver;
+import com.openelements.oss.license.scanner.api.Resolver;
 import com.openelements.oss.license.scanner.clients.GitHubClient;
 import com.openelements.oss.license.scanner.clients.MavenCentralClient;
 import com.openelements.oss.license.scanner.clients.MavenIdentifier;
-import com.openelements.oss.license.scanner.data.Dependency;
-import com.openelements.oss.license.scanner.data.Identifier;
-import com.openelements.oss.license.scanner.data.License;
+import com.openelements.oss.license.scanner.api.Dependency;
+import com.openelements.oss.license.scanner.api.Identifier;
+import com.openelements.oss.license.scanner.api.License;
 import com.openelements.oss.license.scanner.tools.MavenHelper;
 import java.io.File;
 import java.io.IOException;
@@ -43,8 +43,11 @@ public class PomOnlyResolver implements Resolver {
                 Files.write(tempDir.resolve("pom.xml"), pom.getBytes());
                 return MavenHelper.getDependenciesFromPom(tempDir).stream()
                         .map(i -> {
-                           License license = getLicense(i);
-                            return new Dependency(i.toIdentifier(), license, "UNKNOWN");
+                           final License license = getLicense(i);
+                           final String repository = mavenCentralClient.getRepository(i)
+                                   .map(r -> GitHubClient.normalizeUrl(r))
+                                   .orElse("UNKNOWN");
+                            return new Dependency(i.toIdentifier(), license, repository);
                         }).collect(Collectors.toSet());
             } catch (Exception e) {
                 log.error("Error in resolving dependencies", e);

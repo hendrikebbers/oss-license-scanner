@@ -3,7 +3,7 @@ package com.openelements.oss.license.scanner.clients;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
-import com.openelements.oss.license.scanner.data.License;
+import com.openelements.oss.license.scanner.api.License;
 import java.io.BufferedInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
@@ -59,45 +59,56 @@ public class GitHubClient {
     private record Repository(String owner, String repo) {
     }
 
-    public static Repository parseRepository(String githubUrl) {
+    public static String normalizeUrl(String githubUrl) {
+        if(githubUrl == null) {
+            return null;
+        }
         if(githubUrl.startsWith("git:git@github.com:")) {
-            return parseRepository("https://github.com/" + githubUrl.substring(19));
+            return normalizeUrl("https://github.com/" + githubUrl.substring(19));
         }
         if(githubUrl.startsWith("git@github.com:")) {
-            return parseRepository("https://github.com/" + githubUrl.substring(15));
+            return normalizeUrl("https://github.com/" + githubUrl.substring(15));
         }
         if(githubUrl.endsWith(".git")) {
-            return parseRepository(githubUrl.substring(0, githubUrl.length() - 4));
+            return normalizeUrl(githubUrl.substring(0, githubUrl.length() - 4));
         }
         if(githubUrl.startsWith("git+")) {
-            return parseRepository(githubUrl.substring(4));
+            return normalizeUrl(githubUrl.substring(4));
         }
         if(githubUrl.startsWith("git:git://")) {
-            return parseRepository("https://" + githubUrl.substring(10));
+            return normalizeUrl("https://" + githubUrl.substring(10));
         }
         if(githubUrl.startsWith("git://")) {
-            return parseRepository("https://" + githubUrl.substring(6));
+            return normalizeUrl("https://" + githubUrl.substring(6));
         }
         if(githubUrl.startsWith("ssh://git@")) {
-            return parseRepository("https://" + githubUrl.substring(10));
+            return normalizeUrl("https://" + githubUrl.substring(10));
         }
         if(githubUrl.startsWith("scm:")) {
-            return parseRepository(githubUrl.substring(4));
+            return normalizeUrl(githubUrl.substring(4));
         }
         if(githubUrl.startsWith("http://github.com")) {
-            return parseRepository("https://github.com" + githubUrl.substring(17));
+            return normalizeUrl("https://github.com" + githubUrl.substring(17));
         }
         if(githubUrl.startsWith("git@github.com")) {
-            return parseRepository("https://github.com" + githubUrl.substring(14));
+            return normalizeUrl("https://github.com" + githubUrl.substring(14));
         }
         if(githubUrl.endsWith("#main")) {
-            return parseRepository(githubUrl.substring(0, githubUrl.length() - 5));
+            return normalizeUrl(githubUrl.substring(0, githubUrl.length() - 5));
         }
         if(githubUrl.startsWith("https://@github.com/")) {
-            return parseRepository("https://github.com/" + githubUrl.substring(23));
+            return normalizeUrl("https://github.com/" + githubUrl.substring(23));
         }
+        if(githubUrl.startsWith("github.com:")) {
+            return normalizeUrl("https://github.com/" + githubUrl.substring(11));
+        }
+        return githubUrl;
+    }
+
+    public static Repository parseRepository(String githubUrl) {
+        final String normalizedUrl = normalizeUrl(githubUrl);
         Pattern pattern = Pattern.compile("https://github.com/([^/]+)/([^/]+)");
-        Matcher matcher = pattern.matcher(githubUrl);
+        Matcher matcher = pattern.matcher(normalizedUrl);
         if (matcher.find()) {
             String owner = matcher.group(1);
             String repo = matcher.group(2);
@@ -136,7 +147,8 @@ public class GitHubClient {
         log.info("Getting license for repository {}/{}", repository.owner, repository.repo);
         try {
             final String apiUrl = String.format("repos/%s/%s", repository.owner, repository.repo);
-            final HttpResponse<String>  response = sendRequest(GITHUB_API_URL + "/" + apiUrl);
+            final String requestUrl = GITHUB_API_URL + "/" + apiUrl;
+            final HttpResponse<String>  response = sendRequest(requestUrl);
             if (response.statusCode() != 200) {
                 log.error("Failed to get repository info for {}/{}", repository.owner, repository.repo);
                 licenseCache.put(repository, License.UNKNOWN);
@@ -148,7 +160,7 @@ public class GitHubClient {
                 JsonObject licenseObject = jsonObject.get("license").getAsJsonObject();
                 final String name = getOrDefault(licenseObject, "name", "Unknown");
                 final String url = getOrDefault(licenseObject, "url", "Unknown");
-                License license = new License(name, url);
+                License license = new License(name, url, requestUrl);
                 licenseCache.put(repository, license);
                 return license;
             }

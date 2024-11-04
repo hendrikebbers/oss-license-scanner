@@ -2,7 +2,8 @@ package com.openelements.oss.license.scanner.tools;
 
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
-import com.openelements.oss.license.scanner.data.Identifier;
+import com.openelements.oss.license.scanner.api.Identifier;
+import com.openelements.oss.license.scanner.clients.GitHubClient;
 import java.nio.file.Path;
 import java.util.Collections;
 import java.util.HashSet;
@@ -24,7 +25,8 @@ public class SwiftHelper {
                 dependencies.addAll(convertFromJson(d.getAsJsonObject()));
             });
         }
-        dependencies.add(new SwiftLib(identifier, githubUrl));
+        final String normalizedUrl = GitHubClient.normalizeUrl(githubUrl);
+        dependencies.add(new SwiftLib(identifier, normalizedUrl));
         return Collections.unmodifiableSet(dependencies);
     }
 

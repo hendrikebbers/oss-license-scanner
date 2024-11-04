@@ -1,7 +1,7 @@
 package com.openelements.oss.license.scanner.clients;
 
-import com.openelements.oss.license.scanner.data.Identifier;
-import com.openelements.oss.license.scanner.data.License;
+import com.openelements.oss.license.scanner.api.Identifier;
+import com.openelements.oss.license.scanner.api.License;
 import java.io.ByteArrayInputStream;
 import java.io.InputStream;
 import java.net.URI;
@@ -79,7 +79,7 @@ public class MavenCentralClient {
                             Element urlElement = (Element) urlList.item(0);
                             licenseUrl = urlElement.getTextContent();
                         }
-                        return Optional.of(new License(licenseName, licenseUrl));
+                        return Optional.of(new License(licenseName, licenseUrl, "pom(" + identifier + ")"));
                     }
                 }
             }

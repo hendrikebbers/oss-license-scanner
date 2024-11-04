@@ -1,6 +1,6 @@
 package com.openelements.oss.license.scanner.clients;
 
-import com.openelements.oss.license.scanner.data.Identifier;
+import com.openelements.oss.license.scanner.api.Identifier;
 
 public record MavenIdentifier(String groupId, String artifactId, String version) {
 
@@ -16,5 +16,10 @@ public record MavenIdentifier(String groupId, String artifactId, String version)
 
     public Identifier toIdentifier() {
         return new Identifier(groupId + ":" + artifactId, version);
+    }
+
+    @Override
+    public String toString() {
+        return groupId + ":" + artifactId + ":" + version;
     }
 }

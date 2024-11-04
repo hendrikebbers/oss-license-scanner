@@ -1,6 +1,6 @@
 package com.openelements.oss.license.scanner.tools;
 
-import com.openelements.oss.license.scanner.data.Identifier;
+import com.openelements.oss.license.scanner.api.Identifier;
 import java.nio.file.Path;
 import java.util.List;
 import java.util.Set;
@@ -12,10 +12,10 @@ public class CargoHelper {
     }
 
     public static Set<CargoLibrary> callCargoTree(Path pathToProject) {
-        return ProcessHelper.executeWithResult(l -> extractDependenciesFromCargeTree(l), pathToProject.toFile(), "cargo", "tree", "--prefix", "none", "--format", "{p} {r}");
+        return ProcessHelper.executeWithResult(l -> extractDependenciesFromCargoTree(l), pathToProject.toFile(), "cargo", "tree", "--prefix", "none", "--format", "{p} {r}");
     }
 
-    private static Set<CargoLibrary> extractDependenciesFromCargeTree(List<String> treeOut) {
+    private static Set<CargoLibrary> extractDependenciesFromCargoTree(List<String> treeOut) {
         return treeOut.stream().map(line -> {
             final String[] split = line.split(" ");
             if(split.length < 2) {
