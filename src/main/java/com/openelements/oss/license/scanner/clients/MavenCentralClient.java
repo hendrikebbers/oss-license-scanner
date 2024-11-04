@@ -1,5 +1,6 @@
 package com.openelements.oss.license.scanner.clients;
 
+import com.openelements.oss.license.scanner.data.Dependency;
 import com.openelements.oss.license.scanner.data.Identifier;
 import com.openelements.oss.license.scanner.data.License;
 import java.io.ByteArrayInputStream;
@@ -11,6 +12,7 @@ import java.net.http.HttpResponse;
 import java.net.http.HttpResponse.BodyHandlers;
 import java.nio.charset.StandardCharsets;
 import java.util.Optional;
+import java.util.Set;
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 import org.slf4j.Logger;
@@ -30,7 +32,7 @@ public class MavenCentralClient {
         client = HttpClient.newHttpClient();
     }
 
-    private String getPom(Identifier identifier) throws Exception {
+    public String getPom(Identifier identifier) throws Exception {
         final String urlPrefix = "https://repo1.maven.org/maven2/";
 
         final String[] split = identifier.name().split(":");
@@ -113,7 +115,6 @@ public class MavenCentralClient {
     }
 
     public Optional<String> getRepository(Identifier identifier) {
-
         try {
             log.info("Reading repository url from pom for " + identifier);
             final String pom = getPom(identifier);

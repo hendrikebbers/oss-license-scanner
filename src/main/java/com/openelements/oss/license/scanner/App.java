@@ -15,7 +15,8 @@ public class App {
         //final Set<Dependency> dependencies = forHederaRustSdk();
         //final Set<Dependency> dependencies = forHederaSwiftSdk();
         //final Set<Dependency> dependencies = forHederaJsSdk();
-        final Set<Dependency> dependencies = forHederaEnterprise();
+        //final Set<Dependency> dependencies = forHederaEnterprise();
+        final Set<Dependency> dependencies = forJavaSdk();
         print(dependencies);
     }
 
@@ -31,12 +32,17 @@ public class App {
 
     private static Set<Dependency> forHederaJsSdk() {
         final Resolver resolver = Resolver.create(ProjectType.NPM);
-        return resolver.resolve(new Identifier("@hashgraph/sdk", "2.51.0"));
+        return resolver.resolve(new Identifier("@hashgraph/solo", "0.31.4"));
     }
 
     private static Set<Dependency> forHederaEnterprise() {
         final Resolver resolver = Resolver.create(ProjectType.MAVEN);
         return resolver.resolve(new Identifier("https://github.com/OpenElements/hedera-enterprise", "0.9.0"));
+    }
+
+    private static Set<Dependency> forJavaSdk() {
+        final Resolver resolver = Resolver.create(ProjectType.POM_ONLY);
+        return resolver.resolve(new Identifier("com.hedera.hashgraph:app", "0.55.2"));
     }
     private static void print(Set<Dependency> dependencies) {
         final Set<Dependency> flatDependencies = flattenDependencies(dependencies);
@@ -45,6 +51,7 @@ public class App {
                 .filter(d -> !d.license().isApache())
                 .filter(d -> !d.license().isBsd3())
                 .filter(d -> !d.license().isEpl2())
+                .filter(d -> !d.license().isEpl1())
                 .filter(d -> !d.license().isBsd2())
                 .forEach(d -> System.out.println(d.identifier() + " -> " + d.license()));
     }

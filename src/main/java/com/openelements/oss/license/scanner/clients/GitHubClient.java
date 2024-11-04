@@ -56,11 +56,20 @@ public class GitHubClient {
     }
 
     public static Repository parseRepository(String githubUrl) {
+        if(githubUrl.startsWith("git:git@github.com:")) {
+            return parseRepository("https://github.com/" + githubUrl.substring(19));
+        }
+        if(githubUrl.startsWith("git@github.com:")) {
+            return parseRepository("https://github.com/" + githubUrl.substring(15));
+        }
         if(githubUrl.endsWith(".git")) {
             return parseRepository(githubUrl.substring(0, githubUrl.length() - 4));
         }
         if(githubUrl.startsWith("git+")) {
             return parseRepository(githubUrl.substring(4));
+        }
+        if(githubUrl.startsWith("git:git://")) {
+            return parseRepository("https://" + githubUrl.substring(10));
         }
         if(githubUrl.startsWith("git://")) {
             return parseRepository("https://" + githubUrl.substring(6));
