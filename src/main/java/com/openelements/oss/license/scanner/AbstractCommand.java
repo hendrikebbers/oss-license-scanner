@@ -122,6 +122,7 @@ public abstract class AbstractCommand implements Callable<Integer> {
             try (CsvWriter csv = CsvWriter.builder().build(writer)) {
                 csv.writeRecord("name", "version", "repository", "license", "license-url", "license-source");
                 dependencies.stream()
+                        .sorted(Comparator.comparing(d -> d.identifier()))
                         .forEach(d -> csv.writeRecord(d.identifier().name(), d.identifier().version(), d.repository(), d.license().name(), d.license().url(), d.license().source()));
             }
         } catch (Exception e) {
