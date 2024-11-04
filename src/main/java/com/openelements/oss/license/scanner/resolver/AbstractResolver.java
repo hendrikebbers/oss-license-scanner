@@ -2,13 +2,11 @@ package com.openelements.oss.license.scanner.resolver;
 
 import com.openelements.oss.license.scanner.Resolver;
 import com.openelements.oss.license.scanner.clients.GitHubClient;
-import com.openelements.oss.license.scanner.data.Identifier;
 import java.io.File;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.Comparator;
-import java.util.function.Consumer;
 import java.util.function.Function;
 import java.util.stream.Stream;
 import org.slf4j.Logger;

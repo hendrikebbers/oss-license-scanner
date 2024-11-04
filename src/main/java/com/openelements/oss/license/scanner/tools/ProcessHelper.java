@@ -1,7 +1,6 @@
 package com.openelements.oss.license.scanner.tools;
 
 import com.google.gson.JsonElement;
-import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
 import java.io.BufferedReader;
 import java.io.File;

@@ -1,20 +1,15 @@
 package com.openelements.oss.license.scanner.resolver;
 
 import com.google.gson.JsonObject;
-import com.google.gson.JsonParser;
 import com.openelements.oss.license.scanner.Resolver;
+import com.openelements.oss.license.scanner.clients.GitHubClient;
 import com.openelements.oss.license.scanner.data.Dependency;
 import com.openelements.oss.license.scanner.data.Identifier;
-import com.openelements.oss.license.scanner.data.License;
-import com.openelements.oss.license.scanner.clients.GitHubClient;
 import com.openelements.oss.license.scanner.tools.NpmHelper;
-import java.io.BufferedReader;
 import java.io.File;
 import java.io.IOException;
-import java.io.InputStreamReader;
 import java.nio.file.Files;
 import java.nio.file.Path;
-import java.util.Collections;
 import java.util.Comparator;
 import java.util.HashSet;
 import java.util.Map;

@@ -1,8 +1,6 @@
 package com.openelements.oss.license.scanner.tools;
 
-import com.openelements.oss.license.scanner.data.Dependency;
 import com.openelements.oss.license.scanner.data.Identifier;
-import com.openelements.oss.license.scanner.data.License;
 import java.nio.file.Path;
 import java.util.List;
 import java.util.Set;
