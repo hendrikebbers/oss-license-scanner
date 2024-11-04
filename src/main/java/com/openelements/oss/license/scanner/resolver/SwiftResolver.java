@@ -36,7 +36,7 @@ public class SwiftResolver extends AbstractResolver {
     }
 
     private Dependency convertToDependency(SwiftLib lib) {
-        License license = LicenseCache.getInstance().computeIfAbsent(lib.identifier(), () -> gitHubClient.getLicense(lib.repositoryUrl()));
+        License license = LicenseCache.getInstance().computeIfAbsent(lib.identifier(), () -> gitHubClient.getLicense(lib.repositoryUrl()).orElse(License.UNKNOWN));
         return new Dependency(lib.identifier(), license, lib.repositoryUrl());
     }
 

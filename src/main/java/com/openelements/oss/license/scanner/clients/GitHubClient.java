@@ -137,7 +137,7 @@ public class GitHubClient {
         return response;
     }
 
-    public License getLicense(String repositoryUrl) {
+    public Optional<License> getLicense(String repositoryUrl) {
         final Repository repository = parseRepository(repositoryUrl);
         log.info("Getting license for repository {}/{}", repository.owner, repository.repo);
         try {
@@ -145,8 +145,7 @@ public class GitHubClient {
             final String requestUrl = GITHUB_API_URL + "/" + apiUrl;
             final HttpResponse<String>  response = sendRequest(requestUrl);
             if (response.statusCode() != 200) {
-                log.error("Failed to get repository info for {}/{}", repository.owner, repository.repo);
-                return License.UNKNOWN;
+                throw new RuntimeException("Failed to get repository info for {}/{}: " + response.body());
             }
             final String body = response.body();
             final JsonObject jsonObject = JsonParser.parseString(body).getAsJsonObject();
@@ -155,9 +154,9 @@ public class GitHubClient {
                 final String name = getOrDefault(licenseObject, "name", "Unknown");
                 final String url = getOrDefault(licenseObject, "url", "Unknown");
                 License license = new License(name, url, requestUrl);
-                return license;
+                return Optional.of(license);
             }
-            return License.UNKNOWN;
+            return Optional.empty();
         } catch (Exception e) {
             throw new RuntimeException("Failed to get license for repository: " + repository.owner + "/" + repository.repo, e);
         }

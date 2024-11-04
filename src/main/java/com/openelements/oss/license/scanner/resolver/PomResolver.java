@@ -1,6 +1,5 @@
 package com.openelements.oss.license.scanner.resolver;
 
-import com.openelements.oss.license.scanner.api.Resolver;
 import com.openelements.oss.license.scanner.clients.GitHubClient;
 import com.openelements.oss.license.scanner.clients.MavenCentralClient;
 import com.openelements.oss.license.scanner.clients.MavenIdentifier;
@@ -22,11 +21,11 @@ import java.util.stream.Stream;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-public class PomOnlyResolver extends AbstractResolver {
+public class PomResolver extends AbstractResolver {
 
-    private final static Logger log = LoggerFactory.getLogger(PomOnlyResolver.class);
+    private final static Logger log = LoggerFactory.getLogger(PomResolver.class);
 
-    public PomOnlyResolver(GitHubClient gitHubClient) {
+    public PomResolver(GitHubClient gitHubClient) {
         super(gitHubClient);
     }
 
@@ -74,28 +73,36 @@ public class PomOnlyResolver extends AbstractResolver {
 
     protected License getLicense(MavenIdentifier identifier) {
         log.info("Getting license for: " + identifier);
+        final License cachedLicense = LicenseCache.getInstance().getLicense(identifier.toIdentifier());
+        if(cachedLicense != null) {
+            return cachedLicense;
+        }
         MavenCentralClient mavenCentralClient = new MavenCentralClient();
         try {
             final Optional<String> repository = mavenCentralClient.getRepository(identifier);
             if (repository.isPresent()) {
                 log.info("Getting license from repository: " + repository.get());
-                final License license = LicenseCache.getInstance().computeIfAbsent(identifier.toIdentifier(), () ->gitHubClient.getLicense(repository.get()));
-                if(!Objects.equals(license, License.UNKNOWN)) {
-                    return license;
+                final License licenseByRepo = gitHubClient.getLicense(repository.get()).orElse(License.UNKNOWN);
+                if(!Objects.equals(licenseByRepo, License.UNKNOWN)) {
+                    LicenseCache.getInstance().addLicense(identifier.toIdentifier(), licenseByRepo);
+                    return licenseByRepo;
                 }
             }
         } catch (Exception e) {
             log.error("Error in getting license by repository", e);
         }
         try {
-            final Optional<License> licenceFromPom = mavenCentralClient.getLicenceFromPom(identifier);
-            if (licenceFromPom.isPresent()) {
-                return licenceFromPom.get();
+            log.info("Getting license from pom");
+            final License licenceFromPom = mavenCentralClient.getLicenceFromPom(identifier).orElse(License.UNKNOWN);
+            if(!Objects.equals(licenceFromPom, License.UNKNOWN)) {
+                LicenseCache.getInstance().addLicense(identifier.toIdentifier(), licenceFromPom);
+                return licenceFromPom;
             }
         } catch (Exception e) {
             log.error("Error in getting license from pom", e);
         }
         log.warn("No license found for: " + identifier);
+        LicenseCache.getInstance().addLicense(identifier.toIdentifier(), License.UNKNOWN);
         return License.UNKNOWN;
     }
 }

@@ -105,8 +105,7 @@ public class MavenCentralClient {
                     }
                 }
             }
-
-            return Optional.empty();
+            throw new RuntimeException("No license found in pom or parents for " + identifier);
         } catch (Exception e) {
             throw new RuntimeException("Error in finding license by pom for " + identifier, e);
         }

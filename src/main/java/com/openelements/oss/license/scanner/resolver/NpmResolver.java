@@ -87,7 +87,7 @@ public class NpmResolver extends AbstractResolver {
             return Optional.of(cache.get(identifier));
         }
         final Dependency dependency = NpmHelper.callNpmShowAndReturnRepository(identifier)
-                .map(repository -> new Dependency(identifier, LicenseCache.getInstance().computeIfAbsent(identifier, () -> gitHubClient.getLicense(repository)), repository))
+                .map(repository -> new Dependency(identifier, LicenseCache.getInstance().computeIfAbsent(identifier, () -> gitHubClient.getLicense(repository).orElse(License.UNKNOWN)), repository))
                 .orElseGet(() -> new Dependency(identifier, License.UNKNOWN, null));
         cache.put(identifier, dependency);
         return Optional.of(dependency);

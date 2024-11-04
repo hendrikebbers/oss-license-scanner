@@ -2,7 +2,7 @@ package com.openelements.oss.license.scanner;
 
 import com.openelements.oss.license.scanner.api.Resolver;
 import com.openelements.oss.license.scanner.clients.GitHubClient;
-import com.openelements.oss.license.scanner.resolver.PomOnlyResolver;
+import com.openelements.oss.license.scanner.resolver.PomResolver;
 import picocli.CommandLine;
 import picocli.CommandLine.Command;
 
@@ -15,7 +15,7 @@ public class JavaCommand extends AbstractCommand {
 
     @Override
     protected Resolver createResolver(GitHubClient client) {
-        return new PomOnlyResolver(client);
+        return new PomResolver(client);
     }
 
     @Override
