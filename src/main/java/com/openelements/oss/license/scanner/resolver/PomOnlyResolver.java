@@ -3,6 +3,7 @@ package com.openelements.oss.license.scanner.resolver;
 import com.openelements.oss.license.scanner.Resolver;
 import com.openelements.oss.license.scanner.clients.GitHubClient;
 import com.openelements.oss.license.scanner.clients.MavenCentralClient;
+import com.openelements.oss.license.scanner.clients.MavenIdentifier;
 import com.openelements.oss.license.scanner.data.Dependency;
 import com.openelements.oss.license.scanner.data.Identifier;
 import com.openelements.oss.license.scanner.data.License;
@@ -39,12 +40,13 @@ public class PomOnlyResolver implements Resolver {
             Path tempDir = Files.createTempDirectory("unzipped_repo");
             try {
                 MavenCentralClient mavenCentralClient = new MavenCentralClient();
-                final String pom = mavenCentralClient.getPom(identifier);
+                final MavenIdentifier mavenIdentifier = new MavenIdentifier(identifier);
+                final String pom = mavenCentralClient.getPom(mavenIdentifier);
                 Files.write(tempDir.resolve("pom.xml"), pom.getBytes());
                 return MavenHelper.getDependenciesFromPom(tempDir).stream()
                         .map(i -> {
                            License license = getLicense(i);
-                            return new Dependency(i, "UNKNOWN", Set.of(), license, "UNKNOWN");
+                            return new Dependency(i.toIdentifier(), "UNKNOWN", Set.of(), license, "UNKNOWN");
                         }).collect(Collectors.toSet());
             } catch (Exception e) {
                 log.error("Error in resolving dependencies", e);
@@ -64,7 +66,7 @@ public class PomOnlyResolver implements Resolver {
         return null;
     }
 
-    protected License getLicense(Identifier identifier) {
+    protected License getLicense(MavenIdentifier identifier) {
         log.info("Getting license for: " + identifier);
         MavenCentralClient mavenCentralClient = new MavenCentralClient();
         try {

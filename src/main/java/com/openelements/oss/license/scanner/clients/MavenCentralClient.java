@@ -1,6 +1,5 @@
 package com.openelements.oss.license.scanner.clients;
 
-import com.openelements.oss.license.scanner.data.Dependency;
 import com.openelements.oss.license.scanner.data.Identifier;
 import com.openelements.oss.license.scanner.data.License;
 import java.io.ByteArrayInputStream;
@@ -12,7 +11,6 @@ import java.net.http.HttpResponse;
 import java.net.http.HttpResponse.BodyHandlers;
 import java.nio.charset.StandardCharsets;
 import java.util.Optional;
-import java.util.Set;
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 import org.slf4j.Logger;
@@ -32,13 +30,10 @@ public class MavenCentralClient {
         client = HttpClient.newHttpClient();
     }
 
-    public String getPom(Identifier identifier) throws Exception {
+    public String getPom(MavenIdentifier identifier) throws Exception {
         final String urlPrefix = "https://repo1.maven.org/maven2/";
-
-        final String[] split = identifier.name().split(":");
-
-        final String urlPath = split[0].replace(".", "/") + "/" + split[1];
-        final String urlFile = split[1] + "-" + identifier.version() + ".pom";
+        final String urlPath = identifier.groupId().replace(".", "/") + "/" + identifier.artifactId();
+        final String urlFile = identifier.artifactId() + "-" + identifier.version() + ".pom";
         final String url = urlPrefix + urlPath + "/" + identifier.version() + "/" + urlFile;
         HttpRequest request = HttpRequest.newBuilder()
                 .uri(new URI(url)).build();
@@ -47,7 +42,7 @@ public class MavenCentralClient {
         return pomContent.replaceAll("<hr>", "<hr />");
     }
 
-    public Optional<License> getLicenceFromPom(Identifier identifier) {
+    public Optional<License> getLicenceFromPom(MavenIdentifier identifier) {
         try {
             log.info("Reading license from pom for " + identifier);
             final String pom = getPom(identifier);
@@ -102,7 +97,7 @@ public class MavenCentralClient {
                         Element parentArtifactIdElement = (Element) parentArtifactIdList.item(0);
                         Element parentGroupIdElement = (Element) parentGroupIdList.item(0);
                         Element parentVersionElement = (Element) parentVersionList.item(0);
-                        Identifier parentIdentifier = new Identifier(parentGroupIdElement.getTextContent() + ":" + parentArtifactIdElement.getTextContent(), parentVersionElement.getTextContent());
+                        MavenIdentifier parentIdentifier = new MavenIdentifier(parentGroupIdElement.getTextContent(), parentArtifactIdElement.getTextContent(), parentVersionElement.getTextContent());
                         return getLicenceFromPom(parentIdentifier);
                     }
                 }
@@ -115,6 +110,10 @@ public class MavenCentralClient {
     }
 
     public Optional<String> getRepository(Identifier identifier) {
+        return getRepository(new MavenIdentifier(identifier));
+    }
+
+    public Optional<String> getRepository(MavenIdentifier identifier) {
         try {
             log.info("Reading repository url from pom for " + identifier);
             final String pom = getPom(identifier);
@@ -157,7 +156,7 @@ public class MavenCentralClient {
                         Element parentArtifactIdElement = (Element) parentArtifactIdList.item(0);
                         Element parentGroupIdElement = (Element) parentGroupIdList.item(0);
                         Element parentVersionElement = (Element) parentVersionList.item(0);
-                        Identifier parentIdentifier = new Identifier(parentGroupIdElement.getTextContent() + ":" + parentArtifactIdElement.getTextContent(), parentVersionElement.getTextContent());
+                        MavenIdentifier parentIdentifier = new MavenIdentifier(parentGroupIdElement.getTextContent(), parentArtifactIdElement.getTextContent(), parentVersionElement.getTextContent());
                         return getRepository(parentIdentifier);
                     }
                 }

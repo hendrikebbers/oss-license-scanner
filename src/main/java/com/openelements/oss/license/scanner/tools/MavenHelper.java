@@ -1,5 +1,6 @@
 package com.openelements.oss.license.scanner.tools;
 
+import com.openelements.oss.license.scanner.clients.MavenIdentifier;
 import com.openelements.oss.license.scanner.data.Identifier;
 import java.nio.file.Path;
 import java.nio.file.Paths;
@@ -18,7 +19,7 @@ public class MavenHelper {
         ProcessHelper.execute(l -> l.forEach(log::debug), pathToProject.toFile(), "mvn", "wrapper:wrapper");
     }
 
-    private static Set<Identifier> extractDependenciesFromMavenOut(List<String> lines) {
+    private static Set<MavenIdentifier> extractDependenciesFromMavenOut(List<String> lines) {
         lines.forEach(l -> log.info(l));
         return lines.stream()
                 .filter(l -> l.startsWith("[INFO]    "))
@@ -29,12 +30,12 @@ public class MavenHelper {
                     if (split.length < 3) {
                         throw new RuntimeException("Invalid dependency: " + l);
                     }
-                    return new Identifier(split[0] + ":" + split[1], split[3]);
+                    return new MavenIdentifier(split[0], split[1], split[3]);
                 })
                 .collect(Collectors.toUnmodifiableSet());
     }
 
-    public static Set<Identifier> getDependenciesFromPom(Path pathToProject) {
+    public static Set<MavenIdentifier> getDependenciesFromPom(Path pathToProject) {
         if(!Paths.get(pathToProject.toFile().getAbsolutePath(), "mvnw").toFile().exists()) {
             installMavenWrapper(pathToProject);
         }

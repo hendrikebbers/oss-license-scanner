@@ -12,8 +12,8 @@ public class App {
 
     public static void main(String[] args) {
 
-        final Set<Dependency> dependencies = forHederaRustSdk();
-        //final Set<Dependency> dependencies = forHederaSwiftSdk();
+        //final Set<Dependency> dependencies = forHederaRustSdk();
+        final Set<Dependency> dependencies = forHederaSwiftSdk();
         //final Set<Dependency> dependencies = forHederaJsSdk();
         //final Set<Dependency> dependencies = forHederaEnterprise();
         //final Set<Dependency> dependencies = forJavaSdk();
