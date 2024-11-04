@@ -39,7 +39,6 @@ public class CargoHelper {
         }).collect(Collectors.toUnmodifiableSet());
     }
 
-
     private static String extractRepoFromCargoInfoOut(List<String> cargoInfoOut) {
         return cargoInfoOut.stream()
                 .filter(line -> line.startsWith("repository:"))
