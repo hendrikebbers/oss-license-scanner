@@ -41,14 +41,18 @@ public class GitHubClient {
 
     private final HttpClient client;
 
-    public GitHubClient() {
-        githubToken = System.getenv(GITHUB_TOKEN);
-        if(githubToken != null) {
-            log.info("Using {} environment variable for GitHub API authentication", githubToken);
+    public GitHubClient(String githubToken) {
+        if(githubToken == null) {
+            final String tokenFromEnv = System.getenv(GITHUB_TOKEN);
+            if(tokenFromEnv != null) {
+                this.githubToken = tokenFromEnv;
+            } else {
+                log.warn("{} environment variable not found, GitHub API rate limits will apply", GITHUB_TOKEN);
+                this.githubToken = null;
+            }
         } else {
-            log.warn("{} environment variable not found, GitHub API rate limits will apply", GITHUB_TOKEN);
+            this.githubToken = githubToken;
         }
-
         client = HttpClient.newHttpClient();
     }
 

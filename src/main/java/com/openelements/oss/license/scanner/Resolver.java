@@ -12,20 +12,4 @@ import java.util.Set;
 public interface Resolver {
 
     Set<Dependency> resolve(Identifier identifier);
-
-    static Resolver create(ProjectType type) {
-        final GitHubClient githubClient = new GitHubClient();
-        switch (type) {
-            case CARGO:
-                return new CargoResolver(githubClient);
-            case SWIFT:
-                return new SwiftResolver(githubClient);
-            case NPM:
-                return new NpmResolver(githubClient);
-            case POM:
-                return new PomOnlyResolver(githubClient);
-            default:
-                throw new IllegalArgumentException("Unknown project type: " + type);
-        }
-    }
 }
