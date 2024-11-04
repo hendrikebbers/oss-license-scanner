@@ -46,7 +46,7 @@ public class PomOnlyResolver implements Resolver {
                 return MavenHelper.getDependenciesFromPom(tempDir).stream()
                         .map(i -> {
                            License license = getLicense(i);
-                            return new Dependency(i.toIdentifier(), "UNKNOWN", Set.of(), license, "UNKNOWN");
+                            return new Dependency(i.toIdentifier(), license, "UNKNOWN");
                         }).collect(Collectors.toSet());
             } catch (Exception e) {
                 log.error("Error in resolving dependencies", e);

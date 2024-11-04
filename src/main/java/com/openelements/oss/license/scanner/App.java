@@ -45,8 +45,7 @@ public class App {
         return resolver.resolve(new Identifier("com.hedera.hashgraph:app", "0.55.2"));
     }
     private static void print(Set<Dependency> dependencies) {
-        final Set<Dependency> flatDependencies = flattenDependencies(dependencies);
-        flatDependencies.stream()
+        dependencies.stream()
                 .filter(d -> !d.license().isMit())
                 .filter(d -> !d.license().isApache())
                 .filter(d -> !d.license().isBsd3())
@@ -54,14 +53,5 @@ public class App {
                 .filter(d -> !d.license().isEpl1())
                 .filter(d -> !d.license().isBsd2())
                 .forEach(d -> System.out.println(d.identifier() + " -> " + d.license()));
-    }
-
-    private static Set<Dependency> flattenDependencies(Collection<Dependency> dependencies) {
-        Set<Dependency> flatSet = new HashSet<>();
-        dependencies.forEach(d -> {
-            flatSet.add(d);
-                flatSet.addAll(flattenDependencies(d.dependencies()));
-        });
-        return flatSet;
     }
 }

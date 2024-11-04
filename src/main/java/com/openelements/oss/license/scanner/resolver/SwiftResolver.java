@@ -39,10 +39,8 @@ public class SwiftResolver extends AbstractResolver {
     }
 
     private Dependency convertToDependency(SwiftLib lib) {
-        final Set<Dependency> dependencies = new HashSet<>();
-        final String scope = "UNKNOWN";
         License license = gitHubClient.getLicense(lib.repositoryUrl());
-        return new Dependency(lib.identifier(), scope, dependencies, license, lib.repositoryUrl());
+        return new Dependency(lib.identifier(), license, lib.repositoryUrl());
     }
 
     private Set<Dependency> getAllDependencies(Path pathToProject) {

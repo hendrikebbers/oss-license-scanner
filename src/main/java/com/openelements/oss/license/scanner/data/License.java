@@ -52,7 +52,6 @@ public record License(String name, String url) {
         return Objects.equals(url, "https://www.eclipse.org/legal/epl-v10.html");
     }
 
-
     public boolean isPublicDomain() {
         return Objects.equals(url, "https://api.github.com/licenses/unlicense");
     }

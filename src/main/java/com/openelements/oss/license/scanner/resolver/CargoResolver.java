@@ -32,7 +32,7 @@ public class CargoResolver extends AbstractResolver {
     private Set<Dependency> convertToDependency(Set<CargoLibrary> libs) {
         return libs.stream().map(lib -> {
             final License license = gitHubClient.getLicense(lib.repository());
-            return new Dependency(lib.identifier(), "unknown", Set.of(), license, lib.repository());
+            return new Dependency(lib.identifier(), license, lib.repository());
         }).collect(Collectors.toUnmodifiableSet());
     }
 

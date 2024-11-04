@@ -100,7 +100,7 @@ public class NpmResolver implements Resolver {
             return Optional.ofNullable(cache.get(identifier));
         }
         final Dependency dependency = NpmHelper.callNpmShowAndReturnRepository(identifier)
-                .map(repository -> new Dependency(identifier, "unknown", Set.of(), gitHubClient.getLicense(repository), repository))
+                .map(repository -> new Dependency(identifier, gitHubClient.getLicense(repository), repository))
                 .orElseGet(() -> null);
         cache.put(identifier, dependency);
         return Optional.ofNullable(dependency);
