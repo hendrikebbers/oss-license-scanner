@@ -4,7 +4,7 @@ org.codehaus.mojo:animal-sniffer-annotations,1.23,https://github.com/mojohaus/an
 com.google.j2objc:j2objc-annotations,2.8,UNKNOWN,"Apache License, Version 2.0",http://www.apache.org/licenses/LICENSE-2.0.txt,pom(com.google.j2objc:j2objc-annotations:2.8)
 org.bouncycastle:bcpkix-jdk18on,1.78.1,https://github.com/bcgit/bc-java,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/bcgit/bc-java
 org.bouncycastle:bcprov-jdk18on,1.78.1,https://github.com/bcgit/bc-java,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/bcgit/bc-java
-org.checkerframework:checker-qual,3.37.0,https://github.com/typetools/checker-framework,Unknown,Unknown,Manually Added
+org.checkerframework:checker-qual,3.37.0,https://github.com/typetools/checker-framework,Unknown,Unknown,-
 io.grpc:grpc-core,1.64.0,https://github.com/grpc/grpc-java,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/grpc/grpc-java
 com.google.protobuf:protobuf-javalite,3.25.3,https://github.com/protocolbuffers/protobuf,BSD 3-Clause,https://api.github.com/licenses/bsd-3-clause,https://developers.google.com/open-source/licenses/bsd
 com.google.errorprone:error_prone_annotations,2.21.1,https://github.com/google/error-prone,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/google/error-prone

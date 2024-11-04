@@ -5,13 +5,13 @@ base32-encode,2.0.0,https://github.com/LinusU/base32-encode,MIT License,https://
 vue-router,4.4.5,https://github.com/vuejs/router,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/vuejs/router
 axios,1.7.7,https://github.com/axios/axios,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/axios/axios
 @hashgraph/proto,2.15.0,https://github.com/hashgraph/hedera-sdk-js,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/hashgraph/hedera-sdk-js
-multiformats,13.3.0,https://github.com/multiformats/js-multiformats,Unknown,Unknown,Manually Added
+multiformats,13.3.0,https://github.com/multiformats/js-multiformats,Unknown,Unknown,-
 ethers,6.13.4,https://github.com/ethers-io/ethers.js,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/ethers-io/ethers.js
-jszip,3.10.1,https://github.com/Stuk/jszip,Unknown,Unknown,Manually Added
+jszip,3.10.1,https://github.com/Stuk/jszip,Unknown,Unknown,-
 @hashgraph/sdk,2.52.0,https://github.com/hashgraph/hedera-sdk-js,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/hashgraph/hedera-sdk-js
 @bladelabs/blade-web3.js,1.2.2,https://github.com/Blade-Labs/blade-web3.js,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/Blade-Labs/blade-web3.js
-file-saver,2.0.5,https://github.com/eligrey/FileSaver.js,Unknown,Unknown,Manually Added
-base32-decode,1.0.0,https://github.com/LinusU/base32-decode,Unknown,Unknown,Manually Added
+file-saver,2.0.5,https://github.com/eligrey/FileSaver.js,Unknown,Unknown,-
+base32-decode,1.0.0,https://github.com/LinusU/base32-decode,Unknown,Unknown,-
 @fortawesome/vue-fontawesome,3.0.8,https://github.com/FortAwesome/vue-fontawesome,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/FortAwesome/vue-fontawesome
 @fortawesome/free-solid-svg-icons,6.6.0,https://github.com/FortAwesome/Font-Awesome,CC-BY-4.0 AND MIT,https://www.npmjs.com/package/@fortawesome/free-brands-svg-icons,https://www.npmjs.com/package/@fortawesome/free-brands-svg-icons
 bulma,0.9.4,https://github.com/jgthms/bulma,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/jgthms/bulma

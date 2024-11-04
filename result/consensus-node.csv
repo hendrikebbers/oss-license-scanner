@@ -78,7 +78,7 @@ com.fasterxml.jackson.core:jackson-core,2.16.0,https://github.com/FasterXML/jack
 org.jetbrains.kotlin:kotlin-stdlib-jdk7,1.8.21,https://github.com/JetBrains/kotlin,"The Apache License, Version 2.0",http://www.apache.org/licenses/LICENSE-2.0.txt,pom(org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.8.21)
 io.netty:netty-resolver,4.1.110.Final,https://github.com/netty/netty,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/netty/netty
 com.github.spotbugs:spotbugs-annotations,4.7.3,https://github.com/spotbugs/spotbugs/,GNU Lesser General Public License v2.1,https://api.github.com/licenses/lgpl-2.1,https://api.github.com/repos/spotbugs/spotbugs
-org.checkerframework:checker-qual,3.41.0,https://github.com/typetools/checker-framework,Unknown,Unknown,Manually Added
+org.checkerframework:checker-qual,3.41.0,https://github.com/typetools/checker-framework,Unknown,Unknown,-
 org.hyperledger.besu:evm,24.3.3,UNKNOWN,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://github.com/hyperledger/besu/?tab=Apache-2.0-1-ov-file#readme
 org.codehaus.mojo:animal-sniffer-annotations,1.23,https://github.com/mojohaus/animal-sniffer/tree/master,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/mojohaus/animal-sniffer
 com.hedera.hashgraph:app-service-addressbook,0.55.2,https://github.com/hashgraph/hedera-services,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/hashgraph/hedera-services
@@ -95,7 +95,7 @@ io.netty:netty-codec-http,4.1.100.Final,https://github.com/netty/netty,Apache Li
 org.hyperledger.besu:besu-datatypes,24.3.3,UNKNOWN,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://github.com/hyperledger/besu/?tab=Apache-2.0-1-ov-file#readme
 org.jetbrains:annotations,13.0,https://github.com/JetBrains/intellij-community,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/JetBrains/intellij-community
 com.hedera.hashgraph:app-spi,0.55.2,https://github.com/hashgraph/hedera-services,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/hashgraph/hedera-services
-tech.pegasys:jc-kzg-4844,0.8.0,UNKNOWN,Unknown,Unknown,Manually Added
+tech.pegasys:jc-kzg-4844,0.8.0,UNKNOWN,Unknown,Unknown,-
 com.github.ben-manes.caffeine:caffeine,3.1.8,https://github.com/ben-manes/caffeine,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/ben-manes/caffeine
 com.swirlds:swirlds-virtualmap,0.55.2,https://github.com/hashgraph/hedera-services,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/hashgraph/hedera-services
 com.swirlds:swirlds-config-api,0.55.2,https://github.com/hashgraph/hedera-services,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/hashgraph/hedera-services
@@ -122,7 +122,7 @@ com.swirlds:swirlds-logging,0.55.2,https://github.com/hashgraph/hedera-services,
 com.hedera.hashgraph:config,0.55.2,https://github.com/hashgraph/hedera-services,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/hashgraph/hedera-services
 org.hyperledger.besu:secp256r1,0.8.2,UNKNOWN,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://github.com/hyperledger/besu/?tab=Apache-2.0-1-ov-file#readme
 io.netty:netty-codec,4.1.110.Final,https://github.com/netty/netty,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/netty/netty
-net.java.dev.jna:jna,5.14.0,https://github.com/java-native-access/jna,Unknown,Unknown,Manually Added
+net.java.dev.jna:jna,5.14.0,https://github.com/java-native-access/jna,Unknown,Unknown,-
 io.prometheus:simpleclient_tracer_otel,0.16.0,https://github.com/prometheus/client_java,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/prometheus/client_java
 io.netty:netty-handler-proxy,4.1.100.Final,https://github.com/netty/netty,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/netty/netty
 com.swirlds:swirlds-cli,0.55.2,https://github.com/hashgraph/hedera-services,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/hashgraph/hedera-services

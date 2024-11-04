@@ -2,7 +2,7 @@ name,version,repository,license,license-url,license-source
 @ethereumjs/trie,6.2.1,https://github.com/ethereumjs/ethereumjs-monorepo,Mozilla Public License 2.0,https://api.github.com/licenses/mpl-2.0,https://github.com/ethereumjs/ethereumjs-monorepo/tree/27e2c0276e25b8b5d29615752c56e2563fe1ca1e/packages/trie
 uuid,3.4.0,https://github.com/uuidjs/uuid,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/uuidjs/uuid
 pino,7.11.0,https://github.com/pinojs/pino,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/pinojs/pino
-lodash,4.17.21,https://github.com/lodash/lodash,Unknown,Unknown,Manually Added
+lodash,4.17.21,https://github.com/lodash/lodash,Unknown,Unknown,-
 lru-cache,7.18.3,https://github.com/isaacs/node-lru-cache,ISC License,https://api.github.com/licenses/isc,https://api.github.com/repos/isaacs/node-lru-cache
 @hashgraph/json-rpc-config-service,0.60.0-SNAPSHOT,,Unknown,Unknown,Unknown
 lerna,8.1.8,https://github.com/lerna/lerna,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/lerna/lerna
@@ -21,17 +21,17 @@ koa-cors,0.0.16,https://github.com/evert0n/koa-cors,MIT License,https://api.gith
 ethers,6.13.2,https://github.com/ethers-io/ethers.js,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/ethers-io/ethers.js
 @ethersproject/asm,5.7.0,https://github.com/ethers-io/ethers.js,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/ethers-io/ethers.js
 @keyvhq/core,1.6.26,https://github.com/microlinkhq/keyv,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/microlinkhq/keyv
-rlp,3.0.0,https://github.com/ethereumjs/ethereumjs-monorepo,Unknown,Unknown,Manually Added
+rlp,3.0.0,https://github.com/ethereumjs/ethereumjs-monorepo,Unknown,Unknown,-
 find-config,1.0.0,https://github.com/shannonmoeller/find-config,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/shannonmoeller/find-config
 @hashgraph/json-rpc-relay,0.60.0-SNAPSHOT,,Unknown,Unknown,Unknown
 keyv,4.5.4,https://github.com/jaredwray/keyv,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/jaredwray/keyv
 co-body,6.2.0,https://github.com/cojs/co-body,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/cojs/co-body
 @ethereumjs/rlp,5.0.2,https://github.com/ethereumjs/ethereumjs-monorepo,Mozilla Public License 2.0,https://api.github.com/licenses/mpl-2.0,https://github.com/ethereumjs/ethereumjs-monorepo/blob/master/packages/rlp/LICENSE
-buffer,6.0.3,https://github.com/feross/buffer,Unknown,Unknown,Manually Added
+buffer,6.0.3,https://github.com/feross/buffer,Unknown,Unknown,-
 better-lookup,1.4.1,https://github.com/ayonli/better-lookup,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/ayonli/better-lookup
 @hashgraph/json-rpc-ws-server,0.60.0-SNAPSHOT,,Unknown,Unknown,Unknown
 redis,4.7.0,https://github.com/redis/node-redis,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/redis/node-redis
-axios-retry,3.9.1,https://github.com/softonic/axios-retry,Unknown,Unknown,Manually Added
+axios-retry,3.9.1,https://github.com/softonic/axios-retry,Unknown,Unknown,-
 koa-router,13.0.1,https://github.com/koajs/router,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/koajs/router
 koa-body-parser,0.2.1,https://github.com/koajs/body-parser,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/koajs/body-parser
 koa-logger,3.2.1,https://github.com/koajs/logger,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/koajs/logger

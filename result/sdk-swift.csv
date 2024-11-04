@@ -3,7 +3,7 @@ NumberKit,2.6.0,https://github.com/objecthub/swift-numberkit,Apache License 2.0,
 async-http-client,1.20.0,https://github.com/swift-server/async-http-client,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/swift-server/async-http-client
 SymbolKit,1.0.0,https://github.com/apple/swift-docc-symbolkit,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/apple/swift-docc-symbolkit
 SwiftDocCPlugin,1.3.0,https://github.com/apple/swift-docc-plugin,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/apple/swift-docc-plugin
-CryptoSwift,1.8.0,https://github.com/krzyzanowskim/CryptoSwift,Unknown,Unknown,Manually Added
+CryptoSwift,1.8.0,https://github.com/krzyzanowskim/CryptoSwift,Unknown,Unknown,-
 swift-syntax,509.1.1,https://github.com/apple/swift-syntax,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/apple/swift-syntax
 grpc-swift,1.23.0,https://github.com/grpc/grpc-swift,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/grpc/grpc-swift
 websocket-kit,2.15.0,https://github.com/vapor/websocket-kit,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/vapor/websocket-kit

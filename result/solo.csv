@@ -1,5 +1,5 @@
 name,version,repository,license,license-url,license-source
-esm,3.2.25,https://github.com/standard-things/esm,js,Unknown,Manually Added
+esm,3.2.25,https://github.com/standard-things/esm,js,Unknown,-
 ts-node,10.9.2,https://github.com/TypeStrong/ts-node,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/TypeStrong/ts-node
 figlet,1.8.0,https://github.com/patorjk/figlet.js,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/patorjk/figlet.js
 yaml,2.6.0,https://github.com/eemeli/yaml,ISC License,https://api.github.com/licenses/isc,https://api.github.com/repos/eemeli/yaml
@@ -11,7 +11,7 @@ uuid,11.0.2,https://github.com/uuidjs/uuid,MIT License,https://api.github.com/li
 jsdoc,4.0.4,https://github.com/jsdoc/jsdoc,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/jsdoc/jsdoc
 @peculiar/x509,1.12.3,https://github.com/PeculiarVentures/x509,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/PeculiarVentures/x509
 js-base64,3.7.7,https://github.com/dankogai/js-base64,"BSD 3-Clause ""New"" or ""Revised"" License",https://api.github.com/licenses/bsd-3-clause,https://api.github.com/repos/dankogai/js-base64
-ip,2.0.1,https://github.com/indutny/node-ip,js,Unknown,Manually Added
+ip,2.0.1,https://github.com/indutny/node-ip,js,Unknown,-
 js-yaml,4.1.0,https://github.com/nodeca/js-yaml,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/nodeca/js-yaml
 @hashgraph/sdk,2.52.0,https://github.com/hashgraph/hedera-sdk-js,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/hashgraph/hedera-sdk-js
 chalk,5.3.0,https://github.com/chalk/chalk,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/chalk/chalk
