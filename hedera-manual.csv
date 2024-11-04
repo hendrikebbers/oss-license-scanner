@@ -35,8 +35,8 @@ org.codehaus.plexus:plexus-classworlds,2.8.0,java,Unknown,Unknown,-
 jakarta.json:jakarta.json-api,2.1.0,java,Unknown,Unknown,-
 org.checkerframework:checker-qual,3.37.0,java,Unknown,Unknown,-
 CryptoSwift,1.8.0,swift,Unknown,Unknown,-
-ip,2.0.1,js,js,Unknown,-
-esm,3.2.25,js,js,Unknown,-
+ip,2.0.1,js,Unknown,Unknown,-
+esm,3.2.25,js,Unknown,Unknown,-
 @web3-storage/w3up-client,16.0.0,js,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://github.com/storacha/w3up?tab=License-1-ov-file#readme
 @ethereumjs/util,9.1.0,js,Mozilla Public License 2.0,https://api.github.com/licenses/mpl-2.0,https://github.com/ethereumjs/ethereumjs-monorepo/blob/master/packages/util/LICENSE
 @ethereumjs/rlp,5.0.2,js,Mozilla Public License 2.0,https://api.github.com/licenses/mpl-2.0,https://github.com/ethereumjs/ethereumjs-monorepo/blob/master/packages/rlp/LICENSE
