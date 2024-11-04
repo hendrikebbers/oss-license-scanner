@@ -31,9 +31,9 @@ jakarta.transaction:jakarta.transaction-api,2.0.1,java,Unknown,Unknown,-
 org.eclipse.parsson:parsson,1.1.6,java,Unknown,Unknown,-
 org.checkerframework:checker-qual,3.33.0,java,Unknown,Unknown,-
 org.graalvm.sdk:word,23.1.2,java,Unknown,Unknown,-
-org.codehaus.plexus:plexus-classworlds,2.8.0,java,Unknown,Unknown,-
+org.codehaus.plexus:plexus-classworlds,2.8.0,java,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://github.com/codehaus-plexus/plexus-classworlds?tab=License-1-ov-file#readme
 jakarta.json:jakarta.json-api,2.1.0,java,Unknown,Unknown,-
-org.checkerframework:checker-qual,3.37.0,java,Unknown,Unknown,-
+org.checkerframework:checker-qual,3.37.0,java,MIT License,https://api.github.com/licenses/mit,https://repo1.maven.org/maven2/org/checkerframework/checker-qual/3.33.0/checker-qual-3.33.0.pom
 CryptoSwift,1.8.0,swift,Unknown,Unknown,-
 ip,2.0.1,js,Unknown,Unknown,-
 esm,3.2.25,js,Unknown,Unknown,-
@@ -49,14 +49,14 @@ buffer,6.0.3,js,Unknown,Unknown,-
 @hashgraph/json-rpc-server,0.60.0-SNAPSHOT,js,Unknown,Unknown,-
 @hashgraph/json-rpc-relay,0.60.0-SNAPSHOT,js,Unknown,Unknown,-
 @hashgraph/json-rpc-ws-server,0.60.0-SNAPSHOT,js,Unknown,Unknown,-
-rlp,3.0.0,js,Unknown,Unknown,-
-lodash,4.17.21,js,Unknown,Unknown,-
-axios-retry,3.9.1,js,Unknown,Unknown,-
-blessed,0.1.81,js,Unknown,Unknown,-
-blessed-terminal,0.1.22,js,Unknown,Unknown,-
-@kabuto-sh/ns,0.14.2,js,Unknown,Unknown,-
-multiformats,13.3.0,js,Unknown,Unknown,-
-file-saver,2.0.5,js,Unknown,Unknown,-
+rlp,3.0.0,js,Mozilla Public License 2.0,https://api.github.com/licenses/mpl-2.0,https://www.npmjs.com/package/rlp
+lodash,4.17.21,js,MIT License,https://api.github.com/licenses/mit,https://www.npmjs.com/package/lodash
+axios-retry,3.9.1,js,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://www.npmjs.com/package/axios-retry
+blessed,0.1.81,js,MIT License,https://api.github.com/licenses/mit,https://www.npmjs.com/package/blessed
+blessed-terminal,0.1.22,js,MIT License,https://api.github.com/licenses/mit,https://www.npmjs.com/package/blessed-terminal
+@kabuto-sh/ns,0.14.2,js,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://www.npmjs.com/package/@kabuto-sh/ns
+multiformats,13.3.0,js,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://www.npmjs.com/package/multiformats
+file-saver,2.0.5,js,MIT License,https://api.github.com/licenses/mit,https://www.npmjs.com/package/file-saver
 jszip,3.10.1,js,Unknown,Unknown,-
 base32-decode,1.0.0,js,Unknown,Unknown,-
 crypto-js,4.2.0,js,Unknown,Unknown,-

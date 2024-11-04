@@ -1,21 +1,21 @@
 name,version,repository,license,license-url,license-source
-@nestjs/typeorm,10.0.2,https://github.com/nestjs/typeorm,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/nestjs/typeorm
-@nestjs/config,3.1.1,https://github.com/nestjs/config,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/nestjs/config
-typeorm,0.3.20,https://github.com/typeorm/typeorm,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/typeorm/typeorm
-@nestjs/jwt,10.2.0,https://github.com/nestjs/jwt,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/nestjs/jwt
-@nestjs/common,10.3.0,https://github.com/nestjs/nest,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/nestjs/nest
-mysql2,3.10.0,https://github.com/sidorares/node-mysql2,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/sidorares/node-mysql2
-rxjs,7.8.1,https://github.com/reactivex/rxjs,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/reactivex/rxjs
 @hashgraph/sdk,2.50.0,https://github.com/hashgraph/hedera-sdk-js,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/hashgraph/hedera-sdk-js
-class-transformer,0.5.1,https://github.com/typestack/class-transformer,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/typestack/class-transformer
-reflect-metadata,0.1.14,https://github.com/rbuckton/reflect-metadata,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/rbuckton/reflect-metadata
-pino,9.1.0,https://github.com/pinojs/pino,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/pinojs/pino
-class-validator,0.14.1,https://github.com/typestack/class-validator,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/typestack/class-validator
-@nestjs/swagger,7.2.0,https://github.com/nestjs/swagger,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/nestjs/swagger
-nestjs-pino,4.1.0,https://github.com/iamolegga/nestjs-pino,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/iamolegga/nestjs-pino
+@nestjs/common,10.3.0,https://github.com/nestjs/nest,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/nestjs/nest
+@nestjs/config,3.1.1,https://github.com/nestjs/config,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/nestjs/config
 @nestjs/core,10.3.0,https://github.com/nestjs/nest,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/nestjs/nest
+@nestjs/jwt,10.2.0,https://github.com/nestjs/jwt,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/nestjs/jwt
 @nestjs/mapped-types,2.0.4,https://github.com/nestjs/mapped-types,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/nestjs/mapped-types
-zod,3.23.8,https://github.com/colinhacks/zod,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/colinhacks/zod
-@web3-storage/w3up-client,16.0.0,https://github.com/w3s-project/w3up,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://github.com/storacha/w3up?tab=License-1-ov-file#readme
 @nestjs/platform-express,10.3.8,https://github.com/nestjs/nest,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/nestjs/nest
+@nestjs/swagger,7.2.0,https://github.com/nestjs/swagger,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/nestjs/swagger
+@nestjs/typeorm,10.0.2,https://github.com/nestjs/typeorm,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/nestjs/typeorm
+@web3-storage/w3up-client,16.0.0,https://github.com/w3s-project/w3up,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://github.com/storacha/w3up?tab=License-1-ov-file#readme
+class-transformer,0.5.1,https://github.com/typestack/class-transformer,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/typestack/class-transformer
+class-validator,0.14.1,https://github.com/typestack/class-validator,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/typestack/class-validator
+mysql2,3.10.0,https://github.com/sidorares/node-mysql2,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/sidorares/node-mysql2
+nestjs-pino,4.1.0,https://github.com/iamolegga/nestjs-pino,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/iamolegga/nestjs-pino
+pino,9.1.0,https://github.com/pinojs/pino,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/pinojs/pino
 pino-http,10.1.0,https://github.com/pinojs/pino-http,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/pinojs/pino-http
+reflect-metadata,0.1.14,https://github.com/rbuckton/reflect-metadata,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/rbuckton/reflect-metadata
+rxjs,7.8.1,https://github.com/reactivex/rxjs,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/reactivex/rxjs
+typeorm,0.3.20,https://github.com/typeorm/typeorm,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/typeorm/typeorm
+zod,3.23.8,https://github.com/colinhacks/zod,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/colinhacks/zod

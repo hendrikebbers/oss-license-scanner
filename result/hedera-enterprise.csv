@@ -1,231 +1,231 @@
 name,version,repository,license,license-url,license-source
-javax.inject:javax.inject,1,UNKNOWN,"The Apache Software License, Version 2.0",http://www.apache.org/licenses/LICENSE-2.0.txt,pom(javax.inject:javax.inject:1)
-com.open-elements.hedera:hedera-spring,0.10.0-SNAPSHOT,UNKNOWN,Apache License 2.0,https://api.github.com/licenses/apache-2.0,-
-org.ow2.asm:asm-analysis,9.6,UNKNOWN,BSD-3-Clause,https://asm.ow2.io/license.html,pom(org.ow2.asm:asm-analysis:9.6)
-org.mockito:mockito-core,5.11.0,https://github.com/mockito/mockito,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/mockito/mockito
-ch.qos.logback:logback-core,1.5.6,https://github.com/qos-ch/logback,Eclipse Public License v1.0,https://www.eclipse.org/legal/epl-v10.html,https://github.com/qos-ch/logback?tab=License-1-ov-file#readme
-org.apache.tomcat.embed:tomcat-embed-core,10.1.24,UNKNOWN,"Apache License, Version 2.0",http://www.apache.org/licenses/LICENSE-2.0.txt,pom(org.apache.tomcat.embed:tomcat-embed-core:10.1.24)
-jakarta.enterprise:jakarta.enterprise.lang-model,4.0.1,https://github.com/eclipse-ee4j/cdi,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/eclipse-ee4j/cdi
-org.bouncycastle:bcpkix-jdk15to18,1.76,https://github.com/bcgit/bc-java,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/bcgit/bc-java
-org.springframework.boot:spring-boot-test-autoconfigure,3.3.0,https://github.com/spring-projects/spring-boot,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/spring-projects/spring-boot
-com.fasterxml.jackson.core:jackson-databind,2.17.1,https://github.com/FasterXML/jackson-databind,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/FasterXML/jackson-databind
-io.smallrye.config:smallrye-config,3.8.3,https://github.com/smallrye/smallrye-config/,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/smallrye/smallrye-config
-io.quarkus:quarkus-junit5,3.12.2,https://github.com/quarkusio/quarkus,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/quarkusio/quarkus
-org.jboss.logging:jboss-logging-annotations,2.2.1.Final,https://github.com/jboss-logging/jboss-logging-tools,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/jboss-logging/jboss-logging-tools
-org.apache.maven.wagon:wagon-http,3.5.3,https://github.com/apache/maven-wagon/tree/${project.scm.tag},"Apache License, Version 2.0",https://www.apache.org/licenses/LICENSE-2.0.txt,pom(org.apache:apache:23)
-org.apache.maven:maven-api-meta,4.0.0-alpha-5,https://github.com/apache/maven/tree/${project.scm.tag},Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/apache/maven
-com.google.android:annotations,4.1.1.4,UNKNOWN,Apache 2.0,http://www.apache.org/licenses/LICENSE-2.0,pom(com.google.android:annotations:4.1.1.4)
 aopalliance:aopalliance,1.0,UNKNOWN,Public Domain,unknown,pom(aopalliance:aopalliance:1.0)
-org.springframework.boot:spring-boot-starter-web,3.3.0,https://github.com/spring-projects/spring-boot,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/spring-projects/spring-boot
-io.quarkus:quarkus-bootstrap-app-model,3.12.2,https://github.com/quarkusio/quarkus,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/quarkusio/quarkus
-io.quarkus:quarkus-test-common,3.12.2,https://github.com/quarkusio/quarkus,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/quarkusio/quarkus
-org.apache.maven.resolver:maven-resolver-spi,1.9.20,https://github.com/apache/maven-resolver/tree/${project.scm.tag},Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/apache/maven-resolver
-org.aesh:aesh,2.8.2,https://github.com/aeshell/aesh-readline/tree/master,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/aeshell/aesh-readline
-org.jetbrains.kotlin:kotlin-stdlib-jdk8,1.9.24,https://github.com/JetBrains/kotlin,"The Apache License, Version 2.0",http://www.apache.org/licenses/LICENSE-2.0.txt,pom(org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.24)
-com.google.inject:guice,5.1.0,https://github.com/google/guice,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/google/guice
-com.github.spotbugs:spotbugs-annotations,4.8.3,https://github.com/spotbugs/spotbugs/,GNU Lesser General Public License v2.1,https://api.github.com/licenses/lgpl-2.1,https://api.github.com/repos/spotbugs/spotbugs
-io.grpc:grpc-inprocess,1.58.0,https://github.com/grpc/grpc-java,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/grpc/grpc-java
-io.micrometer:micrometer-observation,1.13.0,https://github.com/micrometer-metrics/micrometer,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/micrometer-metrics/micrometer
-org.aesh:readline,2.6,https://github.com/aeshell/aesh-readline/tree/master,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/aeshell/aesh-readline
-org.springframework:spring-context,6.1.8,https://github.com/spring-projects/spring-framework,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/spring-projects/spring-framework
-io.grpc:grpc-api,1.64.0,https://github.com/grpc/grpc-java,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/grpc/grpc-java
-org.codehaus.plexus:plexus-component-annotations,2.1.0,https://github.com/codehaus-plexus/plexus-containers,"Apache License, Version 2.0",http://www.apache.org/licenses/LICENSE-2.0.txt,pom(org.codehaus.plexus:plexus:5.1)
-org.jctools:jctools-core,4.0.3,https://github.com/JCTools/JCTools,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/JCTools/JCTools
-org.codehaus.plexus:plexus-xml,4.0.1,https://github.com/codehaus-plexus/plexus-xml/tree/${project.scm.tag}/,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/codehaus-plexus/plexus-xml
-org.junit.platform:junit-platform-launcher,1.10.2,https://github.com/junit-team/junit5,Eclipse Public License 2.0,https://api.github.com/licenses/epl-2.0,https://api.github.com/repos/junit-team/junit5
-org.springframework:spring-web,6.1.8,https://github.com/spring-projects/spring-framework,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/spring-projects/spring-framework
-org.ow2.asm:asm,9.7,UNKNOWN,BSD-3-Clause,https://asm.ow2.io/license.html,pom(org.ow2.asm:asm:9.7)
-org.springframework.boot:spring-boot-configuration-processor,3.3.0,https://github.com/spring-projects/spring-boot,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/spring-projects/spring-boot
-com.fasterxml.jackson.module:jackson-module-parameter-names,2.17.1,https://github.com/FasterXML/jackson-modules-java8,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/FasterXML/jackson-modules-java8
-org.eclipse.parsson:parsson,1.1.6,https://github.com/eclipse-ee4j/parsson,Unknown,Unknown,-
-org.apache.tomcat.embed:tomcat-embed-websocket,10.1.24,UNKNOWN,"Apache License, Version 2.0",http://www.apache.org/licenses/LICENSE-2.0.txt,pom(org.apache.tomcat.embed:tomcat-embed-websocket:10.1.24)
-org.ow2.asm:asm-tree,9.7,UNKNOWN,BSD-3-Clause,https://asm.ow2.io/license.html,pom(org.ow2.asm:asm-tree:9.7)
-org.codehaus.plexus:plexus-utils,4.0.1,https://github.com/codehaus-plexus/plexus-utils/tree/${project.scm.tag}/,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/codehaus-plexus/plexus-utils
-com.google.guava:guava,32.1.3-android,https://github.com/google/guava,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/google/guava
-io.grpc:grpc-protobuf-lite,1.58.0,https://github.com/grpc/grpc-java,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/grpc/grpc-java
-org.apache.maven.wagon:wagon-file,3.5.3,https://github.com/apache/maven-wagon/tree/${project.scm.tag},"Apache License, Version 2.0",https://www.apache.org/licenses/LICENSE-2.0.txt,pom(org.apache:apache:23)
-io.smallrye.common:smallrye-common-io,2.3.0,https://github.com/smallrye/smallrye-common/,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/smallrye/smallrye-common
-org.junit.jupiter:junit-jupiter,5.10.3,https://github.com/junit-team/junit5,Eclipse Public License 2.0,https://api.github.com/licenses/epl-2.0,https://api.github.com/repos/junit-team/junit5
-org.xmlunit:xmlunit-core,2.9.1,https://github.com/xmlunit/xmlunit,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/xmlunit/xmlunit
-org.springframework.boot:spring-boot-starter-logging,3.3.0,https://github.com/spring-projects/spring-boot,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/spring-projects/spring-boot
-com.google.code.findbugs:jsr305,3.0.2,UNKNOWN,"The Apache Software License, Version 2.0",http://www.apache.org/licenses/LICENSE-2.0.txt,pom(com.google.code.findbugs:jsr305:3.0.2)
-io.quarkus:quarkus-arc,3.12.2,https://github.com/quarkusio/quarkus,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/quarkusio/quarkus
-org.ow2.asm:asm-util,9.6,UNKNOWN,BSD-3-Clause,https://asm.ow2.io/license.html,pom(org.ow2.asm:asm-util:9.6)
-org.springframework.boot:spring-boot,3.3.0,https://github.com/spring-projects/spring-boot,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/spring-projects/spring-boot
-org.apache.httpcomponents:httpcore,4.4.16,https://github.com/apache/httpcomponents-core/tree/${project.scm.tag},Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/apache/httpcomponents-core
-io.quarkus:quarkus-devtools-utilities,3.12.2,https://github.com/quarkusio/quarkus,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/quarkusio/quarkus
-io.grpc:grpc-util,1.58.0,https://github.com/grpc/grpc-java,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/grpc/grpc-java
-io.quarkus.gizmo:gizmo,1.8.0,https://github.com/quarkusio/gizmo,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/quarkusio/gizmo
-org.apache.maven:maven-resolver-provider,3.9.8,https://github.com/apache/maven/tree/${project.scm.tag},Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/apache/maven
-org.eclipse.microprofile.context-propagation:microprofile-context-propagation-api,1.3,https://github.com/eclipse/microprofile-context-propagation,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/eclipse/microprofile-context-propagation
-io.smallrye.common:smallrye-common-constraint,2.2.0,https://github.com/smallrye/smallrye-common/,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/smallrye/smallrye-common
-org.apache.maven:maven-plugin-api,3.9.8,https://github.com/apache/maven/tree/${project.scm.tag},Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/apache/maven
-net.minidev:json-smart,2.5.1,https://github.com/netplex/json-smart-v2,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/netplex/json-smart-v2
-com.hedera.hashgraph:sdk,2.32.0,https://github.com/hashgraph/hedera-sdk-java,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/hashgraph/hedera-sdk-java
-org.eclipse.sisu:org.eclipse.sisu.plexus,0.9.0.M3,https://github.com/eclipse/sisu.inject,Eclipse Public License 2.0,https://api.github.com/licenses/epl-2.0,https://api.github.com/repos/eclipse/sisu.inject
-com.open-elements.hedera:hedera-base,0.10.0-SNAPSHOT,UNKNOWN,Apache License 2.0,https://api.github.com/licenses/apache-2.0,-
-io.grpc:grpc-okhttp,1.64.0,https://github.com/grpc/grpc-java,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/grpc/grpc-java
-com.squareup.okio:okio,2.10.0,https://github.com/square/okio/,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/square/okio
-com.google.guava:guava,32.0.1-android,https://github.com/google/guava,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/google/guava
-org.eclipse.microprofile.config:microprofile-config-api,3.1,https://github.com/eclipse/microprofile-config,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/eclipse/microprofile-config
-io.smallrye.common:smallrye-common-annotation,2.3.0,https://github.com/smallrye/smallrye-common/,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/smallrye/smallrye-common
-io.github.cdimascio:dotenv-java,2.3.2,https://github.com/cdimascio/dotenv-java,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/cdimascio/dotenv-java
-io.github.x-stream:mxparser,1.2.2,https://github.com/x-stream/mxparser,"Indiana University Extreme! Lab Software License, Version 1.2",https://github.com/x-stream/mxparser/blob/master/LICENSE.txt,https://github.com/x-stream/mxparser/blob/master/LICENSE.txt
-org.apiguardian:apiguardian-api,1.1.2,https://github.com/apiguardian-team/apiguardian,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/apiguardian-team/apiguardian
-jakarta.annotation:jakarta.annotation-api,2.1.1,https://github.com/eclipse-ee4j/common-annotations-api,Unknown,Unknown,-
-org.junit.jupiter:junit-jupiter-engine,5.10.2,https://github.com/junit-team/junit5,Eclipse Public License 2.0,https://api.github.com/licenses/epl-2.0,https://api.github.com/repos/junit-team/junit5
-io.smallrye.common:smallrye-common-function,2.2.0,https://github.com/smallrye/smallrye-common/,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/smallrye/smallrye-common
-com.jayway.jsonpath:json-path,2.9.0,https://github.com/jayway/JsonPath,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/jayway/JsonPath
-io.quarkus:quarkus-classloader-commons,3.12.2,https://github.com/quarkusio/quarkus,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/quarkusio/quarkus
-com.fasterxml.jackson.core:jackson-annotations,2.17.1,https://github.com/FasterXML/jackson-annotations,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/FasterXML/jackson-annotations
-jakarta.transaction:jakarta.transaction-api,2.0.1,https://github.com/eclipse-ee4j/jta-api,Unknown,Unknown,-
-org.jetbrains.kotlin:kotlin-stdlib-common,1.9.24,https://github.com/JetBrains/kotlin,"The Apache License, Version 2.0",http://www.apache.org/licenses/LICENSE-2.0.txt,pom(org.jetbrains.kotlin:kotlin-stdlib-common:1.9.24)
-org.junit.platform:junit-platform-engine,1.10.2,https://github.com/junit-team/junit5,Eclipse Public License 2.0,https://api.github.com/licenses/epl-2.0,https://api.github.com/repos/junit-team/junit5
-commons-codec:commons-codec,1.16.1,https://github.com/apache/commons-codec,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/apache/commons-codec
-io.quarkus:quarkus-bootstrap-core,3.12.2,https://github.com/quarkusio/quarkus,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/quarkusio/quarkus
-org.apache.tomcat.embed:tomcat-embed-el,10.1.24,UNKNOWN,"Apache License, Version 2.0",http://www.apache.org/licenses/LICENSE-2.0.txt,pom(org.apache.tomcat.embed:tomcat-embed-el:10.1.24)
-io.quarkus:quarkus-junit5-properties,3.12.2,https://github.com/quarkusio/quarkus,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/quarkusio/quarkus
-org.checkerframework:checker-qual,3.37.0,https://github.com/typetools/checker-framework,Unknown,Unknown,-
-com.esaulpaugh:headlong,10.0.0,https://github.com/esaulpaugh/headlong,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/esaulpaugh/headlong
-io.quarkus:quarkus-fs-util,0.0.10,https://github.com/quarkusio/quarkus-fs-util,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/quarkusio/quarkus-fs-util
-org.jboss.slf4j:slf4j-jboss-logmanager,2.0.0.Final,https://github.com/jboss-logging/slf4j-jboss-logging/tree/main/,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/jboss-logging/slf4j-jboss-logging
-com.google.guava:listenablefuture,9999.0-empty-to-avoid-conflict-with-guava,https://github.com/google/guava,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/google/guava
-org.springframework.boot:spring-boot-test,3.3.0,https://github.com/spring-projects/spring-boot,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/spring-projects/spring-boot
-org.apache.maven:maven-xml-impl,4.0.0-alpha-5,https://github.com/apache/maven/tree/${project.scm.tag},Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/apache/maven
-io.quarkus:quarkus-builder,3.12.2,https://github.com/quarkusio/quarkus,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/quarkusio/quarkus
-org.springframework.boot:spring-boot-starter,3.3.0,https://github.com/spring-projects/spring-boot,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/spring-projects/spring-boot
-org.springframework:spring-jcl,6.1.8,https://github.com/spring-projects/spring-framework,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/spring-projects/spring-framework
-org.slf4j:jul-to-slf4j,2.0.13,https://github.com/qos-ch/slf4j,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/qos-ch/slf4j
-org.apache.maven:maven-model-builder,3.9.8,https://github.com/apache/maven/tree/${project.scm.tag},Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/apache/maven
-io.smallrye.common:smallrye-common-cpu,2.2.0,https://github.com/smallrye/smallrye-common/,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/smallrye/smallrye-common
-io.quarkus:quarkus-ide-launcher,3.12.2,https://github.com/quarkusio/quarkus,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/quarkusio/quarkus
-org.codehaus.plexus:plexus-cipher,2.1.0,https://github.com/codehaus-plexus/plexus-cipher,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/codehaus-plexus/plexus-cipher
 ch.qos.logback:logback-classic,1.5.6,https://github.com/qos-ch/logback,Eclipse Public License v1.0,https://www.eclipse.org/legal/epl-v10.html,https://github.com/qos-ch/logback?tab=License-1-ov-file#readme
-org.fusesource.jansi:jansi,2.4.0,https://github.com/fusesource/jansi,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/fusesource/jansi
-jakarta.inject:jakarta.inject-api,2.0.1,https://github.com/eclipse-ee4j/injection-api,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/eclipse-ee4j/injection-api
-io.smallrye.common:smallrye-common-ref,2.2.0,https://github.com/smallrye/smallrye-common/,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/smallrye/smallrye-common
-io.quarkus:quarkus-development-mode-spi,3.12.2,https://github.com/quarkusio/quarkus,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/quarkusio/quarkus
-org.apache.maven:maven-embedder,3.9.8,https://github.com/apache/maven/tree/${project.scm.tag},Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/apache/maven
-com.google.errorprone:error_prone_annotations,2.23.0,https://github.com/google/error-prone,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/google/error-prone
-io.smallrye.common:smallrye-common-net,2.2.0,https://github.com/smallrye/smallrye-common/,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/smallrye/smallrye-common
-org.apache.maven.resolver:maven-resolver-transport-wagon,1.9.20,https://github.com/apache/maven-resolver/tree/${project.scm.tag},Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/apache/maven-resolver
-com.fasterxml.jackson.datatype:jackson-datatype-jdk8,2.17.1,https://github.com/FasterXML/jackson-modules-java8,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/FasterXML/jackson-modules-java8
-org.graalvm.sdk:word,23.1.2,https://github.com/oracle/graal,Unknown,Unknown,-
-org.apache.maven:maven-builder-support,3.9.8,https://github.com/apache/maven/tree/${project.scm.tag},Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/apache/maven
-org.jspecify:jspecify,1.0.0,https://github.com/jspecify/jspecify/,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/jspecify/jspecify
-org.wildfly.common:wildfly-common,1.7.0.Final,https://github.com/wildfly/wildfly-common/,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/wildfly/wildfly-common
-org.slf4j:jcl-over-slf4j,2.0.13,https://github.com/qos-ch/slf4j,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/qos-ch/slf4j
-org.apache.maven:maven-api-xml,4.0.0-alpha-5,https://github.com/apache/maven/tree/${project.scm.tag},Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/apache/maven
-org.jboss.logging:commons-logging-jboss-logging,1.0.0.Final,https://github.com/jboss-logging/commons-logging-jboss-logging,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/jboss-logging/commons-logging-jboss-logging
-com.google.j2objc:j2objc-annotations,2.8,UNKNOWN,"Apache License, Version 2.0",http://www.apache.org/licenses/LICENSE-2.0.txt,pom(com.google.j2objc:j2objc-annotations:2.8)
-org.jboss.logmanager:jboss-logmanager,3.0.6.Final,https://github.com/jboss-logging/jboss-logmanager/tree/main/,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/jboss-logging/jboss-logmanager
-org.bouncycastle:bcprov-jdk15to18,1.76,https://github.com/bcgit/bc-java,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/bcgit/bc-java
-org.apache.maven.resolver:maven-resolver-named-locks,1.9.20,https://github.com/apache/maven-resolver/tree/${project.scm.tag},Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/apache/maven-resolver
-io.smallrye.reactive:mutiny,2.6.0,https://github.com/smallrye/smallrye-mutiny,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/smallrye/smallrye-mutiny
-com.thoughtworks.xstream:xstream,1.4.20,https://github.com/x-stream/xstream,BSD-Style,https://github.com/x-stream/xstream?tab=License-1-ov-file#readme,https://github.com/x-stream/xstream?tab=License-1-ov-file#readme
-io.grpc:grpc-context,1.58.0,https://github.com/grpc/grpc-java,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/grpc/grpc-java
-org.codehaus.plexus:plexus-interpolation,1.27,https://github.com/codehaus-plexus/plexus-interpolation/tree/${project.scm.tag}/,"Apache License, Version 2.0",https://www.apache.org/licenses/LICENSE-2.0.txt,pom(org.codehaus.plexus:plexus:16)
-org.springframework:spring-test,6.1.8,https://github.com/spring-projects/spring-framework,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/spring-projects/spring-framework
-org.apache.maven:maven-settings-builder,3.9.8,https://github.com/apache/maven/tree/${project.scm.tag},Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/apache/maven
-io.perfmark:perfmark-api,0.26.0,https://github.com/perfmark/perfmark,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/perfmark/perfmark
-jakarta.el:jakarta.el-api,5.0.0,https://github.com/eclipse-ee4j/el-ri,Unknown,Unknown,-
-org.junit.jupiter:junit-jupiter-params,5.10.2,https://github.com/junit-team/junit5,Eclipse Public License 2.0,https://api.github.com/licenses/epl-2.0,https://api.github.com/repos/junit-team/junit5
-org.apache.maven:maven-artifact,3.9.8,https://github.com/apache/maven/tree/${project.scm.tag},Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/apache/maven
-org.springframework:spring-core,6.1.8,https://github.com/spring-projects/spring-framework,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/spring-projects/spring-framework
-io.quarkus.arc:arc,3.12.2,https://github.com/quarkusio/quarkus,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/quarkusio/quarkus
-io.quarkus:quarkus-class-change-agent,3.12.2,https://github.com/quarkusio/quarkus,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/quarkusio/quarkus
-net.bytebuddy:byte-buddy,1.14.16,UNKNOWN,"Apache License, Version 2.0",https://www.apache.org/licenses/LICENSE-2.0.txt,pom(net.bytebuddy:byte-buddy-parent:1.14.16)
-org.ow2.asm:asm-commons,9.7,UNKNOWN,BSD-3-Clause,https://asm.ow2.io/license.html,pom(org.ow2.asm:asm-commons:9.7)
-io.github.crac:org-crac,0.1.3,https://github.com/CRaC/org.crac/tree/master,"BSD 2-Clause ""Simplified"" License",https://api.github.com/licenses/bsd-2-clause,https://api.github.com/repos/CRaC/org.crac
-io.grpc:grpc-api,1.58.0,https://github.com/grpc/grpc-java,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/grpc/grpc-java
-org.apache.logging.log4j:log4j-to-slf4j,2.23.1,https://github.com/apache/logging-log4j2,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/apache/logging-log4j2
-commons-cli:commons-cli,1.8.0,https://github.com/apache/maven-apache-parent/tree/${project.scm.tag},Apache-2.0,https://www.apache.org/licenses/LICENSE-2.0.txt,pom(org.apache:apache:32)
-xmlpull:xmlpull,1.1.3.1,UNKNOWN,Public Domain,http://www.xmlpull.org/v1/download/unpacked/LICENSE.txt,pom(xmlpull:xmlpull:1.1.3.1)
-org.apache.maven.resolver:maven-resolver-connector-basic,1.9.20,https://github.com/apache/maven-resolver/tree/${project.scm.tag},Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/apache/maven-resolver
-org.jboss.logging:jboss-logging,3.5.3.Final,https://github.com/jboss-logging/jboss-logging/tree/main/,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/jboss-logging/jboss-logging
-com.google.protobuf:protobuf-javalite,3.21.9,https://github.com/protocolbuffers/protobuf,BSD 3-Clause,https://api.github.com/licenses/bsd-3-clause,https://developers.google.com/open-source/licenses/bsd
-io.grpc:grpc-inprocess,1.64.0,https://github.com/grpc/grpc-java,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/grpc/grpc-java
-org.graalvm.sdk:nativeimage,23.1.2,https://github.com/oracle/graal,Unknown,Unknown,-
-io.smallrye.beanbag:smallrye-beanbag,1.5.2,https://github.com/smallrye/smallrye-beanbag/,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/smallrye/smallrye-beanbag
-org.awaitility:awaitility,4.2.1,https://github.com/awaitility/awaitility/tree/${scm.branch},Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/awaitility/awaitility
-org.apache.maven:maven-settings,3.9.8,https://github.com/apache/maven/tree/${project.scm.tag},Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/apache/maven
-org.codehaus.plexus:plexus-classworlds,2.8.0,https://github.com/codehaus-plexus/plexus-classworlds/tree/${project.scm.tag}/,Unknown,Unknown,-
-org.slf4j:slf4j-simple,2.0.13,https://github.com/qos-ch/slf4j,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/qos-ch/slf4j
-org.jetbrains.kotlin:kotlin-stdlib,1.9.24,https://github.com/JetBrains/kotlin,"The Apache License, Version 2.0",http://www.apache.org/licenses/LICENSE-2.0.txt,pom(org.jetbrains.kotlin:kotlin-stdlib:1.9.24)
-io.quarkus:quarkus-bootstrap-gradle-resolver,3.12.2,https://github.com/quarkusio/quarkus,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/quarkusio/quarkus
-org.skyscreamer:jsonassert,1.5.1,https://github.com/skyscreamer/JSONassert,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/skyscreamer/JSONassert
-com.fasterxml.jackson.datatype:jackson-datatype-jsr310,2.17.1,https://github.com/FasterXML/jackson-modules-java8,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/FasterXML/jackson-modules-java8
-org.apache.commons:commons-lang3,3.14.0,https://github.com/apache/maven-apache-parent/tree/${project.scm.tag},Apache-2.0,https://www.apache.org/licenses/LICENSE-2.0.txt,pom(org.apache:apache:30)
-io.grpc:grpc-okhttp,1.58.0,https://github.com/grpc/grpc-java,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/grpc/grpc-java
-org.jetbrains.kotlin:kotlin-stdlib-jdk7,1.9.24,https://github.com/JetBrains/kotlin,"The Apache License, Version 2.0",http://www.apache.org/licenses/LICENSE-2.0.txt,pom(org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.9.24)
-org.checkerframework:checker-qual,3.33.0,https://github.com/typetools/checker-framework,Unknown,Unknown,-
-io.quarkus:quarkus-bootstrap-maven-resolver,3.12.2,https://github.com/quarkusio/quarkus,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/quarkusio/quarkus
-io.quarkus:quarkus-core,3.12.2,https://github.com/quarkusio/quarkus,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/quarkusio/quarkus
-io.grpc:grpc-core,1.58.0,https://github.com/grpc/grpc-java,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/grpc/grpc-java
-com.google.code.gson:gson,2.10.1,https://github.com/google/gson/,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/google/gson
-io.micrometer:micrometer-commons,1.13.0,https://github.com/micrometer-metrics/micrometer,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/micrometer-metrics/micrometer
-org.apache.maven.resolver:maven-resolver-util,1.9.20,https://github.com/apache/maven-resolver/tree/${project.scm.tag},Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/apache/maven-resolver
-io.grpc:grpc-util,1.64.0,https://github.com/grpc/grpc-java,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/grpc/grpc-java
-org.springframework.boot:spring-boot-starter-json,3.3.0,https://github.com/spring-projects/spring-boot,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/spring-projects/spring-boot
-org.junit.platform:junit-platform-commons,1.10.2,https://github.com/junit-team/junit5,Eclipse Public License 2.0,https://api.github.com/licenses/epl-2.0,https://api.github.com/repos/junit-team/junit5
-org.hamcrest:hamcrest,2.2,https://github.com/hamcrest/JavaHamcrest,"BSD 3-Clause ""New"" or ""Revised"" License",https://api.github.com/licenses/bsd-3-clause,https://api.github.com/repos/hamcrest/JavaHamcrest
-com.squareup.okio:okio-jvm,3.4.0,https://github.com/square/okio/,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/square/okio
-org.jboss.threads:jboss-threads,3.6.1.Final,https://github.com/jbossas/jboss-threads,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/jbossas/jboss-threads
-jakarta.json:jakarta.json-api,2.1.0,https://github.com/eclipse-ee4j/jsonp,Unknown,Unknown,-
-io.quarkus:quarkus-core-deployment,3.12.2,https://github.com/quarkusio/quarkus,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/quarkusio/quarkus
-org.mockito:mockito-junit-jupiter,5.11.0,https://github.com/mockito/mockito,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/mockito/mockito
-io.smallrye.common:smallrye-common-classloader,2.4.0,https://github.com/smallrye/smallrye-common/,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/smallrye/smallrye-common
-io.smallrye.config:smallrye-config-common,3.8.3,https://github.com/smallrye/smallrye-config/,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/smallrye/smallrye-config
-commons-io:commons-io,2.16.1,https://github.com/apache/maven-apache-parent/tree/${project.scm.tag},Apache-2.0,https://www.apache.org/licenses/LICENSE-2.0.txt,pom(org.apache:apache:31)
-javax.annotation:javax.annotation-api,1.3.2,https://github.com/javaee/javax.annotation,Unknown,Unknown,-
-org.apache.httpcomponents:httpclient,4.5.14,https://github.com/apache/httpcomponents-client/tree/${project.scm.tag},Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/apache/httpcomponents-client
-io.smallrye.beanbag:smallrye-beanbag-maven,1.5.2,https://github.com/smallrye/smallrye-beanbag/,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/smallrye/smallrye-beanbag
-org.springframework.boot:spring-boot-starter-tomcat,3.3.0,https://github.com/spring-projects/spring-boot,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/spring-projects/spring-boot
-io.quarkus:quarkus-bootstrap-runner,3.12.2,https://github.com/quarkusio/quarkus,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/quarkusio/quarkus
-io.smallrye.config:smallrye-config-core,3.8.3,https://github.com/smallrye/smallrye-config/,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/smallrye/smallrye-config
-org.bouncycastle:bcutil-jdk15to18,1.76,https://github.com/bcgit/bc-java,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/bcgit/bc-java
-org.apache.maven:maven-repository-metadata,3.9.8,https://github.com/apache/maven/tree/${project.scm.tag},Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/apache/maven
-org.codehaus.mojo:animal-sniffer-annotations,1.23,https://github.com/mojohaus/animal-sniffer/tree/master,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/mojohaus/animal-sniffer
-org.apache.maven.resolver:maven-resolver-api,1.9.20,https://github.com/apache/maven-resolver/tree/${project.scm.tag},Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/apache/maven-resolver
-org.junit.jupiter:junit-jupiter-api,5.10.2,https://github.com/junit-team/junit5,Eclipse Public License 2.0,https://api.github.com/licenses/epl-2.0,https://api.github.com/repos/junit-team/junit5
-io.smallrye:jandex,3.2.0,https://github.com/smallrye/jandex/,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/smallrye/jandex
-com.vaadin.external.google:android-json,0.0.20131108.vaadin1,UNKNOWN,Apache License 2.0,http://www.apache.org/licenses/LICENSE-2.0,pom(com.vaadin.external.google:android-json:0.0.20131108.vaadin1)
-jakarta.enterprise:jakarta.enterprise.cdi-api,4.0.1,https://github.com/cdi-spec/cdi,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/cdi-spec/cdi
-org.apache.logging.log4j:log4j-api,2.23.1,https://github.com/apache/logging-log4j2,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/apache/logging-log4j2
-org.apache.maven:maven-model,3.9.8,https://github.com/apache/maven/tree/${project.scm.tag},Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/apache/maven
-io.smallrye.common:smallrye-common-expression,2.2.0,https://github.com/smallrye/smallrye-common/,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/smallrye/smallrye-common
-io.smallrye.common:smallrye-common-os,2.3.0,https://github.com/smallrye/smallrye-common/,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/smallrye/smallrye-common
-jakarta.ws.rs:jakarta.ws.rs-api,3.1.0,https://github.com/eclipse-ee4j/jaxrs-api,Unknown,Unknown,-
-org.jetbrains:annotations,13.0,https://github.com/JetBrains/intellij-community,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/JetBrains/intellij-community
-org.apache.maven.resolver:maven-resolver-impl,1.9.20,https://github.com/apache/maven-resolver/tree/${project.scm.tag},Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/apache/maven-resolver
-org.apache.maven.wagon:wagon-http-shared,3.5.3,https://github.com/apache/maven-wagon/tree/${project.scm.tag},"Apache License, Version 2.0",https://www.apache.org/licenses/LICENSE-2.0.txt,pom(org.apache:apache:23)
-org.opentest4j:opentest4j,1.3.0,https://github.com/ota4j-team/opentest4j,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/ota4j-team/opentest4j
+ch.qos.logback:logback-core,1.5.6,https://github.com/qos-ch/logback,Eclipse Public License v1.0,https://www.eclipse.org/legal/epl-v10.html,https://github.com/qos-ch/logback?tab=License-1-ov-file#readme
+com.esaulpaugh:headlong,10.0.0,https://github.com/esaulpaugh/headlong,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/esaulpaugh/headlong
+com.fasterxml.jackson.core:jackson-annotations,2.17.1,https://github.com/FasterXML/jackson-annotations,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/FasterXML/jackson-annotations
 com.fasterxml.jackson.core:jackson-core,2.17.1,https://github.com/FasterXML/jackson-core,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/FasterXML/jackson-core
-com.squareup.okio:okio,3.4.0,https://github.com/square/okio/,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/square/okio
-org.slf4j:slf4j-api,2.0.13,https://github.com/qos-ch/slf4j,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/qos-ch/slf4j
-org.ow2.asm:asm,9.6,UNKNOWN,BSD-3-Clause,https://asm.ow2.io/license.html,pom(org.ow2.asm:asm:9.6)
-org.apache.maven.shared:maven-shared-utils,3.4.2,https://github.com/apache/maven-shared-utils/tree/${project.scm.tag},Apache-2.0,https://www.apache.org/licenses/LICENSE-2.0.txt,pom(org.apache:apache:29)
-org.eclipse.sisu:org.eclipse.sisu.inject,0.9.0.M3,https://github.com/eclipse/sisu.inject,Eclipse Public License 2.0,https://api.github.com/licenses/epl-2.0,https://api.github.com/repos/eclipse/sisu.inject
-io.smallrye.beanbag:smallrye-beanbag-sisu,1.5.2,https://github.com/smallrye/smallrye-beanbag/,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/smallrye/smallrye-beanbag
-org.apache.maven.resolver:maven-resolver-transport-http,1.9.20,https://github.com/apache/maven-resolver/tree/${project.scm.tag},Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/apache/maven-resolver
-org.springframework:spring-expression,6.1.8,https://github.com/spring-projects/spring-framework,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/spring-projects/spring-framework
-org.yaml:snakeyaml,2.2,UNKNOWN,"Apache License, Version 2.0",http://www.apache.org/licenses/LICENSE-2.0.txt,pom(org.yaml:snakeyaml:2.2)
-org.springframework.boot:spring-boot-autoconfigure,3.3.0,https://github.com/spring-projects/spring-boot,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/spring-projects/spring-boot
-org.objenesis:objenesis,3.3,https://github.com/easymock/objenesis,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/easymock/objenesis
-io.grpc:grpc-stub,1.58.0,https://github.com/grpc/grpc-java,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/grpc/grpc-java
-org.apache.maven.wagon:wagon-provider-api,3.5.3,https://github.com/apache/maven-wagon/tree/${project.scm.tag},"Apache License, Version 2.0",https://www.apache.org/licenses/LICENSE-2.0.txt,pom(org.apache:apache:23)
-io.quarkus:quarkus-hibernate-validator-spi,3.12.2,https://github.com/quarkusio/quarkus,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/quarkusio/quarkus
+com.fasterxml.jackson.core:jackson-databind,2.17.1,https://github.com/FasterXML/jackson-databind,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/FasterXML/jackson-databind
+com.fasterxml.jackson.datatype:jackson-datatype-jdk8,2.17.1,https://github.com/FasterXML/jackson-modules-java8,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/FasterXML/jackson-modules-java8
+com.fasterxml.jackson.datatype:jackson-datatype-jsr310,2.17.1,https://github.com/FasterXML/jackson-modules-java8,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/FasterXML/jackson-modules-java8
+com.fasterxml.jackson.module:jackson-module-parameter-names,2.17.1,https://github.com/FasterXML/jackson-modules-java8,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/FasterXML/jackson-modules-java8
+com.github.spotbugs:spotbugs-annotations,4.8.3,https://github.com/spotbugs/spotbugs/,GNU Lesser General Public License v2.1,https://api.github.com/licenses/lgpl-2.1,https://api.github.com/repos/spotbugs/spotbugs
+com.google.android:annotations,4.1.1.4,UNKNOWN,Apache 2.0,http://www.apache.org/licenses/LICENSE-2.0,pom(com.google.android:annotations:4.1.1.4)
+com.google.code.findbugs:jsr305,3.0.2,UNKNOWN,"The Apache Software License, Version 2.0",http://www.apache.org/licenses/LICENSE-2.0.txt,pom(com.google.code.findbugs:jsr305:3.0.2)
+com.google.code.gson:gson,2.10.1,https://github.com/google/gson/,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/google/gson
 com.google.errorprone:error_prone_annotations,2.20.0,https://github.com/google/error-prone,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/google/error-prone
-org.springframework:spring-webmvc,6.1.8,https://github.com/spring-projects/spring-framework,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/spring-projects/spring-framework
-org.codehaus.plexus:plexus-sec-dispatcher,2.0,https://github.com/codehaus-plexus/plexus-sec-dispatcher,"Apache License, Version 2.0",http://www.apache.org/licenses/LICENSE-2.0.txt,pom(org.codehaus.plexus:plexus:8)
-org.apache.maven:maven-core,3.9.8,https://github.com/apache/maven/tree/${project.scm.tag},Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/apache/maven
-org.springframework.boot:spring-boot-starter-test,3.3.0,https://github.com/spring-projects/spring-boot,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/spring-projects/spring-boot
-net.minidev:accessors-smart,2.5.1,https://github.com/netplex/json-smart-v2,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/netplex/json-smart-v2
-org.assertj:assertj-core,3.25.3,https://github.com/assertj/assertj/assertj-parent/assertj-core,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/assertj/assertj
-jakarta.interceptor:jakarta.interceptor-api,2.1.0,https://github.com/eclipse-ee4j/interceptor-api,Unknown,Unknown,-
-jakarta.xml.bind:jakarta.xml.bind-api,4.0.2,https://github.com/jakartaee/jaxb-api,"BSD 3-Clause ""New"" or ""Revised"" License",https://api.github.com/licenses/bsd-3-clause,https://api.github.com/repos/jakartaee/jaxb-api
-net.bytebuddy:byte-buddy-agent,1.14.16,UNKNOWN,"Apache License, Version 2.0",https://www.apache.org/licenses/LICENSE-2.0.txt,pom(net.bytebuddy:byte-buddy-parent:1.14.16)
-org.springframework:spring-aop,6.1.8,https://github.com/spring-projects/spring-framework,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/spring-projects/spring-framework
+com.google.errorprone:error_prone_annotations,2.23.0,https://github.com/google/error-prone,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/google/error-prone
 com.google.guava:failureaccess,1.0.1,https://github.com/google/guava,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/google/guava
+com.google.guava:guava,32.0.1-android,https://github.com/google/guava,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/google/guava
+com.google.guava:guava,32.1.3-android,https://github.com/google/guava,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/google/guava
+com.google.guava:listenablefuture,9999.0-empty-to-avoid-conflict-with-guava,https://github.com/google/guava,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/google/guava
+com.google.inject:guice,5.1.0,https://github.com/google/guice,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/google/guice
+com.google.j2objc:j2objc-annotations,2.8,UNKNOWN,"Apache License, Version 2.0",http://www.apache.org/licenses/LICENSE-2.0.txt,pom(com.google.j2objc:j2objc-annotations:2.8)
+com.google.protobuf:protobuf-javalite,3.21.9,https://github.com/protocolbuffers/protobuf,BSD 3-Clause,https://api.github.com/licenses/bsd-3-clause,https://developers.google.com/open-source/licenses/bsd
+com.hedera.hashgraph:sdk,2.32.0,https://github.com/hashgraph/hedera-sdk-java,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/hashgraph/hedera-sdk-java
+com.jayway.jsonpath:json-path,2.9.0,https://github.com/jayway/JsonPath,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/jayway/JsonPath
+com.open-elements.hedera:hedera-base,0.10.0-SNAPSHOT,UNKNOWN,Apache License 2.0,https://api.github.com/licenses/apache-2.0,-
+com.open-elements.hedera:hedera-spring,0.10.0-SNAPSHOT,UNKNOWN,Apache License 2.0,https://api.github.com/licenses/apache-2.0,-
+com.squareup.okio:okio,2.10.0,https://github.com/square/okio/,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/square/okio
+com.squareup.okio:okio,3.4.0,https://github.com/square/okio/,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/square/okio
+com.squareup.okio:okio-jvm,3.4.0,https://github.com/square/okio/,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/square/okio
+com.thoughtworks.xstream:xstream,1.4.20,https://github.com/x-stream/xstream,BSD-Style,https://github.com/x-stream/xstream?tab=License-1-ov-file#readme,https://github.com/x-stream/xstream?tab=License-1-ov-file#readme
+com.vaadin.external.google:android-json,0.0.20131108.vaadin1,UNKNOWN,Apache License 2.0,http://www.apache.org/licenses/LICENSE-2.0,pom(com.vaadin.external.google:android-json:0.0.20131108.vaadin1)
+commons-cli:commons-cli,1.8.0,https://github.com/apache/maven-apache-parent/tree/${project.scm.tag},Apache-2.0,https://www.apache.org/licenses/LICENSE-2.0.txt,pom(org.apache:apache:32)
+commons-codec:commons-codec,1.16.1,https://github.com/apache/commons-codec,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/apache/commons-codec
+commons-io:commons-io,2.16.1,https://github.com/apache/maven-apache-parent/tree/${project.scm.tag},Apache-2.0,https://www.apache.org/licenses/LICENSE-2.0.txt,pom(org.apache:apache:31)
+io.github.cdimascio:dotenv-java,2.3.2,https://github.com/cdimascio/dotenv-java,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/cdimascio/dotenv-java
+io.github.crac:org-crac,0.1.3,https://github.com/CRaC/org.crac/tree/master,"BSD 2-Clause ""Simplified"" License",https://api.github.com/licenses/bsd-2-clause,https://api.github.com/repos/CRaC/org.crac
+io.github.x-stream:mxparser,1.2.2,https://github.com/x-stream/mxparser,"Indiana University Extreme! Lab Software License, Version 1.2",https://github.com/x-stream/mxparser/blob/master/LICENSE.txt,https://github.com/x-stream/mxparser/blob/master/LICENSE.txt
+io.grpc:grpc-api,1.58.0,https://github.com/grpc/grpc-java,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/grpc/grpc-java
+io.grpc:grpc-api,1.64.0,https://github.com/grpc/grpc-java,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/grpc/grpc-java
+io.grpc:grpc-context,1.58.0,https://github.com/grpc/grpc-java,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/grpc/grpc-java
+io.grpc:grpc-core,1.58.0,https://github.com/grpc/grpc-java,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/grpc/grpc-java
+io.grpc:grpc-inprocess,1.58.0,https://github.com/grpc/grpc-java,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/grpc/grpc-java
+io.grpc:grpc-inprocess,1.64.0,https://github.com/grpc/grpc-java,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/grpc/grpc-java
+io.grpc:grpc-okhttp,1.58.0,https://github.com/grpc/grpc-java,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/grpc/grpc-java
+io.grpc:grpc-okhttp,1.64.0,https://github.com/grpc/grpc-java,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/grpc/grpc-java
+io.grpc:grpc-protobuf-lite,1.58.0,https://github.com/grpc/grpc-java,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/grpc/grpc-java
+io.grpc:grpc-stub,1.58.0,https://github.com/grpc/grpc-java,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/grpc/grpc-java
+io.grpc:grpc-util,1.58.0,https://github.com/grpc/grpc-java,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/grpc/grpc-java
+io.grpc:grpc-util,1.64.0,https://github.com/grpc/grpc-java,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/grpc/grpc-java
+io.micrometer:micrometer-commons,1.13.0,https://github.com/micrometer-metrics/micrometer,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/micrometer-metrics/micrometer
+io.micrometer:micrometer-observation,1.13.0,https://github.com/micrometer-metrics/micrometer,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/micrometer-metrics/micrometer
+io.perfmark:perfmark-api,0.26.0,https://github.com/perfmark/perfmark,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/perfmark/perfmark
+io.quarkus.arc:arc,3.12.2,https://github.com/quarkusio/quarkus,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/quarkusio/quarkus
+io.quarkus.gizmo:gizmo,1.8.0,https://github.com/quarkusio/gizmo,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/quarkusio/gizmo
+io.quarkus:quarkus-arc,3.12.2,https://github.com/quarkusio/quarkus,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/quarkusio/quarkus
+io.quarkus:quarkus-bootstrap-app-model,3.12.2,https://github.com/quarkusio/quarkus,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/quarkusio/quarkus
+io.quarkus:quarkus-bootstrap-core,3.12.2,https://github.com/quarkusio/quarkus,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/quarkusio/quarkus
+io.quarkus:quarkus-bootstrap-gradle-resolver,3.12.2,https://github.com/quarkusio/quarkus,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/quarkusio/quarkus
+io.quarkus:quarkus-bootstrap-maven-resolver,3.12.2,https://github.com/quarkusio/quarkus,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/quarkusio/quarkus
+io.quarkus:quarkus-bootstrap-runner,3.12.2,https://github.com/quarkusio/quarkus,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/quarkusio/quarkus
+io.quarkus:quarkus-builder,3.12.2,https://github.com/quarkusio/quarkus,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/quarkusio/quarkus
+io.quarkus:quarkus-class-change-agent,3.12.2,https://github.com/quarkusio/quarkus,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/quarkusio/quarkus
+io.quarkus:quarkus-classloader-commons,3.12.2,https://github.com/quarkusio/quarkus,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/quarkusio/quarkus
+io.quarkus:quarkus-core,3.12.2,https://github.com/quarkusio/quarkus,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/quarkusio/quarkus
+io.quarkus:quarkus-core-deployment,3.12.2,https://github.com/quarkusio/quarkus,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/quarkusio/quarkus
+io.quarkus:quarkus-development-mode-spi,3.12.2,https://github.com/quarkusio/quarkus,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/quarkusio/quarkus
+io.quarkus:quarkus-devtools-utilities,3.12.2,https://github.com/quarkusio/quarkus,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/quarkusio/quarkus
+io.quarkus:quarkus-fs-util,0.0.10,https://github.com/quarkusio/quarkus-fs-util,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/quarkusio/quarkus-fs-util
+io.quarkus:quarkus-hibernate-validator-spi,3.12.2,https://github.com/quarkusio/quarkus,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/quarkusio/quarkus
+io.quarkus:quarkus-ide-launcher,3.12.2,https://github.com/quarkusio/quarkus,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/quarkusio/quarkus
+io.quarkus:quarkus-junit5,3.12.2,https://github.com/quarkusio/quarkus,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/quarkusio/quarkus
+io.quarkus:quarkus-junit5-properties,3.12.2,https://github.com/quarkusio/quarkus,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/quarkusio/quarkus
+io.quarkus:quarkus-test-common,3.12.2,https://github.com/quarkusio/quarkus,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/quarkusio/quarkus
+io.smallrye.beanbag:smallrye-beanbag,1.5.2,https://github.com/smallrye/smallrye-beanbag/,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/smallrye/smallrye-beanbag
+io.smallrye.beanbag:smallrye-beanbag-maven,1.5.2,https://github.com/smallrye/smallrye-beanbag/,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/smallrye/smallrye-beanbag
+io.smallrye.beanbag:smallrye-beanbag-sisu,1.5.2,https://github.com/smallrye/smallrye-beanbag/,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/smallrye/smallrye-beanbag
+io.smallrye.common:smallrye-common-annotation,2.3.0,https://github.com/smallrye/smallrye-common/,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/smallrye/smallrye-common
+io.smallrye.common:smallrye-common-classloader,2.4.0,https://github.com/smallrye/smallrye-common/,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/smallrye/smallrye-common
+io.smallrye.common:smallrye-common-constraint,2.2.0,https://github.com/smallrye/smallrye-common/,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/smallrye/smallrye-common
+io.smallrye.common:smallrye-common-cpu,2.2.0,https://github.com/smallrye/smallrye-common/,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/smallrye/smallrye-common
+io.smallrye.common:smallrye-common-expression,2.2.0,https://github.com/smallrye/smallrye-common/,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/smallrye/smallrye-common
+io.smallrye.common:smallrye-common-function,2.2.0,https://github.com/smallrye/smallrye-common/,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/smallrye/smallrye-common
+io.smallrye.common:smallrye-common-io,2.3.0,https://github.com/smallrye/smallrye-common/,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/smallrye/smallrye-common
+io.smallrye.common:smallrye-common-net,2.2.0,https://github.com/smallrye/smallrye-common/,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/smallrye/smallrye-common
+io.smallrye.common:smallrye-common-os,2.3.0,https://github.com/smallrye/smallrye-common/,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/smallrye/smallrye-common
+io.smallrye.common:smallrye-common-ref,2.2.0,https://github.com/smallrye/smallrye-common/,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/smallrye/smallrye-common
+io.smallrye.config:smallrye-config,3.8.3,https://github.com/smallrye/smallrye-config/,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/smallrye/smallrye-config
+io.smallrye.config:smallrye-config-common,3.8.3,https://github.com/smallrye/smallrye-config/,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/smallrye/smallrye-config
+io.smallrye.config:smallrye-config-core,3.8.3,https://github.com/smallrye/smallrye-config/,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/smallrye/smallrye-config
+io.smallrye.reactive:mutiny,2.6.0,https://github.com/smallrye/smallrye-mutiny,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/smallrye/smallrye-mutiny
+io.smallrye:jandex,3.2.0,https://github.com/smallrye/jandex/,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/smallrye/jandex
 jakarta.activation:jakarta.activation-api,2.1.3,https://github.com/jakartaee/jaf-api,"BSD 3-Clause ""New"" or ""Revised"" License",https://api.github.com/licenses/bsd-3-clause,https://api.github.com/repos/jakartaee/jaf-api
+jakarta.annotation:jakarta.annotation-api,2.1.1,https://github.com/eclipse-ee4j/common-annotations-api,Unknown,Unknown,-
+jakarta.el:jakarta.el-api,5.0.0,https://github.com/eclipse-ee4j/el-ri,Unknown,Unknown,-
+jakarta.enterprise:jakarta.enterprise.cdi-api,4.0.1,https://github.com/cdi-spec/cdi,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/cdi-spec/cdi
+jakarta.enterprise:jakarta.enterprise.lang-model,4.0.1,https://github.com/eclipse-ee4j/cdi,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/eclipse-ee4j/cdi
+jakarta.inject:jakarta.inject-api,2.0.1,https://github.com/eclipse-ee4j/injection-api,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/eclipse-ee4j/injection-api
+jakarta.interceptor:jakarta.interceptor-api,2.1.0,https://github.com/eclipse-ee4j/interceptor-api,Unknown,Unknown,-
+jakarta.json:jakarta.json-api,2.1.0,https://github.com/eclipse-ee4j/jsonp,Unknown,Unknown,-
+jakarta.transaction:jakarta.transaction-api,2.0.1,https://github.com/eclipse-ee4j/jta-api,Unknown,Unknown,-
+jakarta.ws.rs:jakarta.ws.rs-api,3.1.0,https://github.com/eclipse-ee4j/jaxrs-api,Unknown,Unknown,-
+jakarta.xml.bind:jakarta.xml.bind-api,4.0.2,https://github.com/jakartaee/jaxb-api,"BSD 3-Clause ""New"" or ""Revised"" License",https://api.github.com/licenses/bsd-3-clause,https://api.github.com/repos/jakartaee/jaxb-api
+javax.annotation:javax.annotation-api,1.3.2,https://github.com/javaee/javax.annotation,Unknown,Unknown,-
+javax.inject:javax.inject,1,UNKNOWN,"The Apache Software License, Version 2.0",http://www.apache.org/licenses/LICENSE-2.0.txt,pom(javax.inject:javax.inject:1)
+net.bytebuddy:byte-buddy,1.14.16,UNKNOWN,"Apache License, Version 2.0",https://www.apache.org/licenses/LICENSE-2.0.txt,pom(net.bytebuddy:byte-buddy-parent:1.14.16)
+net.bytebuddy:byte-buddy-agent,1.14.16,UNKNOWN,"Apache License, Version 2.0",https://www.apache.org/licenses/LICENSE-2.0.txt,pom(net.bytebuddy:byte-buddy-parent:1.14.16)
+net.minidev:accessors-smart,2.5.1,https://github.com/netplex/json-smart-v2,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/netplex/json-smart-v2
+net.minidev:json-smart,2.5.1,https://github.com/netplex/json-smart-v2,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/netplex/json-smart-v2
+org.aesh:aesh,2.8.2,https://github.com/aeshell/aesh-readline/tree/master,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/aeshell/aesh-readline
+org.aesh:readline,2.6,https://github.com/aeshell/aesh-readline/tree/master,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/aeshell/aesh-readline
+org.apache.commons:commons-lang3,3.14.0,https://github.com/apache/maven-apache-parent/tree/${project.scm.tag},Apache-2.0,https://www.apache.org/licenses/LICENSE-2.0.txt,pom(org.apache:apache:30)
+org.apache.httpcomponents:httpclient,4.5.14,https://github.com/apache/httpcomponents-client/tree/${project.scm.tag},Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/apache/httpcomponents-client
+org.apache.httpcomponents:httpcore,4.4.16,https://github.com/apache/httpcomponents-core/tree/${project.scm.tag},Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/apache/httpcomponents-core
+org.apache.logging.log4j:log4j-api,2.23.1,https://github.com/apache/logging-log4j2,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/apache/logging-log4j2
+org.apache.logging.log4j:log4j-to-slf4j,2.23.1,https://github.com/apache/logging-log4j2,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/apache/logging-log4j2
+org.apache.maven.resolver:maven-resolver-api,1.9.20,https://github.com/apache/maven-resolver/tree/${project.scm.tag},Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/apache/maven-resolver
+org.apache.maven.resolver:maven-resolver-connector-basic,1.9.20,https://github.com/apache/maven-resolver/tree/${project.scm.tag},Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/apache/maven-resolver
+org.apache.maven.resolver:maven-resolver-impl,1.9.20,https://github.com/apache/maven-resolver/tree/${project.scm.tag},Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/apache/maven-resolver
+org.apache.maven.resolver:maven-resolver-named-locks,1.9.20,https://github.com/apache/maven-resolver/tree/${project.scm.tag},Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/apache/maven-resolver
+org.apache.maven.resolver:maven-resolver-spi,1.9.20,https://github.com/apache/maven-resolver/tree/${project.scm.tag},Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/apache/maven-resolver
+org.apache.maven.resolver:maven-resolver-transport-http,1.9.20,https://github.com/apache/maven-resolver/tree/${project.scm.tag},Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/apache/maven-resolver
+org.apache.maven.resolver:maven-resolver-transport-wagon,1.9.20,https://github.com/apache/maven-resolver/tree/${project.scm.tag},Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/apache/maven-resolver
+org.apache.maven.resolver:maven-resolver-util,1.9.20,https://github.com/apache/maven-resolver/tree/${project.scm.tag},Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/apache/maven-resolver
+org.apache.maven.shared:maven-shared-utils,3.4.2,https://github.com/apache/maven-shared-utils/tree/${project.scm.tag},Apache-2.0,https://www.apache.org/licenses/LICENSE-2.0.txt,pom(org.apache:apache:29)
+org.apache.maven.wagon:wagon-file,3.5.3,https://github.com/apache/maven-wagon/tree/${project.scm.tag},"Apache License, Version 2.0",https://www.apache.org/licenses/LICENSE-2.0.txt,pom(org.apache:apache:23)
+org.apache.maven.wagon:wagon-http,3.5.3,https://github.com/apache/maven-wagon/tree/${project.scm.tag},"Apache License, Version 2.0",https://www.apache.org/licenses/LICENSE-2.0.txt,pom(org.apache:apache:23)
+org.apache.maven.wagon:wagon-http-shared,3.5.3,https://github.com/apache/maven-wagon/tree/${project.scm.tag},"Apache License, Version 2.0",https://www.apache.org/licenses/LICENSE-2.0.txt,pom(org.apache:apache:23)
+org.apache.maven.wagon:wagon-provider-api,3.5.3,https://github.com/apache/maven-wagon/tree/${project.scm.tag},"Apache License, Version 2.0",https://www.apache.org/licenses/LICENSE-2.0.txt,pom(org.apache:apache:23)
+org.apache.maven:maven-api-meta,4.0.0-alpha-5,https://github.com/apache/maven/tree/${project.scm.tag},Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/apache/maven
+org.apache.maven:maven-api-xml,4.0.0-alpha-5,https://github.com/apache/maven/tree/${project.scm.tag},Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/apache/maven
+org.apache.maven:maven-artifact,3.9.8,https://github.com/apache/maven/tree/${project.scm.tag},Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/apache/maven
+org.apache.maven:maven-builder-support,3.9.8,https://github.com/apache/maven/tree/${project.scm.tag},Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/apache/maven
+org.apache.maven:maven-core,3.9.8,https://github.com/apache/maven/tree/${project.scm.tag},Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/apache/maven
+org.apache.maven:maven-embedder,3.9.8,https://github.com/apache/maven/tree/${project.scm.tag},Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/apache/maven
+org.apache.maven:maven-model,3.9.8,https://github.com/apache/maven/tree/${project.scm.tag},Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/apache/maven
+org.apache.maven:maven-model-builder,3.9.8,https://github.com/apache/maven/tree/${project.scm.tag},Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/apache/maven
+org.apache.maven:maven-plugin-api,3.9.8,https://github.com/apache/maven/tree/${project.scm.tag},Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/apache/maven
+org.apache.maven:maven-repository-metadata,3.9.8,https://github.com/apache/maven/tree/${project.scm.tag},Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/apache/maven
+org.apache.maven:maven-resolver-provider,3.9.8,https://github.com/apache/maven/tree/${project.scm.tag},Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/apache/maven
+org.apache.maven:maven-settings,3.9.8,https://github.com/apache/maven/tree/${project.scm.tag},Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/apache/maven
+org.apache.maven:maven-settings-builder,3.9.8,https://github.com/apache/maven/tree/${project.scm.tag},Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/apache/maven
+org.apache.maven:maven-xml-impl,4.0.0-alpha-5,https://github.com/apache/maven/tree/${project.scm.tag},Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/apache/maven
+org.apache.tomcat.embed:tomcat-embed-core,10.1.24,UNKNOWN,"Apache License, Version 2.0",http://www.apache.org/licenses/LICENSE-2.0.txt,pom(org.apache.tomcat.embed:tomcat-embed-core:10.1.24)
+org.apache.tomcat.embed:tomcat-embed-el,10.1.24,UNKNOWN,"Apache License, Version 2.0",http://www.apache.org/licenses/LICENSE-2.0.txt,pom(org.apache.tomcat.embed:tomcat-embed-el:10.1.24)
+org.apache.tomcat.embed:tomcat-embed-websocket,10.1.24,UNKNOWN,"Apache License, Version 2.0",http://www.apache.org/licenses/LICENSE-2.0.txt,pom(org.apache.tomcat.embed:tomcat-embed-websocket:10.1.24)
+org.apiguardian:apiguardian-api,1.1.2,https://github.com/apiguardian-team/apiguardian,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/apiguardian-team/apiguardian
+org.assertj:assertj-core,3.25.3,https://github.com/assertj/assertj/assertj-parent/assertj-core,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/assertj/assertj
+org.awaitility:awaitility,4.2.1,https://github.com/awaitility/awaitility/tree/${scm.branch},Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/awaitility/awaitility
+org.bouncycastle:bcpkix-jdk15to18,1.76,https://github.com/bcgit/bc-java,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/bcgit/bc-java
+org.bouncycastle:bcprov-jdk15to18,1.76,https://github.com/bcgit/bc-java,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/bcgit/bc-java
+org.bouncycastle:bcutil-jdk15to18,1.76,https://github.com/bcgit/bc-java,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/bcgit/bc-java
+org.checkerframework:checker-qual,3.33.0,https://github.com/typetools/checker-framework,Unknown,Unknown,-
+org.checkerframework:checker-qual,3.37.0,https://github.com/typetools/checker-framework,MIT License,https://api.github.com/licenses/mit,https://repo1.maven.org/maven2/org/checkerframework/checker-qual/3.33.0/checker-qual-3.33.0.pom
+org.codehaus.mojo:animal-sniffer-annotations,1.23,https://github.com/mojohaus/animal-sniffer/tree/master,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/mojohaus/animal-sniffer
+org.codehaus.plexus:plexus-cipher,2.1.0,https://github.com/codehaus-plexus/plexus-cipher,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/codehaus-plexus/plexus-cipher
+org.codehaus.plexus:plexus-classworlds,2.8.0,https://github.com/codehaus-plexus/plexus-classworlds/tree/${project.scm.tag}/,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://github.com/codehaus-plexus/plexus-classworlds?tab=License-1-ov-file#readme
+org.codehaus.plexus:plexus-component-annotations,2.1.0,https://github.com/codehaus-plexus/plexus-containers,"Apache License, Version 2.0",http://www.apache.org/licenses/LICENSE-2.0.txt,pom(org.codehaus.plexus:plexus:5.1)
+org.codehaus.plexus:plexus-interpolation,1.27,https://github.com/codehaus-plexus/plexus-interpolation/tree/${project.scm.tag}/,"Apache License, Version 2.0",https://www.apache.org/licenses/LICENSE-2.0.txt,pom(org.codehaus.plexus:plexus:16)
+org.codehaus.plexus:plexus-sec-dispatcher,2.0,https://github.com/codehaus-plexus/plexus-sec-dispatcher,"Apache License, Version 2.0",http://www.apache.org/licenses/LICENSE-2.0.txt,pom(org.codehaus.plexus:plexus:8)
+org.codehaus.plexus:plexus-utils,4.0.1,https://github.com/codehaus-plexus/plexus-utils/tree/${project.scm.tag}/,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/codehaus-plexus/plexus-utils
+org.codehaus.plexus:plexus-xml,4.0.1,https://github.com/codehaus-plexus/plexus-xml/tree/${project.scm.tag}/,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/codehaus-plexus/plexus-xml
+org.eclipse.microprofile.config:microprofile-config-api,3.1,https://github.com/eclipse/microprofile-config,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/eclipse/microprofile-config
+org.eclipse.microprofile.context-propagation:microprofile-context-propagation-api,1.3,https://github.com/eclipse/microprofile-context-propagation,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/eclipse/microprofile-context-propagation
+org.eclipse.parsson:parsson,1.1.6,https://github.com/eclipse-ee4j/parsson,Unknown,Unknown,-
+org.eclipse.sisu:org.eclipse.sisu.inject,0.9.0.M3,https://github.com/eclipse/sisu.inject,Eclipse Public License 2.0,https://api.github.com/licenses/epl-2.0,https://api.github.com/repos/eclipse/sisu.inject
+org.eclipse.sisu:org.eclipse.sisu.plexus,0.9.0.M3,https://github.com/eclipse/sisu.inject,Eclipse Public License 2.0,https://api.github.com/licenses/epl-2.0,https://api.github.com/repos/eclipse/sisu.inject
+org.fusesource.jansi:jansi,2.4.0,https://github.com/fusesource/jansi,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/fusesource/jansi
+org.graalvm.sdk:nativeimage,23.1.2,https://github.com/oracle/graal,Unknown,Unknown,-
+org.graalvm.sdk:word,23.1.2,https://github.com/oracle/graal,Unknown,Unknown,-
+org.hamcrest:hamcrest,2.2,https://github.com/hamcrest/JavaHamcrest,"BSD 3-Clause ""New"" or ""Revised"" License",https://api.github.com/licenses/bsd-3-clause,https://api.github.com/repos/hamcrest/JavaHamcrest
+org.jboss.logging:commons-logging-jboss-logging,1.0.0.Final,https://github.com/jboss-logging/commons-logging-jboss-logging,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/jboss-logging/commons-logging-jboss-logging
+org.jboss.logging:jboss-logging,3.5.3.Final,https://github.com/jboss-logging/jboss-logging/tree/main/,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/jboss-logging/jboss-logging
+org.jboss.logging:jboss-logging-annotations,2.2.1.Final,https://github.com/jboss-logging/jboss-logging-tools,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/jboss-logging/jboss-logging-tools
+org.jboss.logmanager:jboss-logmanager,3.0.6.Final,https://github.com/jboss-logging/jboss-logmanager/tree/main/,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/jboss-logging/jboss-logmanager
+org.jboss.slf4j:slf4j-jboss-logmanager,2.0.0.Final,https://github.com/jboss-logging/slf4j-jboss-logging/tree/main/,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/jboss-logging/slf4j-jboss-logging
+org.jboss.threads:jboss-threads,3.6.1.Final,https://github.com/jbossas/jboss-threads,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/jbossas/jboss-threads
+org.jctools:jctools-core,4.0.3,https://github.com/JCTools/JCTools,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/JCTools/JCTools
+org.jetbrains.kotlin:kotlin-stdlib,1.9.24,https://github.com/JetBrains/kotlin,"The Apache License, Version 2.0",http://www.apache.org/licenses/LICENSE-2.0.txt,pom(org.jetbrains.kotlin:kotlin-stdlib:1.9.24)
+org.jetbrains.kotlin:kotlin-stdlib-common,1.9.24,https://github.com/JetBrains/kotlin,"The Apache License, Version 2.0",http://www.apache.org/licenses/LICENSE-2.0.txt,pom(org.jetbrains.kotlin:kotlin-stdlib-common:1.9.24)
+org.jetbrains.kotlin:kotlin-stdlib-jdk7,1.9.24,https://github.com/JetBrains/kotlin,"The Apache License, Version 2.0",http://www.apache.org/licenses/LICENSE-2.0.txt,pom(org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.9.24)
+org.jetbrains.kotlin:kotlin-stdlib-jdk8,1.9.24,https://github.com/JetBrains/kotlin,"The Apache License, Version 2.0",http://www.apache.org/licenses/LICENSE-2.0.txt,pom(org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.24)
+org.jetbrains:annotations,13.0,https://github.com/JetBrains/intellij-community,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/JetBrains/intellij-community
+org.jspecify:jspecify,1.0.0,https://github.com/jspecify/jspecify/,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/jspecify/jspecify
+org.junit.jupiter:junit-jupiter,5.10.3,https://github.com/junit-team/junit5,Eclipse Public License 2.0,https://api.github.com/licenses/epl-2.0,https://api.github.com/repos/junit-team/junit5
+org.junit.jupiter:junit-jupiter-api,5.10.2,https://github.com/junit-team/junit5,Eclipse Public License 2.0,https://api.github.com/licenses/epl-2.0,https://api.github.com/repos/junit-team/junit5
+org.junit.jupiter:junit-jupiter-engine,5.10.2,https://github.com/junit-team/junit5,Eclipse Public License 2.0,https://api.github.com/licenses/epl-2.0,https://api.github.com/repos/junit-team/junit5
+org.junit.jupiter:junit-jupiter-params,5.10.2,https://github.com/junit-team/junit5,Eclipse Public License 2.0,https://api.github.com/licenses/epl-2.0,https://api.github.com/repos/junit-team/junit5
+org.junit.platform:junit-platform-commons,1.10.2,https://github.com/junit-team/junit5,Eclipse Public License 2.0,https://api.github.com/licenses/epl-2.0,https://api.github.com/repos/junit-team/junit5
+org.junit.platform:junit-platform-engine,1.10.2,https://github.com/junit-team/junit5,Eclipse Public License 2.0,https://api.github.com/licenses/epl-2.0,https://api.github.com/repos/junit-team/junit5
+org.junit.platform:junit-platform-launcher,1.10.2,https://github.com/junit-team/junit5,Eclipse Public License 2.0,https://api.github.com/licenses/epl-2.0,https://api.github.com/repos/junit-team/junit5
+org.mockito:mockito-core,5.11.0,https://github.com/mockito/mockito,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/mockito/mockito
+org.mockito:mockito-junit-jupiter,5.11.0,https://github.com/mockito/mockito,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/mockito/mockito
+org.objenesis:objenesis,3.3,https://github.com/easymock/objenesis,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/easymock/objenesis
+org.opentest4j:opentest4j,1.3.0,https://github.com/ota4j-team/opentest4j,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/ota4j-team/opentest4j
+org.ow2.asm:asm,9.6,UNKNOWN,BSD-3-Clause,https://asm.ow2.io/license.html,pom(org.ow2.asm:asm:9.6)
+org.ow2.asm:asm,9.7,UNKNOWN,BSD-3-Clause,https://asm.ow2.io/license.html,pom(org.ow2.asm:asm:9.7)
+org.ow2.asm:asm-analysis,9.6,UNKNOWN,BSD-3-Clause,https://asm.ow2.io/license.html,pom(org.ow2.asm:asm-analysis:9.6)
+org.ow2.asm:asm-commons,9.7,UNKNOWN,BSD-3-Clause,https://asm.ow2.io/license.html,pom(org.ow2.asm:asm-commons:9.7)
+org.ow2.asm:asm-tree,9.7,UNKNOWN,BSD-3-Clause,https://asm.ow2.io/license.html,pom(org.ow2.asm:asm-tree:9.7)
+org.ow2.asm:asm-util,9.6,UNKNOWN,BSD-3-Clause,https://asm.ow2.io/license.html,pom(org.ow2.asm:asm-util:9.6)
+org.skyscreamer:jsonassert,1.5.1,https://github.com/skyscreamer/JSONassert,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/skyscreamer/JSONassert
+org.slf4j:jcl-over-slf4j,2.0.13,https://github.com/qos-ch/slf4j,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/qos-ch/slf4j
+org.slf4j:jul-to-slf4j,2.0.13,https://github.com/qos-ch/slf4j,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/qos-ch/slf4j
+org.slf4j:slf4j-api,2.0.13,https://github.com/qos-ch/slf4j,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/qos-ch/slf4j
+org.slf4j:slf4j-simple,2.0.13,https://github.com/qos-ch/slf4j,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/qos-ch/slf4j
+org.springframework.boot:spring-boot,3.3.0,https://github.com/spring-projects/spring-boot,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/spring-projects/spring-boot
+org.springframework.boot:spring-boot-autoconfigure,3.3.0,https://github.com/spring-projects/spring-boot,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/spring-projects/spring-boot
+org.springframework.boot:spring-boot-configuration-processor,3.3.0,https://github.com/spring-projects/spring-boot,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/spring-projects/spring-boot
+org.springframework.boot:spring-boot-starter,3.3.0,https://github.com/spring-projects/spring-boot,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/spring-projects/spring-boot
+org.springframework.boot:spring-boot-starter-json,3.3.0,https://github.com/spring-projects/spring-boot,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/spring-projects/spring-boot
+org.springframework.boot:spring-boot-starter-logging,3.3.0,https://github.com/spring-projects/spring-boot,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/spring-projects/spring-boot
+org.springframework.boot:spring-boot-starter-test,3.3.0,https://github.com/spring-projects/spring-boot,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/spring-projects/spring-boot
+org.springframework.boot:spring-boot-starter-tomcat,3.3.0,https://github.com/spring-projects/spring-boot,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/spring-projects/spring-boot
+org.springframework.boot:spring-boot-starter-web,3.3.0,https://github.com/spring-projects/spring-boot,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/spring-projects/spring-boot
+org.springframework.boot:spring-boot-test,3.3.0,https://github.com/spring-projects/spring-boot,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/spring-projects/spring-boot
+org.springframework.boot:spring-boot-test-autoconfigure,3.3.0,https://github.com/spring-projects/spring-boot,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/spring-projects/spring-boot
+org.springframework:spring-aop,6.1.8,https://github.com/spring-projects/spring-framework,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/spring-projects/spring-framework
 org.springframework:spring-beans,6.1.8,https://github.com/spring-projects/spring-framework,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/spring-projects/spring-framework
+org.springframework:spring-context,6.1.8,https://github.com/spring-projects/spring-framework,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/spring-projects/spring-framework
+org.springframework:spring-core,6.1.8,https://github.com/spring-projects/spring-framework,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/spring-projects/spring-framework
+org.springframework:spring-expression,6.1.8,https://github.com/spring-projects/spring-framework,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/spring-projects/spring-framework
+org.springframework:spring-jcl,6.1.8,https://github.com/spring-projects/spring-framework,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/spring-projects/spring-framework
+org.springframework:spring-test,6.1.8,https://github.com/spring-projects/spring-framework,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/spring-projects/spring-framework
+org.springframework:spring-web,6.1.8,https://github.com/spring-projects/spring-framework,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/spring-projects/spring-framework
+org.springframework:spring-webmvc,6.1.8,https://github.com/spring-projects/spring-framework,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/spring-projects/spring-framework
+org.wildfly.common:wildfly-common,1.7.0.Final,https://github.com/wildfly/wildfly-common/,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/wildfly/wildfly-common
+org.xmlunit:xmlunit-core,2.9.1,https://github.com/xmlunit/xmlunit,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/xmlunit/xmlunit
+org.yaml:snakeyaml,2.2,UNKNOWN,"Apache License, Version 2.0",http://www.apache.org/licenses/LICENSE-2.0.txt,pom(org.yaml:snakeyaml:2.2)
+xmlpull:xmlpull,1.1.3.1,UNKNOWN,Public Domain,http://www.xmlpull.org/v1/download/unpacked/LICENSE.txt,pom(xmlpull:xmlpull:1.1.3.1)
