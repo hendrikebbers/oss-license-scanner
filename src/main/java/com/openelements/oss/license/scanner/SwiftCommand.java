@@ -21,4 +21,9 @@ public class SwiftCommand extends AbstractCommand {
     protected Resolver createResolver(GitHubClient client) {
         return new SwiftResolver(client);
     }
+
+    @Override
+    protected String getLanguageType() {
+        return "swift";
+    }
 }

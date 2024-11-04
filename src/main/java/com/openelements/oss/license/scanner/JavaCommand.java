@@ -17,4 +17,9 @@ public class JavaCommand extends AbstractCommand {
     protected Resolver createResolver(GitHubClient client) {
         return new PomOnlyResolver(client);
     }
+
+    @Override
+    protected String getLanguageType() {
+        return "java";
+    }
 }

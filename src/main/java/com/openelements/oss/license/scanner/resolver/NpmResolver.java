@@ -6,6 +6,7 @@ import com.openelements.oss.license.scanner.api.Resolver;
 import com.openelements.oss.license.scanner.clients.GitHubClient;
 import com.openelements.oss.license.scanner.api.Dependency;
 import com.openelements.oss.license.scanner.api.Identifier;
+import com.openelements.oss.license.scanner.licenses.LicenseCache;
 import com.openelements.oss.license.scanner.tools.NpmHelper;
 import java.io.File;
 import java.io.IOException;
@@ -21,14 +22,18 @@ import java.util.stream.Stream;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-public class NpmResolver implements Resolver {
+public class NpmResolver extends AbstractResolver {
 
     private final static Logger log = LoggerFactory.getLogger(NpmResolver.class);
 
-    private final GitHubClient gitHubClient;
-
     public NpmResolver(GitHubClient gitHubClient) {
-        this.gitHubClient = gitHubClient;
+       super(gitHubClient);
+    }
+
+    @Override
+    public Set<Dependency> resolve(Path localProject) {
+        final JsonObject jsonObject = NpmHelper.callNpmLs(localProject);
+        return getDependencies(jsonObject);
     }
 
     @Override
@@ -39,26 +44,14 @@ public class NpmResolver implements Resolver {
         if(repositoryUrl == null) {
             throw new RuntimeException("No repository found for lib: " + identifier);
         }
-        final String tag = gitHubClient.findMatchingTag(repositoryUrl, identifier.version())
-                .orElseThrow(() -> new RuntimeException("No tag found for version: " + identifier.version()));
-        final Path pathToProject = gitHubClient.download(repositoryUrl, tag);
-        try {
-            return getAllDependencies(pathToProject);
-        } finally {
-            if(pathToProject != null) {
-                try {
-                    try (Stream<Path> paths = Files.walk(pathToProject)) {
-                        paths.sorted(Comparator.reverseOrder()).map(Path::toFile).forEach(File::delete);
-                    }
-                } catch (IOException e) {
-                    log.error("Error in deleting temporary directory '" + pathToProject + "'", e);
-                }
-            }
-        }
+        return installLocally(repositoryUrl, identifier.version(), path -> resolve(path));
     }
 
     private Set<Dependency> getDependencies(final JsonObject jsonObject) {
         final Set<Dependency> dependencies = new HashSet<>();
+        if(!jsonObject.has("dependencies")) {
+            return dependencies;
+        }
         jsonObject.get("dependencies").getAsJsonObject().entrySet().stream().parallel()
                 .map(e -> {
                     final String name = e.getKey();
@@ -87,11 +80,6 @@ public class NpmResolver implements Resolver {
         return dependencies;
     }
 
-    private Set<Dependency> getAllDependencies(Path pathToProject) {
-        final JsonObject jsonObject = NpmHelper.callNpmLs(pathToProject);
-        return getDependencies(jsonObject);
-    }
-
     private final Map<Identifier, Dependency> cache = new ConcurrentHashMap<>();
 
     private Optional<Dependency> fromNpmShow(Identifier identifier) {
@@ -99,7 +87,7 @@ public class NpmResolver implements Resolver {
             return Optional.of(cache.get(identifier));
         }
         final Dependency dependency = NpmHelper.callNpmShowAndReturnRepository(identifier)
-                .map(repository -> new Dependency(identifier, gitHubClient.getLicense(repository), repository))
+                .map(repository -> new Dependency(identifier, LicenseCache.getInstance().computeIfAbsent(identifier, () -> gitHubClient.getLicense(repository)), repository))
                 .orElseGet(() -> new Dependency(identifier, License.UNKNOWN, null));
         cache.put(identifier, dependency);
         return Optional.of(dependency);

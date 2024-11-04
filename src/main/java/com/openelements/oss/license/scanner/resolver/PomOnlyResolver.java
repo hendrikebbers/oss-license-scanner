@@ -7,6 +7,7 @@ import com.openelements.oss.license.scanner.clients.MavenIdentifier;
 import com.openelements.oss.license.scanner.api.Dependency;
 import com.openelements.oss.license.scanner.api.Identifier;
 import com.openelements.oss.license.scanner.api.License;
+import com.openelements.oss.license.scanner.licenses.LicenseCache;
 import com.openelements.oss.license.scanner.tools.MavenHelper;
 import java.io.File;
 import java.io.IOException;
@@ -21,14 +22,25 @@ import java.util.stream.Stream;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-public class PomOnlyResolver implements Resolver {
+public class PomOnlyResolver extends AbstractResolver {
 
     private final static Logger log = LoggerFactory.getLogger(PomOnlyResolver.class);
 
-    private final GitHubClient gitHubClient;
-
     public PomOnlyResolver(GitHubClient gitHubClient) {
-        this.gitHubClient = gitHubClient;
+        super(gitHubClient);
+    }
+
+    @Override
+    public Set<Dependency> resolve(Path localProjectPath) {
+        MavenCentralClient mavenCentralClient = new MavenCentralClient();
+        return MavenHelper.callListDependencies(localProjectPath).stream()
+                .map(i -> {
+                    final License license = getLicense(i);
+                    final String repository = mavenCentralClient.getRepository(i)
+                            .map(r -> GitHubClient.normalizeUrl(r))
+                            .orElse("UNKNOWN");
+                    return new Dependency(i.toIdentifier(), license, repository);
+                }).collect(Collectors.toSet());
     }
 
     @Override
@@ -40,15 +52,9 @@ public class PomOnlyResolver implements Resolver {
                 MavenCentralClient mavenCentralClient = new MavenCentralClient();
                 final MavenIdentifier mavenIdentifier = new MavenIdentifier(identifier);
                 final String pom = mavenCentralClient.getPom(mavenIdentifier);
+                //TODO: throw exception if type of pom == pom/bom...
                 Files.write(tempDir.resolve("pom.xml"), pom.getBytes());
-                return MavenHelper.getDependenciesFromPom(tempDir).stream()
-                        .map(i -> {
-                           final License license = getLicense(i);
-                           final String repository = mavenCentralClient.getRepository(i)
-                                   .map(r -> GitHubClient.normalizeUrl(r))
-                                   .orElse("UNKNOWN");
-                            return new Dependency(i.toIdentifier(), license, repository);
-                        }).collect(Collectors.toSet());
+                return resolve(tempDir);
             } catch (Exception e) {
                 log.error("Error in resolving dependencies", e);
                 return Set.of();
@@ -62,9 +68,8 @@ public class PomOnlyResolver implements Resolver {
                 }
             }
         } catch (Exception e) {
-            log.error("Error in creating temp directory", e);
+            throw new RuntimeException("Error in creating temp directory", e);
         }
-        return null;
     }
 
     protected License getLicense(MavenIdentifier identifier) {
@@ -74,7 +79,7 @@ public class PomOnlyResolver implements Resolver {
             final Optional<String> repository = mavenCentralClient.getRepository(identifier);
             if (repository.isPresent()) {
                 log.info("Getting license from repository: " + repository.get());
-                final License license = gitHubClient.getLicense(repository.get());
+                final License license = LicenseCache.getInstance().computeIfAbsent(identifier.toIdentifier(), () ->gitHubClient.getLicense(repository.get()));
                 if(!Objects.equals(license, License.UNKNOWN)) {
                     return license;
                 }

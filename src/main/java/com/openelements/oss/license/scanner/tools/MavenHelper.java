@@ -34,7 +34,7 @@ public class MavenHelper {
                 .collect(Collectors.toUnmodifiableSet());
     }
 
-    public static Set<MavenIdentifier> getDependenciesFromPom(Path pathToProject) {
+    public static Set<MavenIdentifier> callListDependencies(Path pathToProject) {
         if(!Paths.get(pathToProject.toFile().getAbsolutePath(), "mvnw").toFile().exists()) {
             installMavenWrapper(pathToProject);
         }

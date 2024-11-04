@@ -25,7 +25,7 @@ public abstract class AbstractResolver implements Resolver {
     protected <T> T installLocally(final String repositoryUrl, String version, Function<Path, T> handler) {
         final String tag = gitHubClient.findMatchingTag(repositoryUrl, version)
                 .orElseThrow(() -> new RuntimeException("No tag found for version: " + version));
-        final Path pathToProject = gitHubClient.download(repositoryUrl, tag);
+        final Path pathToProject = gitHubClient.downloadTag(repositoryUrl, tag);
         try {
             return handler.apply(pathToProject);
         } finally {

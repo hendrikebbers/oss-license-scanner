@@ -21,4 +21,9 @@ public class JavaScriptCommand extends AbstractCommand {
     protected Resolver createResolver(GitHubClient client) {
         return new NpmResolver(client);
     }
+
+    @Override
+    protected String getLanguageType() {
+        return "js";
+    }
 }

@@ -21,4 +21,9 @@ public class RustCommand extends AbstractCommand {
     protected Resolver createResolver(GitHubClient client) {
         return new CargoResolver(client);
     }
+
+    @Override
+    protected String getLanguageType() {
+        return "rust";
+    }
 }

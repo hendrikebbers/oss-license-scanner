@@ -2,6 +2,7 @@ package com.openelements.oss.license.scanner.clients;
 
 import com.openelements.oss.license.scanner.api.Identifier;
 import com.openelements.oss.license.scanner.api.License;
+import com.openelements.oss.license.scanner.licenses.LicenseCache;
 import java.io.ByteArrayInputStream;
 import java.io.InputStream;
 import java.net.URI;
@@ -63,23 +64,25 @@ public class MavenCentralClient {
                     NodeList licenseList = licensesElement.getElementsByTagName("license");
                     if (licenseList.getLength() > 0) {
                         Element licenseElement = (Element) licenseList.item(0);
-
-                        // Suche nach dem <name>-Element innerhalb von <license>
-                        String licenseName = "unknown";
+                        final String licenseName;
                         NodeList nameList = licenseElement.getElementsByTagName("name");
                         if (nameList.getLength() > 0) {
                             Element nameElement = (Element) nameList.item(0);
                             licenseName = nameElement.getTextContent();
+                        } else {
+                            licenseName = "unknown";
                         }
-
-                        // Suche nach dem <url>-Element innerhalb von <license>
-                        String licenseUrl = "unknown";
+                        final String licenseUrl;
                         NodeList urlList = licenseElement.getElementsByTagName("url");
                         if (urlList.getLength() > 0) {
                             Element urlElement = (Element) urlList.item(0);
                             licenseUrl = urlElement.getTextContent();
+                        } else {
+                            licenseUrl = "unknown";
                         }
-                        return Optional.of(new License(licenseName, licenseUrl, "pom(" + identifier + ")"));
+                        final License license = LicenseCache.getInstance().computeIfAbsent(identifier.toIdentifier(),
+                                () -> new License(licenseName, licenseUrl, "pom(" + identifier + ")"));
+                        return Optional.of(license);
                     }
                 }
             }

@@ -137,13 +137,8 @@ public class GitHubClient {
         return response;
     }
 
-    private final Map<Repository, License> licenseCache = new ConcurrentHashMap<>();
-
     public License getLicense(String repositoryUrl) {
         final Repository repository = parseRepository(repositoryUrl);
-        if(licenseCache.containsKey(repository)) {
-            return licenseCache.get(repository);
-        }
         log.info("Getting license for repository {}/{}", repository.owner, repository.repo);
         try {
             final String apiUrl = String.format("repos/%s/%s", repository.owner, repository.repo);
@@ -151,7 +146,6 @@ public class GitHubClient {
             final HttpResponse<String>  response = sendRequest(requestUrl);
             if (response.statusCode() != 200) {
                 log.error("Failed to get repository info for {}/{}", repository.owner, repository.repo);
-                licenseCache.put(repository, License.UNKNOWN);
                 return License.UNKNOWN;
             }
             final String body = response.body();
@@ -161,10 +155,8 @@ public class GitHubClient {
                 final String name = getOrDefault(licenseObject, "name", "Unknown");
                 final String url = getOrDefault(licenseObject, "url", "Unknown");
                 License license = new License(name, url, requestUrl);
-                licenseCache.put(repository, license);
                 return license;
             }
-            licenseCache.put(repository, License.UNKNOWN);
             return License.UNKNOWN;
         } catch (Exception e) {
             throw new RuntimeException("Failed to get license for repository: " + repository.owner + "/" + repository.repo, e);
@@ -206,10 +198,11 @@ public class GitHubClient {
         }
     }
 
-    public Path download(String repositoryUrl, String tag) {
+    public Path downloadTag(String repositoryUrl, String tag) {
         try {
             log.info("Downloading repository: {}", repositoryUrl);
             final Repository repository = parseRepository(repositoryUrl);
+
             final String url = String.format("https://github.com/%s/%s/archive/refs/tags/%s.zip", repository.owner,
                     repository.repo, tag);
             final Path zipFilePath = download(url);
@@ -219,6 +212,21 @@ public class GitHubClient {
             throw new RuntimeException("Failed to download repository: " + repositoryUrl, e);
         }
     }
+
+    public Path downloadLatest(String repositoryUrl) {
+        try {
+            log.info("Downloading repository: {}", repositoryUrl);
+            final Repository repository = parseRepository(repositoryUrl);
+            final String url = String.format("https://github.com/%s/%s/archive/refs/heads/main.zip", repository.owner,
+                    repository.repo);
+            final Path zipFilePath = download(url);
+            final Path tempDirectory = unzip(zipFilePath.toFile().getAbsolutePath());
+            return tempDirectory;
+        } catch (Exception e) {
+            throw new RuntimeException("Failed to download repository: " + repositoryUrl, e);
+        }
+    }
+
 
     public static Path download(String fileUrl) throws IOException {
         final Path tempDirectory = Files.createTempDirectory("license-scanner");
