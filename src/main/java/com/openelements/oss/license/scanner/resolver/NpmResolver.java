@@ -7,6 +7,7 @@ import com.openelements.oss.license.scanner.data.Dependency;
 import com.openelements.oss.license.scanner.data.Identifier;
 import com.openelements.oss.license.scanner.data.License;
 import com.openelements.oss.license.scanner.clients.GitHubClient;
+import com.openelements.oss.license.scanner.tools.NpmHelper;
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.IOException;
@@ -88,90 +89,20 @@ public class NpmResolver implements Resolver {
     }
 
     private Set<Dependency> getAllDependencies(Path pathToProject) {
-        executeNpmInstall(pathToProject);
-        try {
-            ProcessBuilder processBuilder = new ProcessBuilder("npm", "ls", "--production", "--json");
-            processBuilder.directory(pathToProject.toFile());
-            Process process = processBuilder.start();
-            BufferedReader reader = new BufferedReader(new InputStreamReader(process.getInputStream()));
-            BufferedReader errorReader = new BufferedReader(new InputStreamReader(process.getErrorStream()));
-
-            Set<Dependency> dependencies = new HashSet<>();
-            final JsonObject jsonObject = JsonParser.parseReader(reader).getAsJsonObject();
-            dependencies.addAll(getDependencies(jsonObject));
-
-            int exitCode = process.waitFor();
-            if (exitCode != 0) {
-                errorReader.lines().forEach(l -> log.error(l));
-                new RuntimeException("Error in calling 'npm': " + exitCode);
-            }
-            return Collections.unmodifiableSet(dependencies);
-        } catch (Exception e) {
-            log.error("Error in executing npm install", e);
-        }
-        return Set.of();
+        final JsonObject jsonObject = NpmHelper.callNpmLs(pathToProject);
+        return getDependencies(jsonObject);
     }
 
     private final Map<Identifier, Dependency> cache = new ConcurrentHashMap<>();
 
     private Optional<Dependency> fromNpmShow(Identifier identifier) {
         if(cache.containsKey(identifier)) {
-            return Optional.of(cache.get(identifier));
+            return Optional.ofNullable(cache.get(identifier));
         }
-        try {
-            log.debug("Executing npm show for: {}", identifier);
-            ProcessBuilder processBuilder = new ProcessBuilder("npm", "show", identifier.name() + "@" + identifier.version(), "--json");
-            Process process = processBuilder.start();
-            BufferedReader reader = new BufferedReader(new InputStreamReader(process.getInputStream()));
-            BufferedReader errorReader = new BufferedReader(new InputStreamReader(process.getErrorStream()));
-
-            final JsonObject jsonObject = JsonParser.parseReader(reader).getAsJsonObject();
-            String scope = "unknown";
-            Set<Dependency> dependencies = Set.of();
-            String repository;
-            if(!jsonObject.has("repository")) {
-                log.error("No repository found for: {}", identifier);
-                repository = "UNKNOWN";
-            }else if(!jsonObject.get("repository").isJsonObject()) {
-                log.error("No repository found for: {}", identifier);
-                repository = "UNKNOWN";
-            } else if(!jsonObject.get("repository").getAsJsonObject().has("url")) {
-                log.error("No repository url found for: {}", identifier);
-                repository = "UNKNOWN";
-            } else {
-                repository = jsonObject.get("repository").getAsJsonObject().get("url").getAsString();
-            }
-            License license = gitHubClient.getLicense(repository);
-
-            int exitCode = process.waitFor();
-            if (exitCode != 0) {
-                errorReader.lines().forEach(l -> log.error(l));
-                new RuntimeException("Error in calling 'npm': " + exitCode);
-            }
-            Dependency dependency = new Dependency(identifier, scope, dependencies, license, repository);
-            cache.put(identifier, dependency);
-            return Optional.of(dependency);
-        } catch (Exception e) {
-            log.error("Error in executing npm show for " + identifier, e);
-        }
-        return Optional.empty();
-    }
-
-    public void executeNpmInstall(Path pathToProject) {
-        try {
-            ProcessBuilder processBuilder = new ProcessBuilder("npm", "install");
-            processBuilder.directory(pathToProject.toFile());
-            Process process = processBuilder.start();
-            BufferedReader reader = new BufferedReader(new InputStreamReader(process.getInputStream()));
-            BufferedReader errorReader = new BufferedReader(new InputStreamReader(process.getErrorStream()));
-            reader.lines().forEach(l -> log.debug(l));
-            int exitCode = process.waitFor();
-            if (exitCode != 0) {
-                errorReader.lines().forEach(l -> log.error(l));
-                new RuntimeException("Error in calling 'swift': " + exitCode);
-            }
-        } catch (Exception e) {
-            log.error("Error in executing npm install", e);
-        }
+        final Dependency dependency = NpmHelper.callNpmShowAndReturnRepository(identifier)
+                .map(repository -> new Dependency(identifier, "unknown", Set.of(), gitHubClient.getLicense(repository), repository))
+                .orElseGet(() -> null);
+        cache.put(identifier, dependency);
+        return Optional.ofNullable(dependency);
     }
 }

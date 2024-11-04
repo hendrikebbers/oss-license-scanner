@@ -5,10 +5,10 @@ import com.openelements.oss.license.scanner.clients.GitHubClient;
 import com.openelements.oss.license.scanner.data.Identifier;
 import com.openelements.oss.license.scanner.data.License;
 import com.openelements.oss.license.scanner.Resolver;
-import java.io.BufferedReader;
+import com.openelements.oss.license.scanner.tools.CargoHelper;
+import com.openelements.oss.license.scanner.tools.CargoHelper.CargoLibrary;
 import java.io.File;
 import java.io.IOException;
-import java.io.InputStreamReader;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.Comparator;
@@ -50,73 +50,19 @@ public class CargoResolver implements Resolver {
         }
     }
 
+    private Set<Dependency> convertToDependency(Set<CargoLibrary> libs) {
+        return libs.stream().map(lib -> {
+            final License license = gitHubClient.getLicense(lib.repository());
+            return new Dependency(lib.identifier(), "unknown", Set.of(), license, lib.repository());
+        }).collect(Collectors.toUnmodifiableSet());
+    }
+
     private Set<Dependency> getAllDependencies(Path pathToProject) {
-        try {
-            ProcessBuilder processBuilder = new ProcessBuilder("cargo", "tree", "--prefix", "none", "--format", "{p} {r}");
-            processBuilder.directory(pathToProject.toFile());
-            Process process = processBuilder.start();
-            BufferedReader reader = new BufferedReader(new InputStreamReader(process.getInputStream()));
-            BufferedReader errorReader = new BufferedReader(new InputStreamReader(process.getErrorStream()));
-
-            // Skip the first line
-            String firstLine = reader.readLine();
-
-            final Set<String> allLines = reader.lines().collect(Collectors.toUnmodifiableSet());
-
-            Set<Dependency> dependencies = allLines.stream()
-                    .map(line -> {
-                        log.info("Mapping dependency for cargo output: '{}'", line);
-                        final String[] split = line.split(" ");
-                        if(split.length < 2) {
-                            throw new IllegalStateException("Invalid line: " + line);
-                        }
-                        final String name = split[0];
-                        final String version = split[1];
-                        final String repository;
-                        if(split.length > 2 && split[split.length - 1].startsWith("https://github.com/")) {
-                            repository = split[split.length - 1];
-                        } else if(split.length > 3 && split[split.length - 2].startsWith("https://github.com/")) {
-                            repository = split[split.length - 2];
-                        } else if(split.length > 4 && split[split.length - 3].startsWith("https://github.com/")) {
-                            repository = split[split.length - 3];
-                        } else {
-                            throw new IllegalStateException("Repository not found in line: " + line);
-                        }
-                        final License license = gitHubClient.getLicense(repository);
-                        return new Dependency(new Identifier(name, version), "unknown", Set.of(), license, repository);
-                    }).collect(Collectors.toUnmodifiableSet());
-
-            errorReader.lines().forEach(l -> log.error(l));
-            int exitCode = process.waitFor();
-            if (exitCode != 0) {
-                new RuntimeException("Error in calling 'cargo info': " + exitCode);
-            }
-            return dependencies;
-        } catch (Exception e) {
-            throw new RuntimeException("Error in getting dependencies" , e);
-        }
+        final Set<CargoLibrary> libs = CargoHelper.callCargoTree(pathToProject);
+        return convertToDependency(libs);
     }
 
     private String getRepositoryUrl(String projectName) {
-        try {
-            ProcessBuilder processBuilder = new ProcessBuilder("cargo", "info", projectName);
-            Process process = processBuilder.start();
-            BufferedReader reader = new BufferedReader(new InputStreamReader(process.getInputStream()));
-            BufferedReader errorReader = new BufferedReader(new InputStreamReader(process.getErrorStream()));
-
-            final String repositoryUrl = reader.lines().filter(line -> line.startsWith("repository:"))
-                    .findFirst()
-                    .map(line -> line.substring("repository:".length()).trim())
-                    .orElseThrow(() -> new RuntimeException("Repository not found"));
-
-            errorReader.lines().forEach(l -> log.error(l));
-            int exitCode = process.waitFor();
-            if (exitCode != 0) {
-                new RuntimeException("Error in calling 'cargo info': " + exitCode);
-            }
-            return repositoryUrl;
-        } catch (Exception e) {
-            throw new RuntimeException("Error in calling 'cargo info'", e);
-        }
+        return CargoHelper.getRepositoryFromCargoInfo(projectName);
     }
 }

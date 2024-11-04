@@ -24,11 +24,7 @@ public interface Resolver {
                 return new SwiftResolver(githubClient);
             case NPM:
                 return new NpmResolver(githubClient);
-            case MAVEN:
-                return new MavenResolver(githubClient);
-            case GRADLE:
-                return new GradleResolver(githubClient);
-            case POM_ONLY:
+            case POM:
                 return new PomOnlyResolver(githubClient);
             default:
                 throw new IllegalArgumentException("Unknown project type: " + type);

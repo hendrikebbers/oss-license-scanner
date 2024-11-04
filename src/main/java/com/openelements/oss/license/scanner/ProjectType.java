@@ -4,9 +4,5 @@ public enum ProjectType {
     CARGO,
     SWIFT,
     NPM,
-    MAVEN,
-
-    GRADLE,
-
-    POM_ONLY;
+    POM;
 }

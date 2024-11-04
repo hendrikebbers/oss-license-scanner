@@ -12,11 +12,11 @@ public class App {
 
     public static void main(String[] args) {
 
-        //final Set<Dependency> dependencies = forHederaRustSdk();
+        final Set<Dependency> dependencies = forHederaRustSdk();
         //final Set<Dependency> dependencies = forHederaSwiftSdk();
         //final Set<Dependency> dependencies = forHederaJsSdk();
         //final Set<Dependency> dependencies = forHederaEnterprise();
-        final Set<Dependency> dependencies = forJavaSdk();
+        //final Set<Dependency> dependencies = forJavaSdk();
         print(dependencies);
     }
 
@@ -36,12 +36,12 @@ public class App {
     }
 
     private static Set<Dependency> forHederaEnterprise() {
-        final Resolver resolver = Resolver.create(ProjectType.MAVEN);
+        final Resolver resolver = Resolver.create(ProjectType.POM);
         return resolver.resolve(new Identifier("https://github.com/OpenElements/hedera-enterprise", "0.9.0"));
     }
 
     private static Set<Dependency> forJavaSdk() {
-        final Resolver resolver = Resolver.create(ProjectType.POM_ONLY);
+        final Resolver resolver = Resolver.create(ProjectType.POM);
         return resolver.resolve(new Identifier("com.hedera.hashgraph:app", "0.55.2"));
     }
     private static void print(Set<Dependency> dependencies) {
