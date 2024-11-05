@@ -34,17 +34,23 @@ public interface LicenseConstants {
 
     List<String> LGPL_2_0_URLS = List.of("https://api.github.com/licenses/lgpl-2.0");
 
+    List<String> LGPL_2_1_URLS = List.of("https://api.github.com/licenses/lgpl-2.1", "https://www.gnu.org/licenses/old-licenses/lgpl-2.1.en.html");
+
+    List<String> LGPL_3_0_URLS = List.of("https://api.github.com/licenses/lgpl-3.0");
+
     List<String> MOZILLA_2_0_URLS = List.of("https://api.github.com/licenses/mpl-2.0");
 
-    List<String> CC0_1_0_URLS = List.of("https://api.github.com/licenses/cc0-1.0");
+    List<String> CC0_1_0_URLS = List.of("https://api.github.com/licenses/cc0-1.0", "https://creativecommons.org/publicdomain/zero/1.0/");
+
+    List<String> ISC_URLS = List.of("https://api.github.com/licenses/isc");
 
     List<String> APACHE_2_0_NAMES = List.of("Apache-2.0", "Apache","Apache License, Version 2.0", "Apache 2.0",
-            "The Apache Software License, Version 2.0");
+            "The Apache Software License, Version 2.0", "Apache 2.0 License", "Apache License 2.0");
 
     List<String> MIT_NAMES = List.of("MIT", "The MIT License (MIT)", "MIT License", "The MIT License", "MIT license");
 
     List<String> BSD_3_CLAUSE_NAMES = List.of("BSD-3-Clause", "BSD-3", "BSD 3-Clause", "BSD License 3",
-            "BSD 3-Clause \"New\" or \"Revised\" License");
+            "BSD 3-Clause \"New\" or \"Revised\" License", "3-Clause BSD License");
 
     List<String> BSD_2_CLAUSE_NAMES = List.of("BSD-2-Clause", "BSD-2", "BSD 2-Clause \"Simplified\" License");
 
@@ -61,7 +67,14 @@ public interface LicenseConstants {
 
     List<String> LGPL_2_0_NAMES = List.of("LGPL-2.0", "LGPL-2");
 
+    List<String> LGPL_2_1_NAMES = List.of("LGPL-2.1", "GNU LESSER GENERAL PUBLIC LICENSE, Version 2.1");
+
+    List<String> LGPL_3_0_NAMES = List.of("LGPL-3.0", "LGPL-3", "GNU Lesser General Public License v3.0");
+
     List<String> MOZILLA_2_0_NAMES = List.of("MPL-2.0", "MPL-2", "Mozilla Public License, Version 2.0");
 
-    List<String> CC0_1_0_NAMES = List.of("CC0-1.0", "CC0-1");
+    List<String> CC0_1_0_NAMES = List.of("CC0-1.0", "CC0-1", "CC0 1.0 Universal");
+
+    List<String> ISC_NAMES = List.of("ISC License");
+
 }

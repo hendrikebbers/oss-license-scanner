@@ -17,8 +17,11 @@ public enum KnownLicenses implements LicenseConstants {
     GPL_3_0(GPL_3_0_NAMES, GPL_3_0_URLS),
     GPL_2_0(GPL_2_0_NAMES, GPL_2_0_URLS),
     LGPL_2_0(LGPL_2_0_NAMES, LGPL_2_0_URLS),
+    LGPL_2_1(LGPL_2_1_NAMES, LGPL_2_1_URLS),
+    LGPL_3_0(LGPL_3_0_NAMES, LGPL_3_0_URLS),
     MOZILLA_2_0(MOZILLA_2_0_NAMES, MOZILLA_2_0_URLS),
-    CC0_1_0(CC0_1_0_NAMES, CC0_1_0_URLS);
+    CC0_1_0(CC0_1_0_NAMES, CC0_1_0_URLS),
+    ISC(ISC_NAMES, ISC_URLS);
 
     private final List<String> names;
 
