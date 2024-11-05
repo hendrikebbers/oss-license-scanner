@@ -15,5 +15,6 @@ mkdir result
 ./license-scanner.sh  js -r https://github.com/hashgraph/hedera-json-rpc-relay -m hedera-manual.csv > result/json-rpc-relay.csv
 ./license-scanner.sh  js -r https://github.com/gomintco/gomint-api -m hedera-manual.csv > result/gomint-api.csv
 ./license-scanner.sh  js -r https://github.com/gomintco/gomint-client -m hedera-manual.csv > result/gomint-client.csv
-
+./license-scanner.sh  python -r https://github.com/wensheng/hedera-sdk-py -m hedera-manual.csv > result/sdk-python-1.csv
+./license-scanner.sh  python -r https://github.com/nadineloepfe/hedera_sdk_python -m hedera-manual.csv > result/sdk-python-2.csv
 

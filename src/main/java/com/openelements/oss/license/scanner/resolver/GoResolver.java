@@ -38,7 +38,7 @@ public class GoResolver extends AbstractResolver {
                     final License license;
                     if(id.name().startsWith("github.com/")) {
                         repository = "https://" + id.name();
-                        license = LicenseCache.getInstance().computeIfAbsent(id, () -> gitHubClient.getLicense(repository).orElse(License.UNKNOWN));
+                        license = LicenseCache.getInstance().computeIfAbsent(id, () -> getLicenseFromGitHub(repository));
                     } else {
                         log.debug("Unsupported repository: {}", id.name());
                         repository = "unknown";

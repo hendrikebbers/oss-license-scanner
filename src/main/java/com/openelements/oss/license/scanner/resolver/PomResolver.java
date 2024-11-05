@@ -80,8 +80,9 @@ public class PomResolver extends AbstractResolver {
         MavenCentralClient mavenCentralClient = new MavenCentralClient();
         final License license = mavenCentralClient.getLicenceFromPom(identifier)
                 .orElseGet(() -> {
-                    final Optional<String> repository = mavenCentralClient.getRepository(identifier);
-                    return gitHubClient.getLicense(repository.get()).orElse(License.UNKNOWN);
+                    return mavenCentralClient.getRepository(identifier)
+                            .map(r -> getLicenseFromGitHub(r))
+                            .orElseGet(() -> License.UNKNOWN);
                 });
         LicenseCache.getInstance().addLicense(identifier.toIdentifier(), license);
         return license;

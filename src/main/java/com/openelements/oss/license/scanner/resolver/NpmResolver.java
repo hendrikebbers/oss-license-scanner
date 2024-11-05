@@ -91,7 +91,7 @@ public class NpmResolver extends AbstractResolver {
 
     private License getLicence(Identifier identifier, String repository) {
         return NpmTool.callNpmShowAndReturnLicense(identifier)
-                .orElseGet(() -> gitHubClient.getLicense(repository).orElse(License.UNKNOWN));
+                .orElseGet(() -> getLicenseFromGitHub(repository));
     }
 
 }

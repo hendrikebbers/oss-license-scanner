@@ -1,5 +1,6 @@
 package com.openelements.oss.license.scanner.resolver;
 
+import com.openelements.oss.license.scanner.api.License;
 import com.openelements.oss.license.scanner.api.Resolver;
 import com.openelements.oss.license.scanner.clients.GitHubClient;
 import java.io.File;
@@ -38,6 +39,15 @@ public abstract class AbstractResolver implements Resolver {
                     log.error("Error in deleting temporary directory '" + pathToProject + "'", e);
                 }
             }
+        }
+    }
+
+    protected License getLicenseFromGitHub(String repository) {
+        try {
+            return gitHubClient.getLicense(repository).orElse(License.UNKNOWN);
+        } catch (Exception e) {
+            log.error("Failed to get license from GitHub for {}", repository, e);
+            return License.UNKNOWN;
         }
     }
 
