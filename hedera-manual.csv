@@ -35,8 +35,6 @@ org.codehaus.plexus:plexus-classworlds,2.8.0,java,Apache License 2.0,https://api
 jakarta.json:jakarta.json-api,2.1.0,java,Unknown,Unknown,-
 org.checkerframework:checker-qual,3.37.0,java,MIT License,https://api.github.com/licenses/mit,https://repo1.maven.org/maven2/org/checkerframework/checker-qual/3.33.0/checker-qual-3.33.0.pom
 CryptoSwift,1.8.0,swift,Unknown,Unknown,-
-ip,2.0.1,js,Unknown,Unknown,-
-esm,3.2.25,js,Unknown,Unknown,-
 @web3-storage/w3up-client,16.0.0,js,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://github.com/storacha/w3up?tab=License-1-ov-file#readme
 @ethereumjs/util,9.1.0,js,Mozilla Public License 2.0,https://api.github.com/licenses/mpl-2.0,https://github.com/ethereumjs/ethereumjs-monorepo/blob/master/packages/util/LICENSE
 @ethereumjs/rlp,5.0.2,js,Mozilla Public License 2.0,https://api.github.com/licenses/mpl-2.0,https://github.com/ethereumjs/ethereumjs-monorepo/blob/master/packages/rlp/LICENSE
@@ -44,7 +42,6 @@ esm,3.2.25,js,Unknown,Unknown,-
 @fortawesome/fontawesome-svg-core,6.6.0,js,MIT License,https://api.github.com/licenses/mit,https://github.com/FortAwesome/Font-Awesome?tab=License-1-ov-file#readme
 @fortawesome/free-solid-svg-icons,6.6.0,js,CC-BY-4.0 AND MIT,https://www.npmjs.com/package/@fortawesome/free-brands-svg-icons,https://www.npmjs.com/package/@fortawesome/free-brands-svg-icons
 @fortawesome/free-brands-svg-icons,6.6.0,js,CC-BY-4.0 AND MIT,https://www.npmjs.com/package/@fortawesome/free-brands-svg-icons,https://www.npmjs.com/package/@fortawesome/free-brands-svg-icons
-buffer,6.0.3,js,Unknown,Unknown,-
 @hashgraph/json-rpc-config-service,0.60.0-SNAPSHOT,js,Unknown,Unknown,-
 @hashgraph/json-rpc-server,0.60.0-SNAPSHOT,js,Unknown,Unknown,-
 @hashgraph/json-rpc-relay,0.60.0-SNAPSHOT,js,Unknown,Unknown,-
@@ -57,10 +54,6 @@ blessed-terminal,0.1.22,js,MIT License,https://api.github.com/licenses/mit,https
 @kabuto-sh/ns,0.14.2,js,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://www.npmjs.com/package/@kabuto-sh/ns
 multiformats,13.3.0,js,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://www.npmjs.com/package/multiformats
 file-saver,2.0.5,js,MIT License,https://api.github.com/licenses/mit,https://www.npmjs.com/package/file-saver
-jszip,3.10.1,js,Unknown,Unknown,-
-base32-decode,1.0.0,js,Unknown,Unknown,-
-crypto-js,4.2.0,js,Unknown,Unknown,-
-protobufjs,7.2.5,js,Unknown,Unknown,-
 cel.dev/expr,v0.15.0,go,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://github.com/google/cel-spec?tab=Apache-2.0-1-ov-file#readme
 cloud.google.com/go/compute/metadata,v0.3.0,go,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://github.com/googleapis/google-cloud-go?tab=Apache-2.0-1-ov-file#readme
 github.com/DataDog/zstd,v1.4.5,go,BSD 3-Clause,https://api.github.com/licenses/bsd-3-clause,https://github.com/DataDog/zstd/blob/1.x/LICENSE
