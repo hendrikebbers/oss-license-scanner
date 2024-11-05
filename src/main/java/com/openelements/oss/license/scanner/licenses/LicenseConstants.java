@@ -26,6 +26,8 @@ public interface LicenseConstants {
     List<String> EPL_1_0_URLS = List.of("https://api.github.com/licenses/epl-1.0",
             "https://www.eclipse.org/legal/epl-v10.html");
 
+    List<String> EDL_1_0_URLS = List.of("https://api.github.com/licenses/edl-1.0");
+
     List<String> PUBLIC_DOMAIN_URLS = List.of("https://api.github.com/licenses/unlicense");
 
     List<String> GPL_3_0_URLS = List.of("https://api.github.com/licenses/gpl-3.0");
@@ -44,6 +46,8 @@ public interface LicenseConstants {
 
     List<String> ISC_URLS = List.of("https://api.github.com/licenses/isc");
 
+    List<String> CDDL_1_0_URLS = List.of("http://www.sun.com/cddl/cddl.html");
+
     List<String> APACHE_2_0_NAMES = List.of("Apache-2.0", "Apache","Apache License, Version 2.0", "Apache 2.0",
             "The Apache Software License, Version 2.0", "Apache 2.0 License", "Apache License 2.0");
 
@@ -59,7 +63,9 @@ public interface LicenseConstants {
     List<String> EPL_1_0_NAMES = List.of("EPL-1.0", "EPL-1", "Eclipse Public License - v 1.0",
             "Eclipse Public License v1.0");
 
-    List<String> PUBLIC_DOMAIN_NAMES = List.of("Public-Domain", "Unlicense");
+    List<String> EDL_1_0_NAMES = List.of("EDL-1.0","EDL 1.0", "Eclipse Distribution License - v 1.0");
+
+    List<String> PUBLIC_DOMAIN_NAMES = List.of("Public-Domain", "Unlicense", "Public Domain");
 
     List<String> GPL_3_0_NAMES = List.of("GPL-3.0", "GPL-3");
 
@@ -76,5 +82,7 @@ public interface LicenseConstants {
     List<String> CC0_1_0_NAMES = List.of("CC0-1.0", "CC0-1", "CC0 1.0 Universal");
 
     List<String> ISC_NAMES = List.of("ISC","ISC License");
+
+    List<String> CDDL_1_0_NAMES = List.of("CDDL-1.0");
 
 }

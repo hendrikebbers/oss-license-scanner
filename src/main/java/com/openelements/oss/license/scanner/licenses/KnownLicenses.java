@@ -12,6 +12,7 @@ public enum KnownLicenses implements LicenseConstants {
     BSD_2_CLAUSE(BSD_2_CLAUSE_NAMES, BSD_2_CLAUSE_URLS),
     EPL_2_0(EPL_2_0_NAMES, EPL_2_0_URLS),
     EPL_1_0(EPL_1_0_NAMES, EPL_1_0_URLS),
+    EDL_1_0(EDL_1_0_NAMES, EDL_1_0_URLS),
     PUBLIC_DOMAIN(PUBLIC_DOMAIN_NAMES, PUBLIC_DOMAIN_URLS),
     GPL_3_0(GPL_3_0_NAMES, GPL_3_0_URLS),
     GPL_2_0(GPL_2_0_NAMES, GPL_2_0_URLS),
@@ -20,7 +21,8 @@ public enum KnownLicenses implements LicenseConstants {
     LGPL_3_0(LGPL_3_0_NAMES, LGPL_3_0_URLS),
     MPL_2_0(MOZILLA_2_0_NAMES, MOZILLA_2_0_URLS),
     CC0_1_0(CC0_1_0_NAMES, CC0_1_0_URLS),
-    ISC(ISC_NAMES, ISC_URLS);
+    ISC(ISC_NAMES, ISC_URLS),
+    CCDL_1_0(CDDL_1_0_NAMES, CDDL_1_0_URLS);
 
     private final List<String> names;
 
