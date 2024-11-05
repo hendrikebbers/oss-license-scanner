@@ -10,11 +10,14 @@ import java.util.stream.Collectors;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-public class MavenHelper {
+public class MavenTool {
 
-    private final static Logger log = LoggerFactory.getLogger(MavenHelper.class);
+    private final static Logger log = LoggerFactory.getLogger(MavenTool.class);
 
     private static void installMavenWrapper(Path pathToProject) {
+        if(!ProcessHelper.checkCommand("mvn")) {
+            throw new RuntimeException("mvn command is not installed");
+        }
         ProcessHelper.execute(l -> l.forEach(log::info), pathToProject.toFile(), "mvn", "wrapper:wrapper");
     }
 

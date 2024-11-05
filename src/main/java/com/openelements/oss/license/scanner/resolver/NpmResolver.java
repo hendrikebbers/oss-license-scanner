@@ -2,23 +2,17 @@ package com.openelements.oss.license.scanner.resolver;
 
 import com.google.gson.JsonObject;
 import com.openelements.oss.license.scanner.api.License;
-import com.openelements.oss.license.scanner.api.Resolver;
 import com.openelements.oss.license.scanner.clients.GitHubClient;
 import com.openelements.oss.license.scanner.api.Dependency;
 import com.openelements.oss.license.scanner.api.Identifier;
 import com.openelements.oss.license.scanner.licenses.LicenseCache;
-import com.openelements.oss.license.scanner.tools.NpmHelper;
-import java.io.File;
-import java.io.IOException;
-import java.nio.file.Files;
+import com.openelements.oss.license.scanner.tools.NpmTool;
 import java.nio.file.Path;
-import java.util.Comparator;
 import java.util.HashSet;
 import java.util.Map;
 import java.util.Optional;
 import java.util.Set;
 import java.util.concurrent.ConcurrentHashMap;
-import java.util.stream.Stream;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -32,7 +26,7 @@ public class NpmResolver extends AbstractResolver {
 
     @Override
     public Set<Dependency> resolve(Path localProject) {
-        final JsonObject jsonObject = NpmHelper.callNpmLs(localProject);
+        final JsonObject jsonObject = NpmTool.callNpmLs(localProject);
         return getDependencies(jsonObject);
     }
 
@@ -86,7 +80,7 @@ public class NpmResolver extends AbstractResolver {
         if(cache.containsKey(identifier)) {
             return Optional.of(cache.get(identifier));
         }
-        final Dependency dependency = NpmHelper.callNpmShowAndReturnRepository(identifier)
+        final Dependency dependency = NpmTool.callNpmShowAndReturnRepository(identifier)
                 .map(repository -> new Dependency(identifier, LicenseCache.getInstance().computeIfAbsent(identifier, () -> gitHubClient.getLicense(repository).orElse(License.UNKNOWN)), repository))
                 .orElseGet(() -> new Dependency(identifier, License.UNKNOWN, null));
         cache.put(identifier, dependency);

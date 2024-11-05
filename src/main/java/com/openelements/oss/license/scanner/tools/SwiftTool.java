@@ -9,7 +9,7 @@ import java.util.Collections;
 import java.util.HashSet;
 import java.util.Set;
 
-public class SwiftHelper {
+public class SwiftTool {
 
     public record SwiftLib(Identifier identifier, String repositoryUrl) {
     }
@@ -31,6 +31,9 @@ public class SwiftHelper {
     }
 
     public static Set<SwiftLib> callShowDependencies(Path pathToProject) {
+        if(!ProcessHelper.checkCommand("swift")) {
+            throw new RuntimeException("swift command is not installed");
+        }
         final JsonElement jsonElement = ProcessHelper.executeWithJsonResult(pathToProject.toFile(), "swift", "package",
                 "show-dependencies", "--format", "json");
 

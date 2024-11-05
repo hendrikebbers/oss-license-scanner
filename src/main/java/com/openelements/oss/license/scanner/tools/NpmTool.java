@@ -12,13 +12,16 @@ import java.util.stream.Collectors;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-public class NpmHelper {
+public class NpmTool {
 
-    private final static Logger log = LoggerFactory.getLogger(NpmHelper.class);
+    private final static Logger log = LoggerFactory.getLogger(NpmTool.class);
 
 
     public static final JsonObject callNpmLs(Path pathToProject) {
-        NpmHelper.executeNpmInstall(pathToProject);
+        if(!ProcessHelper.checkCommand("npm")) {
+            throw new RuntimeException("npm command is not installed");
+        }
+        NpmTool.executeNpmInstall(pathToProject);
         return ProcessHelper.executeWithResult(l -> npmOutToJson(l),pathToProject.toFile(),  "npm", "ls", "--production", "--json");
     }
 
@@ -43,10 +46,16 @@ public class NpmHelper {
     }
 
     public static Optional<String> callNpmShowAndReturnRepository(Identifier identifier) {
+        if(!ProcessHelper.checkCommand("npm")) {
+            throw new RuntimeException("npm command is not installed");
+        }
         return ProcessHelper.executeWithResult(l -> extractRepositoryFromNpmShowOut(l), "npm", "show", identifier.name() + "@" + identifier.version(), "--json");
     }
 
     public static void executeNpmInstall(Path pathToProject) {
+        if(!ProcessHelper.checkCommand("npm")) {
+            throw new RuntimeException("npm command is not installed");
+        }
         ProcessHelper.execute(l -> l.forEach(log::debug), pathToProject.toFile(), "npm", "install");
     }
 

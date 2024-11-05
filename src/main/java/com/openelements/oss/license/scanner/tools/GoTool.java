@@ -10,6 +10,9 @@ import java.util.stream.Collectors;
 public class GoTool {
 
     public static Set<Identifier> callModGraph(Path pathToProject) {
+        if(!ProcessHelper.checkCommand("go")) {
+            throw new RuntimeException("go command is not installed");
+        }
         return ProcessHelper.executeWithResult(l -> getDependenciesFromModGraph(l), pathToProject.toFile(), "go", "mod", "graph");
     }
 

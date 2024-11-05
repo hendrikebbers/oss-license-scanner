@@ -18,6 +18,42 @@ public class ProcessHelper {
 
     private final static Logger log = LoggerFactory.getLogger(ProcessHelper.class);
 
+    public static void main(String[] args) {
+        if(checkCommand("mvn")) {
+            System.out.println("Maven is installed");
+        } else {
+            System.out.println("Maven is not installed");
+        }
+        if(checkCommand("mvn2")) {
+            System.out.println("Maven2 is installed");
+        } else {
+            System.out.println("Maven2 is not installed");
+        }
+
+    }
+
+    public static boolean isUnixBased() {
+        String osName = System.getProperty("os.name").toLowerCase();
+        return osName.contains("nix") || osName.contains("nux") || osName.contains("mac");
+    }
+
+    public static boolean checkCommand(final String command) {
+        if(!isUnixBased()) {
+            throw new RuntimeException("Only Unix based systems are supported");
+        }
+        try {
+            final ProcessBuilder processBuilder = new ProcessBuilder("command", "-v", command);
+            final Process process = processBuilder.start();
+            final int exitCode = process.waitFor();
+            if (exitCode != 0) {
+                return false;
+            }
+            return true;
+        } catch (Exception e) {
+            throw new RuntimeException("Error in checking command " + command, e);
+        }
+    }
+
     public static void execute(Consumer<List<String>> inputHandler, String... command) {
         execute(inputHandler, null, command);
     }

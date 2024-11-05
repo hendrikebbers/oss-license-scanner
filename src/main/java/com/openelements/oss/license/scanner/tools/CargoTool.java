@@ -6,12 +6,15 @@ import java.util.List;
 import java.util.Set;
 import java.util.stream.Collectors;
 
-public class CargoHelper {
+public class CargoTool {
 
     public record CargoLibrary(Identifier identifier, String repository) {
     }
 
     public static Set<CargoLibrary> callCargoTree(Path pathToProject) {
+        if(!ProcessHelper.checkCommand("cargo")) {
+            throw new RuntimeException("cargo command is not installed");
+        }
         return ProcessHelper.executeWithResult(l -> extractDependenciesFromCargoTree(l), pathToProject.toFile(), "cargo", "tree", "--prefix", "none", "--format", "{p} {r}");
     }
 
@@ -46,6 +49,9 @@ public class CargoHelper {
     }
 
     public static String getRepositoryFromCargoInfo(String projectName) {
+        if(!ProcessHelper.checkCommand("cargo")) {
+            throw new RuntimeException("cargo command is not installed");
+        }
         return ProcessHelper.executeWithResult(l -> extractRepoFromCargoInfoOut(l), "cargo", "info", projectName);
     }
 }

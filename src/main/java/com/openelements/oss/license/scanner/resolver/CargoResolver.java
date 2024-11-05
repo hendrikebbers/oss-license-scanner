@@ -5,8 +5,8 @@ import com.openelements.oss.license.scanner.api.Dependency;
 import com.openelements.oss.license.scanner.api.Identifier;
 import com.openelements.oss.license.scanner.api.License;
 import com.openelements.oss.license.scanner.licenses.LicenseCache;
-import com.openelements.oss.license.scanner.tools.CargoHelper;
-import com.openelements.oss.license.scanner.tools.CargoHelper.CargoLibrary;
+import com.openelements.oss.license.scanner.tools.CargoTool;
+import com.openelements.oss.license.scanner.tools.CargoTool.CargoLibrary;
 import java.nio.file.Path;
 import java.util.Set;
 import java.util.stream.Collectors;
@@ -24,13 +24,13 @@ public class CargoResolver extends AbstractResolver {
     @Override
     public Set<Dependency> resolve(Identifier identifier) {
         log.info("Resolving dependencies for: {}", identifier);
-        final String repositoryUrl = CargoHelper.getRepositoryFromCargoInfo(identifier.name());
+        final String repositoryUrl = CargoTool.getRepositoryFromCargoInfo(identifier.name());
         return installLocally(repositoryUrl, identifier.version(), path -> resolve(path));
     }
 
     @Override
     public Set<Dependency> resolve(Path localProjectPath) {
-        final Set<CargoLibrary> libs = CargoHelper.callCargoTree(localProjectPath);
+        final Set<CargoLibrary> libs = CargoTool.callCargoTree(localProjectPath);
         return libs.stream().map(lib -> {
             final License license = LicenseCache.getInstance().computeIfAbsent(lib.identifier(), () -> gitHubClient.getLicense(lib.repository()).orElse(License.UNKNOWN));
             return new Dependency(lib.identifier(), license, lib.repository());

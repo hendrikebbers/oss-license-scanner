@@ -7,7 +7,7 @@ import com.openelements.oss.license.scanner.api.Dependency;
 import com.openelements.oss.license.scanner.api.Identifier;
 import com.openelements.oss.license.scanner.api.License;
 import com.openelements.oss.license.scanner.licenses.LicenseCache;
-import com.openelements.oss.license.scanner.tools.MavenHelper;
+import com.openelements.oss.license.scanner.tools.MavenTool;
 import java.io.File;
 import java.io.IOException;
 import java.nio.file.Files;
@@ -32,7 +32,7 @@ public class PomResolver extends AbstractResolver {
     @Override
     public Set<Dependency> resolve(Path localProjectPath) {
         MavenCentralClient mavenCentralClient = new MavenCentralClient();
-        return MavenHelper.callListDependencies(localProjectPath).stream()
+        return MavenTool.callListDependencies(localProjectPath).stream()
                 .map(i -> {
                     final License license = getLicense(i);
                     final String repository = mavenCentralClient.getRepository(i)

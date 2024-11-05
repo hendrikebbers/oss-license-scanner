@@ -5,8 +5,8 @@ import com.openelements.oss.license.scanner.api.Dependency;
 import com.openelements.oss.license.scanner.api.Identifier;
 import com.openelements.oss.license.scanner.api.License;
 import com.openelements.oss.license.scanner.licenses.LicenseCache;
-import com.openelements.oss.license.scanner.tools.SwiftHelper;
-import com.openelements.oss.license.scanner.tools.SwiftHelper.SwiftLib;
+import com.openelements.oss.license.scanner.tools.SwiftTool;
+import com.openelements.oss.license.scanner.tools.SwiftTool.SwiftLib;
 import java.nio.file.Path;
 import java.util.Set;
 import java.util.stream.Collectors;
@@ -30,7 +30,7 @@ public class SwiftResolver extends AbstractResolver {
 
     @Override
     public Set<Dependency> resolve(Path localProjectPath) {
-        return SwiftHelper.callShowDependencies(localProjectPath).stream()
+        return SwiftTool.callShowDependencies(localProjectPath).stream()
                 .map(this::convertToDependency)
                 .collect(Collectors.toUnmodifiableSet());
     }
