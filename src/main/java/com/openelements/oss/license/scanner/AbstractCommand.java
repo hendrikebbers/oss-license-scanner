@@ -15,8 +15,10 @@ import java.io.PrintWriter;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
+import java.util.Arrays;
 import java.util.Comparator;
 import java.util.HashSet;
+import java.util.List;
 import java.util.Objects;
 import java.util.Set;
 import java.util.concurrent.Callable;
@@ -43,7 +45,6 @@ public abstract class AbstractCommand implements Callable<Integer> {
     @Option(names = {"-l", "--local"}, description = "the local path to the project")
     private String localPath;
 
-
     @Option(names = {"-v", "--version"}, description = "the version of the library")
     private String version;
 
@@ -55,6 +56,9 @@ public abstract class AbstractCommand implements Callable<Integer> {
 
     @Option(names = {"-M", "--markdown"}, description = "print result in markdown format")
     private boolean markdown;
+
+    @Option(names = {"-e", "--excludeLicenses"}, description = "list of licenses to exclude")
+    private List<String> excludeLicenses;
 
     @Override
     public Integer call() {
@@ -131,15 +135,7 @@ public abstract class AbstractCommand implements Callable<Integer> {
                 final Identifier identifier = new Identifier(name, version);
                 dependencies.addAll(resolver.resolve(identifier));
             }
-            if(normalizeDependencies) {
-                log.info("Normalizing dependencies");
-                final Set<Dependency> normalizedDependecies = dependencies.stream()
-                        .map(d -> new Dependency(d.identifier(), normalize(d.license()), d.repository()))
-                        .collect(Collectors.toUnmodifiableSet());
-                print(normalizedDependecies);
-            } else {
-                print(dependencies);
-            }
+            print(dependencies);
         } catch (Exception e) {
             System.err.println("Error fetching dependencies for " + repositoryUrl + ":" + version);
             e.printStackTrace();
@@ -148,11 +144,34 @@ public abstract class AbstractCommand implements Callable<Integer> {
         return ExitCode.OK;
     }
 
+    protected boolean exclude(License license) {
+        if(excludeLicenses == null) {
+            return false;
+        }
+        final String licenseName = KnownLicenses.of(license)
+                .map(knownLicenses -> knownLicenses.getName())
+                .orElse(license.name());
+        return excludeLicenses.stream()
+                .anyMatch(excludeLicense -> excludeLicense.equalsIgnoreCase(licenseName));
+    }
+
     private void print(Set<Dependency> dependencies) throws IOException {
-        if(markdown) {
-            printAsMarkdown(dependencies);
+        final Set<Dependency> toPrint;
+        if(normalizeDependencies) {
+            log.info("Normalizing dependencies");
+            toPrint = dependencies.stream()
+                    .map(d -> new Dependency(d.identifier(), normalize(d.license()), d.repository()))
+                    .filter(d -> !exclude(d.license()))
+                    .collect(Collectors.toUnmodifiableSet());
         } else {
-            printAsCsv(dependencies);
+            toPrint = dependencies.stream()
+                    .filter(d -> !exclude(d.license()))
+                    .collect(Collectors.toUnmodifiableSet());
+        }
+        if(markdown) {
+            printAsMarkdown(toPrint);
+        } else {
+            printAsCsv(toPrint);
         }
     }
 

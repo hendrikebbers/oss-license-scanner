@@ -1,0 +1,3 @@
+name,version,repository,license,license-url,license-source
+rimraf,6.0.1,https://github.com/isaacs/rimraf,ISC,UNKNOWN,npm show
+semver,7.6.3,https://github.com/npm/node-semver,ISC,UNKNOWN,npm show

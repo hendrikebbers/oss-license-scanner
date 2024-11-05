@@ -1,0 +1,3 @@
+name,version,repository,license,license-url,license-source
+cryptography,43.0.3,https://github.com/pyca/cryptography/,Apache-2.0 OR BSD-3-Clause,UNKNOWN,https://pypi.org/pypi/cryptography/43.0.3/json
+setuptools,75.3.0,Unknown,Unknown,Unknown,Unknown

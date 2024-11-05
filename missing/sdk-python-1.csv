@@ -1,0 +1,17 @@
+name,version,repository,license,license-url,license-source
+certifi,2024.8.30,Unknown,MPL-2.0,https://api.github.com/licenses/mpl-2.0,https://pypi.org/pypi/certifi/2024.8.30/json (normalized)
+docutils,0.21.2,Unknown,Unknown,Unknown,Unknown
+idna,3.10,Unknown,Unknown,Unknown,Unknown
+importlib_metadata,8.5.0,Unknown,Unknown,Unknown,Unknown
+jaraco.classes,3.4.0,Unknown,Unknown,Unknown,Unknown
+jaraco.context,6.0.1,Unknown,Unknown,Unknown,Unknown
+jaraco.functools,4.1.0,Unknown,Unknown,Unknown,Unknown
+keyring,25.5.0,Unknown,Unknown,Unknown,Unknown
+markdown-it-py,3.0.0,Unknown,Unknown,Unknown,Unknown
+mdurl,0.1.2,Unknown,,UNKNOWN,https://pypi.org/pypi/mdurl/0.1.2/json
+more-itertools,10.5.0,Unknown,Unknown,Unknown,Unknown
+packaging,24.1,Unknown,Unknown,Unknown,Unknown
+pyproject_hooks,1.2.0,Unknown,Unknown,Unknown,Unknown
+twine,5.1.1,Unknown,Unknown,Unknown,Unknown
+urllib3,2.2.3,Unknown,Unknown,Unknown,Unknown
+zipp,3.20.2,Unknown,Unknown,Unknown,Unknown

@@ -4,7 +4,6 @@ import com.openelements.oss.license.scanner.api.License;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Optional;
-import java.util.Set;
 
 public enum KnownLicenses implements LicenseConstants {
     APACHE_2_0(APACHE_2_0_NAMES, APACHE_2_0_URLS),
@@ -19,7 +18,7 @@ public enum KnownLicenses implements LicenseConstants {
     LGPL_2_0(LGPL_2_0_NAMES, LGPL_2_0_URLS),
     LGPL_2_1(LGPL_2_1_NAMES, LGPL_2_1_URLS),
     LGPL_3_0(LGPL_3_0_NAMES, LGPL_3_0_URLS),
-    MOZILLA_2_0(MOZILLA_2_0_NAMES, MOZILLA_2_0_URLS),
+    MPL_2_0(MOZILLA_2_0_NAMES, MOZILLA_2_0_URLS),
     CC0_1_0(CC0_1_0_NAMES, CC0_1_0_URLS),
     ISC(ISC_NAMES, ISC_URLS);
 

@@ -1,0 +1,4 @@
+name,version,repository,license,license-url,license-source
+org.bouncycastle:bcpkix-jdk18on,1.78.1,https://github.com/bcgit/bc-java,Bouncy Castle Licence,https://www.bouncycastle.org/licence.html,pom(org.bouncycastle:bcpkix-jdk18on:1.78.1)
+org.bouncycastle:bcprov-jdk18on,1.78.1,https://github.com/bcgit/bc-java,Bouncy Castle Licence,https://www.bouncycastle.org/licence.html,pom(org.bouncycastle:bcprov-jdk18on:1.78.1)
+org.bouncycastle:bcutil-jdk18on,1.78.1,https://github.com/bcgit/bc-java,Bouncy Castle Licence,https://www.bouncycastle.org/licence.html,pom(org.bouncycastle:bcutil-jdk18on:1.78.1)

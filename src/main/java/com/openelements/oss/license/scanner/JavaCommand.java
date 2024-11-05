@@ -10,7 +10,7 @@ import picocli.CommandLine.Command;
 public class JavaCommand extends AbstractCommand {
 
     public static void main(String[] args) {
-        new CommandLine(new JavaCommand()).execute("-n", "com.open-elements.hedera:hedera-spring", "-v", "0.9.0", "-N");
+        new CommandLine(new JavaCommand()).execute("-n", "com.open-elements.hedera:hedera-spring", "-v", "0.9.0", "-N", "-e", "MIT","-e", "Apache-2.0");
     }
 
     @Override

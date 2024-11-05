@@ -1,0 +1,6 @@
+name,version,repository,license,license-url,license-source
+@fortawesome/free-brands-svg-icons,6.6.0,https://github.com/FortAwesome/Font-Awesome,(CC-BY-4.0 AND MIT),UNKNOWN,npm show
+@fortawesome/free-solid-svg-icons,6.6.0,https://github.com/FortAwesome/Font-Awesome,(CC-BY-4.0 AND MIT),UNKNOWN,npm show
+@kabuto-sh/ns,0.14.2,,Unknown,Unknown,Unknown
+jszip,3.10.1,https://github.com/Stuk/jszip,(MIT OR GPL-3.0-or-later),UNKNOWN,npm show
+multiformats,13.3.0,https://github.com/multiformats/js-multiformats,Apache-2.0 OR MIT,UNKNOWN,npm show

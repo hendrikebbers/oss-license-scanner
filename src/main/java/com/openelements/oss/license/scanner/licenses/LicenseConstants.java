@@ -75,6 +75,6 @@ public interface LicenseConstants {
 
     List<String> CC0_1_0_NAMES = List.of("CC0-1.0", "CC0-1", "CC0 1.0 Universal");
 
-    List<String> ISC_NAMES = List.of("ISC License");
+    List<String> ISC_NAMES = List.of("ISC","ISC License");
 
 }
