@@ -9,7 +9,31 @@
     <properties>
         <maven.compiler.source>21</maven.compiler.source>
         <maven.compiler.target>21</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
+
+    <name>OSS License Scanner</name>
+    <description>A tool that can scan the licenses of (transitive) dependecies of a project</description>
+    <url>https://github.com/OpenElements/oss-license-scanner</url>
+    <licenses>
+        <license>
+            <name>Apache-2.0</name>
+            <url>https://spdx.org/licenses/Apache-2.0.html</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+    <developers>
+        <developer>
+            <id>hendrikebbers</id>
+            <name>Hendrik Ebbers</name>
+        </developer>
+    </developers>
+    <scm>
+        <connection>scm:git:https://github.com/OpenElements/oss-license-scanner.git</connection>
+        <developerConnection>scm:git:https://github.com/OpenElements/oss-license-scanner.git</developerConnection>
+        <url>https://github.com/OpenElements/oss-license-scanner.git</url>
+        <tag>HEAD</tag>
+    </scm>
 
     <dependencies>
         <dependency>
