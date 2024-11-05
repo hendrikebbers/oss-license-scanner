@@ -34,10 +34,7 @@ public class CargoResolver extends AbstractResolver {
     public Set<Dependency> resolve(Path localProjectPath) {
         final Set<CargoLibrary> libs = CargoTool.callCargoTree(localProjectPath);
         return libs.stream().map(lib -> {
-            Supplier<License> supplier = () -> {
-                return CratesClient.getLicenceForCrate(lib.identifier()).orElseGet(() -> gitHubClient.getLicense(lib.repository()).orElse(License.UNKNOWN));
-            };
-            final License license = LicenseCache.getInstance().computeIfAbsent(lib.identifier(), supplier);
+            final License license = LicenseCache.getInstance().computeIfAbsent(lib.identifier(), () -> getLicence(lib));
             return new Dependency(lib.identifier(), license, lib.repository());
         }).collect(Collectors.toUnmodifiableSet());
     }

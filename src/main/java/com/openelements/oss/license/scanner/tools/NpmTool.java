@@ -3,6 +3,7 @@ package com.openelements.oss.license.scanner.tools;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
 import com.openelements.oss.license.scanner.api.Identifier;
+import com.openelements.oss.license.scanner.api.License;
 import com.openelements.oss.license.scanner.clients.GitHubClient;
 import java.io.StringReader;
 import java.nio.file.Path;
@@ -30,6 +31,16 @@ public class NpmTool {
         return JsonParser.parseReader(reader).getAsJsonObject();
     }
 
+    private static Optional<License> extractLicenseFromNpmShowOut(List<String> lines) {
+        final JsonObject jsonObject = npmOutToJson(lines);
+        if (!jsonObject.has("license")) {
+            return Optional.empty();
+        } else  {
+            final String licenceName = jsonObject.get("license").getAsString();
+            return Optional.of(new License(licenceName, "UNKNOWN", "npm show"));
+        }
+    }
+
     private static Optional<String> extractRepositoryFromNpmShowOut(List<String> lines) {
         final JsonObject jsonObject = npmOutToJson(lines);
         if (!jsonObject.has("repository")) {
@@ -50,6 +61,13 @@ public class NpmTool {
             throw new RuntimeException("npm command is not installed");
         }
         return ProcessHelper.executeWithResult(l -> extractRepositoryFromNpmShowOut(l), "npm", "show", identifier.name() + "@" + identifier.version(), "--json");
+    }
+
+    public static Optional<License> callNpmShowAndReturnLicense(Identifier identifier) {
+        if(!ProcessHelper.checkCommand("npm")) {
+            throw new RuntimeException("npm command is not installed");
+        }
+        return ProcessHelper.executeWithResult(l -> extractLicenseFromNpmShowOut(l), "npm", "show", identifier.name() + "@" + identifier.version(), "--json");
     }
 
     public static void executeNpmInstall(Path pathToProject) {

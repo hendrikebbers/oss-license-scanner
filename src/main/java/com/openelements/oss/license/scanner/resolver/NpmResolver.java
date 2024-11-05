@@ -2,10 +2,12 @@ package com.openelements.oss.license.scanner.resolver;
 
 import com.google.gson.JsonObject;
 import com.openelements.oss.license.scanner.api.License;
+import com.openelements.oss.license.scanner.clients.CratesClient;
 import com.openelements.oss.license.scanner.clients.GitHubClient;
 import com.openelements.oss.license.scanner.api.Dependency;
 import com.openelements.oss.license.scanner.api.Identifier;
 import com.openelements.oss.license.scanner.licenses.LicenseCache;
+import com.openelements.oss.license.scanner.tools.CargoTool.CargoLibrary;
 import com.openelements.oss.license.scanner.tools.NpmTool;
 import java.nio.file.Path;
 import java.util.HashSet;
@@ -81,9 +83,15 @@ public class NpmResolver extends AbstractResolver {
             return Optional.of(cache.get(identifier));
         }
         final Dependency dependency = NpmTool.callNpmShowAndReturnRepository(identifier)
-                .map(repository -> new Dependency(identifier, LicenseCache.getInstance().computeIfAbsent(identifier, () -> gitHubClient.getLicense(repository).orElse(License.UNKNOWN)), repository))
+                .map(repository -> new Dependency(identifier, getLicence(identifier, repository), repository))
                 .orElseGet(() -> new Dependency(identifier, License.UNKNOWN, null));
         cache.put(identifier, dependency);
         return Optional.of(dependency);
     }
+
+    private License getLicence(Identifier identifier, String repository) {
+        return NpmTool.callNpmShowAndReturnLicense(identifier)
+                .orElseGet(() -> gitHubClient.getLicense(repository).orElse(License.UNKNOWN));
+    }
+
 }

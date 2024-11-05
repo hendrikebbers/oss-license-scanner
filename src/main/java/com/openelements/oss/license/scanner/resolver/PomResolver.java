@@ -78,31 +78,12 @@ public class PomResolver extends AbstractResolver {
             return cachedLicense;
         }
         MavenCentralClient mavenCentralClient = new MavenCentralClient();
-        try {
-            final Optional<String> repository = mavenCentralClient.getRepository(identifier);
-            if (repository.isPresent()) {
-                log.info("Getting license from repository: " + repository.get());
-                final License licenseByRepo = gitHubClient.getLicense(repository.get()).orElse(License.UNKNOWN);
-                if(!Objects.equals(licenseByRepo, License.UNKNOWN)) {
-                    LicenseCache.getInstance().addLicense(identifier.toIdentifier(), licenseByRepo);
-                    return licenseByRepo;
-                }
-            }
-        } catch (Exception e) {
-            log.error("Error in getting license by repository", e);
-        }
-        try {
-            log.info("Getting license from pom");
-            final License licenceFromPom = mavenCentralClient.getLicenceFromPom(identifier).orElse(License.UNKNOWN);
-            if(!Objects.equals(licenceFromPom, License.UNKNOWN)) {
-                LicenseCache.getInstance().addLicense(identifier.toIdentifier(), licenceFromPom);
-                return licenceFromPom;
-            }
-        } catch (Exception e) {
-            log.error("Error in getting license from pom", e);
-        }
-        log.warn("No license found for: " + identifier);
-        LicenseCache.getInstance().addLicense(identifier.toIdentifier(), License.UNKNOWN);
-        return License.UNKNOWN;
+        final License license = mavenCentralClient.getLicenceFromPom(identifier)
+                .orElseGet(() -> {
+                    final Optional<String> repository = mavenCentralClient.getRepository(identifier);
+                    return gitHubClient.getLicense(repository.get()).orElse(License.UNKNOWN);
+                });
+        LicenseCache.getInstance().addLicense(identifier.toIdentifier(), license);
+        return license;
     }
 }
