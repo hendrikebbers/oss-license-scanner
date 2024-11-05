@@ -20,10 +20,14 @@ import java.util.Objects;
 import java.util.Set;
 import java.util.concurrent.Callable;
 import java.util.stream.Stream;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import picocli.CommandLine.ExitCode;
 import picocli.CommandLine.Option;
 
 public abstract class AbstractCommand implements Callable<Integer> {
+
+    private final static Logger log = LoggerFactory.getLogger(AbstractCommand.class);
 
     @Option(names = {"-n", "--name"}, description = "the name of the library")
     private String name;
@@ -82,6 +86,7 @@ public abstract class AbstractCommand implements Callable<Integer> {
                             final String licenseSource = rec.getField("license-source");
                             final License license = new License(licenseName, licenseUrl, licenseSource);
                             LicenseCache.getInstance().addLicense(identifier, license);
+                            log.info("Added manual license mapping for {}:{} -> {}", name, version, license);
                         }
                     });
                 }

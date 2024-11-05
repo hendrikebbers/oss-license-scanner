@@ -7,6 +7,7 @@ mkdir result
 ./license-scanner.sh  java -r https://github.com/OpenElements/hedera-enterprise -m hedera-manual.csv > result/hedera-enterprise.csv
 ./license-scanner.sh  rust -r https://github.com/hashgraph/hedera-sdk-rust -m hedera-manual.csv > result/sdk-rust.csv
 ./license-scanner.sh  swift -r https://github.com/hashgraph/hedera-sdk-swift -m hedera-manual.csv > result/sdk-swift.csv
+./license-scanner.sh  go -r https://github.com/hashgraph/hedera-sdk-go -m hedera-manual.csv > result/sdk-go.csv
 ./license-scanner.sh  js -r https://github.com/hashgraph/hedera-sdk-js -m hedera-manual.csv > result/sdk-js.csv
 ./license-scanner.sh  js -r https://github.com/hashgraph/solo -m hedera-manual.csv > result/solo.csv
 ./license-scanner.sh  js -r https://github.com/hashgraph/hedera-local-node -m hedera-manual.csv > result/local-node.csv
