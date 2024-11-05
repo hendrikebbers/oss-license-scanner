@@ -1,5 +1,6 @@
 package com.openelements.oss.license.scanner.resolver;
 
+import com.openelements.oss.license.scanner.clients.CratesClient;
 import com.openelements.oss.license.scanner.clients.GitHubClient;
 import com.openelements.oss.license.scanner.api.Dependency;
 import com.openelements.oss.license.scanner.api.Identifier;
@@ -9,6 +10,7 @@ import com.openelements.oss.license.scanner.tools.CargoTool;
 import com.openelements.oss.license.scanner.tools.CargoTool.CargoLibrary;
 import java.nio.file.Path;
 import java.util.Set;
+import java.util.function.Supplier;
 import java.util.stream.Collectors;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -32,9 +34,17 @@ public class CargoResolver extends AbstractResolver {
     public Set<Dependency> resolve(Path localProjectPath) {
         final Set<CargoLibrary> libs = CargoTool.callCargoTree(localProjectPath);
         return libs.stream().map(lib -> {
-            final License license = LicenseCache.getInstance().computeIfAbsent(lib.identifier(), () -> gitHubClient.getLicense(lib.repository()).orElse(License.UNKNOWN));
+            Supplier<License> supplier = () -> {
+                return CratesClient.getLicenceForCrate(lib.identifier()).orElseGet(() -> gitHubClient.getLicense(lib.repository()).orElse(License.UNKNOWN));
+            };
+            final License license = LicenseCache.getInstance().computeIfAbsent(lib.identifier(), supplier);
             return new Dependency(lib.identifier(), license, lib.repository());
         }).collect(Collectors.toUnmodifiableSet());
+    }
+
+    private License getLicence(CargoLibrary library) {
+        return CratesClient.getLicenceForCrate(library.identifier())
+                .orElseGet(() -> gitHubClient.getLicense(library.repository()).orElse(License.UNKNOWN));
     }
 
 }
