@@ -1,15 +1,15 @@
 name,version,repository,license,license-url,license-source
-@hashgraph/sdk,2.50.0,https://github.com/hashgraph/hedera-sdk-js,Apache-2.0,UNKNOWN,npm show
-blessed,0.1.81,https://github.com/chjj/blessed,MIT,UNKNOWN,npm show
-blessed-terminal,0.1.22,https://github.com/glazarov95/blessed-terminal,MIT,UNKNOWN,npm show
-csv-parser,3.0.0,https://github.com/mafintosh/csv-parser,MIT,UNKNOWN,npm show
-detect-port,1.6.1,https://github.com/node-modules/detect-port,MIT,UNKNOWN,npm show
-dockerode,4.0.2,https://github.com/apocas/dockerode,Apache-2.0,UNKNOWN,npm show
-dotenv,16.4.5,https://github.com/motdotla/dotenv,BSD-2-Clause,UNKNOWN,npm show
-ethers,6.13.2,https://github.com/ethers-io/ethers.js,MIT,UNKNOWN,npm show
-js-yaml,4.1.0,https://github.com/nodeca/js-yaml,MIT,UNKNOWN,npm show
+@hashgraph/sdk,2.50.0,https://github.com/hashgraph/hedera-sdk-js,Apache-2.0,https://api.github.com/licenses/apache-2.0,npm show (normalized)
+blessed,0.1.81,https://github.com/chjj/blessed,MIT,https://api.github.com/licenses/mit,npm show (normalized)
+blessed-terminal,0.1.22,https://github.com/glazarov95/blessed-terminal,MIT,https://api.github.com/licenses/mit,npm show (normalized)
+csv-parser,3.0.0,https://github.com/mafintosh/csv-parser,MIT,https://api.github.com/licenses/mit,npm show (normalized)
+detect-port,1.6.1,https://github.com/node-modules/detect-port,MIT,https://api.github.com/licenses/mit,npm show (normalized)
+dockerode,4.0.2,https://github.com/apocas/dockerode,Apache-2.0,https://api.github.com/licenses/apache-2.0,npm show (normalized)
+dotenv,16.4.5,https://github.com/motdotla/dotenv,BSD-2-Clause,https://api.github.com/licenses/bsd-2-clause,npm show (normalized)
+ethers,6.13.2,https://github.com/ethers-io/ethers.js,MIT,https://api.github.com/licenses/mit,npm show (normalized)
+js-yaml,4.1.0,https://github.com/nodeca/js-yaml,MIT,https://api.github.com/licenses/mit,npm show (normalized)
 rimraf,6.0.1,https://github.com/isaacs/rimraf,ISC,UNKNOWN,npm show
 semver,7.6.3,https://github.com/npm/node-semver,ISC,UNKNOWN,npm show
-shelljs,0.8.5,https://github.com/shelljs/shelljs,BSD-3-Clause,UNKNOWN,npm show
-ts-mocha,10.0.0,https://github.com/piotrwitek/ts-mocha,MIT,UNKNOWN,npm show
-yargs,17.7.2,https://github.com/yargs/yargs,MIT,UNKNOWN,npm show
+shelljs,0.8.5,https://github.com/shelljs/shelljs,BSD-3-Clause,https://api.github.com/licenses/bsd-3-clause,npm show (normalized)
+ts-mocha,10.0.0,https://github.com/piotrwitek/ts-mocha,MIT,https://api.github.com/licenses/mit,npm show (normalized)
+yargs,17.7.2,https://github.com/yargs/yargs,MIT,https://api.github.com/licenses/mit,npm show (normalized)

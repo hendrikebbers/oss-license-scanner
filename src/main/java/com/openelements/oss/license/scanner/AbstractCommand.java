@@ -4,6 +4,7 @@ import com.openelements.oss.license.scanner.api.Resolver;
 import com.openelements.oss.license.scanner.clients.GitHubClient;
 import com.openelements.oss.license.scanner.api.Dependency;
 import com.openelements.oss.license.scanner.api.Identifier;
+import com.openelements.oss.license.scanner.licenses.KnownLicenses;
 import com.openelements.oss.license.scanner.licenses.LicenseCache;
 import de.siegmar.fastcsv.reader.CsvReader;
 import de.siegmar.fastcsv.reader.NamedCsvRecord;
@@ -19,6 +20,7 @@ import java.util.HashSet;
 import java.util.Objects;
 import java.util.Set;
 import java.util.concurrent.Callable;
+import java.util.stream.Collectors;
 import java.util.stream.Stream;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -28,6 +30,9 @@ import picocli.CommandLine.Option;
 public abstract class AbstractCommand implements Callable<Integer> {
 
     private final static Logger log = LoggerFactory.getLogger(AbstractCommand.class);
+
+    @Option(names = {"-N", "--normalize"}, description = "Normalize dependecies")
+    private boolean normalizeDependencies;
 
     @Option(names = {"-n", "--name"}, description = "the name of the library")
     private String name;
@@ -123,12 +128,14 @@ public abstract class AbstractCommand implements Callable<Integer> {
                 final Identifier identifier = new Identifier(name, version);
                 dependencies.addAll(resolver.resolve(identifier));
             }
-            final PrintWriter writer = new PrintWriter(System.out);
-            try (CsvWriter csv = CsvWriter.builder().build(writer)) {
-                csv.writeRecord("name", "version", "repository", "license", "license-url", "license-source");
-                dependencies.stream()
-                        .sorted(Comparator.comparing(d -> d.identifier()))
-                        .forEach(d -> csv.writeRecord(d.identifier().name(), d.identifier().version(), d.repository(), d.license().name(), d.license().url(), d.license().source()));
+            if(normalizeDependencies) {
+                log.info("Normalizing dependencies");
+                final Set<Dependency> normalizedDependecies = dependencies.stream()
+                        .map(d -> new Dependency(d.identifier(), normalize(d.license()), d.repository()))
+                        .collect(Collectors.toUnmodifiableSet());
+                printAsCsv(normalizedDependecies);
+            } else {
+                printAsCsv(dependencies);
             }
         } catch (Exception e) {
             System.err.println("Error fetching dependencies for " + repositoryUrl + ":" + version);
@@ -138,7 +145,26 @@ public abstract class AbstractCommand implements Callable<Integer> {
         return ExitCode.OK;
     }
 
+    private static void printAsCsv(Set<Dependency> dependencies) throws IOException {
+        final PrintWriter writer = new PrintWriter(System.out);
+        try (CsvWriter csv = CsvWriter.builder().build(writer)) {
+            csv.writeRecord("name", "version", "repository", "license", "license-url", "license-source");
+            dependencies.stream()
+                    .sorted(Comparator.comparing(d -> d.identifier()))
+                    .forEach(d -> csv.writeRecord(d.identifier().name(), d.identifier().version(), d.repository(), d.license().name(), d.license().url(), d.license().source()));
+        }
+    }
+
     protected abstract Resolver createResolver(GitHubClient client);
 
     protected abstract String getLanguageType();
+
+    public static License normalize(License license) {
+        return KnownLicenses.of(license)
+                .map(knownLicense -> new License(knownLicense.getName(), knownLicense.getUrl(), license.source() + " (normalized)"))
+                .orElseGet(() -> {
+                    log.warn("Can not normalize: {}", license);
+                    return license;
+                });
+    }
 }

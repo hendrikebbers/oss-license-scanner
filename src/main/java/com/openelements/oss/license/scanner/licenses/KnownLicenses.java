@@ -2,6 +2,7 @@ package com.openelements.oss.license.scanner.licenses;
 
 import com.openelements.oss.license.scanner.api.License;
 import java.util.Arrays;
+import java.util.List;
 import java.util.Optional;
 import java.util.Set;
 
@@ -19,11 +20,11 @@ public enum KnownLicenses implements LicenseConstants {
     MOZILLA_2_0(MOZILLA_2_0_NAMES, MOZILLA_2_0_URLS),
     CC0_1_0(CC0_1_0_NAMES, CC0_1_0_URLS);
 
-    private final Set<String> names;
+    private final List<String> names;
 
-    private final Set<String> urls;
+    private final List<String> urls;
 
-    KnownLicenses(Set<String> names, Set<String> urls) {
+    KnownLicenses(List<String> names, List<String> urls) {
         this.names = names;
         this.urls = urls;
     }
@@ -40,19 +41,29 @@ public enum KnownLicenses implements LicenseConstants {
                 .findFirst();
     }
 
-    public boolean matches(String url) {
-        return urls.contains(url);
-    }
-
     public boolean matches(License license) {
-        return matches(license.url());
+        if(license.url() != null && urls.contains(license.url())) {
+            return true;
+        }
+        if(license.name() != null) {
+            return names.contains(license.name());
+        }
+        return false;
     }
 
-    public Set<String> getNames() {
+    public List<String> getNames() {
         return names;
     }
 
-    public Set<String> getUrls() {
+    public List<String> getUrls() {
         return urls;
+    }
+
+    public String getName() {
+        return getNames().get(0);
+    }
+
+    public String getUrl() {
+        return getUrls().get(0);
     }
 }
