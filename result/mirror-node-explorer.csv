@@ -1,26 +1,26 @@
 name,version,repository,license,license-url,license-source
-@bladelabs/blade-web3.js,1.2.2,https://github.com/Blade-Labs/blade-web3.js,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/Blade-Labs/blade-web3.js
-@ethereum-sourcify/bytecode-utils,1.2.12,https://github.com/ethereum/sourcify,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/ethereum/sourcify
-@fortawesome/fontawesome-svg-core,6.6.0,https://github.com/FortAwesome/Font-Awesome,MIT License,https://api.github.com/licenses/mit,https://github.com/FortAwesome/Font-Awesome?tab=License-1-ov-file#readme
-@fortawesome/free-brands-svg-icons,6.6.0,https://github.com/FortAwesome/Font-Awesome,CC-BY-4.0 AND MIT,https://www.npmjs.com/package/@fortawesome/free-brands-svg-icons,https://www.npmjs.com/package/@fortawesome/free-brands-svg-icons
-@fortawesome/free-solid-svg-icons,6.6.0,https://github.com/FortAwesome/Font-Awesome,CC-BY-4.0 AND MIT,https://www.npmjs.com/package/@fortawesome/free-brands-svg-icons,https://www.npmjs.com/package/@fortawesome/free-brands-svg-icons
-@fortawesome/vue-fontawesome,3.0.8,https://github.com/FortAwesome/vue-fontawesome,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/FortAwesome/vue-fontawesome
-@hashgraph/proto,2.15.0,https://github.com/hashgraph/hedera-sdk-js,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/hashgraph/hedera-sdk-js
-@hashgraph/sdk,2.52.0,https://github.com/hashgraph/hedera-sdk-js,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/hashgraph/hedera-sdk-js
-@hedera-name-service/hns-resolution-sdk,2.0.11,https://github.com/hedera-name-service/hns-resolution-sdk,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/hedera-name-service/hns-resolution-sdk
+@bladelabs/blade-web3.js,1.2.2,https://github.com/Blade-Labs/blade-web3.js,Apache-2.0,UNKNOWN,npm show
+@ethereum-sourcify/bytecode-utils,1.2.12,https://github.com/ethereum/sourcify,MIT,UNKNOWN,npm show
+@fortawesome/fontawesome-svg-core,6.6.0,https://github.com/FortAwesome/Font-Awesome,MIT,UNKNOWN,npm show
+@fortawesome/free-brands-svg-icons,6.6.0,https://github.com/FortAwesome/Font-Awesome,(CC-BY-4.0 AND MIT),UNKNOWN,npm show
+@fortawesome/free-solid-svg-icons,6.6.0,https://github.com/FortAwesome/Font-Awesome,(CC-BY-4.0 AND MIT),UNKNOWN,npm show
+@fortawesome/vue-fontawesome,3.0.8,https://github.com/FortAwesome/vue-fontawesome,MIT,UNKNOWN,npm show
+@hashgraph/proto,2.15.0,https://github.com/hashgraph/hedera-sdk-js,Apache-2.0,UNKNOWN,npm show
+@hashgraph/sdk,2.52.0,https://github.com/hashgraph/hedera-sdk-js,Apache-2.0,UNKNOWN,npm show
+@hedera-name-service/hns-resolution-sdk,2.0.11,https://github.com/hedera-name-service/hns-resolution-sdk,MIT,UNKNOWN,npm show
 @kabuto-sh/ns,0.14.2,,Unknown,Unknown,Unknown
-@oruga-ui/oruga-next,0.7.0,https://github.com/oruga-ui/oruga,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/oruga-ui/oruga
-@vuepic/vue-datepicker,9.0.3,https://github.com/Vuepic/vue-datepicker,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/Vuepic/vue-datepicker
-axios,1.7.7,https://github.com/axios/axios,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/axios/axios
-base32-decode,1.0.0,https://github.com/LinusU/base32-decode,Unknown,Unknown,-
-base32-encode,2.0.0,https://github.com/LinusU/base32-encode,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/LinusU/base32-encode
-bulma,0.9.4,https://github.com/jgthms/bulma,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/jgthms/bulma
-core-js,3.38.1,https://github.com/zloirock/core-js,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/zloirock/core-js
-ethers,6.13.4,https://github.com/ethers-io/ethers.js,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/ethers-io/ethers.js
-file-saver,2.0.5,https://github.com/eligrey/FileSaver.js,MIT License,https://api.github.com/licenses/mit,https://www.npmjs.com/package/file-saver
-hashconnect,0.1.10,https://github.com/Hashpack/hashconnect,BSD Zero Clause License,https://api.github.com/licenses/0bsd,https://api.github.com/repos/Hashpack/hashconnect
-jszip,3.10.1,https://github.com/Stuk/jszip,Unknown,Unknown,-
-multiformats,13.3.0,https://github.com/multiformats/js-multiformats,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://www.npmjs.com/package/multiformats
-prismjs,1.29.0,https://github.com/PrismJS/prism,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/PrismJS/prism
-vue,3.5.12,https://github.com/vuejs/core,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/vuejs/core
-vue-router,4.4.5,https://github.com/vuejs/router,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/vuejs/router
+@oruga-ui/oruga-next,0.7.0,https://github.com/oruga-ui/oruga,MIT,UNKNOWN,npm show
+@vuepic/vue-datepicker,9.0.3,https://github.com/Vuepic/vue-datepicker,MIT,UNKNOWN,npm show
+axios,1.7.7,https://github.com/axios/axios,MIT,UNKNOWN,npm show
+base32-decode,1.0.0,https://github.com/LinusU/base32-decode,MIT,UNKNOWN,npm show
+base32-encode,2.0.0,https://github.com/LinusU/base32-encode,MIT,UNKNOWN,npm show
+bulma,0.9.4,https://github.com/jgthms/bulma,MIT,UNKNOWN,npm show
+core-js,3.38.1,https://github.com/zloirock/core-js,MIT,UNKNOWN,npm show
+ethers,6.13.4,https://github.com/ethers-io/ethers.js,MIT,UNKNOWN,npm show
+file-saver,2.0.5,https://github.com/eligrey/FileSaver.js,MIT,UNKNOWN,npm show
+hashconnect,0.1.10,https://github.com/Hashpack/hashconnect,MIT,UNKNOWN,npm show
+jszip,3.10.1,https://github.com/Stuk/jszip,(MIT OR GPL-3.0-or-later),UNKNOWN,npm show
+multiformats,13.3.0,https://github.com/multiformats/js-multiformats,Apache-2.0 OR MIT,UNKNOWN,npm show
+prismjs,1.29.0,https://github.com/PrismJS/prism,MIT,UNKNOWN,npm show
+vue,3.5.12,https://github.com/vuejs/core,MIT,UNKNOWN,npm show
+vue-router,4.4.5,https://github.com/vuejs/router,MIT,UNKNOWN,npm show

@@ -1,110 +1,110 @@
 name,version,repository,license,license-url,license-source
-com.esaulpaugh:headlong,6.1.1,https://github.com/esaulpaugh/headlong,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/esaulpaugh/headlong
-com.fasterxml.jackson.core:jackson-annotations,2.16.0,https://github.com/FasterXML/jackson-annotations,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/FasterXML/jackson-annotations
-com.fasterxml.jackson.core:jackson-core,2.16.0,https://github.com/FasterXML/jackson-core,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/FasterXML/jackson-core
-com.fasterxml.jackson.core:jackson-databind,2.16.0,https://github.com/FasterXML/jackson-databind,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/FasterXML/jackson-databind
-com.fasterxml.jackson.dataformat:jackson-dataformat-yaml,2.16.0,https://github.com/FasterXML/jackson-dataformats-text,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/FasterXML/jackson-dataformats-text
-com.fasterxml.jackson.datatype:jackson-datatype-jsr310,2.16.0,https://github.com/FasterXML/jackson-modules-java8,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/FasterXML/jackson-modules-java8
-com.github.ben-manes.caffeine:caffeine,3.1.8,https://github.com/ben-manes/caffeine,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/ben-manes/caffeine
-com.github.spotbugs:spotbugs-annotations,4.7.3,https://github.com/spotbugs/spotbugs/,GNU Lesser General Public License v2.1,https://api.github.com/licenses/lgpl-2.1,https://api.github.com/repos/spotbugs/spotbugs
+com.esaulpaugh:headlong,6.1.1,https://github.com/esaulpaugh/headlong,"The Apache License, Version 2.0",http://www.apache.org/licenses/LICENSE-2.0.txt,pom(com.esaulpaugh:headlong:6.1.1)
+com.fasterxml.jackson.core:jackson-annotations,2.16.0,https://github.com/FasterXML/jackson-annotations,"The Apache Software License, Version 2.0",https://www.apache.org/licenses/LICENSE-2.0.txt,pom(com.fasterxml.jackson.core:jackson-annotations:2.16.0)
+com.fasterxml.jackson.core:jackson-core,2.16.0,https://github.com/FasterXML/jackson-core,"The Apache Software License, Version 2.0",https://www.apache.org/licenses/LICENSE-2.0.txt,pom(com.fasterxml.jackson.core:jackson-core:2.16.0)
+com.fasterxml.jackson.core:jackson-databind,2.16.0,https://github.com/FasterXML/jackson-databind,"The Apache Software License, Version 2.0",https://www.apache.org/licenses/LICENSE-2.0.txt,pom(com.fasterxml.jackson.core:jackson-databind:2.16.0)
+com.fasterxml.jackson.dataformat:jackson-dataformat-yaml,2.16.0,https://github.com/FasterXML/jackson-dataformats-text,"The Apache Software License, Version 2.0",https://www.apache.org/licenses/LICENSE-2.0.txt,pom(com.fasterxml.jackson.dataformat:jackson-dataformats-text:2.16.0)
+com.fasterxml.jackson.datatype:jackson-datatype-jsr310,2.16.0,https://github.com/FasterXML/jackson-modules-java8,"The Apache Software License, Version 2.0",http://www.apache.org/licenses/LICENSE-2.0.txt,pom(com.fasterxml.jackson:jackson-base:2.16.0)
+com.github.ben-manes.caffeine:caffeine,3.1.8,https://github.com/ben-manes/caffeine,"Apache License, Version 2.0",https://www.apache.org/licenses/LICENSE-2.0.txt,pom(com.github.ben-manes.caffeine:caffeine:3.1.8)
+com.github.spotbugs:spotbugs-annotations,4.7.3,https://github.com/spotbugs/spotbugs/,"GNU LESSER GENERAL PUBLIC LICENSE, Version 2.1",https://www.gnu.org/licenses/old-licenses/lgpl-2.1.en.html,pom(com.github.spotbugs:spotbugs-annotations:4.7.3)
 com.google.android:annotations,4.1.1.4,UNKNOWN,Apache 2.0,http://www.apache.org/licenses/LICENSE-2.0,pom(com.google.android:annotations:4.1.1.4)
-com.google.api.grpc:proto-google-common-protos,2.29.0,https://github.com/googleapis/sdk-platform-java,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/googleapis/sdk-platform-java
-com.google.auto.service:auto-service-annotations,1.1.1,https://github.com/google/auto,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/google/auto
+com.google.api.grpc:proto-google-common-protos,2.29.0,https://github.com/googleapis/sdk-platform-java,Apache-2.0,https://www.apache.org/licenses/LICENSE-2.0.txt,pom(com.google.api.grpc:proto-google-common-protos:2.29.0)
+com.google.auto.service:auto-service-annotations,1.1.1,https://github.com/google/auto,Apache 2.0,http://www.apache.org/licenses/LICENSE-2.0.txt,pom(com.google.auto.service:auto-service-aggregator:1.1.1)
 com.google.code.findbugs:jsr305,3.0.2,UNKNOWN,"The Apache Software License, Version 2.0",http://www.apache.org/licenses/LICENSE-2.0.txt,pom(com.google.code.findbugs:jsr305:3.0.2)
-com.google.code.gson:gson,2.9.0,https://github.com/google/gson/,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/google/gson
-com.google.dagger:dagger,2.42,https://github.com/google/dagger/,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/google/dagger
-com.google.errorprone:error_prone_annotations,2.23.0,https://github.com/google/error-prone,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/google/error-prone
-com.google.guava:failureaccess,1.0.2,https://github.com/google/guava,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/google/guava
-com.google.guava:guava,33.0.0-jre,https://github.com/google/guava,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/google/guava
-com.google.guava:listenablefuture,9999.0-empty-to-avoid-conflict-with-guava,https://github.com/google/guava,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/google/guava
+com.google.code.gson:gson,2.9.0,https://github.com/google/gson/,Apache-2.0,https://www.apache.org/licenses/LICENSE-2.0.txt,pom(com.google.code.gson:gson:2.9.0)
+com.google.dagger:dagger,2.42,https://github.com/google/dagger/,Apache 2.0,https://www.apache.org/licenses/LICENSE-2.0.txt,pom(com.google.dagger:dagger:2.42)
+com.google.errorprone:error_prone_annotations,2.23.0,https://github.com/google/error-prone,Apache 2.0,http://www.apache.org/licenses/LICENSE-2.0.txt,pom(com.google.errorprone:error_prone_annotations:2.23.0)
+com.google.guava:failureaccess,1.0.2,https://github.com/google/guava,"The Apache Software License, Version 2.0",http://www.apache.org/licenses/LICENSE-2.0.txt,pom(com.google.guava:guava-parent:26.0-android)
+com.google.guava:guava,33.0.0-jre,https://github.com/google/guava,"Apache License, Version 2.0",http://www.apache.org/licenses/LICENSE-2.0.txt,pom(com.google.guava:guava-parent:33.0.0-jre)
+com.google.guava:listenablefuture,9999.0-empty-to-avoid-conflict-with-guava,https://github.com/google/guava,"The Apache Software License, Version 2.0",http://www.apache.org/licenses/LICENSE-2.0.txt,pom(com.google.guava:guava-parent:26.0-android)
 com.google.j2objc:j2objc-annotations,2.8,UNKNOWN,"Apache License, Version 2.0",http://www.apache.org/licenses/LICENSE-2.0.txt,pom(com.google.j2objc:j2objc-annotations:2.8)
 com.google.protobuf:protobuf-java,4.28.2,https://github.com/protocolbuffers/protobuf,BSD 3-Clause,https://api.github.com/licenses/bsd-3-clause,https://developers.google.com/open-source/licenses/bsd
-com.goterl:lazysodium-java,5.1.1,https://github.com/terl/lazysodium-java,Mozilla Public License 2.0,https://api.github.com/licenses/mpl-2.0,https://api.github.com/repos/terl/lazysodium-java
-com.goterl:resource-loader,2.0.1,https://github.com/terl/resource-loader,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/terl/resource-loader
-com.hedera.hashgraph:app-hapi-fees,0.55.2,https://github.com/hashgraph/hedera-services,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/hashgraph/hedera-services
-com.hedera.hashgraph:app-hapi-utils,0.55.2,https://github.com/hashgraph/hedera-services,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/hashgraph/hedera-services
-com.hedera.hashgraph:app-service-addressbook,0.55.2,https://github.com/hashgraph/hedera-services,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/hashgraph/hedera-services
-com.hedera.hashgraph:app-service-addressbook-impl,0.55.2,https://github.com/hashgraph/hedera-services,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/hashgraph/hedera-services
-com.hedera.hashgraph:app-service-consensus,0.55.2,https://github.com/hashgraph/hedera-services,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/hashgraph/hedera-services
-com.hedera.hashgraph:app-service-consensus-impl,0.55.2,https://github.com/hashgraph/hedera-services,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/hashgraph/hedera-services
-com.hedera.hashgraph:app-service-contract,0.55.2,https://github.com/hashgraph/hedera-services,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/hashgraph/hedera-services
-com.hedera.hashgraph:app-service-contract-impl,0.55.2,https://github.com/hashgraph/hedera-services,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/hashgraph/hedera-services
-com.hedera.hashgraph:app-service-file,0.55.2,https://github.com/hashgraph/hedera-services,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/hashgraph/hedera-services
-com.hedera.hashgraph:app-service-file-impl,0.55.2,https://github.com/hashgraph/hedera-services,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/hashgraph/hedera-services
-com.hedera.hashgraph:app-service-network-admin,0.55.2,https://github.com/hashgraph/hedera-services,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/hashgraph/hedera-services
-com.hedera.hashgraph:app-service-network-admin-impl,0.55.2,https://github.com/hashgraph/hedera-services,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/hashgraph/hedera-services
-com.hedera.hashgraph:app-service-schedule,0.55.2,https://github.com/hashgraph/hedera-services,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/hashgraph/hedera-services
-com.hedera.hashgraph:app-service-schedule-impl,0.55.2,https://github.com/hashgraph/hedera-services,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/hashgraph/hedera-services
-com.hedera.hashgraph:app-service-token,0.55.2,https://github.com/hashgraph/hedera-services,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/hashgraph/hedera-services
-com.hedera.hashgraph:app-service-token-impl,0.55.2,https://github.com/hashgraph/hedera-services,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/hashgraph/hedera-services
-com.hedera.hashgraph:app-service-util,0.55.2,https://github.com/hashgraph/hedera-services,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/hashgraph/hedera-services
-com.hedera.hashgraph:app-service-util-impl,0.55.2,https://github.com/hashgraph/hedera-services,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/hashgraph/hedera-services
-com.hedera.hashgraph:app-spi,0.55.2,https://github.com/hashgraph/hedera-services,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/hashgraph/hedera-services
-com.hedera.hashgraph:config,0.55.2,https://github.com/hashgraph/hedera-services,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/hashgraph/hedera-services
-com.hedera.hashgraph:hapi,0.55.2,https://github.com/hashgraph/hedera-services,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/hashgraph/hedera-services
-com.hedera.pbj:pbj-runtime,0.9.2,https://github.com/hashgraph/pbj,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/hashgraph/pbj
-com.swirlds:swirlds-base,0.55.2,https://github.com/hashgraph/hedera-services,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/hashgraph/hedera-services
-com.swirlds:swirlds-cli,0.55.2,https://github.com/hashgraph/hedera-services,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/hashgraph/hedera-services
-com.swirlds:swirlds-common,0.55.2,https://github.com/hashgraph/hedera-services,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/hashgraph/hedera-services
-com.swirlds:swirlds-config-api,0.55.2,https://github.com/hashgraph/hedera-services,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/hashgraph/hedera-services
-com.swirlds:swirlds-config-extensions,0.55.2,https://github.com/hashgraph/hedera-services,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/hashgraph/hedera-services
-com.swirlds:swirlds-config-impl,0.55.2,https://github.com/hashgraph/hedera-services,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/hashgraph/hedera-services
-com.swirlds:swirlds-fchashmap,0.55.2,https://github.com/hashgraph/hedera-services,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/hashgraph/hedera-services
-com.swirlds:swirlds-fcqueue,0.55.2,https://github.com/hashgraph/hedera-services,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/hashgraph/hedera-services
-com.swirlds:swirlds-logging,0.55.2,https://github.com/hashgraph/hedera-services,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/hashgraph/hedera-services
-com.swirlds:swirlds-merkle,0.55.2,https://github.com/hashgraph/hedera-services,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/hashgraph/hedera-services
-com.swirlds:swirlds-merkledb,0.55.2,https://github.com/hashgraph/hedera-services,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/hashgraph/hedera-services
-com.swirlds:swirlds-metrics-api,0.55.2,https://github.com/hashgraph/hedera-services,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/hashgraph/hedera-services
-com.swirlds:swirlds-metrics-impl,0.55.2,https://github.com/hashgraph/hedera-services,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/hashgraph/hedera-services
-com.swirlds:swirlds-platform-core,0.55.2,https://github.com/hashgraph/hedera-services,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/hashgraph/hedera-services
-com.swirlds:swirlds-state-api,0.55.2,https://github.com/hashgraph/hedera-services,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/hashgraph/hedera-services
-com.swirlds:swirlds-virtualmap,0.55.2,https://github.com/hashgraph/hedera-services,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/hashgraph/hedera-services
-commons-codec:commons-codec,1.15,https://github.com/apache/commons-codec,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/apache/commons-codec
+com.goterl:lazysodium-java,5.1.1,https://github.com/terl/lazysodium-java,"Mozilla Public License, Version 2.0",http://www.mozilla.org/MPL/2.0/index.txt,pom(com.goterl:lazysodium-java:5.1.1)
+com.goterl:resource-loader,2.0.1,https://github.com/terl/resource-loader,MIT,https://opensource.org/licenses/MIT,pom(com.goterl:resource-loader:2.0.1)
+com.hedera.hashgraph:app-hapi-fees,0.55.2,https://github.com/hashgraph/hedera-services,"Apache License, Version 2.0",https://raw.githubusercontent.com/hashgraph/hedera-services/main/LICENSE,pom(com.hedera.hashgraph:app-hapi-fees:0.55.2)
+com.hedera.hashgraph:app-hapi-utils,0.55.2,https://github.com/hashgraph/hedera-services,"Apache License, Version 2.0",https://raw.githubusercontent.com/hashgraph/hedera-services/main/LICENSE,pom(com.hedera.hashgraph:app-hapi-utils:0.55.2)
+com.hedera.hashgraph:app-service-addressbook,0.55.2,https://github.com/hashgraph/hedera-services,"Apache License, Version 2.0",https://raw.githubusercontent.com/hashgraph/hedera-services/main/LICENSE,pom(com.hedera.hashgraph:app-service-addressbook:0.55.2)
+com.hedera.hashgraph:app-service-addressbook-impl,0.55.2,https://github.com/hashgraph/hedera-services,"Apache License, Version 2.0",https://raw.githubusercontent.com/hashgraph/hedera-services/main/LICENSE,pom(com.hedera.hashgraph:app-service-addressbook-impl:0.55.2)
+com.hedera.hashgraph:app-service-consensus,0.55.2,https://github.com/hashgraph/hedera-services,"Apache License, Version 2.0",https://raw.githubusercontent.com/hashgraph/hedera-services/main/LICENSE,pom(com.hedera.hashgraph:app-service-consensus:0.55.2)
+com.hedera.hashgraph:app-service-consensus-impl,0.55.2,https://github.com/hashgraph/hedera-services,"Apache License, Version 2.0",https://raw.githubusercontent.com/hashgraph/hedera-services/main/LICENSE,pom(com.hedera.hashgraph:app-service-consensus-impl:0.55.2)
+com.hedera.hashgraph:app-service-contract,0.55.2,https://github.com/hashgraph/hedera-services,"Apache License, Version 2.0",https://raw.githubusercontent.com/hashgraph/hedera-services/main/LICENSE,pom(com.hedera.hashgraph:app-service-contract:0.55.2)
+com.hedera.hashgraph:app-service-contract-impl,0.55.2,https://github.com/hashgraph/hedera-services,"Apache License, Version 2.0",https://raw.githubusercontent.com/hashgraph/hedera-services/main/LICENSE,pom(com.hedera.hashgraph:app-service-contract-impl:0.55.2)
+com.hedera.hashgraph:app-service-file,0.55.2,https://github.com/hashgraph/hedera-services,"Apache License, Version 2.0",https://raw.githubusercontent.com/hashgraph/hedera-services/main/LICENSE,pom(com.hedera.hashgraph:app-service-file:0.55.2)
+com.hedera.hashgraph:app-service-file-impl,0.55.2,https://github.com/hashgraph/hedera-services,"Apache License, Version 2.0",https://raw.githubusercontent.com/hashgraph/hedera-services/main/LICENSE,pom(com.hedera.hashgraph:app-service-file-impl:0.55.2)
+com.hedera.hashgraph:app-service-network-admin,0.55.2,https://github.com/hashgraph/hedera-services,"Apache License, Version 2.0",https://raw.githubusercontent.com/hashgraph/hedera-services/main/LICENSE,pom(com.hedera.hashgraph:app-service-network-admin:0.55.2)
+com.hedera.hashgraph:app-service-network-admin-impl,0.55.2,https://github.com/hashgraph/hedera-services,"Apache License, Version 2.0",https://raw.githubusercontent.com/hashgraph/hedera-services/main/LICENSE,pom(com.hedera.hashgraph:app-service-network-admin-impl:0.55.2)
+com.hedera.hashgraph:app-service-schedule,0.55.2,https://github.com/hashgraph/hedera-services,"Apache License, Version 2.0",https://raw.githubusercontent.com/hashgraph/hedera-services/main/LICENSE,pom(com.hedera.hashgraph:app-service-schedule:0.55.2)
+com.hedera.hashgraph:app-service-schedule-impl,0.55.2,https://github.com/hashgraph/hedera-services,"Apache License, Version 2.0",https://raw.githubusercontent.com/hashgraph/hedera-services/main/LICENSE,pom(com.hedera.hashgraph:app-service-schedule-impl:0.55.2)
+com.hedera.hashgraph:app-service-token,0.55.2,https://github.com/hashgraph/hedera-services,"Apache License, Version 2.0",https://raw.githubusercontent.com/hashgraph/hedera-services/main/LICENSE,pom(com.hedera.hashgraph:app-service-token:0.55.2)
+com.hedera.hashgraph:app-service-token-impl,0.55.2,https://github.com/hashgraph/hedera-services,"Apache License, Version 2.0",https://raw.githubusercontent.com/hashgraph/hedera-services/main/LICENSE,pom(com.hedera.hashgraph:app-service-token-impl:0.55.2)
+com.hedera.hashgraph:app-service-util,0.55.2,https://github.com/hashgraph/hedera-services,"Apache License, Version 2.0",https://raw.githubusercontent.com/hashgraph/hedera-services/main/LICENSE,pom(com.hedera.hashgraph:app-service-util:0.55.2)
+com.hedera.hashgraph:app-service-util-impl,0.55.2,https://github.com/hashgraph/hedera-services,"Apache License, Version 2.0",https://raw.githubusercontent.com/hashgraph/hedera-services/main/LICENSE,pom(com.hedera.hashgraph:app-service-util-impl:0.55.2)
+com.hedera.hashgraph:app-spi,0.55.2,https://github.com/hashgraph/hedera-services,"Apache License, Version 2.0",https://raw.githubusercontent.com/hashgraph/hedera-services/main/LICENSE,pom(com.hedera.hashgraph:app-spi:0.55.2)
+com.hedera.hashgraph:config,0.55.2,https://github.com/hashgraph/hedera-services,"Apache License, Version 2.0",https://raw.githubusercontent.com/hashgraph/hedera-services/main/LICENSE,pom(com.hedera.hashgraph:config:0.55.2)
+com.hedera.hashgraph:hapi,0.55.2,https://github.com/hashgraph/hedera-services,"Apache License, Version 2.0",https://raw.githubusercontent.com/hashgraph/hedera-services/main/LICENSE,pom(com.hedera.hashgraph:hapi:0.55.2)
+com.hedera.pbj:pbj-runtime,0.9.2,https://github.com/hashgraph/pbj,Apache 2.0 License,https://raw.githubusercontent.com/hashgraph/pbj/main/LICENSE,pom(com.hedera.pbj:pbj-runtime:0.9.2)
+com.swirlds:swirlds-base,0.55.2,https://github.com/hashgraph/hedera-services,"Apache License, Version 2.0",https://raw.githubusercontent.com/hashgraph/hedera-services/main/LICENSE,pom(com.swirlds:swirlds-base:0.55.2)
+com.swirlds:swirlds-cli,0.55.2,https://github.com/hashgraph/hedera-services,"Apache License, Version 2.0",https://raw.githubusercontent.com/hashgraph/hedera-services/main/LICENSE,pom(com.swirlds:swirlds-cli:0.55.2)
+com.swirlds:swirlds-common,0.55.2,https://github.com/hashgraph/hedera-services,"Apache License, Version 2.0",https://raw.githubusercontent.com/hashgraph/hedera-services/main/LICENSE,pom(com.swirlds:swirlds-common:0.55.2)
+com.swirlds:swirlds-config-api,0.55.2,https://github.com/hashgraph/hedera-services,"Apache License, Version 2.0",https://raw.githubusercontent.com/hashgraph/hedera-services/main/LICENSE,pom(com.swirlds:swirlds-config-api:0.55.2)
+com.swirlds:swirlds-config-extensions,0.55.2,https://github.com/hashgraph/hedera-services,"Apache License, Version 2.0",https://raw.githubusercontent.com/hashgraph/hedera-services/main/LICENSE,pom(com.swirlds:swirlds-config-extensions:0.55.2)
+com.swirlds:swirlds-config-impl,0.55.2,https://github.com/hashgraph/hedera-services,"Apache License, Version 2.0",https://raw.githubusercontent.com/hashgraph/hedera-services/main/LICENSE,pom(com.swirlds:swirlds-config-impl:0.55.2)
+com.swirlds:swirlds-fchashmap,0.55.2,https://github.com/hashgraph/hedera-services,"Apache License, Version 2.0",https://raw.githubusercontent.com/hashgraph/hedera-services/main/LICENSE,pom(com.swirlds:swirlds-fchashmap:0.55.2)
+com.swirlds:swirlds-fcqueue,0.55.2,https://github.com/hashgraph/hedera-services,"Apache License, Version 2.0",https://raw.githubusercontent.com/hashgraph/hedera-services/main/LICENSE,pom(com.swirlds:swirlds-fcqueue:0.55.2)
+com.swirlds:swirlds-logging,0.55.2,https://github.com/hashgraph/hedera-services,"Apache License, Version 2.0",https://raw.githubusercontent.com/hashgraph/hedera-services/main/LICENSE,pom(com.swirlds:swirlds-logging:0.55.2)
+com.swirlds:swirlds-merkle,0.55.2,https://github.com/hashgraph/hedera-services,"Apache License, Version 2.0",https://raw.githubusercontent.com/hashgraph/hedera-services/main/LICENSE,pom(com.swirlds:swirlds-merkle:0.55.2)
+com.swirlds:swirlds-merkledb,0.55.2,https://github.com/hashgraph/hedera-services,"Apache License, Version 2.0",https://raw.githubusercontent.com/hashgraph/hedera-services/main/LICENSE,pom(com.swirlds:swirlds-merkledb:0.55.2)
+com.swirlds:swirlds-metrics-api,0.55.2,https://github.com/hashgraph/hedera-services,"Apache License, Version 2.0",https://raw.githubusercontent.com/hashgraph/hedera-services/main/LICENSE,pom(com.swirlds:swirlds-metrics-api:0.55.2)
+com.swirlds:swirlds-metrics-impl,0.55.2,https://github.com/hashgraph/hedera-services,"Apache License, Version 2.0",https://raw.githubusercontent.com/hashgraph/hedera-services/main/LICENSE,pom(com.swirlds:swirlds-metrics-impl:0.55.2)
+com.swirlds:swirlds-platform-core,0.55.2,https://github.com/hashgraph/hedera-services,"Apache License, Version 2.0",https://raw.githubusercontent.com/hashgraph/hedera-services/main/LICENSE,pom(com.swirlds:swirlds-platform-core:0.55.2)
+com.swirlds:swirlds-state-api,0.55.2,https://github.com/hashgraph/hedera-services,"Apache License, Version 2.0",https://raw.githubusercontent.com/hashgraph/hedera-services/main/LICENSE,pom(com.swirlds:swirlds-state-api:0.55.2)
+com.swirlds:swirlds-virtualmap,0.55.2,https://github.com/hashgraph/hedera-services,"Apache License, Version 2.0",https://raw.githubusercontent.com/hashgraph/hedera-services/main/LICENSE,pom(com.swirlds:swirlds-virtualmap:0.55.2)
+commons-codec:commons-codec,1.15,https://github.com/apache/commons-codec,"Apache License, Version 2.0",https://www.apache.org/licenses/LICENSE-2.0.txt,pom(org.apache:apache:23)
 commons-io:commons-io,2.15.1,https://github.com/apache/maven-apache-parent/tree/${project.scm.tag},Apache-2.0,https://www.apache.org/licenses/LICENSE-2.0.txt,pom(org.apache:apache:31)
-info.picocli:picocli,4.6.3,https://github.com/remkop/picocli/tree/master,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/remkop/picocli
-io.github.classgraph:classgraph,4.8.65,https://github.com/classgraph/classgraph,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/classgraph/classgraph
-io.grpc:grpc-api,1.64.0,https://github.com/grpc/grpc-java,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/grpc/grpc-java
-io.grpc:grpc-context,1.64.0,https://github.com/grpc/grpc-java,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/grpc/grpc-java
-io.grpc:grpc-core,1.64.0,https://github.com/grpc/grpc-java,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/grpc/grpc-java
-io.grpc:grpc-netty,1.64.0,https://github.com/grpc/grpc-java,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/grpc/grpc-java
-io.grpc:grpc-protobuf,1.64.0,https://github.com/grpc/grpc-java,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/grpc/grpc-java
-io.grpc:grpc-protobuf-lite,1.64.0,https://github.com/grpc/grpc-java,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/grpc/grpc-java
-io.grpc:grpc-stub,1.64.0,https://github.com/grpc/grpc-java,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/grpc/grpc-java
-io.grpc:grpc-util,1.64.0,https://github.com/grpc/grpc-java,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/grpc/grpc-java
-io.netty:netty-buffer,4.1.110.Final,https://github.com/netty/netty,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/netty/netty
-io.netty:netty-codec,4.1.110.Final,https://github.com/netty/netty,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/netty/netty
-io.netty:netty-codec-http,4.1.100.Final,https://github.com/netty/netty,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/netty/netty
-io.netty:netty-codec-http2,4.1.100.Final,https://github.com/netty/netty,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/netty/netty
-io.netty:netty-codec-socks,4.1.100.Final,https://github.com/netty/netty,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/netty/netty
-io.netty:netty-common,4.1.110.Final,https://github.com/netty/netty,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/netty/netty
-io.netty:netty-handler,4.1.110.Final,https://github.com/netty/netty,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/netty/netty
-io.netty:netty-handler-proxy,4.1.100.Final,https://github.com/netty/netty,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/netty/netty
-io.netty:netty-resolver,4.1.110.Final,https://github.com/netty/netty,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/netty/netty
-io.netty:netty-transport,4.1.110.Final,https://github.com/netty/netty,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/netty/netty
-io.netty:netty-transport-classes-epoll,4.1.110.Final,https://github.com/netty/netty,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/netty/netty
-io.netty:netty-transport-native-epoll,4.1.110.Final,https://github.com/netty/netty,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/netty/netty
-io.netty:netty-transport-native-unix-common,4.1.100.Final,https://github.com/netty/netty,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/netty/netty
-io.perfmark:perfmark-api,0.26.0,https://github.com/perfmark/perfmark,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/perfmark/perfmark
-io.prometheus:simpleclient,0.16.0,https://github.com/prometheus/client_java,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/prometheus/client_java
-io.prometheus:simpleclient_common,0.16.0,https://github.com/prometheus/client_java,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/prometheus/client_java
-io.prometheus:simpleclient_httpserver,0.16.0,https://github.com/prometheus/client_java,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/prometheus/client_java
-io.prometheus:simpleclient_tracer_common,0.16.0,https://github.com/prometheus/client_java,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/prometheus/client_java
-io.prometheus:simpleclient_tracer_otel,0.16.0,https://github.com/prometheus/client_java,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/prometheus/client_java
-io.prometheus:simpleclient_tracer_otel_agent,0.16.0,https://github.com/prometheus/client_java,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/prometheus/client_java
-io.tmio:tuweni-bytes,2.4.2,https://github.com/tmio/incubator-tuweni,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/tmio/incubator-tuweni
-io.tmio:tuweni-units,2.4.2,https://github.com/tmio/incubator-tuweni,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/tmio/incubator-tuweni
+info.picocli:picocli,4.6.3,https://github.com/remkop/picocli/tree/master,"The Apache Software License, version 2.0",http://www.apache.org/licenses/LICENSE-2.0.txt,pom(info.picocli:picocli:4.6.3)
+io.github.classgraph:classgraph,4.8.65,https://github.com/classgraph/classgraph,The MIT License (MIT),http://opensource.org/licenses/MIT,pom(io.github.classgraph:classgraph:4.8.65)
+io.grpc:grpc-api,1.64.0,https://github.com/grpc/grpc-java,Apache 2.0,https://opensource.org/licenses/Apache-2.0,pom(io.grpc:grpc-api:1.64.0)
+io.grpc:grpc-context,1.64.0,https://github.com/grpc/grpc-java,Apache 2.0,https://opensource.org/licenses/Apache-2.0,pom(io.grpc:grpc-context:1.64.0)
+io.grpc:grpc-core,1.64.0,https://github.com/grpc/grpc-java,Apache 2.0,https://opensource.org/licenses/Apache-2.0,pom(io.grpc:grpc-core:1.64.0)
+io.grpc:grpc-netty,1.64.0,https://github.com/grpc/grpc-java,Apache 2.0,https://opensource.org/licenses/Apache-2.0,pom(io.grpc:grpc-netty:1.64.0)
+io.grpc:grpc-protobuf,1.64.0,https://github.com/grpc/grpc-java,Apache 2.0,https://opensource.org/licenses/Apache-2.0,pom(io.grpc:grpc-protobuf:1.64.0)
+io.grpc:grpc-protobuf-lite,1.64.0,https://github.com/grpc/grpc-java,Apache 2.0,https://opensource.org/licenses/Apache-2.0,pom(io.grpc:grpc-protobuf-lite:1.64.0)
+io.grpc:grpc-stub,1.64.0,https://github.com/grpc/grpc-java,Apache 2.0,https://opensource.org/licenses/Apache-2.0,pom(io.grpc:grpc-stub:1.64.0)
+io.grpc:grpc-util,1.64.0,https://github.com/grpc/grpc-java,Apache 2.0,https://opensource.org/licenses/Apache-2.0,pom(io.grpc:grpc-util:1.64.0)
+io.netty:netty-buffer,4.1.110.Final,https://github.com/netty/netty,"Apache License, Version 2.0",https://www.apache.org/licenses/LICENSE-2.0,pom(io.netty:netty-parent:4.1.110.Final)
+io.netty:netty-codec,4.1.110.Final,https://github.com/netty/netty,"Apache License, Version 2.0",https://www.apache.org/licenses/LICENSE-2.0,pom(io.netty:netty-parent:4.1.110.Final)
+io.netty:netty-codec-http,4.1.100.Final,https://github.com/netty/netty,"Apache License, Version 2.0",https://www.apache.org/licenses/LICENSE-2.0,pom(io.netty:netty-parent:4.1.100.Final)
+io.netty:netty-codec-http2,4.1.100.Final,https://github.com/netty/netty,"Apache License, Version 2.0",https://www.apache.org/licenses/LICENSE-2.0,pom(io.netty:netty-parent:4.1.100.Final)
+io.netty:netty-codec-socks,4.1.100.Final,https://github.com/netty/netty,"Apache License, Version 2.0",https://www.apache.org/licenses/LICENSE-2.0,pom(io.netty:netty-parent:4.1.100.Final)
+io.netty:netty-common,4.1.110.Final,https://github.com/netty/netty,"Apache License, Version 2.0",https://www.apache.org/licenses/LICENSE-2.0,pom(io.netty:netty-parent:4.1.110.Final)
+io.netty:netty-handler,4.1.110.Final,https://github.com/netty/netty,"Apache License, Version 2.0",https://www.apache.org/licenses/LICENSE-2.0,pom(io.netty:netty-parent:4.1.110.Final)
+io.netty:netty-handler-proxy,4.1.100.Final,https://github.com/netty/netty,"Apache License, Version 2.0",https://www.apache.org/licenses/LICENSE-2.0,pom(io.netty:netty-parent:4.1.100.Final)
+io.netty:netty-resolver,4.1.110.Final,https://github.com/netty/netty,"Apache License, Version 2.0",https://www.apache.org/licenses/LICENSE-2.0,pom(io.netty:netty-parent:4.1.110.Final)
+io.netty:netty-transport,4.1.110.Final,https://github.com/netty/netty,"Apache License, Version 2.0",https://www.apache.org/licenses/LICENSE-2.0,pom(io.netty:netty-parent:4.1.110.Final)
+io.netty:netty-transport-classes-epoll,4.1.110.Final,https://github.com/netty/netty,"Apache License, Version 2.0",https://www.apache.org/licenses/LICENSE-2.0,pom(io.netty:netty-parent:4.1.110.Final)
+io.netty:netty-transport-native-epoll,4.1.110.Final,https://github.com/netty/netty,"Apache License, Version 2.0",https://www.apache.org/licenses/LICENSE-2.0,pom(io.netty:netty-parent:4.1.110.Final)
+io.netty:netty-transport-native-unix-common,4.1.100.Final,https://github.com/netty/netty,"Apache License, Version 2.0",https://www.apache.org/licenses/LICENSE-2.0,pom(io.netty:netty-parent:4.1.100.Final)
+io.perfmark:perfmark-api,0.26.0,https://github.com/perfmark/perfmark,Apache 2.0,https://opensource.org/licenses/Apache-2.0,pom(io.perfmark:perfmark-api:0.26.0)
+io.prometheus:simpleclient,0.16.0,https://github.com/prometheus/client_java,"The Apache Software License, Version 2.0",http://www.apache.org/licenses/LICENSE-2.0.txt,pom(io.prometheus:simpleclient:0.16.0)
+io.prometheus:simpleclient_common,0.16.0,https://github.com/prometheus/client_java,"The Apache Software License, Version 2.0",http://www.apache.org/licenses/LICENSE-2.0.txt,pom(io.prometheus:simpleclient_common:0.16.0)
+io.prometheus:simpleclient_httpserver,0.16.0,https://github.com/prometheus/client_java,"The Apache Software License, Version 2.0",http://www.apache.org/licenses/LICENSE-2.0.txt,pom(io.prometheus:simpleclient_httpserver:0.16.0)
+io.prometheus:simpleclient_tracer_common,0.16.0,https://github.com/prometheus/client_java,"The Apache Software License, Version 2.0",http://www.apache.org/licenses/LICENSE-2.0.txt,pom(io.prometheus:simpleclient_tracer_common:0.16.0)
+io.prometheus:simpleclient_tracer_otel,0.16.0,https://github.com/prometheus/client_java,"The Apache Software License, Version 2.0",http://www.apache.org/licenses/LICENSE-2.0.txt,pom(io.prometheus:simpleclient_tracer_otel:0.16.0)
+io.prometheus:simpleclient_tracer_otel_agent,0.16.0,https://github.com/prometheus/client_java,"The Apache Software License, Version 2.0",http://www.apache.org/licenses/LICENSE-2.0.txt,pom(io.prometheus:simpleclient_tracer_otel_agent:0.16.0)
+io.tmio:tuweni-bytes,2.4.2,https://github.com/tmio/incubator-tuweni,"The Apache License, Version 2.0",http://www.apache.org/licenses/LICENSE-2.0.txt,pom(io.tmio:tuweni-bytes:2.4.2)
+io.tmio:tuweni-units,2.4.2,https://github.com/tmio/incubator-tuweni,"The Apache License, Version 2.0",http://www.apache.org/licenses/LICENSE-2.0.txt,pom(io.tmio:tuweni-units:2.4.2)
 javax.inject:javax.inject,1,UNKNOWN,"The Apache Software License, Version 2.0",http://www.apache.org/licenses/LICENSE-2.0.txt,pom(javax.inject:javax.inject:1)
-net.i2p.crypto:eddsa,0.3.0,https://github.com/str4d/ed25519-java,Creative Commons Zero v1.0 Universal,https://api.github.com/licenses/cc0-1.0,https://api.github.com/repos/str4d/ed25519-java
+net.i2p.crypto:eddsa,0.3.0,https://github.com/str4d/ed25519-java,CC0 1.0 Universal,https://creativecommons.org/publicdomain/zero/1.0/,pom(net.i2p.crypto:eddsa:0.3.0)
 net.java.dev.jna:jna,5.14.0,https://github.com/java-native-access/jna,Unknown,Unknown,-
-org.antlr:antlr4-runtime,4.13.1,https://github.com/antlr/antlr4/tree/master,"BSD 3-Clause ""New"" or ""Revised"" License",https://api.github.com/licenses/bsd-3-clause,https://api.github.com/repos/antlr/antlr4
+org.antlr:antlr4-runtime,4.13.1,https://github.com/antlr/antlr4/tree/master,BSD-3-Clause,https://www.antlr.org/license.html,pom(org.antlr:antlr4-master:4.13.1)
 org.apache.commons:commons-lang3,3.14.0,https://github.com/apache/maven-apache-parent/tree/${project.scm.tag},Apache-2.0,https://www.apache.org/licenses/LICENSE-2.0.txt,pom(org.apache:apache:30)
-org.apache.logging.log4j:log4j-api,2.21.1,https://github.com/apache/logging-log4j2,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/apache/logging-log4j2
-org.apache.logging.log4j:log4j-core,2.21.1,https://github.com/apache/logging-log4j2,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/apache/logging-log4j2
-org.bouncycastle:bcpkix-jdk18on,1.78,https://github.com/bcgit/bc-java,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/bcgit/bc-java
-org.bouncycastle:bcprov-jdk18on,1.78,https://github.com/bcgit/bc-java,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/bcgit/bc-java
-org.bouncycastle:bcutil-jdk18on,1.78,https://github.com/bcgit/bc-java,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/bcgit/bc-java
+org.apache.logging.log4j:log4j-api,2.21.1,https://github.com/apache/logging-log4j2,Apache-2.0,https://www.apache.org/licenses/LICENSE-2.0.txt,pom(org.apache.logging.log4j:log4j-api:2.21.1)
+org.apache.logging.log4j:log4j-core,2.21.1,https://github.com/apache/logging-log4j2,Apache-2.0,https://www.apache.org/licenses/LICENSE-2.0.txt,pom(org.apache.logging.log4j:log4j-core:2.21.1)
+org.bouncycastle:bcpkix-jdk18on,1.78,https://github.com/bcgit/bc-java,Bouncy Castle Licence,https://www.bouncycastle.org/licence.html,pom(org.bouncycastle:bcpkix-jdk18on:1.78)
+org.bouncycastle:bcprov-jdk18on,1.78,https://github.com/bcgit/bc-java,Bouncy Castle Licence,https://www.bouncycastle.org/licence.html,pom(org.bouncycastle:bcprov-jdk18on:1.78)
+org.bouncycastle:bcutil-jdk18on,1.78,https://github.com/bcgit/bc-java,Bouncy Castle Licence,https://www.bouncycastle.org/licence.html,pom(org.bouncycastle:bcutil-jdk18on:1.78)
 org.checkerframework:checker-qual,3.41.0,https://github.com/typetools/checker-framework,Unknown,Unknown,-
-org.codehaus.mojo:animal-sniffer-annotations,1.23,https://github.com/mojohaus/animal-sniffer/tree/master,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/mojohaus/animal-sniffer
+org.codehaus.mojo:animal-sniffer-annotations,1.23,https://github.com/mojohaus/animal-sniffer/tree/master,MIT license,https://spdx.org/licenses/MIT.txt,pom(org.codehaus.mojo:animal-sniffer-parent:1.23)
 org.connid:framework,1.3.2,UNKNOWN,CDDL 1.0,http://www.sun.com/cddl/cddl.html,pom(org.connid:connid:1.3.2)
 org.connid:framework-internal,1.3.2,UNKNOWN,CDDL 1.0,http://www.sun.com/cddl/cddl.html,pom(org.connid:connid:1.3.2)
 org.eclipse.collections:eclipse-collections,10.4.0,https://github.com/eclipse/eclipse-collections,Eclipse Public License - v 1.0,https://www.eclipse.org/legal/epl-v10.html,pom(org.eclipse.collections:eclipse-collections-parent:10.4.0)
@@ -122,7 +122,7 @@ org.jetbrains.kotlin:kotlin-stdlib,1.8.21,https://github.com/JetBrains/kotlin,"T
 org.jetbrains.kotlin:kotlin-stdlib-common,1.8.21,https://github.com/JetBrains/kotlin,"The Apache License, Version 2.0",http://www.apache.org/licenses/LICENSE-2.0.txt,pom(org.jetbrains.kotlin:kotlin-stdlib-common:1.8.21)
 org.jetbrains.kotlin:kotlin-stdlib-jdk7,1.8.21,https://github.com/JetBrains/kotlin,"The Apache License, Version 2.0",http://www.apache.org/licenses/LICENSE-2.0.txt,pom(org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.8.21)
 org.jetbrains.kotlin:kotlin-stdlib-jdk8,1.8.21,https://github.com/JetBrains/kotlin,"The Apache License, Version 2.0",http://www.apache.org/licenses/LICENSE-2.0.txt,pom(org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.21)
-org.jetbrains:annotations,13.0,https://github.com/JetBrains/intellij-community,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/JetBrains/intellij-community
-org.slf4j:slf4j-api,2.0.10,https://github.com/qos-ch/slf4j,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/qos-ch/slf4j
+org.jetbrains:annotations,13.0,https://github.com/JetBrains/intellij-community,"The Apache Software License, Version 2.0",http://www.apache.org/licenses/LICENSE-2.0.txt,pom(org.jetbrains:annotations:13.0)
+org.slf4j:slf4j-api,2.0.10,https://github.com/qos-ch/slf4j,MIT License,http://www.opensource.org/licenses/mit-license.php,pom(org.slf4j:slf4j-bom:2.0.10)
 org.yaml:snakeyaml,2.2,UNKNOWN,"Apache License, Version 2.0",http://www.apache.org/licenses/LICENSE-2.0.txt,pom(org.yaml:snakeyaml:2.2)
 tech.pegasys:jc-kzg-4844,0.8.0,UNKNOWN,Unknown,Unknown,-

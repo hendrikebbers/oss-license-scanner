@@ -1,28 +1,28 @@
 name,version,repository,license,license-url,license-source
-@eslint/eslintrc,3.1.0,https://github.com/eslint/eslintrc,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/eslint/eslintrc
-@hashgraph/sdk,2.52.0,https://github.com/hashgraph/hedera-sdk-js,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/hashgraph/hedera-sdk-js
-@kubernetes/client-node,0.22.2,https://github.com/kubernetes-client/javascript,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/kubernetes-client/javascript
-@listr2/prompt-adapter-enquirer,2.0.12,https://github.com/listr2/listr2,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/listr2/listr2
-@peculiar/x509,1.12.3,https://github.com/PeculiarVentures/x509,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/PeculiarVentures/x509
-adm-zip,0.5.16,https://github.com/cthackers/adm-zip,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/cthackers/adm-zip
-chalk,5.3.0,https://github.com/chalk/chalk,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/chalk/chalk
-dot-object,2.1.5,https://github.com/rhalff/dot-object,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/rhalff/dot-object
-dotenv,16.4.5,https://github.com/motdotla/dotenv,"BSD 2-Clause ""Simplified"" License",https://api.github.com/licenses/bsd-2-clause,https://api.github.com/repos/motdotla/dotenv
-enquirer,2.4.1,https://github.com/enquirer/enquirer,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/enquirer/enquirer
-esm,3.2.25,https://github.com/standard-things/esm,Unknown,Unknown,-
-figlet,1.8.0,https://github.com/patorjk/figlet.js,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/patorjk/figlet.js
-got,14.4.3,https://github.com/sindresorhus/got,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/sindresorhus/got
-inquirer,12.0.1,https://github.com/SBoudrias/Inquirer.js,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/SBoudrias/Inquirer.js
-ip,2.0.1,https://github.com/indutny/node-ip,Unknown,Unknown,-
-js-base64,3.7.7,https://github.com/dankogai/js-base64,"BSD 3-Clause ""New"" or ""Revised"" License",https://api.github.com/licenses/bsd-3-clause,https://api.github.com/repos/dankogai/js-base64
-js-yaml,4.1.0,https://github.com/nodeca/js-yaml,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/nodeca/js-yaml
-jsdoc,4.0.4,https://github.com/jsdoc/jsdoc,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/jsdoc/jsdoc
-listr2,8.2.5,https://github.com/listr2/listr2,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/listr2/listr2
-semver,7.6.3,https://github.com/npm/node-semver,ISC License,https://api.github.com/licenses/isc,https://api.github.com/repos/npm/node-semver
-stream-buffers,3.0.3,https://github.com/samcday/node-stream-buffer,The Unlicense,https://api.github.com/licenses/unlicense,https://api.github.com/repos/samcday/node-stream-buffer
-tar,7.4.3,https://github.com/isaacs/node-tar,ISC License,https://api.github.com/licenses/isc,https://api.github.com/repos/isaacs/node-tar
-ts-node,10.9.2,https://github.com/TypeStrong/ts-node,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/TypeStrong/ts-node
-uuid,11.0.2,https://github.com/uuidjs/uuid,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/uuidjs/uuid
-winston,3.15.0,https://github.com/winstonjs/winston,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/winstonjs/winston
-yaml,2.6.0,https://github.com/eemeli/yaml,ISC License,https://api.github.com/licenses/isc,https://api.github.com/repos/eemeli/yaml
-yargs,17.7.2,https://github.com/yargs/yargs,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/yargs/yargs
+@eslint/eslintrc,3.1.0,https://github.com/eslint/eslintrc,MIT,UNKNOWN,npm show
+@hashgraph/sdk,2.52.0,https://github.com/hashgraph/hedera-sdk-js,Apache-2.0,UNKNOWN,npm show
+@kubernetes/client-node,0.22.2,https://github.com/kubernetes-client/javascript,Apache-2.0,UNKNOWN,npm show
+@listr2/prompt-adapter-enquirer,2.0.12,https://github.com/listr2/listr2,MIT,UNKNOWN,npm show
+@peculiar/x509,1.12.3,https://github.com/PeculiarVentures/x509,MIT,UNKNOWN,npm show
+adm-zip,0.5.16,https://github.com/cthackers/adm-zip,MIT,UNKNOWN,npm show
+chalk,5.3.0,https://github.com/chalk/chalk,MIT,UNKNOWN,npm show
+dot-object,2.1.5,https://github.com/rhalff/dot-object,MIT,UNKNOWN,npm show
+dotenv,16.4.5,https://github.com/motdotla/dotenv,BSD-2-Clause,UNKNOWN,npm show
+enquirer,2.4.1,https://github.com/enquirer/enquirer,MIT,UNKNOWN,npm show
+esm,3.2.25,https://github.com/standard-things/esm,MIT,UNKNOWN,npm show
+figlet,1.8.0,https://github.com/patorjk/figlet.js,MIT,UNKNOWN,npm show
+got,14.4.4,https://github.com/sindresorhus/got,MIT,UNKNOWN,npm show
+inquirer,12.0.1,https://github.com/SBoudrias/Inquirer.js,MIT,UNKNOWN,npm show
+ip,2.0.1,https://github.com/indutny/node-ip,MIT,UNKNOWN,npm show
+js-base64,3.7.7,https://github.com/dankogai/js-base64,BSD-3-Clause,UNKNOWN,npm show
+js-yaml,4.1.0,https://github.com/nodeca/js-yaml,MIT,UNKNOWN,npm show
+jsdoc,4.0.4,https://github.com/jsdoc/jsdoc,Apache-2.0,UNKNOWN,npm show
+listr2,8.2.5,https://github.com/listr2/listr2,MIT,UNKNOWN,npm show
+semver,7.6.3,https://github.com/npm/node-semver,ISC,UNKNOWN,npm show
+stream-buffers,3.0.3,https://github.com/samcday/node-stream-buffer,Unlicense,UNKNOWN,npm show
+tar,7.4.3,https://github.com/isaacs/node-tar,ISC,UNKNOWN,npm show
+ts-node,10.9.2,https://github.com/TypeStrong/ts-node,MIT,UNKNOWN,npm show
+uuid,11.0.2,https://github.com/uuidjs/uuid,MIT,UNKNOWN,npm show
+winston,3.15.0,https://github.com/winstonjs/winston,MIT,UNKNOWN,npm show
+yaml,2.6.0,https://github.com/eemeli/yaml,ISC,UNKNOWN,npm show
+yargs,17.7.2,https://github.com/yargs/yargs,MIT,UNKNOWN,npm show

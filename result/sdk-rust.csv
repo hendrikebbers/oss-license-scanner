@@ -1,214 +1,214 @@
 name,version,repository,license,license-url,license-source
 aes,v0.8.4,https://github.com/RustCrypto/block-ciphers,Unknown,Unknown,-
-aho-corasick,v1.1.3,https://github.com/BurntSushi/aho-corasick,The Unlicense,https://api.github.com/licenses/unlicense,https://api.github.com/repos/BurntSushi/aho-corasick
+aho-corasick,v1.1.3,https://github.com/BurntSushi/aho-corasick,Unlicense OR MIT,UNKNOWN,https://crates.io/api/v1/crates/aho-corasick
 anstream,v0.6.15,https://github.com/rust-cli/anstyle.git,Unknown,Unknown,-
 anstyle,v1.0.8,https://github.com/rust-cli/anstyle.git,Unknown,Unknown,-
 anstyle-parse,v0.2.5,https://github.com/rust-cli/anstyle.git,Unknown,Unknown,-
 anstyle-query,v1.1.1,https://github.com/rust-cli/anstyle,Unknown,Unknown,-
-anyhow,v1.0.86,https://github.com/dtolnay/anyhow,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/dtolnay/anyhow
-arc-swap,v1.7.1,https://github.com/vorner/arc-swap,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/vorner/arc-swap
-arrayvec,v0.7.4,https://github.com/bluss/arrayvec,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/bluss/arrayvec
-assert_matches,v1.5.0,https://github.com/murarth/assert_matches,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/murarth/assert_matches
+anyhow,v1.0.86,https://github.com/dtolnay/anyhow,MIT OR Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/anyhow
+arc-swap,v1.7.1,https://github.com/vorner/arc-swap,MIT OR Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/arc-swap
+arrayvec,v0.7.4,https://github.com/bluss/arrayvec,MIT OR Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/arrayvec
+assert_matches,v1.5.0,https://github.com/murarth/assert_matches,MIT/Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/assert_matches
 async-stream,v0.3.5,https://github.com/tokio-rs/async-stream,Unknown,Unknown,-
 async-stream-impl,v0.3.5,https://github.com/tokio-rs/async-stream,Unknown,Unknown,-
-async-trait,v0.1.81,https://github.com/dtolnay/async-trait,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/dtolnay/async-trait
-atomic-waker,v1.1.2,https://github.com/smol-rs/atomic-waker,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/smol-rs/atomic-waker
-autocfg,v1.3.0,https://github.com/cuviper/autocfg,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/cuviper/autocfg
+async-trait,v0.1.81,https://github.com/dtolnay/async-trait,MIT OR Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/async-trait
+atomic-waker,v1.1.2,https://github.com/smol-rs/atomic-waker,Apache-2.0 OR MIT,UNKNOWN,https://crates.io/api/v1/crates/atomic-waker
+autocfg,v1.3.0,https://github.com/cuviper/autocfg,Apache-2.0 OR MIT,UNKNOWN,https://crates.io/api/v1/crates/autocfg
 axum,v0.6.20,https://github.com/tokio-rs/axum,Unknown,Unknown,-
 axum-core,v0.3.4,https://github.com/tokio-rs/axum,Unknown,Unknown,-
-backoff,v0.4.0,https://github.com/ihrwein/backoff,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/ihrwein/backoff
+backoff,v0.4.0,https://github.com/ihrwein/backoff,MIT/Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/backoff
 base16ct,v0.2.0,https://github.com/RustCrypto/formats/tree/master/base16ct,Unknown,Unknown,-
-base64,v0.21.7,https://github.com/marshallpierce/rust-base64,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/marshallpierce/rust-base64
-base64,v0.22.1,https://github.com/marshallpierce/rust-base64,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/marshallpierce/rust-base64
-bitflags,v1.3.2,https://github.com/bitflags/bitflags,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/bitflags/bitflags
-bitflags,v2.6.0,https://github.com/bitflags/bitflags,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/bitflags/bitflags
+base64,v0.21.7,https://github.com/marshallpierce/rust-base64,MIT OR Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/base64
+base64,v0.22.1,https://github.com/marshallpierce/rust-base64,MIT OR Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/base64
+bitflags,v1.3.2,https://github.com/bitflags/bitflags,MIT/Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/bitflags
+bitflags,v2.6.0,https://github.com/bitflags/bitflags,MIT OR Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/bitflags
 block-buffer,v0.10.4,https://github.com/RustCrypto/utils,Unknown,Unknown,-
 block-padding,v0.3.3,https://github.com/RustCrypto/utils,Unknown,Unknown,-
-byteorder,v1.5.0,https://github.com/BurntSushi/byteorder,The Unlicense,https://api.github.com/licenses/unlicense,https://api.github.com/repos/BurntSushi/byteorder
-bytes,v1.7.1,https://github.com/tokio-rs/bytes,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/tokio-rs/bytes
+byteorder,v1.5.0,https://github.com/BurntSushi/byteorder,Unlicense OR MIT,UNKNOWN,https://crates.io/api/v1/crates/byteorder
+bytes,v1.7.1,https://github.com/tokio-rs/bytes,MIT,UNKNOWN,https://crates.io/api/v1/crates/bytes
 cbc,v0.1.2,https://github.com/RustCrypto/block-modes,Unknown,Unknown,-
-cc,v1.1.8,https://github.com/rust-lang/cc-rs,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/rust-lang/cc-rs
-cfg-if,v1.0.0,https://github.com/alexcrichton/cfg-if,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/alexcrichton/cfg-if
+cc,v1.1.8,https://github.com/rust-lang/cc-rs,MIT OR Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/cc
+cfg-if,v1.0.0,https://github.com/alexcrichton/cfg-if,MIT/Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/cfg-if
 cipher,v0.4.4,https://github.com/RustCrypto/traits,Unknown,Unknown,-
-clap,v4.5.14,https://github.com/clap-rs/clap,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/clap-rs/clap
-clap_builder,v4.5.14,https://github.com/clap-rs/clap,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/clap-rs/clap
-clap_derive,v4.5.13,https://github.com/clap-rs/clap,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/clap-rs/clap
-clap_lex,v0.7.2,https://github.com/clap-rs/clap,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/clap-rs/clap
+clap,v4.5.14,https://github.com/clap-rs/clap,MIT OR Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/clap
+clap_builder,v4.5.14,https://github.com/clap-rs/clap,MIT OR Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/clap_builder
+clap_derive,v4.5.13,https://github.com/clap-rs/clap,MIT OR Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/clap_derive
+clap_lex,v0.7.2,https://github.com/clap-rs/clap,MIT OR Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/clap_lex
 colorchoice,v1.0.2,https://github.com/rust-cli/anstyle,Unknown,Unknown,-
 const-oid,v0.9.6,https://github.com/RustCrypto/formats/tree/master/const-oid,Unknown,Unknown,-
 cpufeatures,v0.2.12,https://github.com/RustCrypto/utils,Unknown,Unknown,-
-crypto-bigint,v0.5.5,https://github.com/RustCrypto/crypto-bigint,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/RustCrypto/crypto-bigint
+crypto-bigint,v0.5.5,https://github.com/RustCrypto/crypto-bigint,Apache-2.0 OR MIT,UNKNOWN,https://crates.io/api/v1/crates/crypto-bigint
 crypto-common,v0.1.6,https://github.com/RustCrypto/traits,Unknown,Unknown,-
 curve25519-dalek,v4.1.3,https://github.com/dalek-cryptography/curve25519-dalek/tree/main/curve25519-dalek,Unknown,Unknown,-
 der,v0.7.9,https://github.com/RustCrypto/formats/tree/master/der,Unknown,Unknown,-
-deranged,v0.3.11,https://github.com/jhpratt/deranged,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/jhpratt/deranged
+deranged,v0.3.11,https://github.com/jhpratt/deranged,MIT OR Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/deranged
 digest,v0.10.7,https://github.com/RustCrypto/traits,Unknown,Unknown,-
-displaydoc,v0.2.5,https://github.com/yaahc/displaydoc,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/yaahc/displaydoc
-dissimilar,v1.0.9,https://github.com/dtolnay/dissimilar,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/dtolnay/dissimilar
-dotenvy,v0.15.7,https://github.com/allan2/dotenvy,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/allan2/dotenvy
+displaydoc,v0.2.5,https://github.com/yaahc/displaydoc,MIT OR Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/displaydoc
+dissimilar,v1.0.9,https://github.com/dtolnay/dissimilar,Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/dissimilar
+dotenvy,v0.15.7,https://github.com/allan2/dotenvy,MIT,UNKNOWN,https://crates.io/api/v1/crates/dotenvy
 ecdsa,v0.16.9,https://github.com/RustCrypto/signatures/tree/master/ecdsa,Unknown,Unknown,-
 ed25519,v2.2.3,https://github.com/RustCrypto/signatures/tree/master/ed25519,Unknown,Unknown,-
 ed25519-dalek,v2.1.1,https://github.com/dalek-cryptography/curve25519-dalek/tree/main/ed25519-dalek,Unknown,Unknown,-
-either,v1.13.0,https://github.com/rayon-rs/either,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/rayon-rs/either
+either,v1.13.0,https://github.com/rayon-rs/either,MIT OR Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/either
 elliptic-curve,v0.13.8,https://github.com/RustCrypto/traits/tree/master/elliptic-curve,Unknown,Unknown,-
-env_filter,v0.1.2,https://github.com/rust-cli/env_logger,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/rust-cli/env_logger
-env_logger,v0.11.5,https://github.com/rust-cli/env_logger,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/rust-cli/env_logger
-equivalent,v1.0.1,https://github.com/cuviper/equivalent,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/cuviper/equivalent
-errno,v0.3.9,https://github.com/lambda-fairy/rust-errno,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/lambda-fairy/rust-errno
-expect-test,v1.5.0,https://github.com/rust-analyzer/expect-test,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/rust-analyzer/expect-test
-fastrand,v2.1.0,https://github.com/smol-rs/fastrand,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/smol-rs/fastrand
-ff,v0.13.0,https://github.com/zkcrypto/ff,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/zkcrypto/ff
-fixedbitset,v0.4.2,https://github.com/petgraph/fixedbitset,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/petgraph/fixedbitset
-fnv,v1.0.7,https://github.com/servo/rust-fnv,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/servo/rust-fnv
-fraction,v0.15.3,https://github.com/dnsl48/fraction.git,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/dnsl48/fraction
-fs_extra,v1.3.0,https://github.com/webdesus/fs_extra,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/webdesus/fs_extra
-futures-channel,v0.3.30,https://github.com/rust-lang/futures-rs,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/rust-lang/futures-rs
-futures-core,v0.3.30,https://github.com/rust-lang/futures-rs,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/rust-lang/futures-rs
-futures-sink,v0.3.30,https://github.com/rust-lang/futures-rs,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/rust-lang/futures-rs
-futures-task,v0.3.30,https://github.com/rust-lang/futures-rs,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/rust-lang/futures-rs
-futures-util,v0.3.30,https://github.com/rust-lang/futures-rs,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/rust-lang/futures-rs
-generic-array,v0.14.7,https://github.com/fizyk20/generic-array.git,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/fizyk20/generic-array
-getrandom,v0.2.15,https://github.com/rust-random/getrandom,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/rust-random/getrandom
+env_filter,v0.1.2,https://github.com/rust-cli/env_logger,MIT OR Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/env_filter
+env_logger,v0.11.5,https://github.com/rust-cli/env_logger,MIT OR Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/env_logger
+equivalent,v1.0.1,https://github.com/cuviper/equivalent,Apache-2.0 OR MIT,UNKNOWN,https://crates.io/api/v1/crates/equivalent
+errno,v0.3.9,https://github.com/lambda-fairy/rust-errno,MIT OR Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/errno
+expect-test,v1.5.0,https://github.com/rust-analyzer/expect-test,MIT OR Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/expect-test
+fastrand,v2.1.0,https://github.com/smol-rs/fastrand,Apache-2.0 OR MIT,UNKNOWN,https://crates.io/api/v1/crates/fastrand
+ff,v0.13.0,https://github.com/zkcrypto/ff,MIT/Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/ff
+fixedbitset,v0.4.2,https://github.com/petgraph/fixedbitset,MIT/Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/fixedbitset
+fnv,v1.0.7,https://github.com/servo/rust-fnv,Apache-2.0 / MIT,UNKNOWN,https://crates.io/api/v1/crates/fnv
+fraction,v0.15.3,https://github.com/dnsl48/fraction.git,MIT/Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/fraction
+fs_extra,v1.3.0,https://github.com/webdesus/fs_extra,MIT,UNKNOWN,https://crates.io/api/v1/crates/fs_extra
+futures-channel,v0.3.30,https://github.com/rust-lang/futures-rs,MIT OR Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/futures-channel
+futures-core,v0.3.30,https://github.com/rust-lang/futures-rs,MIT OR Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/futures-core
+futures-sink,v0.3.30,https://github.com/rust-lang/futures-rs,MIT OR Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/futures-sink
+futures-task,v0.3.30,https://github.com/rust-lang/futures-rs,MIT OR Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/futures-task
+futures-util,v0.3.30,https://github.com/rust-lang/futures-rs,MIT OR Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/futures-util
+generic-array,v0.14.7,https://github.com/fizyk20/generic-array.git,MIT,UNKNOWN,https://crates.io/api/v1/crates/generic-array
+getrandom,v0.2.15,https://github.com/rust-random/getrandom,MIT OR Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/getrandom
 group,v0.13.0,https://github.com/zkcrypto/group,Unknown,Unknown,-
-h2,v0.3.26,https://github.com/hyperium/h2,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/hyperium/h2
-h2,v0.4.6,https://github.com/hyperium/h2,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/hyperium/h2
-hashbrown,v0.12.3,https://github.com/rust-lang/hashbrown,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/rust-lang/hashbrown
-hashbrown,v0.14.5,https://github.com/rust-lang/hashbrown,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/rust-lang/hashbrown
-heck,v0.5.0,https://github.com/withoutboats/heck,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/withoutboats/heck
-hedera,v0.29.0,https://github.com/hashgraph/hedera-sdk-rust,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/hashgraph/hedera-sdk-rust
-hedera-proto,v0.14.0,https://github.com/hashgraph/hedera-sdk-rust,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/hashgraph/hedera-sdk-rust
-hex,v0.4.3,https://github.com/KokaKiwi/rust-hex,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/KokaKiwi/rust-hex
+h2,v0.3.26,https://github.com/hyperium/h2,MIT,UNKNOWN,https://crates.io/api/v1/crates/h2
+h2,v0.4.6,https://github.com/hyperium/h2,MIT,UNKNOWN,https://crates.io/api/v1/crates/h2
+hashbrown,v0.12.3,https://github.com/rust-lang/hashbrown,MIT OR Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/hashbrown
+hashbrown,v0.14.5,https://github.com/rust-lang/hashbrown,MIT OR Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/hashbrown
+heck,v0.5.0,https://github.com/withoutboats/heck,MIT OR Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/heck
+hedera,v0.29.0,https://github.com/hashgraph/hedera-sdk-rust,Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/hedera
+hedera-proto,v0.14.0,https://github.com/hashgraph/hedera-sdk-rust,Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/hedera-proto
+hex,v0.4.3,https://github.com/KokaKiwi/rust-hex,MIT OR Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/hex
 hex-literal,v0.4.1,https://github.com/RustCrypto/utils,Unknown,Unknown,-
 hmac,v0.12.1,https://github.com/RustCrypto/MACs,Unknown,Unknown,-
-http,v0.2.12,https://github.com/hyperium/http,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/hyperium/http
-http,v1.1.0,https://github.com/hyperium/http,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/hyperium/http
-http-body,v0.4.6,https://github.com/hyperium/http-body,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/hyperium/http-body
-http-body,v1.0.1,https://github.com/hyperium/http-body,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/hyperium/http-body
-httparse,v1.9.4,https://github.com/seanmonstar/httparse,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/seanmonstar/httparse
-httpdate,v1.0.3,https://github.com/pyfisch/httpdate,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/pyfisch/httpdate
-humantime,v2.1.0,https://github.com/tailhook/humantime,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/tailhook/humantime
-hyper,v0.14.30,https://github.com/hyperium/hyper,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/hyperium/hyper
-hyper,v1.4.1,https://github.com/hyperium/hyper,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/hyperium/hyper
+http,v0.2.12,https://github.com/hyperium/http,MIT OR Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/http
+http,v1.1.0,https://github.com/hyperium/http,MIT OR Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/http
+http-body,v0.4.6,https://github.com/hyperium/http-body,MIT,UNKNOWN,https://crates.io/api/v1/crates/http-body
+http-body,v1.0.1,https://github.com/hyperium/http-body,MIT,UNKNOWN,https://crates.io/api/v1/crates/http-body
+httparse,v1.9.4,https://github.com/seanmonstar/httparse,MIT OR Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/httparse
+httpdate,v1.0.3,https://github.com/pyfisch/httpdate,MIT OR Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/httpdate
+humantime,v2.1.0,https://github.com/tailhook/humantime,MIT/Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/humantime
+hyper,v0.14.30,https://github.com/hyperium/hyper,MIT,UNKNOWN,https://crates.io/api/v1/crates/hyper
+hyper,v1.4.1,https://github.com/hyperium/hyper,MIT,UNKNOWN,https://crates.io/api/v1/crates/hyper
 hyper-timeout,v0.4.1,https://github.com/hjr3/hyper-timeout,Unknown,Unknown,-
 indexmap,v1.9.3,https://github.com/bluss/indexmap,Unknown,Unknown,-
 indexmap,v2.3.0,https://github.com/indexmap-rs/indexmap,Unknown,Unknown,-
 inout,v0.1.3,https://github.com/RustCrypto/utils,Unknown,Unknown,-
-instant,v0.1.13,https://github.com/sebcrozet/instant,"BSD 3-Clause ""New"" or ""Revised"" License",https://api.github.com/licenses/bsd-3-clause,https://api.github.com/repos/sebcrozet/instant
-is_terminal_polyfill,v1.70.1,https://github.com/polyfill-rs/is_terminal_polyfill,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/polyfill-rs/is_terminal_polyfill
-itertools,v0.12.1,https://github.com/rust-itertools/itertools,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/rust-itertools/itertools
-itoa,v1.0.11,https://github.com/dtolnay/itoa,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/dtolnay/itoa
+instant,v0.1.13,https://github.com/sebcrozet/instant,BSD-3-Clause,UNKNOWN,https://crates.io/api/v1/crates/instant
+is_terminal_polyfill,v1.70.1,https://github.com/polyfill-rs/is_terminal_polyfill,MIT OR Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/is_terminal_polyfill
+itertools,v0.12.1,https://github.com/rust-itertools/itertools,MIT OR Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/itertools
+itoa,v1.0.11,https://github.com/dtolnay/itoa,MIT OR Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/itoa
 k256,v0.13.3,https://github.com/RustCrypto/elliptic-curves/tree/master/k256,Unknown,Unknown,-
 keccak,v0.1.5,https://github.com/RustCrypto/sponges/tree/master/keccak,Unknown,Unknown,-
-libc,v0.2.155,https://github.com/rust-lang/libc,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/rust-lang/libc
-lock_api,v0.4.12,https://github.com/Amanieu/parking_lot,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/Amanieu/parking_lot
-log,v0.4.22,https://github.com/rust-lang/log,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/rust-lang/log
-matchit,v0.7.3,https://github.com/ibraheemdev/matchit,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/ibraheemdev/matchit
+libc,v0.2.155,https://github.com/rust-lang/libc,MIT OR Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/libc
+lock_api,v0.4.12,https://github.com/Amanieu/parking_lot,MIT OR Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/lock_api
+log,v0.4.22,https://github.com/rust-lang/log,MIT OR Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/log
+matchit,v0.7.3,https://github.com/ibraheemdev/matchit,MIT AND BSD-3-Clause,UNKNOWN,https://crates.io/api/v1/crates/matchit
 md5,v0.7.0,https://github.com/stainless-steel/md5,Unknown,Unknown,-
-memchr,v2.7.4,https://github.com/BurntSushi/memchr,The Unlicense,https://api.github.com/licenses/unlicense,https://api.github.com/repos/BurntSushi/memchr
-mime,v0.3.17,https://github.com/hyperium/mime,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/hyperium/mime
-mini-internal,v0.1.39,https://github.com/dtolnay/miniserde,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/dtolnay/miniserde
-miniserde,v0.1.39,https://github.com/dtolnay/miniserde,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/dtolnay/miniserde
-mio,v1.0.1,https://github.com/tokio-rs/mio,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/tokio-rs/mio
+memchr,v2.7.4,https://github.com/BurntSushi/memchr,Unlicense OR MIT,UNKNOWN,https://crates.io/api/v1/crates/memchr
+mime,v0.3.17,https://github.com/hyperium/mime,MIT OR Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/mime
+mini-internal,v0.1.39,https://github.com/dtolnay/miniserde,MIT OR Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/mini-internal
+miniserde,v0.1.39,https://github.com/dtolnay/miniserde,MIT OR Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/miniserde
+mio,v1.0.1,https://github.com/tokio-rs/mio,MIT,UNKNOWN,https://crates.io/api/v1/crates/mio
 multimap,v0.10.0,https://github.com/havarnov/multimap,Unknown,Unknown,-
-num,v0.4.3,https://github.com/rust-num/num,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/rust-num/num
-num-bigint,v0.4.6,https://github.com/rust-num/num-bigint,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/rust-num/num-bigint
-num-complex,v0.4.6,https://github.com/rust-num/num-complex,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/rust-num/num-complex
-num-conv,v0.1.0,https://github.com/jhpratt/num-conv,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/jhpratt/num-conv
-num-integer,v0.1.46,https://github.com/rust-num/num-integer,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/rust-num/num-integer
-num-iter,v0.1.45,https://github.com/rust-num/num-iter,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/rust-num/num-iter
-num-rational,v0.4.2,https://github.com/rust-num/num-rational,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/rust-num/num-rational
-num-traits,v0.2.19,https://github.com/rust-num/num-traits,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/rust-num/num-traits
-once_cell,v1.19.0,https://github.com/matklad/once_cell,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/matklad/once_cell
-parking_lot,v0.12.3,https://github.com/Amanieu/parking_lot,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/Amanieu/parking_lot
-parking_lot_core,v0.9.10,https://github.com/Amanieu/parking_lot,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/Amanieu/parking_lot
+num,v0.4.3,https://github.com/rust-num/num,MIT OR Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/num
+num-bigint,v0.4.6,https://github.com/rust-num/num-bigint,MIT OR Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/num-bigint
+num-complex,v0.4.6,https://github.com/rust-num/num-complex,MIT OR Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/num-complex
+num-conv,v0.1.0,https://github.com/jhpratt/num-conv,MIT OR Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/num-conv
+num-integer,v0.1.46,https://github.com/rust-num/num-integer,MIT OR Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/num-integer
+num-iter,v0.1.45,https://github.com/rust-num/num-iter,MIT OR Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/num-iter
+num-rational,v0.4.2,https://github.com/rust-num/num-rational,MIT OR Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/num-rational
+num-traits,v0.2.19,https://github.com/rust-num/num-traits,MIT OR Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/num-traits
+once_cell,v1.19.0,https://github.com/matklad/once_cell,MIT OR Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/once_cell
+parking_lot,v0.12.3,https://github.com/Amanieu/parking_lot,MIT OR Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/parking_lot
+parking_lot_core,v0.9.10,https://github.com/Amanieu/parking_lot,MIT OR Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/parking_lot_core
 pbkdf2,v0.12.2,https://github.com/RustCrypto/password-hashes/tree/master/pbkdf2,Unknown,Unknown,-
-pem,v3.0.4,https://github.com/jcreekmore/pem-rs.git,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/jcreekmore/pem-rs
-percent-encoding,v2.3.1,https://github.com/servo/rust-url/,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/servo/rust-url
-petgraph,v0.6.5,https://github.com/petgraph/petgraph,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/petgraph/petgraph
-pin-project,v1.1.5,https://github.com/taiki-e/pin-project,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/taiki-e/pin-project
-pin-project-internal,v1.1.5,https://github.com/taiki-e/pin-project,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/taiki-e/pin-project
-pin-project-lite,v0.2.14,https://github.com/taiki-e/pin-project-lite,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/taiki-e/pin-project-lite
-pin-utils,v0.1.0,https://github.com/rust-lang-nursery/pin-utils,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/rust-lang-nursery/pin-utils
+pem,v3.0.4,https://github.com/jcreekmore/pem-rs.git,MIT,UNKNOWN,https://crates.io/api/v1/crates/pem
+percent-encoding,v2.3.1,https://github.com/servo/rust-url/,MIT OR Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/percent-encoding
+petgraph,v0.6.5,https://github.com/petgraph/petgraph,MIT OR Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/petgraph
+pin-project,v1.1.5,https://github.com/taiki-e/pin-project,Apache-2.0 OR MIT,UNKNOWN,https://crates.io/api/v1/crates/pin-project
+pin-project-internal,v1.1.5,https://github.com/taiki-e/pin-project,Apache-2.0 OR MIT,UNKNOWN,https://crates.io/api/v1/crates/pin-project-internal
+pin-project-lite,v0.2.14,https://github.com/taiki-e/pin-project-lite,Apache-2.0 OR MIT,UNKNOWN,https://crates.io/api/v1/crates/pin-project-lite
+pin-utils,v0.1.0,https://github.com/rust-lang-nursery/pin-utils,MIT OR Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/pin-utils
 pkcs5,v0.7.1,https://github.com/RustCrypto/formats/tree/master/pkcs5,Unknown,Unknown,-
 pkcs8,v0.10.2,https://github.com/RustCrypto/formats/tree/master/pkcs8,Unknown,Unknown,-
-powerfmt,v0.2.0,https://github.com/jhpratt/powerfmt,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/jhpratt/powerfmt
-ppv-lite86,v0.2.20,https://github.com/cryptocorrosion/cryptocorrosion,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/cryptocorrosion/cryptocorrosion
-prettyplease,v0.2.20,https://github.com/dtolnay/prettyplease,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/dtolnay/prettyplease
-proc-macro2,v1.0.86,https://github.com/dtolnay/proc-macro2,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/dtolnay/proc-macro2
-prost,v0.12.6,https://github.com/tokio-rs/prost,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/tokio-rs/prost
-prost-build,v0.12.6,https://github.com/tokio-rs/prost,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/tokio-rs/prost
-prost-derive,v0.12.6,https://github.com/tokio-rs/prost,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/tokio-rs/prost
-prost-types,v0.12.6,https://github.com/tokio-rs/prost,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/tokio-rs/prost
-quote,v1.0.36,https://github.com/dtolnay/quote,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/dtolnay/quote
+powerfmt,v0.2.0,https://github.com/jhpratt/powerfmt,MIT OR Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/powerfmt
+ppv-lite86,v0.2.20,https://github.com/cryptocorrosion/cryptocorrosion,MIT/Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/ppv-lite86
+prettyplease,v0.2.20,https://github.com/dtolnay/prettyplease,MIT OR Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/prettyplease
+proc-macro2,v1.0.86,https://github.com/dtolnay/proc-macro2,MIT OR Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/proc-macro2
+prost,v0.12.6,https://github.com/tokio-rs/prost,Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/prost
+prost-build,v0.12.6,https://github.com/tokio-rs/prost,Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/prost-build
+prost-derive,v0.12.6,https://github.com/tokio-rs/prost,Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/prost-derive
+prost-types,v0.12.6,https://github.com/tokio-rs/prost,Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/prost-types
+quote,v1.0.36,https://github.com/dtolnay/quote,MIT OR Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/quote
 rand,v0.8.5,https://github.com/rust-random/rand,Unknown,Unknown,-
 rand_chacha,v0.3.1,https://github.com/rust-random/rand,Unknown,Unknown,-
 rand_core,v0.6.4,https://github.com/rust-random/rand,Unknown,Unknown,-
-regex,v1.10.6,https://github.com/rust-lang/regex,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/rust-lang/regex
-regex-automata,v0.4.7,https://github.com/rust-lang/regex/tree/master/regex-automata,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/rust-lang/regex
-regex-syntax,v0.8.4,https://github.com/rust-lang/regex/tree/master/regex-syntax,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/rust-lang/regex
+regex,v1.10.6,https://github.com/rust-lang/regex,MIT OR Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/regex
+regex-automata,v0.4.7,https://github.com/rust-lang/regex/tree/master/regex-automata,MIT OR Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/regex-automata
+regex-syntax,v0.8.4,https://github.com/rust-lang/regex/tree/master/regex-syntax,MIT OR Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/regex-syntax
 rfc6979,v0.4.0,https://github.com/RustCrypto/signatures/tree/master/rfc6979,Unknown,Unknown,-
 ring,v0.17.8,https://github.com/briansmith/ring,Unknown,Unknown,-
-rlp,v0.5.2,https://github.com/paritytech/parity-common,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/paritytech/parity-common
-rust_decimal,v1.35.0,https://github.com/paupino/rust-decimal,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/paupino/rust-decimal
-rustc-hex,v2.1.0,https://github.com/debris/rustc-hex,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/debris/rustc-hex
-rustc_version,v0.4.0,https://github.com/Kimundi/rustc-version-rs,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/Kimundi/rustc-version-rs
+rlp,v0.5.2,https://github.com/paritytech/parity-common,MIT OR Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/rlp
+rust_decimal,v1.35.0,https://github.com/paupino/rust-decimal,MIT,UNKNOWN,https://crates.io/api/v1/crates/rust_decimal
+rustc-hex,v2.1.0,https://github.com/debris/rustc-hex,MIT/Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/rustc-hex
+rustc_version,v0.4.0,https://github.com/Kimundi/rustc-version-rs,MIT/Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/rustc_version
 rustix,v0.38.34,https://github.com/bytecodealliance/rustix,Unknown,Unknown,-
 rustls,v0.22.4,https://github.com/rustls/rustls,Unknown,Unknown,-
 rustls-pemfile,v2.1.3,https://github.com/rustls/pemfile,Unknown,Unknown,-
-rustls-pki-types,v1.8.0,https://github.com/rustls/pki-types,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/rustls/pki-types
+rustls-pki-types,v1.8.0,https://github.com/rustls/pki-types,MIT OR Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/rustls-pki-types
 rustls-webpki,v0.102.6,https://github.com/rustls/webpki,Unknown,Unknown,-
-rustversion,v1.0.17,https://github.com/dtolnay/rustversion,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/dtolnay/rustversion
-ryu,v1.0.18,https://github.com/dtolnay/ryu,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/dtolnay/ryu
+rustversion,v1.0.17,https://github.com/dtolnay/rustversion,MIT OR Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/rustversion
+ryu,v1.0.18,https://github.com/dtolnay/ryu,Apache-2.0 OR BSL-1.0,UNKNOWN,https://crates.io/api/v1/crates/ryu
 salsa20,v0.10.2,https://github.com/RustCrypto/stream-ciphers,Unknown,Unknown,-
-scopeguard,v1.2.0,https://github.com/bluss/scopeguard,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/bluss/scopeguard
+scopeguard,v1.2.0,https://github.com/bluss/scopeguard,MIT OR Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/scopeguard
 scrypt,v0.11.0,https://github.com/RustCrypto/password-hashes/tree/master/scrypt,Unknown,Unknown,-
 sec1,v0.7.3,https://github.com/RustCrypto/formats/tree/master/sec1,Unknown,Unknown,-
-semver,v1.0.23,https://github.com/dtolnay/semver,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/dtolnay/semver
-serde,v1.0.205,https://github.com/serde-rs/serde,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/serde-rs/serde
-serde_derive,v1.0.205,https://github.com/serde-rs/serde,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/serde-rs/serde
-serde_json,v1.0.122,https://github.com/serde-rs/json,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/serde-rs/json
+semver,v1.0.23,https://github.com/dtolnay/semver,MIT OR Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/semver
+serde,v1.0.205,https://github.com/serde-rs/serde,MIT OR Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/serde
+serde_derive,v1.0.205,https://github.com/serde-rs/serde,MIT OR Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/serde_derive
+serde_json,v1.0.122,https://github.com/serde-rs/json,MIT OR Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/serde_json
 sha2,v0.10.8,https://github.com/RustCrypto/hashes,Unknown,Unknown,-
 sha3,v0.10.8,https://github.com/RustCrypto/hashes,Unknown,Unknown,-
 signature,v2.2.0,https://github.com/RustCrypto/traits/tree/master/signature,Unknown,Unknown,-
-slab,v0.4.9,https://github.com/tokio-rs/slab,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/tokio-rs/slab
-smallvec,v1.13.2,https://github.com/servo/rust-smallvec,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/servo/rust-smallvec
-socket2,v0.5.7,https://github.com/rust-lang/socket2,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/rust-lang/socket2
-spin,v0.9.8,https://github.com/mvdnes/spin-rs.git,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/mvdnes/spin-rs
+slab,v0.4.9,https://github.com/tokio-rs/slab,MIT,UNKNOWN,https://crates.io/api/v1/crates/slab
+smallvec,v1.13.2,https://github.com/servo/rust-smallvec,MIT OR Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/smallvec
+socket2,v0.5.7,https://github.com/rust-lang/socket2,MIT OR Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/socket2
+spin,v0.9.8,https://github.com/mvdnes/spin-rs.git,MIT,UNKNOWN,https://crates.io/api/v1/crates/spin
 spki,v0.7.3,https://github.com/RustCrypto/formats/tree/master/spki,Unknown,Unknown,-
-strsim,v0.11.1,https://github.com/rapidfuzz/strsim-rs,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/rapidfuzz/strsim-rs
-subtle,v2.6.1,https://github.com/dalek-cryptography/subtle,"BSD 3-Clause ""New"" or ""Revised"" License",https://api.github.com/licenses/bsd-3-clause,https://api.github.com/repos/dalek-cryptography/subtle
-syn,v2.0.72,https://github.com/dtolnay/syn,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/dtolnay/syn
-sync_wrapper,v0.1.2,https://github.com/Actyx/sync_wrapper,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/Actyx/sync_wrapper
-tempfile,v3.12.0,https://github.com/Stebalien/tempfile,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/Stebalien/tempfile
-thiserror,v1.0.63,https://github.com/dtolnay/thiserror,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/dtolnay/thiserror
-thiserror-impl,v1.0.63,https://github.com/dtolnay/thiserror,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/dtolnay/thiserror
-time,v0.3.36,https://github.com/time-rs/time,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/time-rs/time
-time-core,v0.1.2,https://github.com/time-rs/time,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/time-rs/time
+strsim,v0.11.1,https://github.com/rapidfuzz/strsim-rs,MIT,UNKNOWN,https://crates.io/api/v1/crates/strsim
+subtle,v2.6.1,https://github.com/dalek-cryptography/subtle,BSD-3-Clause,UNKNOWN,https://crates.io/api/v1/crates/subtle
+syn,v2.0.72,https://github.com/dtolnay/syn,MIT OR Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/syn
+sync_wrapper,v0.1.2,https://github.com/Actyx/sync_wrapper,Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/sync_wrapper
+tempfile,v3.12.0,https://github.com/Stebalien/tempfile,MIT OR Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/tempfile
+thiserror,v1.0.63,https://github.com/dtolnay/thiserror,MIT OR Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/thiserror
+thiserror-impl,v1.0.63,https://github.com/dtolnay/thiserror,MIT OR Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/thiserror-impl
+time,v0.3.36,https://github.com/time-rs/time,MIT OR Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/time
+time-core,v0.1.2,https://github.com/time-rs/time,MIT OR Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/time-core
 tinystr,v0.7.6,https://github.com/unicode-org/icu4x,Unknown,Unknown,-
-tokio,v1.39.2,https://github.com/tokio-rs/tokio,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/tokio-rs/tokio
-tokio-io-timeout,v1.2.0,https://github.com/sfackler/tokio-io-timeout,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/sfackler/tokio-io-timeout
-tokio-macros,v2.4.0,https://github.com/tokio-rs/tokio,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/tokio-rs/tokio
-tokio-rustls,v0.25.0,https://github.com/rustls/tokio-rustls,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/rustls/tokio-rustls
-tokio-stream,v0.1.15,https://github.com/tokio-rs/tokio,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/tokio-rs/tokio
-tokio-util,v0.7.11,https://github.com/tokio-rs/tokio,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/tokio-rs/tokio
-tonic,v0.11.0,https://github.com/hyperium/tonic,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/hyperium/tonic
-tonic-build,v0.11.0,https://github.com/hyperium/tonic,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/hyperium/tonic
-tower,v0.4.13,https://github.com/tower-rs/tower,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/tower-rs/tower
-tower-layer,v0.3.2,https://github.com/tower-rs/tower,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/tower-rs/tower
-tower-service,v0.3.2,https://github.com/tower-rs/tower,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/tower-rs/tower
-tracing,v0.1.40,https://github.com/tokio-rs/tracing,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/tokio-rs/tracing
-tracing-attributes,v0.1.27,https://github.com/tokio-rs/tracing,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/tokio-rs/tracing
-tracing-core,v0.1.32,https://github.com/tokio-rs/tracing,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/tokio-rs/tracing
-triomphe,v0.1.13,https://github.com/Manishearth/triomphe,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/Manishearth/triomphe
-try-lock,v0.2.5,https://github.com/seanmonstar/try-lock,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/seanmonstar/try-lock
+tokio,v1.39.2,https://github.com/tokio-rs/tokio,MIT,UNKNOWN,https://crates.io/api/v1/crates/tokio
+tokio-io-timeout,v1.2.0,https://github.com/sfackler/tokio-io-timeout,MIT/Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/tokio-io-timeout
+tokio-macros,v2.4.0,https://github.com/tokio-rs/tokio,MIT,UNKNOWN,https://crates.io/api/v1/crates/tokio-macros
+tokio-rustls,v0.25.0,https://github.com/rustls/tokio-rustls,MIT/Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/tokio-rustls
+tokio-stream,v0.1.15,https://github.com/tokio-rs/tokio,MIT,UNKNOWN,https://crates.io/api/v1/crates/tokio-stream
+tokio-util,v0.7.11,https://github.com/tokio-rs/tokio,MIT,UNKNOWN,https://crates.io/api/v1/crates/tokio-util
+tonic,v0.11.0,https://github.com/hyperium/tonic,MIT,UNKNOWN,https://crates.io/api/v1/crates/tonic
+tonic-build,v0.11.0,https://github.com/hyperium/tonic,MIT,UNKNOWN,https://crates.io/api/v1/crates/tonic-build
+tower,v0.4.13,https://github.com/tower-rs/tower,MIT,UNKNOWN,https://crates.io/api/v1/crates/tower
+tower-layer,v0.3.2,https://github.com/tower-rs/tower,MIT,UNKNOWN,https://crates.io/api/v1/crates/tower-layer
+tower-service,v0.3.2,https://github.com/tower-rs/tower,MIT,UNKNOWN,https://crates.io/api/v1/crates/tower-service
+tracing,v0.1.40,https://github.com/tokio-rs/tracing,MIT,UNKNOWN,https://crates.io/api/v1/crates/tracing
+tracing-attributes,v0.1.27,https://github.com/tokio-rs/tracing,MIT,UNKNOWN,https://crates.io/api/v1/crates/tracing-attributes
+tracing-core,v0.1.32,https://github.com/tokio-rs/tracing,MIT,UNKNOWN,https://crates.io/api/v1/crates/tracing-core
+triomphe,v0.1.13,https://github.com/Manishearth/triomphe,MIT OR Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/triomphe
+try-lock,v0.2.5,https://github.com/seanmonstar/try-lock,MIT,UNKNOWN,https://crates.io/api/v1/crates/try-lock
 typenum,v1.17.0,https://github.com/paholg/typenum,Unknown,Unknown,-
-unicode-ident,v1.0.12,https://github.com/dtolnay/unicode-ident,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/dtolnay/unicode-ident
-unsize,v1.1.0,https://github.com/HeroicKatora/static-alloc,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/HeroicKatora/static-alloc
+unicode-ident,v1.0.12,https://github.com/dtolnay/unicode-ident,(MIT OR Apache-2.0) AND Unicode-DFS-2016,UNKNOWN,https://crates.io/api/v1/crates/unicode-ident
+unsize,v1.1.0,https://github.com/HeroicKatora/static-alloc,MIT OR Apache-2.0 OR Zlib,UNKNOWN,https://crates.io/api/v1/crates/unsize
 untrusted,v0.9.0,https://github.com/briansmith/untrusted,Unknown,Unknown,-
-utf8parse,v0.2.2,https://github.com/alacritty/vte,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/alacritty/vte
-version_check,v0.9.5,https://github.com/SergioBenitez/version_check,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/SergioBenitez/version_check
-want,v0.3.1,https://github.com/seanmonstar/want,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/seanmonstar/want
-webpki-roots,v0.26.3,https://github.com/rustls/webpki-roots,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/rustls/webpki-roots
-zerocopy,v0.7.35,https://github.com/google/zerocopy,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/google/zerocopy
-zerocopy-derive,v0.7.35,https://github.com/google/zerocopy,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/google/zerocopy
+utf8parse,v0.2.2,https://github.com/alacritty/vte,Apache-2.0 OR MIT,UNKNOWN,https://crates.io/api/v1/crates/utf8parse
+version_check,v0.9.5,https://github.com/SergioBenitez/version_check,MIT/Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/version_check
+want,v0.3.1,https://github.com/seanmonstar/want,MIT,UNKNOWN,https://crates.io/api/v1/crates/want
+webpki-roots,v0.26.3,https://github.com/rustls/webpki-roots,MPL-2.0,UNKNOWN,https://crates.io/api/v1/crates/webpki-roots
+zerocopy,v0.7.35,https://github.com/google/zerocopy,BSD-2-Clause OR Apache-2.0 OR MIT,UNKNOWN,https://crates.io/api/v1/crates/zerocopy
+zerocopy-derive,v0.7.35,https://github.com/google/zerocopy,BSD-2-Clause OR Apache-2.0 OR MIT,UNKNOWN,https://crates.io/api/v1/crates/zerocopy-derive
 zeroize,v1.8.1,https://github.com/RustCrypto/utils/tree/master/zeroize,Unknown,Unknown,-
