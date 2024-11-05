@@ -1,7 +1,6 @@
 #!/bin/bash
 
 mkdir missing
-    List<String> CDDL_1_0_NAMES = List.of("CDDL-1.0");
 ./license-scanner.sh  java -n com.hedera.hashgraph:app -v 0.55.2 -m hedera-manual.csv -N -e Apache-2.0 -e MIT -e BSD-3-Clause -e BSD-2-Clause -e EPL-2.0 -e EPL-1.0 -e MPL-2.0 -e CDDL-1.0 -e EDL-1.0 > missing/consensus-node.csv
 ./license-scanner.sh  java -n com.hedera.hashgraph:sdk -v 2.43.0 -m hedera-manual.csv -N -e Apache-2.0 -e MIT -e BSD-3-Clause -e BSD-2-Clause -e EPL-2.0 -e EPL-1.0 -e MPL-2.0 -e CDDL-1.0 -e EDL-1.0 > missing/sdk-java.csv
 ./license-scanner.sh  java -n com.hedera.hashgraph:did-sdk-java -v 1.0.0 -m hedera-manual.csv -N -e Apache-2.0 -e MIT -e BSD-3-Clause -e BSD-2-Clause -e EPL-2.0 -e EPL-1.0 -e MPL-2.0 -e CDDL-1.0 -e EDL-1.0 > missing/did-sdk-java.csv
@@ -18,4 +17,3 @@ mkdir missing
 ./license-scanner.sh  js -r https://github.com/gomintco/gomint-client -m hedera-manual.csv -N -e Apache-2.0 -e MIT -e BSD-3-Clause -e BSD-2-Clause -e EPL-2.0 -e EPL-1.0 -e MPL-2.0 -e CDDL-1.0 -e EDL-1.0 > missing/gomint-client.csv
 ./license-scanner.sh  python -r https://github.com/wensheng/hedera-sdk-py -m hedera-manual.csv -N -e Apache-2.0 -e MIT -e BSD-3-Clause -e BSD-2-Clause -e EPL-2.0 -e EPL-1.0 -e MPL-2.0 -e CDDL-1.0 -e EDL-1.0 > missing/sdk-python-1.csv
 ./license-scanner.sh  python -r https://github.com/nadineloepfe/hedera_sdk_python -m hedera-manual.csv -N -e Apache-2.0 -e MIT -e BSD-3-Clause -e BSD-2-Clause -e EPL-2.0 -e EPL-1.0 -e MPL-2.0 -e CDDL-1.0 -e EDL-1.0 > missing/sdk-python-2.csv
-

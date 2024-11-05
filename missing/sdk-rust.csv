@@ -168,7 +168,6 @@ unsize,v1.1.0,https://github.com/HeroicKatora/static-alloc,MIT OR Apache-2.0 OR 
 untrusted,v0.9.0,https://github.com/briansmith/untrusted,Unknown,Unknown,-
 utf8parse,v0.2.2,https://github.com/alacritty/vte,Apache-2.0 OR MIT,UNKNOWN,https://crates.io/api/v1/crates/utf8parse
 version_check,v0.9.5,https://github.com/SergioBenitez/version_check,MIT/Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/version_check
-webpki-roots,v0.26.3,https://github.com/rustls/webpki-roots,MPL-2.0,https://api.github.com/licenses/mpl-2.0,https://crates.io/api/v1/crates/webpki-roots (normalized)
 zerocopy,v0.7.35,https://github.com/google/zerocopy,BSD-2-Clause OR Apache-2.0 OR MIT,UNKNOWN,https://crates.io/api/v1/crates/zerocopy
 zerocopy-derive,v0.7.35,https://github.com/google/zerocopy,BSD-2-Clause OR Apache-2.0 OR MIT,UNKNOWN,https://crates.io/api/v1/crates/zerocopy-derive
 zeroize,v1.8.1,https://github.com/RustCrypto/utils/tree/master/zeroize,Unknown,Unknown,-

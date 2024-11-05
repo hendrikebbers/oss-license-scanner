@@ -1,5 +1,4 @@
 name,version,repository,license,license-url,license-source
-certifi,2024.8.30,Unknown,MPL-2.0,https://api.github.com/licenses/mpl-2.0,https://pypi.org/pypi/certifi/2024.8.30/json (normalized)
 docutils,0.21.2,Unknown,Unknown,Unknown,Unknown
 idna,3.10,Unknown,Unknown,Unknown,Unknown
 importlib_metadata,8.5.0,Unknown,Unknown,Unknown,Unknown
