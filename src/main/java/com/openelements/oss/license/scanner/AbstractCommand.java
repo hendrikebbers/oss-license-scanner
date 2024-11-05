@@ -1,4 +1,5 @@
 package com.openelements.oss.license.scanner;
+import com.google.gson.stream.JsonWriter;
 import com.openelements.oss.license.scanner.api.License;
 import com.openelements.oss.license.scanner.api.Resolver;
 import com.openelements.oss.license.scanner.clients.GitHubClient;
@@ -56,6 +57,9 @@ public abstract class AbstractCommand implements Callable<Integer> {
 
     @Option(names = {"-M", "--markdown"}, description = "print result in markdown format")
     private boolean markdown;
+
+    @Option(names = {"-J", "--json"}, description = "print result in json format")
+    private boolean json;
 
     @Option(names = {"-e", "--excludeLicenses"}, description = "list of licenses to exclude")
     private List<String> excludeLicenses;
@@ -170,7 +174,9 @@ public abstract class AbstractCommand implements Callable<Integer> {
         }
         if(markdown) {
             printAsMarkdown(toPrint);
-        } else {
+        } else if(json) {
+            printAsJson(toPrint);
+        }else {
             printAsCsv(toPrint);
         }
     }
@@ -191,6 +197,29 @@ public abstract class AbstractCommand implements Callable<Integer> {
         dependencies.stream()
                 .sorted(Comparator.comparing(d -> d.identifier()))
                 .forEach(d -> System.out.println("| " + d.identifier().name() + " | " + d.identifier().version() + " | " + d.repository() + " | " + d.license().name() + " | " + d.license().url() + " | " + d.license().source() + " |"));
+    }
+
+    private static void printAsJson(Set<Dependency> dependencies) throws IOException {
+        try(JsonWriter writer = new JsonWriter(new PrintWriter(System.out))) {
+            writer.beginArray();
+            dependencies.stream()
+                    .sorted(Comparator.comparing(d -> d.identifier()))
+                    .forEach(d -> {
+                        try {
+                            writer.beginObject();
+                            writer.name("name").value(d.identifier().name());
+                            writer.name("version").value(d.identifier().version());
+                            writer.name("repository").value(d.repository());
+                            writer.name("license").value(d.license().name());
+                            writer.name("license-url").value(d.license().url());
+                            writer.name("license-source").value(d.license().source());
+                            writer.endObject();
+                        } catch (IOException e) {
+                            throw new RuntimeException(e);
+                        }
+                    });
+            writer.endArray();
+        }
     }
 
     protected abstract Resolver createResolver(GitHubClient client);
