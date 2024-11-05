@@ -164,8 +164,8 @@ github.com/inconshreveable/mousetrap,v1.0.0,https://github.com/inconshreveable/m
 github.com/influxdata/influxdb-client-go/v2,v2.4.0,https://github.com/influxdata/influxdb-client-go/v2,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/influxdata/influxdb-client-go
 github.com/influxdata/influxdb1-client,v0.0.0-20220302092344-a9ab5670611c,https://github.com/influxdata/influxdb1-client,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/influxdata/influxdb1-client
 github.com/influxdata/line-protocol,v0.0.0-20200327222509-2487e7298839,https://github.com/influxdata/line-protocol,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/influxdata/line-protocol
-github.com/iris-contrib/schema,v0.0.6,https://github.com/iris-contrib/schema,Unknown,Unknown,-
-github.com/jackpal/go-nat-pmp,v1.0.2,https://github.com/jackpal/go-nat-pmp,Unknown,Unknown,-
+github.com/iris-contrib/schema,v0.0.6,https://github.com/iris-contrib/schema,BSD 3-Clause,https://api.github.com/licenses/bsd-3-clause,https://raw.githubusercontent.com/iris-contrib/schema/refs/heads/master/README.md
+github.com/jackpal/go-nat-pmp,v1.0.2,https://github.com/jackpal/go-nat-pmp,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://github.com/jackpal/go-nat-pmp/blob/master/LICENSE
 github.com/jedisct1/go-minisign,v0.0.0-20230811132847-661be99b8267,https://github.com/jedisct1/go-minisign,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/jedisct1/go-minisign
 github.com/jmespath/go-jmespath,v0.4.0,https://github.com/jmespath/go-jmespath,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/jmespath/go-jmespath
 github.com/josharian/intern,v1.0.0,https://github.com/josharian/intern,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/josharian/intern
@@ -226,11 +226,11 @@ github.com/onsi/gomega,v1.17.0,https://github.com/onsi/gomega,MIT License,https:
 github.com/onsi/gomega,v1.19.0,https://github.com/onsi/gomega,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/onsi/gomega
 github.com/onsi/gomega,v1.7.1,https://github.com/onsi/gomega,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/onsi/gomega
 github.com/opentracing/opentracing-go,v1.1.0,https://github.com/opentracing/opentracing-go,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/opentracing/opentracing-go
-github.com/pelletier/go-toml/v2,v2.0.5,https://github.com/pelletier/go-toml/v2,Unknown,Unknown,-
+github.com/pelletier/go-toml/v2,v2.0.5,https://github.com/pelletier/go-toml/v2,MIT License,https://api.github.com/licenses/mit,https://github.com/pelletier/go-toml/blob/v2/LICENSE
 github.com/peterh/liner,v1.1.1-0.20190123174540-a2c9a5303de7,https://github.com/peterh/liner,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/peterh/liner
 github.com/pingcap/errors,v0.11.4,https://github.com/pingcap/errors,"BSD 2-Clause ""Simplified"" License",https://api.github.com/licenses/bsd-2-clause,https://api.github.com/repos/pingcap/errors
 github.com/pkg/errors,v0.9.1,https://github.com/pkg/errors,"BSD 2-Clause ""Simplified"" License",https://api.github.com/licenses/bsd-2-clause,https://api.github.com/repos/pkg/errors
-github.com/pmezard/go-difflib,v1.0.0,https://github.com/pmezard/go-difflib,Unknown,Unknown,-
+github.com/pmezard/go-difflib,v1.0.0,https://github.com/pmezard/go-difflib,BSD 3-Clause,https://api.github.com/licenses/bsd-3-clause,https://github.com/pmezard/go-difflib/blob/master/LICENSE
 github.com/prometheus/client_golang,v1.12.0,https://github.com/prometheus/client_golang,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/prometheus/client_golang
 github.com/prometheus/client_golang,v1.17.0,https://github.com/prometheus/client_golang,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/prometheus/client_golang
 github.com/prometheus/client_model,v0.2.1-0.20210607210712-147c58e9608a,https://github.com/prometheus/client_model,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/prometheus/client_model
@@ -248,7 +248,7 @@ github.com/rogpeppe/go-internal,v1.9.0,https://github.com/rogpeppe/go-internal,"
 github.com/rs/cors,v1.7.0,https://github.com/rs/cors,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/rs/cors
 github.com/rs/xid,v1.5.0,https://github.com/rs/xid,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/rs/xid
 github.com/rs/zerolog,v1.33.0,https://github.com/rs/zerolog,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/rs/zerolog
-github.com/russross/blackfriday/v2,v2.1.0,https://github.com/russross/blackfriday/v2,Unknown,Unknown,-
+github.com/russross/blackfriday/v2,v2.1.0,https://github.com/russross/blackfriday/v2,BSD 3-Clause,https://api.github.com/licenses/bsd-3-clause,https://github.com/russross/blackfriday/blob/master/LICENSE.txt
 github.com/schollz/closestmatch,v2.1.0+incompatible,https://github.com/schollz/closestmatch,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/schollz/closestmatch
 github.com/shirou/gopsutil,v3.21.4-0.20210419000835-c7a38de76ee5+incompatible,https://github.com/shirou/gopsutil,Unknown,Unknown,-
 github.com/sirupsen/logrus,v1.9.0,https://github.com/sirupsen/logrus,MIT License,https://api.github.com/licenses/mit,https://api.github.com/repos/sirupsen/logrus
