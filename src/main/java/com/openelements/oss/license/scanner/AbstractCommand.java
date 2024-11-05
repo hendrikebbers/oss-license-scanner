@@ -53,6 +53,9 @@ public abstract class AbstractCommand implements Callable<Integer> {
     @Option(names = {"-m", "--manual"}, description = "a csv file containing the manual dependency to license mapping")
     private String manualCsv;
 
+    @Option(names = {"-M", "--markdown"}, description = "print result in markdown format")
+    private boolean markdown;
+
     @Override
     public Integer call() {
         if(repositoryUrl == null && localPath == null && name == null) {
@@ -133,9 +136,9 @@ public abstract class AbstractCommand implements Callable<Integer> {
                 final Set<Dependency> normalizedDependecies = dependencies.stream()
                         .map(d -> new Dependency(d.identifier(), normalize(d.license()), d.repository()))
                         .collect(Collectors.toUnmodifiableSet());
-                printAsCsv(normalizedDependecies);
+                print(normalizedDependecies);
             } else {
-                printAsCsv(dependencies);
+                print(dependencies);
             }
         } catch (Exception e) {
             System.err.println("Error fetching dependencies for " + repositoryUrl + ":" + version);
@@ -143,6 +146,14 @@ public abstract class AbstractCommand implements Callable<Integer> {
             return ExitCode.SOFTWARE;
         }
         return ExitCode.OK;
+    }
+
+    private void print(Set<Dependency> dependencies) throws IOException {
+        if(markdown) {
+            printAsMarkdown(dependencies);
+        } else {
+            printAsCsv(dependencies);
+        }
     }
 
     private static void printAsCsv(Set<Dependency> dependencies) throws IOException {
@@ -153,6 +164,14 @@ public abstract class AbstractCommand implements Callable<Integer> {
                     .sorted(Comparator.comparing(d -> d.identifier()))
                     .forEach(d -> csv.writeRecord(d.identifier().name(), d.identifier().version(), d.repository(), d.license().name(), d.license().url(), d.license().source()));
         }
+    }
+
+    private static void printAsMarkdown(Set<Dependency> dependencies) throws IOException {
+        System.out.println("| name | version | repository | license | license-url | license-source |");
+        System.out.println("| --- | --- | --- | --- | --- | --- |");
+        dependencies.stream()
+                .sorted(Comparator.comparing(d -> d.identifier()))
+                .forEach(d -> System.out.println("| " + d.identifier().name() + " | " + d.identifier().version() + " | " + d.repository() + " | " + d.license().name() + " | " + d.license().url() + " | " + d.license().source() + " |"));
     }
 
     protected abstract Resolver createResolver(GitHubClient client);

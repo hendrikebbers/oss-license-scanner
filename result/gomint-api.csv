@@ -1,21 +1,21 @@
 name,version,repository,license,license-url,license-source
-@hashgraph/sdk,2.50.0,https://github.com/hashgraph/hedera-sdk-js,Apache-2.0,UNKNOWN,npm show
-@nestjs/common,10.3.0,https://github.com/nestjs/nest,MIT,UNKNOWN,npm show
-@nestjs/config,3.1.1,https://github.com/nestjs/config,MIT,UNKNOWN,npm show
-@nestjs/core,10.3.0,https://github.com/nestjs/nest,MIT,UNKNOWN,npm show
-@nestjs/jwt,10.2.0,https://github.com/nestjs/jwt,MIT,UNKNOWN,npm show
-@nestjs/mapped-types,2.0.4,https://github.com/nestjs/mapped-types,MIT,UNKNOWN,npm show
-@nestjs/platform-express,10.3.8,https://github.com/nestjs/nest,MIT,UNKNOWN,npm show
-@nestjs/swagger,7.2.0,https://github.com/nestjs/swagger,MIT,UNKNOWN,npm show
-@nestjs/typeorm,10.0.2,https://github.com/nestjs/typeorm,MIT,UNKNOWN,npm show
+@hashgraph/sdk,2.50.0,https://github.com/hashgraph/hedera-sdk-js,Apache-2.0,https://api.github.com/licenses/apache-2.0,npm show (normalized)
+@nestjs/common,10.3.0,https://github.com/nestjs/nest,MIT,https://api.github.com/licenses/mit,npm show (normalized)
+@nestjs/config,3.1.1,https://github.com/nestjs/config,MIT,https://api.github.com/licenses/mit,npm show (normalized)
+@nestjs/core,10.3.0,https://github.com/nestjs/nest,MIT,https://api.github.com/licenses/mit,npm show (normalized)
+@nestjs/jwt,10.2.0,https://github.com/nestjs/jwt,MIT,https://api.github.com/licenses/mit,npm show (normalized)
+@nestjs/mapped-types,2.0.4,https://github.com/nestjs/mapped-types,MIT,https://api.github.com/licenses/mit,npm show (normalized)
+@nestjs/platform-express,10.3.8,https://github.com/nestjs/nest,MIT,https://api.github.com/licenses/mit,npm show (normalized)
+@nestjs/swagger,7.2.0,https://github.com/nestjs/swagger,MIT,https://api.github.com/licenses/mit,npm show (normalized)
+@nestjs/typeorm,10.0.2,https://github.com/nestjs/typeorm,MIT,https://api.github.com/licenses/mit,npm show (normalized)
 @web3-storage/w3up-client,16.0.0,https://github.com/w3s-project/w3up,Apache-2.0 OR MIT,UNKNOWN,npm show
-class-transformer,0.5.1,https://github.com/typestack/class-transformer,MIT,UNKNOWN,npm show
-class-validator,0.14.1,https://github.com/typestack/class-validator,MIT,UNKNOWN,npm show
-mysql2,3.10.0,https://github.com/sidorares/node-mysql2,MIT,UNKNOWN,npm show
-nestjs-pino,4.1.0,https://github.com/iamolegga/nestjs-pino,MIT,UNKNOWN,npm show
-pino,9.1.0,https://github.com/pinojs/pino,MIT,UNKNOWN,npm show
-pino-http,10.1.0,https://github.com/pinojs/pino-http,MIT,UNKNOWN,npm show
-reflect-metadata,0.1.14,https://github.com/rbuckton/reflect-metadata,Apache-2.0,UNKNOWN,npm show
-rxjs,7.8.1,https://github.com/reactivex/rxjs,Apache-2.0,UNKNOWN,npm show
-typeorm,0.3.20,https://github.com/typeorm/typeorm,MIT,UNKNOWN,npm show
-zod,3.23.8,https://github.com/colinhacks/zod,MIT,UNKNOWN,npm show
+class-transformer,0.5.1,https://github.com/typestack/class-transformer,MIT,https://api.github.com/licenses/mit,npm show (normalized)
+class-validator,0.14.1,https://github.com/typestack/class-validator,MIT,https://api.github.com/licenses/mit,npm show (normalized)
+mysql2,3.10.0,https://github.com/sidorares/node-mysql2,MIT,https://api.github.com/licenses/mit,npm show (normalized)
+nestjs-pino,4.1.0,https://github.com/iamolegga/nestjs-pino,MIT,https://api.github.com/licenses/mit,npm show (normalized)
+pino,9.1.0,https://github.com/pinojs/pino,MIT,https://api.github.com/licenses/mit,npm show (normalized)
+pino-http,10.1.0,https://github.com/pinojs/pino-http,MIT,https://api.github.com/licenses/mit,npm show (normalized)
+reflect-metadata,0.1.14,https://github.com/rbuckton/reflect-metadata,Apache-2.0,https://api.github.com/licenses/apache-2.0,npm show (normalized)
+rxjs,7.8.1,https://github.com/reactivex/rxjs,Apache-2.0,https://api.github.com/licenses/apache-2.0,npm show (normalized)
+typeorm,0.3.20,https://github.com/typeorm/typeorm,MIT,https://api.github.com/licenses/mit,npm show (normalized)
+zod,3.23.8,https://github.com/colinhacks/zod,MIT,https://api.github.com/licenses/mit,npm show (normalized)
