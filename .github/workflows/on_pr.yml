@@ -37,7 +37,7 @@ jobs:
           script: |
             const licensesContent = process.env.licenses_content;
             const prNumber = context.payload.pull_request.number;
-            const commentBody = `### License Scan Results\n\`\`\`\n${licensesContent}\n\`\`\``;
+            const commentBody = `### License Scan Results\n\n${licensesContent}\n`;
             await github.rest.issues.createComment({
               owner: context.repo.owner,
               repo: context.repo.repo,
