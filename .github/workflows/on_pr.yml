@@ -14,7 +14,7 @@ jobs:
           ref: ${{ github.event.pull_request.head.sha }}
 
       - name: run scanner action
-        id: scanner
+        id: license_scan
         uses: hendrikebbers/license-scanner-action@main
         with:
           language: "java"
