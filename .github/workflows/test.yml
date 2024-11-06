@@ -19,4 +19,5 @@ jobs:
       - name: Display Licenses Content
         shell: bash
         run: |
-          echo "Licenses Content: ${{ steps.scanner.outputs.licenses }}"
+          licenses=$(${{ steps.scanner.outputs.licenses }} | base64 --decode)
+          echo "Licenses Content: $licenses"
