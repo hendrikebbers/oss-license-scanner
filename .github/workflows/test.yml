@@ -1,0 +1,16 @@
+name: Testing the scanner action
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@v4
+
+      - name: run scanner action
+        uses: hendrikebbers/license-scanner-action@main
+        with:
+          language: "java"
