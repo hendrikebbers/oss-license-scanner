@@ -35,13 +35,12 @@ jobs:
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           script: |
-              const licensesContent = process.env.licenses_content;
-              const prNumber = context.payload.pull_request.number;
-              const licenses=$(echo "${{ steps.scanner.outputs.licenses }}" | base64 --decode)
-              const commentBody = `### License Scan Results\n\`\`\`\n${licensesContent}\n\`\`\``;
-              await github.rest.issues.createComment({
-                owner: context.repo.owner,
-                repo: context.repo.repo,
-                issue_number: prNumber,
-                body: commentBody,
-              });
+            const licensesContent = process.env.licenses_content;
+            const prNumber = context.payload.pull_request.number;
+            const commentBody = `### License Scan Results\n\`\`\`\n${licensesContent}\n\`\`\``;
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: prNumber,
+              body: commentBody,
+            });
