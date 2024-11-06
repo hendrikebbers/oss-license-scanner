@@ -34,7 +34,7 @@ public class CargoTool {
             } else if(split.length > 4 && split[split.length - 3].startsWith("https://github.com/")) {
                 repository = split[split.length - 3];
             } else {
-                throw new IllegalStateException("Repository not found in line: " + line);
+                repository = "UNKNOWN";
             }
             return new CargoLibrary(new Identifier(name, version), repository);
         }).collect(Collectors.toUnmodifiableSet());

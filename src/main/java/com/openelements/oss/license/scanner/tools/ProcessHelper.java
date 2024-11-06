@@ -9,6 +9,11 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+import java.util.concurrent.Future;
+import java.util.concurrent.ThreadFactory;
+import java.util.concurrent.TimeUnit;
 import java.util.function.Consumer;
 import java.util.function.Function;
 import org.slf4j.Logger;
@@ -70,6 +75,15 @@ public class ProcessHelper {
         return executeWithResult(inputHandler, null, command);
     }
 
+    private static ExecutorService outputExecutor = Executors.newCachedThreadPool(new ThreadFactory() {
+        @Override
+        public Thread newThread(Runnable r) {
+            Thread t = new Thread(r);
+            t.setDaemon(true);
+            return t;
+        }
+    });
+
     public static <T> T executeWithResult(Function<List<String>, T> inputHandler, File directory, String... command) {
         try {
             final ProcessBuilder processBuilder = new ProcessBuilder(command);
@@ -80,12 +94,21 @@ public class ProcessHelper {
             final BufferedReader reader = new BufferedReader(new InputStreamReader(process.getInputStream()));
             final BufferedReader errorReader = new BufferedReader(new InputStreamReader(process.getErrorStream()));
             final List<String> out = new ArrayList<>();
+            final List<String> errorOut = new ArrayList<>();
             try {
-                reader.lines().forEach(l -> out.add(l));
+                final Future<?> outFuture = outputExecutor.submit(() -> {
+                    reader.lines().forEach(l -> out.add(l));
+                });
+                final Future<?> errorFuture = outputExecutor.submit(() -> {
+                    errorReader.lines().forEach(l -> errorOut.add(l));
+                });
+                outFuture.get();
+                errorFuture.get();
+                process.waitFor(10, TimeUnit.MINUTES);
             } finally {
                 final int exitCode = process.waitFor();
                 if (exitCode != 0) {
-                    errorReader.lines().forEach(l -> log.error(l));
+                    errorOut.forEach(l -> log.error(l));
                     new RuntimeException("Process exited with bad exit code: " + exitCode);
                 }
             }

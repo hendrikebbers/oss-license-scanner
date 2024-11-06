@@ -11,7 +11,7 @@ import picocli.CommandLine.Command;
 public class PythonCommand extends AbstractCommand {
 
     public static void main(String[] args) {
-        new CommandLine(new PythonCommand()).execute("-r", "https://github.com/wensheng/hedera-sdk-py");
+        new CommandLine(new PythonCommand()).execute("-r", "https://github.com/hyperledger/indy-node");
     }
 
     @Override

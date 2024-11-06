@@ -1,0 +1,62 @@
+name,version,repository,license,license-url,license-source
+cloud.google.com/go/compute,v1.19.1,unknown,Unknown,Unknown,Unknown
+cloud.google.com/go/compute/metadata,v0.2.3,unknown,Unknown,Unknown,Unknown
+github.com/Knetic/govaluate,v3.0.0+incompatible,https://github.com/Knetic/govaluate,MIT,https://api.github.com/licenses/mit,https://api.github.com/repos/Knetic/govaluate (normalized)
+github.com/census-instrumentation/opencensus-proto,v0.4.1,https://github.com/census-instrumentation/opencensus-proto,Apache-2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/census-instrumentation/opencensus-proto (normalized)
+github.com/cespare/xxhash/v2,v2.2.0,https://github.com/cespare/xxhash/v2,MIT,https://api.github.com/licenses/mit,https://api.github.com/repos/cespare/xxhash (normalized)
+github.com/cncf/udpa/go,v0.0.0-20220112060539-c52dc94e7fbe,https://github.com/cncf/udpa/go,Apache-2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/cncf/udpa (normalized)
+github.com/cncf/xds/go,v0.0.0-20230607035331-e9ce68804cb4,https://github.com/cncf/xds/go,Apache-2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/cncf/xds (normalized)
+github.com/envoyproxy/go-control-plane,v0.11.1-0.20230524094728-9239064ad72f,https://github.com/envoyproxy/go-control-plane,Apache-2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/envoyproxy/go-control-plane (normalized)
+github.com/envoyproxy/protoc-gen-validate,v0.10.1,https://github.com/envoyproxy/protoc-gen-validate,Apache-2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/envoyproxy/protoc-gen-validate (normalized)
+github.com/fsnotify/fsnotify,v1.4.7,https://github.com/fsnotify/fsnotify,BSD-3-Clause,https://api.github.com/licenses/bsd-3-clause,https://api.github.com/repos/fsnotify/fsnotify (normalized)
+github.com/golang/glog,v1.1.0,https://github.com/golang/glog,Apache-2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/golang/glog (normalized)
+github.com/golang/protobuf,v1.2.0,https://github.com/golang/protobuf,BSD-3-Clause,https://api.github.com/licenses/bsd-3-clause,https://api.github.com/repos/golang/protobuf (normalized)
+github.com/golang/protobuf,v1.5.0,https://github.com/golang/protobuf,BSD-3-Clause,https://api.github.com/licenses/bsd-3-clause,https://api.github.com/repos/golang/protobuf (normalized)
+github.com/golang/protobuf,v1.5.3,https://github.com/golang/protobuf,BSD-3-Clause,https://api.github.com/licenses/bsd-3-clause,https://api.github.com/repos/golang/protobuf (normalized)
+github.com/google/go-cmp,v0.5.5,https://github.com/google/go-cmp,BSD-3-Clause,https://api.github.com/licenses/bsd-3-clause,https://api.github.com/repos/google/go-cmp (normalized)
+github.com/google/go-cmp,v0.5.9,https://github.com/google/go-cmp,BSD-3-Clause,https://api.github.com/licenses/bsd-3-clause,https://api.github.com/repos/google/go-cmp (normalized)
+github.com/google/uuid,v1.3.0,https://github.com/google/uuid,BSD-3-Clause,https://api.github.com/licenses/bsd-3-clause,https://api.github.com/repos/google/uuid (normalized)
+github.com/hpcloud/tail,v1.0.0,https://github.com/hpcloud/tail,MIT,https://api.github.com/licenses/mit,https://api.github.com/repos/hpcloud/tail (normalized)
+github.com/hyperledger/fabric-protos-go-apiv2,v0.3.3,https://github.com/hyperledger/fabric-protos-go-apiv2,Apache-2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/hyperledger/fabric-protos-go-apiv2 (normalized)
+github.com/onsi/ginkgo,v1.6.0,https://github.com/onsi/ginkgo,MIT,https://api.github.com/licenses/mit,https://api.github.com/repos/onsi/ginkgo (normalized)
+github.com/onsi/gomega,v1.9.0,https://github.com/onsi/gomega,MIT,https://api.github.com/licenses/mit,https://api.github.com/repos/onsi/gomega (normalized)
+go,1.20,unknown,Unknown,Unknown,Unknown
+golang.org/x/crypto,v0.21.0,unknown,Unknown,Unknown,Unknown
+golang.org/x/mod,v0.8.0,unknown,Unknown,Unknown,Unknown
+golang.org/x/net,v0.0.0-20180906233101-161cd47e91fd,unknown,Unknown,Unknown,Unknown
+golang.org/x/net,v0.14.0,unknown,Unknown,Unknown,Unknown
+golang.org/x/net,v0.23.0,unknown,Unknown,Unknown,Unknown
+golang.org/x/net,v0.9.0,unknown,Unknown,Unknown,Unknown
+golang.org/x/oauth2,v0.7.0,unknown,Unknown,Unknown,Unknown
+golang.org/x/sync,v0.0.0-20180314180146-1d60e4601c6f,unknown,Unknown,Unknown,Unknown
+golang.org/x/sync,v0.0.0-20190423024810-112230192c58,unknown,Unknown,Unknown,Unknown
+golang.org/x/sys,v0.0.0-20180909124046-d0be0721c37e,unknown,Unknown,Unknown,Unknown
+golang.org/x/sys,v0.11.0,unknown,Unknown,Unknown,Unknown
+golang.org/x/sys,v0.18.0,unknown,Unknown,Unknown,Unknown
+golang.org/x/sys,v0.5.0,unknown,Unknown,Unknown,Unknown
+golang.org/x/sys,v0.7.0,unknown,Unknown,Unknown,Unknown
+golang.org/x/term,v0.18.0,unknown,Unknown,Unknown,Unknown
+golang.org/x/text,v0.12.0,unknown,Unknown,Unknown,Unknown
+golang.org/x/text,v0.14.0,unknown,Unknown,Unknown,Unknown
+golang.org/x/text,v0.3.0,unknown,Unknown,Unknown,Unknown
+golang.org/x/text,v0.9.0,unknown,Unknown,Unknown,Unknown
+golang.org/x/tools,v0.6.0,unknown,Unknown,Unknown,Unknown
+golang.org/x/xerrors,v0.0.0-20190717185122-a985d3407aa7,unknown,Unknown,Unknown,Unknown
+golang.org/x/xerrors,v0.0.0-20191204190536-9bdfabe68543,unknown,Unknown,Unknown,Unknown
+golang.org/x/xerrors,v0.0.0-20200804184101-5ec99f83aff1,unknown,Unknown,Unknown,Unknown
+google.golang.org/appengine,v1.6.7,unknown,Unknown,Unknown,Unknown
+google.golang.org/genproto,v0.0.0-20230526161137-0005af68ea54,unknown,Unknown,Unknown,Unknown
+google.golang.org/genproto,v0.0.0-20230726155614-23370e0ffb3e,unknown,Unknown,Unknown,Unknown
+google.golang.org/genproto/googleapis/api,v0.0.0-20230525234035-dd9d682886f9,unknown,Unknown,Unknown,Unknown
+google.golang.org/genproto/googleapis/rpc,v0.0.0-20230525234030-28d5490b6b19,unknown,Unknown,Unknown,Unknown
+google.golang.org/genproto/googleapis/rpc,v0.0.0-20230803162519-f966b187b2e5,unknown,Unknown,Unknown,Unknown
+google.golang.org/grpc,v1.57.0,unknown,Unknown,Unknown,Unknown
+google.golang.org/protobuf,v1.26.0,unknown,Unknown,Unknown,Unknown
+google.golang.org/protobuf,v1.26.0-rc.1,unknown,Unknown,Unknown,Unknown
+google.golang.org/protobuf,v1.30.0,unknown,Unknown,Unknown,Unknown
+google.golang.org/protobuf,v1.31.0,unknown,Unknown,Unknown,Unknown
+google.golang.org/protobuf,v1.33.0,unknown,Unknown,Unknown,Unknown
+gopkg.in/check.v1,v0.0.0-20161208181325-20d25e280405,unknown,Unknown,Unknown,Unknown
+gopkg.in/fsnotify.v1,v1.4.7,unknown,Unknown,Unknown,Unknown
+gopkg.in/tomb.v1,v1.0.0-20141024135613-dd632973f1e7,unknown,Unknown,Unknown,Unknown
+gopkg.in/yaml.v2,v2.2.4,unknown,Unknown,Unknown,Unknown

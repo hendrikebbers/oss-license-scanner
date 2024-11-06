@@ -1,0 +1,19 @@
+name,version,repository,license,license-url,license-source
+CouchDB,1.2,Unknown,BSD,UNKNOWN,https://pypi.org/pypi/CouchDB/1.2/json
+Rx,3.2.0,Unknown,MIT,https://api.github.com/licenses/mit,https://pypi.org/pypi/Rx/3.2.0/json (normalized)
+aiogrpc,1.8,Unknown,Apache-2.0,https://api.github.com/licenses/apache-2.0,https://pypi.org/pypi/aiogrpc/1.8/json (normalized)
+certifi,2024.8.30,Unknown,MPL-2.0,https://api.github.com/licenses/mpl-2.0,https://pypi.org/pypi/certifi/2024.8.30/json (normalized)
+cffi,1.17.1,Unknown,MIT,https://api.github.com/licenses/mit,https://pypi.org/pypi/cffi/1.17.1/json (normalized)
+charset-normalizer,3.4.0,Unknown,MIT,https://api.github.com/licenses/mit,https://pypi.org/pypi/charset-normalizer/3.4.0/json (normalized)
+cryptography,43.0.3,https://github.com/pyca/cryptography/,Apache-2.0 OR BSD-3-Clause,UNKNOWN,https://pypi.org/pypi/cryptography/43.0.3/json
+grpcio,1.67.1,Unknown,Apache-2.0,https://api.github.com/licenses/apache-2.0,https://pypi.org/pypi/grpcio/1.67.1/json (normalized)
+hkdf,0.0.3,Unknown,UNKNOWN,UNKNOWN,https://pypi.org/pypi/hkdf/0.0.3/json
+idna,3.10,Unknown,Unknown,Unknown,Unknown
+lark-parser,0.7.1,Unknown,MIT,https://api.github.com/licenses/mit,https://pypi.org/pypi/lark-parser/0.7.1/json (normalized)
+protobuf,5.28.3,Unknown,BSD-3-Clause,https://api.github.com/licenses/bsd-3-clause,https://pypi.org/pypi/protobuf/5.28.3/json (normalized)
+pycparser,2.22,Unknown,BSD-3-Clause,https://api.github.com/licenses/bsd-3-clause,https://pypi.org/pypi/pycparser/2.22/json (normalized)
+pycryptodomex,3.21.0,Unknown,"BSD, Public Domain",UNKNOWN,https://pypi.org/pypi/pycryptodomex/3.21.0/json
+requests,2.32.3,Unknown,Apache-2.0,https://api.github.com/licenses/apache-2.0,https://pypi.org/pypi/requests/2.32.3/json (normalized)
+safe-pysha3,1.0.4,Unknown,PSFL (Keccak: CC0 1.0 Universal),UNKNOWN,https://pypi.org/pypi/safe-pysha3/1.0.4/json
+six,1.16.0,Unknown,MIT,https://api.github.com/licenses/mit,https://pypi.org/pypi/six/1.16.0/json (normalized)
+urllib3,2.2.3,Unknown,Unknown,Unknown,Unknown

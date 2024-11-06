@@ -1,0 +1,83 @@
+name,version,repository,license,license-url,license-source
+cel.dev/expr,v0.16.0,unknown,Unknown,Unknown,Unknown
+cloud.google.com/go/compute/metadata,v0.5.0,unknown,Unknown,Unknown,Unknown
+github.com/census-instrumentation/opencensus-proto,v0.4.1,https://github.com/census-instrumentation/opencensus-proto,Apache-2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/census-instrumentation/opencensus-proto (normalized)
+github.com/cespare/xxhash/v2,v2.3.0,https://github.com/cespare/xxhash/v2,MIT,https://api.github.com/licenses/mit,https://api.github.com/repos/cespare/xxhash (normalized)
+github.com/cncf/xds/go,v0.0.0-20240723142845-024c85f92f20,https://github.com/cncf/xds/go,Apache-2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/cncf/xds (normalized)
+github.com/cpuguy83/go-md2man/v2,v2.0.2,https://github.com/cpuguy83/go-md2man/v2,MIT,https://api.github.com/licenses/mit,https://api.github.com/repos/cpuguy83/go-md2man (normalized)
+github.com/cucumber/gherkin/go/v26,v26.2.0,https://github.com/cucumber/gherkin/go/v26,MIT,https://api.github.com/licenses/mit,https://api.github.com/repos/cucumber/gherkin (normalized)
+github.com/cucumber/godog,v0.14.1,https://github.com/cucumber/godog,MIT,https://api.github.com/licenses/mit,https://api.github.com/repos/cucumber/godog (normalized)
+github.com/cucumber/messages/go/v21,v21.0.1,https://github.com/cucumber/messages/go/v21,MIT,https://api.github.com/licenses/mit,https://api.github.com/repos/cucumber/messages (normalized)
+github.com/cucumber/messages/go/v22,v22.0.0,https://github.com/cucumber/messages/go/v22,MIT,https://api.github.com/licenses/mit,https://api.github.com/repos/cucumber/messages (normalized)
+github.com/davecgh/go-spew,v1.1.0,https://github.com/davecgh/go-spew,ISC,https://api.github.com/licenses/isc,https://api.github.com/repos/davecgh/go-spew (normalized)
+github.com/davecgh/go-spew,v1.1.1,https://github.com/davecgh/go-spew,ISC,https://api.github.com/licenses/isc,https://api.github.com/repos/davecgh/go-spew (normalized)
+github.com/envoyproxy/go-control-plane,v0.13.0,https://github.com/envoyproxy/go-control-plane,Apache-2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/envoyproxy/go-control-plane (normalized)
+github.com/envoyproxy/protoc-gen-validate,v1.1.0,https://github.com/envoyproxy/protoc-gen-validate,Apache-2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/envoyproxy/protoc-gen-validate (normalized)
+github.com/gofrs/uuid,v4.2.0+incompatible,https://github.com/gofrs/uuid,MIT,https://api.github.com/licenses/mit,https://api.github.com/repos/gofrs/uuid (normalized)
+github.com/gofrs/uuid,v4.3.1+incompatible,https://github.com/gofrs/uuid,MIT,https://api.github.com/licenses/mit,https://api.github.com/repos/gofrs/uuid (normalized)
+github.com/gofrs/uuid,v4.4.0+incompatible,https://github.com/gofrs/uuid,MIT,https://api.github.com/licenses/mit,https://api.github.com/repos/gofrs/uuid (normalized)
+github.com/golang/glog,v1.2.2,https://github.com/golang/glog,Apache-2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/golang/glog (normalized)
+github.com/golang/protobuf,v1.5.0,https://github.com/golang/protobuf,BSD-3-Clause,https://api.github.com/licenses/bsd-3-clause,https://api.github.com/repos/golang/protobuf (normalized)
+github.com/google/go-cmp,v0.5.5,https://github.com/google/go-cmp,BSD-3-Clause,https://api.github.com/licenses/bsd-3-clause,https://api.github.com/repos/google/go-cmp (normalized)
+github.com/google/go-cmp,v0.5.9,https://github.com/google/go-cmp,BSD-3-Clause,https://api.github.com/licenses/bsd-3-clause,https://api.github.com/repos/google/go-cmp (normalized)
+github.com/google/go-cmp,v0.6.0,https://github.com/google/go-cmp,BSD-3-Clause,https://api.github.com/licenses/bsd-3-clause,https://api.github.com/repos/google/go-cmp (normalized)
+github.com/google/uuid,v1.6.0,https://github.com/google/uuid,BSD-3-Clause,https://api.github.com/licenses/bsd-3-clause,https://api.github.com/repos/google/uuid (normalized)
+github.com/hashicorp/go-immutable-radix,v1.3.0,https://github.com/hashicorp/go-immutable-radix,MPL-2.0,https://api.github.com/licenses/mpl-2.0,https://api.github.com/repos/hashicorp/go-immutable-radix (normalized)
+github.com/hashicorp/go-immutable-radix,v1.3.1,https://github.com/hashicorp/go-immutable-radix,MPL-2.0,https://api.github.com/licenses/mpl-2.0,https://api.github.com/repos/hashicorp/go-immutable-radix (normalized)
+github.com/hashicorp/go-memdb,v1.3.4,https://github.com/hashicorp/go-memdb,MPL-2.0,https://api.github.com/licenses/mpl-2.0,https://api.github.com/repos/hashicorp/go-memdb (normalized)
+github.com/hashicorp/go-uuid,v1.0.0,https://github.com/hashicorp/go-uuid,MPL-2.0,https://api.github.com/licenses/mpl-2.0,https://api.github.com/repos/hashicorp/go-uuid (normalized)
+github.com/hashicorp/go-uuid,v1.0.2,https://github.com/hashicorp/go-uuid,MPL-2.0,https://api.github.com/licenses/mpl-2.0,https://api.github.com/repos/hashicorp/go-uuid (normalized)
+github.com/hashicorp/golang-lru,v0.5.0,https://github.com/hashicorp/golang-lru,MPL-2.0,https://api.github.com/licenses/mpl-2.0,https://api.github.com/repos/hashicorp/golang-lru (normalized)
+github.com/hashicorp/golang-lru,v0.5.4,https://github.com/hashicorp/golang-lru,MPL-2.0,https://api.github.com/licenses/mpl-2.0,https://api.github.com/repos/hashicorp/golang-lru (normalized)
+github.com/hashicorp/golang-lru,v1.0.2,https://github.com/hashicorp/golang-lru,MPL-2.0,https://api.github.com/licenses/mpl-2.0,https://api.github.com/repos/hashicorp/golang-lru (normalized)
+github.com/hyperledger/fabric-protos-go-apiv2,v0.3.4,https://github.com/hyperledger/fabric-protos-go-apiv2,Apache-2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/hyperledger/fabric-protos-go-apiv2 (normalized)
+github.com/inconshreveable/mousetrap,v1.1.0,https://github.com/inconshreveable/mousetrap,Apache-2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/inconshreveable/mousetrap (normalized)
+github.com/kr/pretty,v0.2.1,https://github.com/kr/pretty,MIT,https://api.github.com/licenses/mit,https://api.github.com/repos/kr/pretty (normalized)
+github.com/kr/pty,v1.1.1,https://github.com/kr/pty,MIT,https://api.github.com/licenses/mit,https://api.github.com/repos/kr/pty (normalized)
+github.com/kr/text,v0.1.0,https://github.com/kr/text,MIT,https://api.github.com/licenses/mit,https://api.github.com/repos/kr/text (normalized)
+github.com/miekg/pkcs11,v1.1.1,https://github.com/miekg/pkcs11,BSD-3-Clause,https://api.github.com/licenses/bsd-3-clause,https://api.github.com/repos/miekg/pkcs11 (normalized)
+github.com/planetscale/vtprotobuf,v0.6.1-0.20240319094008-0393e58bdf10,https://github.com/planetscale/vtprotobuf,BSD-3-Clause,https://api.github.com/licenses/bsd-3-clause,https://api.github.com/repos/planetscale/vtprotobuf (normalized)
+github.com/pmezard/go-difflib,v1.0.0,https://github.com/pmezard/go-difflib,Other,Unknown,https://api.github.com/repos/pmezard/go-difflib
+github.com/russross/blackfriday/v2,v2.1.0,https://github.com/russross/blackfriday/v2,Other,Unknown,https://api.github.com/repos/russross/blackfriday
+github.com/spf13/cobra,v1.7.0,https://github.com/spf13/cobra,Apache-2.0,https://api.github.com/licenses/apache-2.0,https://api.github.com/repos/spf13/cobra (normalized)
+github.com/spf13/pflag,v1.0.5,https://github.com/spf13/pflag,BSD-3-Clause,https://api.github.com/licenses/bsd-3-clause,https://api.github.com/repos/spf13/pflag (normalized)
+github.com/stretchr/objx,v0.1.0,https://github.com/stretchr/objx,MIT,https://api.github.com/licenses/mit,https://api.github.com/repos/stretchr/objx (normalized)
+github.com/stretchr/objx,v0.4.0,https://github.com/stretchr/objx,MIT,https://api.github.com/licenses/mit,https://api.github.com/repos/stretchr/objx (normalized)
+github.com/stretchr/objx,v0.5.0,https://github.com/stretchr/objx,MIT,https://api.github.com/licenses/mit,https://api.github.com/repos/stretchr/objx (normalized)
+github.com/stretchr/objx,v0.5.2,https://github.com/stretchr/objx,MIT,https://api.github.com/licenses/mit,https://api.github.com/repos/stretchr/objx (normalized)
+github.com/stretchr/testify,v1.7.1,https://github.com/stretchr/testify,MIT,https://api.github.com/licenses/mit,https://api.github.com/repos/stretchr/testify (normalized)
+github.com/stretchr/testify,v1.8.0,https://github.com/stretchr/testify,MIT,https://api.github.com/licenses/mit,https://api.github.com/repos/stretchr/testify (normalized)
+github.com/stretchr/testify,v1.8.1,https://github.com/stretchr/testify,MIT,https://api.github.com/licenses/mit,https://api.github.com/repos/stretchr/testify (normalized)
+github.com/stretchr/testify,v1.8.2,https://github.com/stretchr/testify,MIT,https://api.github.com/licenses/mit,https://api.github.com/repos/stretchr/testify (normalized)
+github.com/stretchr/testify,v1.8.4,https://github.com/stretchr/testify,MIT,https://api.github.com/licenses/mit,https://api.github.com/repos/stretchr/testify (normalized)
+github.com/stretchr/testify,v1.9.0,https://github.com/stretchr/testify,MIT,https://api.github.com/licenses/mit,https://api.github.com/repos/stretchr/testify (normalized)
+go,1.21,unknown,Unknown,Unknown,Unknown
+go,1.21.0,unknown,Unknown,Unknown,Unknown
+go,1.22.0,unknown,Unknown,Unknown,Unknown
+golang.org/x/crypto,v0.26.0,unknown,Unknown,Unknown,Unknown
+golang.org/x/crypto,v0.28.0,unknown,Unknown,Unknown,Unknown
+golang.org/x/mod,v0.17.0,unknown,Unknown,Unknown,Unknown
+golang.org/x/net,v0.21.0,unknown,Unknown,Unknown,Unknown
+golang.org/x/net,v0.28.0,unknown,Unknown,Unknown,Unknown
+golang.org/x/oauth2,v0.22.0,unknown,Unknown,Unknown,Unknown
+golang.org/x/sync,v0.8.0,unknown,Unknown,Unknown,Unknown
+golang.org/x/sys,v0.23.0,unknown,Unknown,Unknown,Unknown
+golang.org/x/sys,v0.24.0,unknown,Unknown,Unknown,Unknown
+golang.org/x/sys,v0.26.0,unknown,Unknown,Unknown,Unknown
+golang.org/x/term,v0.23.0,unknown,Unknown,Unknown,Unknown
+golang.org/x/term,v0.25.0,unknown,Unknown,Unknown,Unknown
+golang.org/x/text,v0.17.0,unknown,Unknown,Unknown,Unknown
+golang.org/x/text,v0.19.0,unknown,Unknown,Unknown,Unknown
+golang.org/x/tools,v0.21.1-0.20240508182429-e35e4ccd0d2d,unknown,Unknown,Unknown,Unknown
+golang.org/x/xerrors,v0.0.0-20191204190536-9bdfabe68543,unknown,Unknown,Unknown,Unknown
+google.golang.org/genproto/googleapis/api,v0.0.0-20240814211410-ddb44dafa142,unknown,Unknown,Unknown,Unknown
+google.golang.org/genproto/googleapis/rpc,v0.0.0-20240814211410-ddb44dafa142,unknown,Unknown,Unknown,Unknown
+google.golang.org/grpc,v1.67.0,unknown,Unknown,Unknown,Unknown
+google.golang.org/grpc,v1.67.1,unknown,Unknown,Unknown,Unknown
+google.golang.org/protobuf,v1.34.2,unknown,Unknown,Unknown,Unknown
+google.golang.org/protobuf,v1.35.1,unknown,Unknown,Unknown,Unknown
+gopkg.in/check.v1,v0.0.0-20161208181325-20d25e280405,unknown,Unknown,Unknown,Unknown
+gopkg.in/check.v1,v1.0.0-20201130134442-10cb98267c6c,unknown,Unknown,Unknown,Unknown
+gopkg.in/yaml.v3,v3.0.0-20200313102051-9f266ea9e77c,unknown,Unknown,Unknown,Unknown
+gopkg.in/yaml.v3,v3.0.1,unknown,Unknown,Unknown,Unknown
+toolchain,go1.22.0,unknown,Unknown,Unknown,Unknown

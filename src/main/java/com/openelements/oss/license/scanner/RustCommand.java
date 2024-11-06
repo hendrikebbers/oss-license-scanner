@@ -14,7 +14,7 @@ import picocli.CommandLine.Option;
 public class RustCommand extends AbstractCommand {
 
     public static void main(String[] args) {
-        new CommandLine(new RustCommand()).execute("-n", "hedera", "-v", "0.29.0");
+        new CommandLine(new RustCommand()).execute("-r", "https://github.com/hyperledger/aries-askar");
     }
 
     @Override

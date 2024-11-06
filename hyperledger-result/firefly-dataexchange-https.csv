@@ -1,0 +1,11 @@
+name,version,repository,license,license-url,license-source
+ajv,8.11.0,https://github.com/ajv-validator/ajv,MIT,https://api.github.com/licenses/mit,npm show (normalized)
+axios,1.6.8,https://github.com/axios/axios,MIT,https://api.github.com/licenses/mit,npm show (normalized)
+busboy,1.6.0,https://github.com/mscdex/busboy,Unknown,Unknown,Unknown
+express,4.19.2,https://github.com/expressjs/express,MIT,https://api.github.com/licenses/mit,npm show (normalized)
+form-data,4.0.0,https://github.com/form-data/form-data,MIT,https://api.github.com/licenses/mit,npm show (normalized)
+jsrsasign,11.1.0,https://github.com/kjur/jsrsasign,MIT,https://api.github.com/licenses/mit,npm show (normalized)
+swagger-ui-express,4.3.0,https://github.com/scottie1984/swagger-ui-express,MIT,https://api.github.com/licenses/mit,npm show (normalized)
+uuid,8.3.2,https://github.com/uuidjs/uuid,MIT,https://api.github.com/licenses/mit,npm show (normalized)
+ws,8.17.1,https://github.com/websockets/ws,MIT,https://api.github.com/licenses/mit,npm show (normalized)
+yamljs,0.3.0,https://github.com/jeremyfa/yaml.js,MIT,https://api.github.com/licenses/mit,npm show (normalized)

@@ -1,0 +1,4 @@
+name,version,repository,license,license-url,license-source
+axios,1.6.8,https://github.com/axios/axios,MIT,https://api.github.com/licenses/mit,npm show (normalized)
+form-data,4.0.0,https://github.com/form-data/form-data,MIT,https://api.github.com/licenses/mit,npm show (normalized)
+ws,8.17.1,https://github.com/websockets/ws,MIT,https://api.github.com/licenses/mit,npm show (normalized)
