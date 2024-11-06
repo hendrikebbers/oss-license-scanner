@@ -1,0 +1,47 @@
+name: Testing the scanner action on PR
+
+on:
+  pull_request:
+    branches:
+      - main
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out PR code
+        uses: actions/checkout@v3
+        with:
+          ref: ${{ github.event.pull_request.head.sha }}
+
+      - name: run scanner action
+        id: scanner
+        uses: hendrikebbers/license-scanner-action@main
+        with:
+          language: "java"
+
+      - name: Decode Licenses Content
+        id: decoded_license_content
+        shell: bash
+        run: |
+            licenses=$(echo "${{ steps.license_scan.outputs.licenses }}" | base64 --decode)
+            echo "$licenses"
+            echo "licenses_content<<EOF" >> $GITHUB_ENV
+            echo "$licenses" >> $GITHUB_ENV
+            echo "EOF" >> $GITHUB_ENV
+
+
+      - name: Comment on PR with License Scan Results
+        uses: actions/github-script@v7
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+              const licensesContent = process.env.licenses_content;
+              const prNumber = context.payload.pull_request.number;
+              const licenses=$(echo "${{ steps.scanner.outputs.licenses }}" | base64 --decode)
+              const commentBody = `### License Scan Results\n\`\`\`\n${licensesContent}\n\`\`\``;
+              await github.rest.issues.createComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: prNumber,
+                body: commentBody,
+              });
