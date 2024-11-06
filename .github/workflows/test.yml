@@ -11,6 +11,12 @@ jobs:
         uses: actions/checkout@v4
 
       - name: run scanner action
+        id: scanner
         uses: hendrikebbers/license-scanner-action@main
         with:
           language: "java"
+
+      - name: Display Licenses Content
+        shell: bash
+        run: |
+          echo "Licenses Content: ${{ steps.scanner.outputs.licenses }}"
