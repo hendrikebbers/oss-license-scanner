@@ -2,12 +2,10 @@ package com.openelements.oss.license.scanner.resolver;
 
 import com.google.gson.JsonObject;
 import com.openelements.oss.license.scanner.api.License;
-import com.openelements.oss.license.scanner.clients.CratesClient;
 import com.openelements.oss.license.scanner.clients.GitHubClient;
 import com.openelements.oss.license.scanner.api.Dependency;
 import com.openelements.oss.license.scanner.api.Identifier;
 import com.openelements.oss.license.scanner.licenses.LicenseCache;
-import com.openelements.oss.license.scanner.tools.CargoTool.CargoLibrary;
 import com.openelements.oss.license.scanner.tools.NpmTool;
 import java.nio.file.Path;
 import java.util.HashSet;
@@ -15,6 +13,7 @@ import java.util.Map;
 import java.util.Optional;
 import java.util.Set;
 import java.util.concurrent.ConcurrentHashMap;
+import java.util.function.Supplier;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -90,17 +89,17 @@ public class NpmResolver extends AbstractResolver {
     }
 
     private License getLicence(Identifier identifier) {
-        log.info("Getting license for: {}", identifier);
+        final Supplier<License> supplier = () -> NpmTool.callNpmShowAndReturnLicense(identifier)
+                .orElse(License.UNKNOWN);
         return LicenseCache.getInstance()
-                .computeIfAbsent(identifier, () -> NpmTool.callNpmShowAndReturnLicense(identifier)
-                        .orElseGet(() -> License.UNKNOWN));
+                .computeIfAbsent(identifier, supplier);
     }
 
     private License getLicence(Identifier identifier, String repository) {
-        log.info("Getting license for: {}", identifier);
-        return LicenseCache.getInstance()
-                .computeIfAbsent(identifier, () -> NpmTool.callNpmShowAndReturnLicense(identifier)
-                .orElseGet(() -> getLicenseFromGitHub(repository)));
+        final Supplier<License> supplier = () -> NpmTool.callNpmShowAndReturnLicense(identifier)
+                .or(() -> getLicenseFromProjectUrl(repository))
+                .orElse(License.UNKNOWN);
+        return LicenseCache.getInstance().computeIfAbsent(identifier, supplier);
     }
 
 }

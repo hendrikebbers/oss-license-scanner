@@ -49,7 +49,7 @@ public class PypiClient {
         }
     }
 
-    public static Optional<String> getRepository(Identifier identifier) {
+    public static Optional<String> getProjectUrl(Identifier identifier) {
         try {
             log.info("Getting license from pypi.org for {}", identifier);
             final String url = "https://pypi.org/pypi/" + identifier.name() + "/" + identifier.version() + "/json";
@@ -69,13 +69,12 @@ public class PypiClient {
                 log.info("Repository url not provided at pypi.org for {}", identifier);
                 return Optional.empty();
             }
-            final JsonObject UrlsObject = infoObject.get("project_urls").getAsJsonObject();
-            if(!UrlsObject.has("source")) {
-                log.info("Repository url not provided at pypi.org for {}", identifier);
-                return Optional.empty();
-            }
-            final String repoUrl = UrlsObject.get("source").getAsString();
-            return Optional.ofNullable(repoUrl);
+            final JsonObject urlsObject = infoObject.get("project_urls").getAsJsonObject();
+            return urlsObject.asMap().values().stream()
+                    .filter(JsonElement::isJsonPrimitive)
+                    .map(JsonElement::getAsString)
+                    .filter(value -> value.contains("github") || value.contains("sourceforge"))
+                    .findFirst();
         } catch (Exception e) {
             throw new RuntimeException("Failed to get licence info for " + identifier.name() + ":" + identifier.version(), e);
         }

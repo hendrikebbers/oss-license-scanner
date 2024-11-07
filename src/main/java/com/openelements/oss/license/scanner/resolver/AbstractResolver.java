@@ -3,11 +3,13 @@ package com.openelements.oss.license.scanner.resolver;
 import com.openelements.oss.license.scanner.api.License;
 import com.openelements.oss.license.scanner.api.Resolver;
 import com.openelements.oss.license.scanner.clients.GitHubClient;
+import com.openelements.oss.license.scanner.clients.SourceforgeClient;
 import java.io.File;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.Comparator;
+import java.util.Optional;
 import java.util.function.Function;
 import java.util.stream.Stream;
 import org.slf4j.Logger;
@@ -42,13 +44,40 @@ public abstract class AbstractResolver implements Resolver {
         }
     }
 
-    protected License getLicenseFromGitHub(String repository) {
+    protected Optional<License> getLicenseFromGitHub(String repository) {
         try {
-            return gitHubClient.getLicense(repository).orElse(License.UNKNOWN);
+            return gitHubClient.getLicense(repository);
         } catch (Exception e) {
             log.error("Failed to get license from GitHub for {}", repository, e);
-            return License.UNKNOWN;
+            return Optional.empty();
         }
+    }
+
+    protected Optional<License> getLicenseFromSourceforge(String repository) {
+        if(repository.startsWith("https://sourceforge.net/projects/")) {
+            final String project = repository.substring("https://sourceforge.net/projects/".length());
+            return SourceforgeClient.call(project);
+        }
+        if(repository.endsWith(".sourceforge.io") && repository.startsWith("https://")) {
+            final String project = repository.substring("https://".length(), repository.length() - ".sourceforge.io".length());
+            return SourceforgeClient.call(project);
+        }
+        log.warn("Bad sourceforge url: {}", repository);
+        return Optional.empty();
+    }
+
+    protected Optional<License> getLicenseFromProjectUrl(String projectUrl) {
+        if(projectUrl == null) {
+            return Optional.empty();
+        }
+        if(projectUrl.contains("github")) {
+            return getLicenseFromGitHub(projectUrl);
+        }
+        if(projectUrl.contains("sourceforge")) {
+            return getLicenseFromSourceforge(projectUrl);
+        }
+        log.warn("No license resolver for {}", projectUrl);
+        return Optional.empty();
     }
 
     protected GitHubClient getGitHubClient() {

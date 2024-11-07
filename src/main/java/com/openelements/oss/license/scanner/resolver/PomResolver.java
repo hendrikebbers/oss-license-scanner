@@ -13,9 +13,8 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.Comparator;
-import java.util.Objects;
-import java.util.Optional;
 import java.util.Set;
+import java.util.function.Supplier;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 import org.slf4j.Logger;
@@ -73,18 +72,11 @@ public class PomResolver extends AbstractResolver {
 
     protected License getLicense(MavenIdentifier identifier) {
         log.info("Getting license for: " + identifier);
-        final License cachedLicense = LicenseCache.getInstance().getLicense(identifier.toIdentifier());
-        if(cachedLicense != null) {
-            return cachedLicense;
-        }
         MavenCentralClient mavenCentralClient = new MavenCentralClient();
-        final License license = mavenCentralClient.getLicenceFromPom(identifier)
-                .orElseGet(() -> {
-                    return mavenCentralClient.getRepository(identifier)
-                            .map(r -> getLicenseFromGitHub(r))
-                            .orElseGet(() -> License.UNKNOWN);
-                });
-        LicenseCache.getInstance().addLicense(identifier.toIdentifier(), license);
-        return license;
+        final Supplier<License> supplier = () -> mavenCentralClient.getLicenceFromPom(identifier)
+                .or(() -> mavenCentralClient.getRepository(identifier).map(r -> getLicenseFromProjectUrl(r).orElse(License.UNKNOWN)))
+                .orElse(License.UNKNOWN);
+        return LicenseCache.getInstance().computeIfAbsent(identifier.toIdentifier(), supplier);
     }
+
 }

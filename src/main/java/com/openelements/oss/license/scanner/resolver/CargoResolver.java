@@ -41,7 +41,8 @@ public class CargoResolver extends AbstractResolver {
 
     private License getLicence(CargoLibrary library) {
         final Supplier<License> supplier = () -> CratesClient.getLicenceForCrate(library.identifier())
-                .orElseGet(() -> getLicenseFromGitHub(library.repository()));
+                .or(() -> getLicenseFromProjectUrl(library.repository()))
+                .orElse(License.UNKNOWN);
         return LicenseCache.getInstance()
                 .computeIfAbsent(library.identifier(), supplier);
     }

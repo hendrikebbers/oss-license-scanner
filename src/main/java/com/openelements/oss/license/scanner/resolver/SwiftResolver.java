@@ -4,7 +4,6 @@ import com.openelements.oss.license.scanner.clients.GitHubClient;
 import com.openelements.oss.license.scanner.api.Dependency;
 import com.openelements.oss.license.scanner.api.Identifier;
 import com.openelements.oss.license.scanner.api.License;
-import com.openelements.oss.license.scanner.clients.PypiClient;
 import com.openelements.oss.license.scanner.licenses.LicenseCache;
 import com.openelements.oss.license.scanner.tools.SwiftTool;
 import com.openelements.oss.license.scanner.tools.SwiftTool.SwiftLib;
@@ -43,7 +42,8 @@ public class SwiftResolver extends AbstractResolver {
     }
 
     private License getLicence(Identifier identifier, String repository) {
-        final Supplier<License> supplier = () -> getLicenseFromGitHub(repository);
+        final Supplier<License> supplier = () -> getLicenseFromProjectUrl(repository)
+                .orElse(License.UNKNOWN);
         return LicenseCache.getInstance().computeIfAbsent(identifier, supplier);
     }
 

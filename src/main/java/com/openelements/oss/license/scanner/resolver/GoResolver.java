@@ -3,10 +3,8 @@ package com.openelements.oss.license.scanner.resolver;
 import com.openelements.oss.license.scanner.api.Dependency;
 import com.openelements.oss.license.scanner.api.Identifier;
 import com.openelements.oss.license.scanner.api.License;
-import com.openelements.oss.license.scanner.clients.CratesClient;
 import com.openelements.oss.license.scanner.clients.GitHubClient;
 import com.openelements.oss.license.scanner.licenses.LicenseCache;
-import com.openelements.oss.license.scanner.tools.CargoTool.CargoLibrary;
 import com.openelements.oss.license.scanner.tools.GoTool;
 import java.nio.file.Path;
 import java.util.Set;
@@ -52,7 +50,7 @@ public class GoResolver extends AbstractResolver {
     }
 
     private License getLicence(Identifier identifier, final String repository) {
-        final Supplier<License> supplier = () -> getLicenseFromGitHub(repository);
+        final Supplier<License> supplier = () -> getLicenseFromProjectUrl(repository).orElse(License.UNKNOWN);
         return LicenseCache.getInstance()
                 .computeIfAbsent(identifier, supplier);
     }
