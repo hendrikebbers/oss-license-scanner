@@ -1,0 +1,13 @@
+name,version,language,repository,license,license-url,license-source
+@hashgraph/sdk,2.50.0,js,https://github.com/hashgraph/hedera-sdk-js,Apache-2.0,https://spdx.org/licenses/Apache-2.0.html,npm show (normalized)
+csv-parser,3.0.0,js,https://github.com/mafintosh/csv-parser,MIT,https://spdx.org/licenses/MIT.html,npm show (normalized)
+detect-port,1.6.1,js,https://github.com/node-modules/detect-port,MIT,https://spdx.org/licenses/MIT.html,npm show (normalized)
+dockerode,4.0.2,js,https://github.com/apocas/dockerode,Apache-2.0,https://spdx.org/licenses/Apache-2.0.html,npm show (normalized)
+dotenv,16.4.5,js,https://github.com/motdotla/dotenv,BSD-2-Clause,https://spdx.org/licenses/BSD-2-Clause.html,npm show (normalized)
+ethers,6.13.2,js,https://github.com/ethers-io/ethers.js,MIT,https://spdx.org/licenses/MIT.html,npm show (normalized)
+js-yaml,4.1.0,js,https://github.com/nodeca/js-yaml,MIT,https://spdx.org/licenses/MIT.html,npm show (normalized)
+rimraf,6.0.1,js,https://github.com/isaacs/rimraf,ISC,https://spdx.org/licenses/ISC.html,npm show (normalized)
+semver,7.6.3,js,https://github.com/npm/node-semver,ISC,https://spdx.org/licenses/ISC.html,npm show (normalized)
+shelljs,0.8.5,js,https://github.com/shelljs/shelljs,BSD-3-Clause,https://spdx.org/licenses/BSD-3-Clause.html,npm show (normalized)
+ts-mocha,10.0.0,js,https://github.com/piotrwitek/ts-mocha,MIT,https://spdx.org/licenses/MIT.html,npm show (normalized)
+yargs,17.7.2,js,https://github.com/yargs/yargs,MIT,https://spdx.org/licenses/MIT.html,npm show (normalized)

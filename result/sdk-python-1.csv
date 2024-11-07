@@ -1,0 +1,29 @@
+name,version,language,repository,license,license-url,license-source
+Pygments,2.18.0,python,https://github.com/pygments/pygments/issues,BSD-2-Clause,https://spdx.org/licenses/BSD-2-Clause.html,https://pypi.org/pypi/Pygments/2.18.0/json (normalized)
+build,1.2.2.post1,python,https://github.com/pypa/build/issues,MIT,https://spdx.org/licenses/MIT.html,https://api.github.com/repos/pypa/build (normalized)
+certifi,2024.8.30,python,https://github.com/certifi/python-certifi,MPL-2.0,https://spdx.org/licenses/MPL-2.0.html,https://pypi.org/pypi/certifi/2024.8.30/json (normalized)
+charset-normalizer,3.4.0,python,https://github.com/Ousret/charset_normalizer/issues,MIT,https://spdx.org/licenses/MIT.html,https://pypi.org/pypi/charset-normalizer/3.4.0/json (normalized)
+docutils,0.21.2,python,https://docutils.sourceforge.io,",OSI-Approved Open Source,Public Domain",UNKNOWN,https://sourceforge.net/rest/p/docutils
+idna,3.10,python,https://github.com/kjd/idna/blob/master/HISTORY.rst,BSD-3-Clause,https://spdx.org/licenses/BSD-3-Clause.html,https://api.github.com/repos/kjd/idna (normalized)
+importlib_metadata,8.5.0,python,https://github.com/python/importlib_metadata,Apache-2.0,https://spdx.org/licenses/Apache-2.0.html,https://api.github.com/repos/python/importlib_metadata (normalized)
+jaraco.classes,3.4.0,python,https://github.com/jaraco/jaraco.classes,MIT,https://spdx.org/licenses/MIT.html,https://api.github.com/repos/jaraco/jaraco.classes (normalized)
+jaraco.context,6.0.1,python,https://github.com/jaraco/jaraco.context,MIT,https://spdx.org/licenses/MIT.html,https://api.github.com/repos/jaraco/jaraco.context (normalized)
+jaraco.functools,4.1.0,python,https://github.com/jaraco/jaraco.functools,MIT,https://spdx.org/licenses/MIT.html,https://api.github.com/repos/jaraco/jaraco.functools (normalized)
+keyring,25.5.0,python,https://github.com/jaraco/keyring,MIT,https://spdx.org/licenses/MIT.html,https://api.github.com/repos/jaraco/keyring (normalized)
+markdown-it-py,3.0.0,python,https://github.com/executablebooks/markdown-it-py,MIT,https://spdx.org/licenses/MIT.html,https://api.github.com/repos/executablebooks/markdown-it-py (normalized)
+mdurl,0.1.2,python,https://github.com/executablebooks/mdurl,,UNKNOWN,https://pypi.org/pypi/mdurl/0.1.2/json
+more-itertools,10.5.0,python,https://github.com/more-itertools/more-itertools,MIT,https://spdx.org/licenses/MIT.html,https://api.github.com/repos/more-itertools/more-itertools (normalized)
+nh3,0.2.18,python,https://github.com/messense/nh3,MIT,https://spdx.org/licenses/MIT.html,https://pypi.org/pypi/nh3/0.2.18/json (normalized)
+packaging,24.1,python,https://github.com/pypa/packaging,Other,Unknown,https://api.github.com/repos/pypa/packaging
+pkginfo,1.10.0,python,,MIT,https://spdx.org/licenses/MIT.html,https://pypi.org/pypi/pkginfo/1.10.0/json (normalized)
+pyjnius,1.6.1,python,https://github.com/kivy/pyjnius,,UNKNOWN,https://pypi.org/pypi/pyjnius/1.6.1/json
+pyproject_hooks,1.2.0,python,https://github.com/pypa/pyproject-hooks,MIT,https://spdx.org/licenses/MIT.html,https://api.github.com/repos/pypa/pyproject-hooks (normalized)
+readme_renderer,44.0,python,https://github.com/pypa/readme_renderer,Apache-2.0,https://spdx.org/licenses/Apache-2.0.html,https://pypi.org/pypi/readme_renderer/44.0/json (normalized)
+requests,2.32.3,python,https://github.com/psf/requests,Apache-2.0,https://spdx.org/licenses/Apache-2.0.html,https://pypi.org/pypi/requests/2.32.3/json (normalized)
+requests-toolbelt,1.0.0,python,https://github.com/requests/toolbelt/blob/master/HISTORY.rst,Apache-2.0,https://spdx.org/licenses/Apache-2.0.html,https://pypi.org/pypi/requests-toolbelt/1.0.0/json (normalized)
+rfc3986,2.0.0,python,,Apache-2.0,https://spdx.org/licenses/Apache-2.0.html,https://pypi.org/pypi/rfc3986/2.0.0/json (normalized)
+rich,13.9.4,python,https://github.com/Textualize/rich,MIT,https://spdx.org/licenses/MIT.html,https://pypi.org/pypi/rich/13.9.4/json (normalized)
+setuptools,75.3.0,python,https://github.com/pypa/setuptools,MIT,https://spdx.org/licenses/MIT.html,https://api.github.com/repos/pypa/setuptools (normalized)
+twine,5.1.1,python,https://github.com/pypa/twine/,Apache-2.0,https://spdx.org/licenses/Apache-2.0.html,https://api.github.com/repos/pypa/twine (normalized)
+urllib3,2.2.3,python,https://github.com/urllib3/urllib3/blob/main/CHANGES.rst,MIT,https://spdx.org/licenses/MIT.html,https://api.github.com/repos/urllib3/urllib3 (normalized)
+zipp,3.20.2,python,https://github.com/jaraco/zipp,MIT,https://spdx.org/licenses/MIT.html,https://api.github.com/repos/jaraco/zipp (normalized)
