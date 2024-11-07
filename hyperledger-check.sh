@@ -1,66 +1,66 @@
 #!/bin/bash
 
 mkdir hyperledger-result
-./license-scanner.sh  go -r https://github.com/hyperledger/fabric-gateway -N > hyperledger-result/fabric-gateway.csv
-./license-scanner.sh  js -r https://github.com/hyperledger/identus-cloud-agent -N > hyperledger-result/identus-cloud-agent.csv
-./license-scanner.sh  swift -r https://github.com/hyperledger/identus-edge-agent-sdk-swift -N > hyperledger-result/identus-edge-agent-sdk-swift.csv
-./license-scanner.sh  python -r https://github.com/hyperledger/indy-node -N > hyperledger-result/indy-node.csv
-./license-scanner.sh  js -r https://github.com/hyperledger/identus-mediator -N > hyperledger-result/identus-mediator.csv
-./license-scanner.sh  python -r https://github.com/hyperledger/indy-plenum -N > hyperledger-result/indy-plenum.csv
-./license-scanner.sh  rust -r https://github.com/hyperledger/aries-askar -N > hyperledger-result/aries-askar.csv
-./license-scanner.sh  go -r https://github.com/hyperledger/firefly -N > hyperledger-result/firefly.csv
-./license-scanner.sh  rust -r https://github.com/hyperledger/aries-vcx -N > hyperledger-result/aries-vcx.csv
-./license-scanner.sh  go -r https://github.com/hyperledger/firefly-signer -N > hyperledger-result/firefly-signer.csv
-./license-scanner.sh  go -r https://github.com/hyperledger/fabric -N > hyperledger-result/fabric.csv
-./license-scanner.sh  go -r https://github.com/hyperledger/fabric-admin-sdk -N > hyperledger-result/fabric-admin-sdk.csv
-./license-scanner.sh  go -r https://github.com/hyperledger/fabric-private-chaincode -N > hyperledger-result/fabric-private-chaincode.csv
-./license-scanner.sh  go -r https://github.com/hyperledger/firefly-common -N > hyperledger-result/firefly-common.csv
-./license-scanner.sh  swift -r https://github.com/hyperledger/identus-apollo -N > hyperledger-result/identus-apollo.csv
-./license-scanner.sh  go -r https://github.com/hyperledger/fabric-contract-api-go -N > hyperledger-result/fabric-contract-api-go.csv
-./license-scanner.sh  go -r https://github.com/hyperledger/fabric-chaincode-go -N > hyperledger-result/fabric-chaincode-go.csv
-./license-scanner.sh  js -r https://github.com/hyperledger/fabric-sdk-node -N > hyperledger-result/fabric-chaincode-go.csv
-./license-scanner.sh  java -r https://github.com/hyperledger/fabric-gateway-java -N > hyperledger-result/fabric-gateway-java.csv
-./license-scanner.sh  java -r https://github.com/hyperledger/fabric-sdk-java -N > hyperledger-result/fabric-sdk-java.csv
-./license-scanner.sh  js -r https://github.com/hyperledger/indy-did-method -N > hyperledger-result/indy-did-method.csv
-./license-scanner.sh  go -r https://github.com/hyperledger/fabric-ca -N > hyperledger-result/fabric-ca.csv
-./license-scanner.sh  go -r https://github.com/hyperledger/firefly-cli -N > hyperledger-result/firefly-cli.csv
-./license-scanner.sh  rust -r https://github.com/hyperledger/indy-vdr -N > hyperledger-result/indy-vdr.csv
-./license-scanner.sh  rust -r https://github.com/hyperledger/anoncreds-clsignatures-rs -N > hyperledger-result/anoncreds-clsignatures-rs.csv
-./license-scanner.sh  rust -r https://github.com/hyperledger/indy-blssignatures-rs -N > hyperledger-result/indy-blssignatures-rs.csv
-./license-scanner.sh  go -r https://github.com/hyperledger/fabric-protos-go-apiv2 -N > hyperledger-result/fabric-protos-go-apiv2.csv
-./license-scanner.sh  go -r https://github.com/hyperledger/fabric-protos-go -N > hyperledger-result/fabric-protos-go.csv
-./license-scanner.sh  python -r https://github.com/hyperledger/aries-acapy-tools -N > hyperledger-result/aries-acapy-tools.csv
-./license-scanner.sh  js -r https://github.com/hyperledger/firefly-tokens-erc1155 -N > hyperledger-result/firefly-tokens-erc1155.csv
-./license-scanner.sh  js -r https://github.com/hyperledger/firefly-tokens-erc20-erc721 -N > hyperledger-result/firefly-tokens-erc20-erc721.csv
-./license-scanner.sh  js -r https://github.com/hyperledger/firefly-ui -N > hyperledger-result/firefly-ui.csv
-./license-scanner.sh  rust -r https://github.com/hyperledger/anoncreds-rs -N > hyperledger-result/anoncreds-rs.csv
-./license-scanner.sh  go -r https://github.com/hyperledger/firefly-tezosconnect -N > hyperledger-result/firefly-tezosconnect.csv
-./license-scanner.sh  go -r https://github.com/hyperledger/fabric-config -N > hyperledger-result/fabric-config.csv
-./license-scanner.sh  go -r https://github.com/hyperledger/firefly-evmconnect -N > hyperledger-result/firefly-evmconnect.csv
-./license-scanner.sh  go -r https://github.com/hyperledger/firefly-transaction-manager -N > hyperledger-result/firefly-transaction-manager.csv
-./license-scanner.sh  go -r https://github.com/hyperledger/firefly-ethconnect -N > hyperledger-result/firefly-ethconnect.csv
-./license-scanner.sh  go -r https://github.com/hyperledger/firefly-fabconnect -N > hyperledger-result/firefly-fabconnect.csv
-./license-scanner.sh  rust -r https://github.com/hyperledger/anoncreds-v2-rs -N > hyperledger-result/anoncreds-v2-rs.csv
-./license-scanner.sh  go -r https://github.com/hyperledger/firefly-perf-cli -N > hyperledger-result/firefly-perf-cli.csv
-./license-scanner.sh  python -r https://github.com/hyperledger/aries-staticagent-python -N > hyperledger-result/aries-staticagent-python.csv
-./license-scanner.sh  go -r https://github.com/hyperledger/fabric-test -N > hyperledger-result/fabric-test.csv
-./license-scanner.sh  python -r https://github.com/hyperledger/indy-bls-wrapper-python -N > hyperledger-result/indy-bls-wrapper-python.csv
-./license-scanner.sh  rust -r https://github.com/hyperledger/indy-cli-rs -N > hyperledger-result/indy-cli-rs.csv
-./license-scanner.sh  js -r https://github.com/hyperledger/firefly-sandbox -N > hyperledger-result/firefly-sandbox.csv
-./license-scanner.sh  swift -r https://github.com/hyperledger/aries-uniffi-wrappers -N > hyperledger-result/aries-uniffi-wrappers.csv
-./license-scanner.sh  js -r https://github.com/hyperledger/firefly-dataexchange-https -N > hyperledger-result/firefly-dataexchange-https.csv
-./license-scanner.sh  js -r https://github.com/hyperledger/firefly-sdk-nodejs -N > hyperledger-result/firefly-sdk-nodejs.csv
-./license-scanner.sh  swift -r https://github.com/hyperledger/aries-framework-swift -N > hyperledger-result/aries-framework-swift.csv
-./license-scanner.sh  python -r https://github.com/hyperledger/indy-test-automation -N > hyperledger-result/indy-test-automation.csv
-./license-scanner.sh  python -r https://github.com/hyperledger/aries-socketdock -N > hyperledger-result/aries-socketdock.csv
-./license-scanner.sh  js -r https://github.com/hyperledger/anoncreds-revocation -N > hyperledger-result/anoncreds-revocation.csv
-./license-scanner.sh  go -r https://github.com/hyperledger/aries-bbs-go -N > hyperledger-result/aries-bbs-go.csv
-./license-scanner.sh  go -r https://github.com/hyperledger/fabric-lib-go -N > hyperledger-result/fabric-lib-go.csv
-./license-scanner.sh  rust -r https://github.com/hyperledger/aries-bbssignatures-rs -N > hyperledger-result/aries-bbssignatures-rs.csv
-./license-scanner.sh  go -r https://github.com/hyperledger/fabric-sdk-go -N > hyperledger-result/fabric-sdk-go.csv
-./license-scanner.sh  rust -r https://github.com/hyperledger/indy-shared-rs -N > hyperledger-result/indy-shared-rs.csv
-./license-scanner.sh  python -r https://github.com/hyperledger/fabric-sdk-py -N > hyperledger-result/fabric-sdk-py.csv
-./license-scanner.sh  python -r https://github.com/hyperledger/indy-docs -N > hyperledger-result/indy-docs.csv
-./license-scanner.sh  go -r https://github.com/hyperledger/fabric-cli -N > hyperledger-result/fabric-cli.csv
-./license-scanner.sh  go -r https://github.com/hyperledger/fabric-amcl -N > hyperledger-result/fabric-amcl.csv
-./license-scanner.sh  js -r https://github.com/hyperledger/composer -N > hyperledger-result/composer.csv
+./license-scanner.sh  go -r https://github.com/hyperledger/fabric-gateway -N -m manual-additions.csv > hyperledger-result/fabric-gateway.csv
+./license-scanner.sh  js -r https://github.com/hyperledger/identus-cloud-agent -N -m manual-additions.csv > hyperledger-result/identus-cloud-agent.csv
+./license-scanner.sh  swift -r https://github.com/hyperledger/identus-edge-agent-sdk-swift -N -m manual-additions.csv > hyperledger-result/identus-edge-agent-sdk-swift.csv
+./license-scanner.sh  python -r https://github.com/hyperledger/indy-node -N -m manual-additions.csv > hyperledger-result/indy-node.csv
+./license-scanner.sh  js -r https://github.com/hyperledger/identus-mediator -N -m manual-additions.csv > hyperledger-result/identus-mediator.csv
+./license-scanner.sh  python -r https://github.com/hyperledger/indy-plenum -N -m manual-additions.csv > hyperledger-result/indy-plenum.csv
+./license-scanner.sh  rust -r https://github.com/hyperledger/aries-askar -N -m manual-additions.csv > hyperledger-result/aries-askar.csv
+./license-scanner.sh  go -r https://github.com/hyperledger/firefly -N -m manual-additions.csv > hyperledger-result/firefly.csv
+./license-scanner.sh  rust -r https://github.com/hyperledger/aries-vcx -N -m manual-additions.csv > hyperledger-result/aries-vcx.csv
+./license-scanner.sh  go -r https://github.com/hyperledger/firefly-signer -N -m manual-additions.csv > hyperledger-result/firefly-signer.csv
+./license-scanner.sh  go -r https://github.com/hyperledger/fabric -N -m manual-additions.csv > hyperledger-result/fabric.csv
+./license-scanner.sh  go -r https://github.com/hyperledger/fabric-admin-sdk -N -m manual-additions.csv > hyperledger-result/fabric-admin-sdk.csv
+./license-scanner.sh  go -r https://github.com/hyperledger/fabric-private-chaincode -N -m manual-additions.csv > hyperledger-result/fabric-private-chaincode.csv
+./license-scanner.sh  go -r https://github.com/hyperledger/firefly-common -N -m manual-additions.csv > hyperledger-result/firefly-common.csv
+./license-scanner.sh  swift -r https://github.com/hyperledger/identus-apollo -N -m manual-additions.csv > hyperledger-result/identus-apollo.csv
+./license-scanner.sh  go -r https://github.com/hyperledger/fabric-contract-api-go -N -m manual-additions.csv > hyperledger-result/fabric-contract-api-go.csv
+./license-scanner.sh  go -r https://github.com/hyperledger/fabric-chaincode-go -N -m manual-additions.csv > hyperledger-result/fabric-chaincode-go.csv
+./license-scanner.sh  js -r https://github.com/hyperledger/fabric-sdk-node -N -m manual-additions.csv > hyperledger-result/fabric-chaincode-go.csv
+./license-scanner.sh  java -r https://github.com/hyperledger/fabric-gateway-java -N -m manual-additions.csv > hyperledger-result/fabric-gateway-java.csv
+./license-scanner.sh  java -r https://github.com/hyperledger/fabric-sdk-java -N -m manual-additions.csv > hyperledger-result/fabric-sdk-java.csv
+./license-scanner.sh  js -r https://github.com/hyperledger/indy-did-method -N -m manual-additions.csv > hyperledger-result/indy-did-method.csv
+./license-scanner.sh  go -r https://github.com/hyperledger/fabric-ca -N -m manual-additions.csv > hyperledger-result/fabric-ca.csv
+./license-scanner.sh  go -r https://github.com/hyperledger/firefly-cli -N -m manual-additions.csv > hyperledger-result/firefly-cli.csv
+./license-scanner.sh  rust -r https://github.com/hyperledger/indy-vdr -N -m manual-additions.csv > hyperledger-result/indy-vdr.csv
+./license-scanner.sh  rust -r https://github.com/hyperledger/anoncreds-clsignatures-rs -N -m manual-additions.csv > hyperledger-result/anoncreds-clsignatures-rs.csv
+./license-scanner.sh  rust -r https://github.com/hyperledger/indy-blssignatures-rs -N -m manual-additions.csv > hyperledger-result/indy-blssignatures-rs.csv
+./license-scanner.sh  go -r https://github.com/hyperledger/fabric-protos-go-apiv2 -N -m manual-additions.csv > hyperledger-result/fabric-protos-go-apiv2.csv
+./license-scanner.sh  go -r https://github.com/hyperledger/fabric-protos-go -N -m manual-additions.csv > hyperledger-result/fabric-protos-go.csv
+./license-scanner.sh  python -r https://github.com/hyperledger/aries-acapy-tools -N -m manual-additions.csv > hyperledger-result/aries-acapy-tools.csv
+./license-scanner.sh  js -r https://github.com/hyperledger/firefly-tokens-erc1155 -N -m manual-additions.csv > hyperledger-result/firefly-tokens-erc1155.csv
+./license-scanner.sh  js -r https://github.com/hyperledger/firefly-tokens-erc20-erc721 -N -m manual-additions.csv > hyperledger-result/firefly-tokens-erc20-erc721.csv
+./license-scanner.sh  js -r https://github.com/hyperledger/firefly-ui -N -m manual-additions.csv > hyperledger-result/firefly-ui.csv
+./license-scanner.sh  rust -r https://github.com/hyperledger/anoncreds-rs -N -m manual-additions.csv > hyperledger-result/anoncreds-rs.csv
+./license-scanner.sh  go -r https://github.com/hyperledger/firefly-tezosconnect -N -m manual-additions.csv > hyperledger-result/firefly-tezosconnect.csv
+./license-scanner.sh  go -r https://github.com/hyperledger/fabric-config -N -m manual-additions.csv > hyperledger-result/fabric-config.csv
+./license-scanner.sh  go -r https://github.com/hyperledger/firefly-evmconnect -N -m manual-additions.csv > hyperledger-result/firefly-evmconnect.csv
+./license-scanner.sh  go -r https://github.com/hyperledger/firefly-transaction-manager -N -m manual-additions.csv > hyperledger-result/firefly-transaction-manager.csv
+./license-scanner.sh  go -r https://github.com/hyperledger/firefly-ethconnect -N -m manual-additions.csv > hyperledger-result/firefly-ethconnect.csv
+./license-scanner.sh  go -r https://github.com/hyperledger/firefly-fabconnect -N -m manual-additions.csv > hyperledger-result/firefly-fabconnect.csv
+./license-scanner.sh  rust -r https://github.com/hyperledger/anoncreds-v2-rs -N -m manual-additions.csv > hyperledger-result/anoncreds-v2-rs.csv
+./license-scanner.sh  go -r https://github.com/hyperledger/firefly-perf-cli -N -m manual-additions.csv > hyperledger-result/firefly-perf-cli.csv
+./license-scanner.sh  python -r https://github.com/hyperledger/aries-staticagent-python -N -m manual-additions.csv > hyperledger-result/aries-staticagent-python.csv
+./license-scanner.sh  go -r https://github.com/hyperledger/fabric-test -N -m manual-additions.csv > hyperledger-result/fabric-test.csv
+./license-scanner.sh  python -r https://github.com/hyperledger/indy-bls-wrapper-python -N -m manual-additions.csv > hyperledger-result/indy-bls-wrapper-python.csv
+./license-scanner.sh  rust -r https://github.com/hyperledger/indy-cli-rs -N -m manual-additions.csv > hyperledger-result/indy-cli-rs.csv
+./license-scanner.sh  js -r https://github.com/hyperledger/firefly-sandbox -N -m manual-additions.csv > hyperledger-result/firefly-sandbox.csv
+./license-scanner.sh  swift -r https://github.com/hyperledger/aries-uniffi-wrappers -N -m manual-additions.csv > hyperledger-result/aries-uniffi-wrappers.csv
+./license-scanner.sh  js -r https://github.com/hyperledger/firefly-dataexchange-https -N -m manual-additions.csv > hyperledger-result/firefly-dataexchange-https.csv
+./license-scanner.sh  js -r https://github.com/hyperledger/firefly-sdk-nodejs -N -m manual-additions.csv > hyperledger-result/firefly-sdk-nodejs.csv
+./license-scanner.sh  swift -r https://github.com/hyperledger/aries-framework-swift -N -m manual-additions.csv > hyperledger-result/aries-framework-swift.csv
+./license-scanner.sh  python -r https://github.com/hyperledger/indy-test-automation -N -m manual-additions.csv > hyperledger-result/indy-test-automation.csv
+./license-scanner.sh  python -r https://github.com/hyperledger/aries-socketdock -N -m manual-additions.csv > hyperledger-result/aries-socketdock.csv
+./license-scanner.sh  js -r https://github.com/hyperledger/anoncreds-revocation -N -m manual-additions.csv > hyperledger-result/anoncreds-revocation.csv
+./license-scanner.sh  go -r https://github.com/hyperledger/aries-bbs-go -N -m manual-additions.csv > hyperledger-result/aries-bbs-go.csv
+./license-scanner.sh  go -r https://github.com/hyperledger/fabric-lib-go -N -m manual-additions.csv > hyperledger-result/fabric-lib-go.csv
+./license-scanner.sh  rust -r https://github.com/hyperledger/aries-bbssignatures-rs -N -m manual-additions.csv > hyperledger-result/aries-bbssignatures-rs.csv
+./license-scanner.sh  go -r https://github.com/hyperledger/fabric-sdk-go -N -m manual-additions.csv > hyperledger-result/fabric-sdk-go.csv
+./license-scanner.sh  rust -r https://github.com/hyperledger/indy-shared-rs -N -m manual-additions.csv > hyperledger-result/indy-shared-rs.csv
+./license-scanner.sh  python -r https://github.com/hyperledger/fabric-sdk-py -N -m manual-additions.csv > hyperledger-result/fabric-sdk-py.csv
+./license-scanner.sh  python -r https://github.com/hyperledger/indy-docs -N -m manual-additions.csv > hyperledger-result/indy-docs.csv
+./license-scanner.sh  go -r https://github.com/hyperledger/fabric-cli -N -m manual-additions.csv > hyperledger-result/fabric-cli.csv
+./license-scanner.sh  go -r https://github.com/hyperledger/fabric-amcl -N -m manual-additions.csv > hyperledger-result/fabric-amcl.csv
+./license-scanner.sh  js -r https://github.com/hyperledger/composer -N -m manual-additions.csv > hyperledger-result/composer.csv

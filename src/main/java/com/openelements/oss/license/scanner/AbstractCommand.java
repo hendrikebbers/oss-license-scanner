@@ -181,25 +181,25 @@ public abstract class AbstractCommand implements Callable<Integer> {
         }
     }
 
-    private static void printAsCsv(Set<Dependency> dependencies) throws IOException {
+    private void printAsCsv(Set<Dependency> dependencies) throws IOException {
         final PrintWriter writer = new PrintWriter(System.out);
         try (CsvWriter csv = CsvWriter.builder().build(writer)) {
-            csv.writeRecord("name", "version", "repository", "license", "license-url", "license-source");
+            csv.writeRecord("name", "version", "language", "repository", "license", "license-url", "license-source");
             dependencies.stream()
                     .sorted(Comparator.comparing(d -> d.identifier()))
-                    .forEach(d -> csv.writeRecord(d.identifier().name(), d.identifier().version(), d.repository(), d.license().name(), d.license().url(), d.license().source()));
+                    .forEach(d -> csv.writeRecord(d.identifier().name(), d.identifier().version(), getLanguageType(), d.repository(), d.license().name(), d.license().url(), d.license().source()));
         }
     }
 
-    private static void printAsMarkdown(Set<Dependency> dependencies) throws IOException {
-        System.out.println("| name | version | repository | license | license-url | license-source |");
-        System.out.println("| --- | --- | --- | --- | --- | --- |");
+    private void printAsMarkdown(Set<Dependency> dependencies) throws IOException {
+        System.out.println("| name | version | language | repository | license | license-url | license-source |");
+        System.out.println("| --- | --- | --- |  --- |--- | --- | --- |");
         dependencies.stream()
                 .sorted(Comparator.comparing(d -> d.identifier()))
-                .forEach(d -> System.out.println("| " + d.identifier().name() + " | " + d.identifier().version() + " | " + d.repository() + " | " + d.license().name() + " | " + d.license().url() + " | " + d.license().source() + " |"));
+                .forEach(d -> System.out.println("| " + d.identifier().name() + " | " + d.identifier().version() + " | " + getLanguageType() + " | " + d.repository() + " | " + d.license().name() + " | " + d.license().url() + " | " + d.license().source() + " |"));
     }
 
-    private static void printAsJson(Set<Dependency> dependencies) throws IOException {
+    private void printAsJson(Set<Dependency> dependencies) throws IOException {
         try(JsonWriter writer = new JsonWriter(new PrintWriter(System.out))) {
             writer.beginArray();
             dependencies.stream()
@@ -209,6 +209,7 @@ public abstract class AbstractCommand implements Callable<Integer> {
                             writer.beginObject();
                             writer.name("name").value(d.identifier().name());
                             writer.name("version").value(d.identifier().version());
+                            writer.name("language").value(getLanguageType());
                             writer.name("repository").value(d.repository());
                             writer.name("license").value(d.license().name());
                             writer.name("license-url").value(d.license().url());

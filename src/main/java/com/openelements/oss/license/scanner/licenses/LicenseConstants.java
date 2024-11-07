@@ -119,7 +119,7 @@ public interface LicenseConstants {
     String BSD_3_CLAUSE_SPDX_ID = "BSD-3-Clause";
 
     Set<String> BSD_3_CLAUSE_ALTERNATIVE_NAMES = Set.of("BSD-3", "BSD 3-Clause", "BSD License 3",
-            "BSD 3-Clause \"New\" or \"Revised\" License", "3-Clause BSD License");
+            "BSD 3-Clause \"New\" or \"Revised\" License", "3-Clause BSD License", "EDL 1.0", "Eclipse Distribution License - v 1.0");
 
     String BSD_2_CLAUSE_SPDX_ID = "BSD-2-Clause";
 
@@ -168,7 +168,7 @@ public interface LicenseConstants {
 
     String ISC_SPDX_ID = "ISC";
 
-    Set<String> ISC_ALTERNATIVE_NAMES = Set.of("ISC License");
+    Set<String> ISC_ALTERNATIVE_NAMES = Set.of("ISC License", "ISC-Lizenz");
 
     String CDDL_1_0_SPDX_ID = "CDDL-1.0";
 
