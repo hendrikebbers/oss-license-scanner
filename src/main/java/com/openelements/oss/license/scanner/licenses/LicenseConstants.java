@@ -127,7 +127,7 @@ public interface LicenseConstants {
 
     String EPL_2_0_SPDX_ID = "EPL-2.0";
 
-    Set<String> EPL_2_0_ALTERNATIVE_NAMES = Set.of("EPL-2", "Eclipse Public License, Version 2.0", "Eclipse Public License v2.0", "EPL 2.0");
+    Set<String> EPL_2_0_ALTERNATIVE_NAMES = Set.of("EPL-2", "Eclipse Public License, Version 2.0", "Eclipse Public License v2.0", "EPL 2.0", "Eclipse Public License 2.0", "Eclipse Public License v. 2.0");
 
     String EPL_1_0_SPDX_ID = "EPL-1.0";
 
