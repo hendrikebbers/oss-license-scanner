@@ -1,0 +1,17 @@
+name,version,language,repository,license,license-url,license-source
+Base58Swift,2.1.7,swift,https://github.com/keefertaylor/Base58Swift,MIT,https://spdx.org/licenses/MIT.html,https://api.github.com/repos/keefertaylor/Base58Swift (normalized)
+BigInt,3.1.0,swift,https://github.com/attaswift/BigInt,MIT,https://spdx.org/licenses/MIT.html,https://api.github.com/repos/attaswift/BigInt (normalized)
+BlueSwift,1.1.7,swift,https://github.com/conanoc/BlueSwift,MIT,https://spdx.org/licenses/MIT.html,https://api.github.com/repos/conanoc/BlueSwift (normalized)
+CocoaAsyncSocket,7.6.5,swift,https://github.com/robbiehanson/CocoaAsyncSocket,Other,Unknown,https://api.github.com/repos/robbiehanson/CocoaAsyncSocket
+CollectionConcurrencyKit,0.2.0,swift,https://github.com/JohnSundell/CollectionConcurrencyKit,MIT,https://spdx.org/licenses/MIT.html,https://api.github.com/repos/JohnSundell/CollectionConcurrencyKit (normalized)
+Criollo,1.1.0,swift,https://github.com/thecatalinstan/Criollo,MIT,https://spdx.org/licenses/MIT.html,https://api.github.com/repos/thecatalinstan/Criollo (normalized)
+Semaphore,0.0.8,swift,https://github.com/groue/Semaphore,MIT,https://spdx.org/licenses/MIT.html,https://api.github.com/repos/groue/Semaphore (normalized)
+SipHash,1.2.2,swift,https://github.com/attaswift/SipHash,MIT,https://spdx.org/licenses/MIT.html,https://api.github.com/repos/attaswift/SipHash (normalized)
+aries-uniffi-wrappers,0.2.1,swift,https://github.com/hyperledger/aries-uniffi-wrappers,Apache-2.0,https://spdx.org/licenses/Apache-2.0.html,https://api.github.com/repos/hyperledger/aries-uniffi-wrappers (normalized)
+concurrent-ws,0.5.0,swift,https://github.com/bhsw/concurrent-ws,MIT,https://spdx.org/licenses/MIT.html,https://api.github.com/repos/bhsw/concurrent-ws (normalized)
+didcore-swift,2.0.0,swift,https://github.com/beatt83/didcore-swift,Apache-2.0,https://spdx.org/licenses/Apache-2.0.html,https://api.github.com/repos/beatt83/didcore-swift (normalized)
+peerdid-swift,3.0.0,swift,https://github.com/beatt83/peerdid-swift,Apache-2.0,https://spdx.org/licenses/Apache-2.0.html,https://api.github.com/repos/beatt83/peerdid-swift (normalized)
+swift-algorithms,1.2.0,swift,https://github.com/apple/swift-algorithms,Apache-2.0,https://spdx.org/licenses/Apache-2.0.html,https://api.github.com/repos/apple/swift-algorithms (normalized)
+swift-bases,0.0.3,swift,https://github.com/swift-libp2p/swift-bases,MIT,https://spdx.org/licenses/MIT.html,https://api.github.com/repos/swift-libp2p/swift-bases (normalized)
+swift-multibase,0.0.2,swift,https://github.com/swift-libp2p/swift-multibase,Unknown,Unknown,Unknown
+swift-numerics,1.0.2,swift,https://github.com/apple/swift-numerics,Apache-2.0,https://spdx.org/licenses/Apache-2.0.html,https://api.github.com/repos/apple/swift-numerics (normalized)

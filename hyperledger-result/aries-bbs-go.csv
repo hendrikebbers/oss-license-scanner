@@ -1,0 +1,72 @@
+name,version,language,repository,license,license-url,license-source
+github.com/IBM/mathlib,v0.0.3-0.20231011094432-44ee0eb539da,go,https://github.com/IBM/mathlib,Apache-2.0,https://spdx.org/licenses/Apache-2.0.html,https://api.github.com/repos/IBM/mathlib (normalized)
+github.com/aead/siphash,v1.0.1,go,https://github.com/aead/siphash,MIT,https://spdx.org/licenses/MIT.html,https://api.github.com/repos/aead/siphash (normalized)
+github.com/bits-and-blooms/bitset,v1.7.0,go,https://github.com/bits-and-blooms/bitset,BSD-3-Clause,https://spdx.org/licenses/BSD-3-Clause.html,https://api.github.com/repos/bits-and-blooms/bitset (normalized)
+github.com/btcsuite/btcd,v0.20.1-beta,go,https://github.com/btcsuite/btcd,ISC,https://spdx.org/licenses/ISC.html,https://api.github.com/repos/btcsuite/btcd (normalized)
+github.com/btcsuite/btclog,v0.0.0-20170628155309-84c8d2346e9f,go,https://github.com/btcsuite/btclog,ISC,https://spdx.org/licenses/ISC.html,https://api.github.com/repos/btcsuite/btclog (normalized)
+github.com/btcsuite/btcutil,v0.0.0-20190425235716-9e5f4b9a998d,go,https://github.com/btcsuite/btcutil,Unknown,Unknown,Unknown
+github.com/btcsuite/btcutil,v1.0.3-0.20201208143702-a53e38424cce,go,https://github.com/btcsuite/btcutil,Unknown,Unknown,Unknown
+github.com/btcsuite/go-socks,v0.0.0-20170105172521-4720035b7bfd,go,https://github.com/btcsuite/go-socks,BSD-3-Clause,https://spdx.org/licenses/BSD-3-Clause.html,https://api.github.com/repos/btcsuite/go-socks (normalized)
+github.com/btcsuite/goleveldb,v0.0.0-20160330041536-7834afc9e8cd,go,https://github.com/btcsuite/goleveldb,BSD-2-Clause,https://spdx.org/licenses/BSD-2-Clause.html,https://api.github.com/repos/btcsuite/goleveldb (normalized)
+github.com/btcsuite/snappy-go,v0.0.0-20151229074030-0bdef8d06723,go,https://github.com/btcsuite/snappy-go,BSD-3-Clause,https://spdx.org/licenses/BSD-3-Clause.html,https://api.github.com/repos/btcsuite/snappy-go (normalized)
+github.com/btcsuite/websocket,v0.0.0-20150119174127-31079b680792,go,https://github.com/btcsuite/websocket,BSD-2-Clause,https://spdx.org/licenses/BSD-2-Clause.html,https://api.github.com/repos/btcsuite/websocket (normalized)
+github.com/btcsuite/winsvc,v1.0.0,go,https://github.com/btcsuite/winsvc,BSD-3-Clause,https://spdx.org/licenses/BSD-3-Clause.html,https://api.github.com/repos/btcsuite/winsvc (normalized)
+github.com/consensys/bavard,v0.1.13,go,https://github.com/consensys/bavard,Apache-2.0,https://spdx.org/licenses/Apache-2.0.html,https://api.github.com/repos/consensys/bavard (normalized)
+github.com/consensys/gnark-crypto,v0.12.1,go,https://github.com/consensys/gnark-crypto,Apache-2.0,https://spdx.org/licenses/Apache-2.0.html,https://api.github.com/repos/consensys/gnark-crypto (normalized)
+github.com/davecgh/go-spew,v0.0.0-20171005155431-ecdeabc65495,go,https://github.com/davecgh/go-spew,ISC,https://spdx.org/licenses/ISC.html,https://api.github.com/repos/davecgh/go-spew (normalized)
+github.com/davecgh/go-spew,v1.1.0,go,https://github.com/davecgh/go-spew,ISC,https://spdx.org/licenses/ISC.html,https://api.github.com/repos/davecgh/go-spew (normalized)
+github.com/davecgh/go-spew,v1.1.1,go,https://github.com/davecgh/go-spew,ISC,https://spdx.org/licenses/ISC.html,https://api.github.com/repos/davecgh/go-spew (normalized)
+github.com/fsnotify/fsnotify,v1.4.7,go,https://github.com/fsnotify/fsnotify,BSD-3-Clause,https://spdx.org/licenses/BSD-3-Clause.html,https://api.github.com/repos/fsnotify/fsnotify (normalized)
+github.com/golang/protobuf,v1.2.0,go,https://github.com/golang/protobuf,BSD-3-Clause,https://spdx.org/licenses/BSD-3-Clause.html,https://api.github.com/repos/golang/protobuf (normalized)
+github.com/google/subcommands,v1.2.0,go,https://github.com/google/subcommands,Apache-2.0,https://spdx.org/licenses/Apache-2.0.html,https://api.github.com/repos/google/subcommands (normalized)
+github.com/hpcloud/tail,v1.0.0,go,https://github.com/hpcloud/tail,MIT,https://spdx.org/licenses/MIT.html,https://api.github.com/repos/hpcloud/tail (normalized)
+github.com/hyperledger/fabric-amcl,v0.0.0-20230602173724-9e02669dceb2,go,https://github.com/hyperledger/fabric-amcl,Apache-2.0,https://spdx.org/licenses/Apache-2.0.html,https://api.github.com/repos/hyperledger/fabric-amcl (normalized)
+github.com/inconshreveable/mousetrap,v1.0.0,go,https://github.com/inconshreveable/mousetrap,Apache-2.0,https://spdx.org/licenses/Apache-2.0.html,https://api.github.com/repos/inconshreveable/mousetrap (normalized)
+github.com/jessevdk/go-flags,v0.0.0-20141203071132-1679536dcc89,go,https://github.com/jessevdk/go-flags,BSD-3-Clause,https://spdx.org/licenses/BSD-3-Clause.html,https://api.github.com/repos/jessevdk/go-flags (normalized)
+github.com/jrick/logrotate,v1.0.0,go,https://github.com/jrick/logrotate,BSD-2-Clause,https://spdx.org/licenses/BSD-2-Clause.html,https://api.github.com/repos/jrick/logrotate (normalized)
+github.com/kilic/bls12-381,v0.1.0,go,https://github.com/kilic/bls12-381,Apache-2.0,https://spdx.org/licenses/Apache-2.0.html,https://api.github.com/repos/kilic/bls12-381 (normalized)
+github.com/kkdai/bstream,v0.0.0-20161212061736-f391b8402d23,go,https://github.com/kkdai/bstream,MIT,https://spdx.org/licenses/MIT.html,https://api.github.com/repos/kkdai/bstream (normalized)
+github.com/kr/pretty,v0.3.1,go,https://github.com/kr/pretty,MIT,https://spdx.org/licenses/MIT.html,https://api.github.com/repos/kr/pretty (normalized)
+github.com/kr/text,v0.2.0,go,https://github.com/kr/text,MIT,https://spdx.org/licenses/MIT.html,https://api.github.com/repos/kr/text (normalized)
+github.com/leanovate/gopter,v0.2.9,go,https://github.com/leanovate/gopter,MIT,https://spdx.org/licenses/MIT.html,https://api.github.com/repos/leanovate/gopter (normalized)
+github.com/mmcloughlin/addchain,v0.4.0,go,https://github.com/mmcloughlin/addchain,BSD-3-Clause,https://spdx.org/licenses/BSD-3-Clause.html,https://api.github.com/repos/mmcloughlin/addchain (normalized)
+github.com/mmcloughlin/profile,v0.1.1,go,https://github.com/mmcloughlin/profile,BSD-3-Clause,https://spdx.org/licenses/BSD-3-Clause.html,https://api.github.com/repos/mmcloughlin/profile (normalized)
+github.com/onsi/ginkgo,v1.6.0,go,https://github.com/onsi/ginkgo,MIT,https://spdx.org/licenses/MIT.html,https://api.github.com/repos/onsi/ginkgo (normalized)
+github.com/onsi/ginkgo,v1.7.0,go,https://github.com/onsi/ginkgo,MIT,https://spdx.org/licenses/MIT.html,https://api.github.com/repos/onsi/ginkgo (normalized)
+github.com/onsi/gomega,v1.4.3,go,https://github.com/onsi/gomega,MIT,https://spdx.org/licenses/MIT.html,https://api.github.com/repos/onsi/gomega (normalized)
+github.com/pkg/errors,v0.8.1,go,https://github.com/pkg/errors,BSD-2-Clause,https://spdx.org/licenses/BSD-2-Clause.html,https://api.github.com/repos/pkg/errors (normalized)
+github.com/pkg/errors,v0.9.1,go,https://github.com/pkg/errors,BSD-2-Clause,https://spdx.org/licenses/BSD-2-Clause.html,https://api.github.com/repos/pkg/errors (normalized)
+github.com/pmezard/go-difflib,v1.0.0,go,https://github.com/pmezard/go-difflib,BSD-3-Clause,https://spdx.org/licenses/BSD-3-Clause.html,https://github.com/pmezard/go-difflib/blob/master/LICENSE (normalized)
+github.com/rogpeppe/go-internal,v1.11.0,go,https://github.com/rogpeppe/go-internal,BSD-3-Clause,https://spdx.org/licenses/BSD-3-Clause.html,https://api.github.com/repos/rogpeppe/go-internal (normalized)
+github.com/spf13/cobra,v1.5.0,go,https://github.com/spf13/cobra,Apache-2.0,https://spdx.org/licenses/Apache-2.0.html,https://api.github.com/repos/spf13/cobra (normalized)
+github.com/spf13/pflag,v1.0.5,go,https://github.com/spf13/pflag,BSD-3-Clause,https://spdx.org/licenses/BSD-3-Clause.html,https://api.github.com/repos/spf13/pflag (normalized)
+github.com/stretchr/objx,v0.5.2,go,https://github.com/stretchr/objx,MIT,https://spdx.org/licenses/MIT.html,https://api.github.com/repos/stretchr/objx (normalized)
+github.com/stretchr/testify,v1.8.2,go,https://github.com/stretchr/testify,MIT,https://spdx.org/licenses/MIT.html,https://api.github.com/repos/stretchr/testify (normalized)
+github.com/stretchr/testify,v1.9.0,go,https://github.com/stretchr/testify,MIT,https://spdx.org/licenses/MIT.html,https://api.github.com/repos/stretchr/testify (normalized)
+go,1.20,go,unknown,Unknown,Unknown,Unknown
+golang.org/x/crypto,v0.0.0-20170930174604-9419663f5a44,go,unknown,Unknown,Unknown,Unknown
+golang.org/x/crypto,v0.0.0-20190308221718-c2843e01d9a2,go,unknown,BSD-3-Clause,https://spdx.org/licenses/BSD-3-Clause.html,https://cs.opensource.google/go/x/crypto/+/master:LICENSE (normalized)
+golang.org/x/crypto,v0.0.0-20200115085410-6d4e4cb37c7d,go,unknown,Unknown,Unknown,Unknown
+golang.org/x/crypto,v0.10.0,go,unknown,BSD-3-Clause,https://spdx.org/licenses/BSD-3-Clause.html,https://cs.opensource.google/go/x/crypto/+/master:LICENSE (normalized)
+golang.org/x/crypto,v0.21.0,go,unknown,Unknown,Unknown,Unknown
+golang.org/x/net,v0.0.0-20180906233101-161cd47e91fd,go,unknown,BSD-3-Clause,https://spdx.org/licenses/BSD-3-Clause.html,https://cs.opensource.google/go/x/net/+/master:LICENSE (normalized)
+golang.org/x/net,v0.0.0-20190404232315-eb5bcb51f2a3,go,unknown,BSD-3-Clause,https://spdx.org/licenses/BSD-3-Clause.html,https://cs.opensource.google/go/x/net/+/master:LICENSE (normalized)
+golang.org/x/net,v0.21.0,go,unknown,BSD-3-Clause,https://spdx.org/licenses/BSD-3-Clause.html,https://cs.opensource.google/go/x/net/+/master:LICENSE (normalized)
+golang.org/x/sync,v0.0.0-20180314180146-1d60e4601c6f,go,unknown,BSD-3-Clause,https://spdx.org/licenses/BSD-3-Clause.html,https://cs.opensource.google/go/x/sync/+/master:LICENSE (normalized)
+golang.org/x/sys,v0.0.0-20180909124046-d0be0721c37e,go,unknown,BSD-3-Clause,https://spdx.org/licenses/BSD-3-Clause.html,https://cs.opensource.google/go/x/sys/+/master:LICENSE (normalized)
+golang.org/x/sys,v0.0.0-20190215142949-d0b11bdaac8a,go,unknown,BSD-3-Clause,https://spdx.org/licenses/BSD-3-Clause.html,https://cs.opensource.google/go/x/sys/+/master:LICENSE (normalized)
+golang.org/x/sys,v0.0.0-20190412213103-97732733099d,go,unknown,BSD-3-Clause,https://spdx.org/licenses/BSD-3-Clause.html,https://cs.opensource.google/go/x/sys/+/master:LICENSE (normalized)
+golang.org/x/sys,v0.0.0-20201101102859-da207088b7d1,go,unknown,Unknown,Unknown,Unknown
+golang.org/x/sys,v0.18.0,go,unknown,Unknown,Unknown,Unknown
+golang.org/x/sys,v0.9.0,go,unknown,BSD-3-Clause,https://spdx.org/licenses/BSD-3-Clause.html,https://cs.opensource.google/go/x/sys/+/master:LICENSE (normalized)
+golang.org/x/term,v0.18.0,go,unknown,Unknown,Unknown,Unknown
+golang.org/x/text,v0.14.0,go,unknown,BSD-3-Clause,https://spdx.org/licenses/BSD-3-Clause.html,https://cs.opensource.google/go/x/text/+/master:LICENSE (normalized)
+golang.org/x/text,v0.3.0,go,unknown,BSD-3-Clause,https://spdx.org/licenses/BSD-3-Clause.html,https://cs.opensource.google/go/x/text/+/master:LICENSE (normalized)
+gopkg.in/check.v1,v0.0.0-20161208181325-20d25e280405,go,unknown,BSD-2-Clause,https://spdx.org/licenses/BSD-2-Clause.html,https://github.com/go-check/check/tree/v1?tab=License-1-ov-file#readme (normalized)
+gopkg.in/check.v1,v1.0.0-20201130134442-10cb98267c6c,go,unknown,BSD-2-Clause,https://spdx.org/licenses/BSD-2-Clause.html,https://github.com/go-check/check/tree/v1?tab=License-1-ov-file#readme (normalized)
+gopkg.in/fsnotify.v1,v1.4.7,go,unknown,BSD-3-Clause,https://spdx.org/licenses/BSD-3-Clause.html,https://github.com/fsnotify/fsnotify/blob/v1.8.0/LICENSE (normalized)
+gopkg.in/tomb.v1,v1.0.0-20141024135613-dd632973f1e7,go,unknown,BSD-3-Clause,https://spdx.org/licenses/BSD-3-Clause.html,https://github.com/go-tomb/tomb/blob/v1/LICENSE (normalized)
+gopkg.in/yaml.v2,v2.2.1,go,unknown,Unknown,Unknown,Unknown
+gopkg.in/yaml.v2,v2.4.0,go,unknown,MIT and Apache License 2.0 (CHECKED BY HENDRIK),https://github.com/go-yaml/yaml/blob/v3/LICENSE,https://github.com/go-yaml/yaml/blob/v3/LICENSE
+gopkg.in/yaml.v3,v3.0.1,go,unknown,MIT and Apache License 2.0 (CHECKED BY HENDRIK),https://github.com/go-yaml/yaml/blob/v3/LICENSE,https://github.com/go-yaml/yaml/blob/v3/LICENSE
+rsc.io/tmplfunc,v0.0.3,go,unknown,BSD-3-Clause,https://spdx.org/licenses/BSD-3-Clause.html,https://github.com/rsc/tmplfunc/blob/main/LICENSE (normalized)

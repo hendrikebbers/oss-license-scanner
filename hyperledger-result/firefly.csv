@@ -1,0 +1,529 @@
+name,version,language,repository,license,license-url,license-source
+blockwatch.cc/tzgo,v1.17.1,go,unknown,Unknown,Unknown,Unknown
+cloud.google.com/go,v0.110.10,go,unknown,Unknown,Unknown,Unknown
+cloud.google.com/go/compute,v1.23.3,go,unknown,Unknown,Unknown,Unknown
+cloud.google.com/go/compute/metadata,v0.2.3,go,unknown,Unknown,Unknown,Unknown
+cloud.google.com/go/firestore,v1.14.0,go,unknown,Unknown,Unknown,Unknown
+cloud.google.com/go/iam,v1.1.5,go,unknown,Unknown,Unknown,Unknown
+cloud.google.com/go/longrunning,v0.5.4,go,unknown,Unknown,Unknown,Unknown
+cloud.google.com/go/spanner,v1.51.0,go,unknown,Unknown,Unknown,Unknown
+cloud.google.com/go/storage,v1.30.1,go,unknown,Unknown,Unknown,Unknown
+cloud.google.com/go/storage,v1.35.1,go,unknown,Unknown,Unknown,Unknown
+github.com/99designs/go-keychain,v0.0.0-20191008050251-8e49817e8af4,go,https://github.com/99designs/go-keychain,MIT,https://spdx.org/licenses/MIT.html,https://api.github.com/repos/99designs/go-keychain (normalized)
+github.com/99designs/keyring,v1.2.1,go,https://github.com/99designs/keyring,MIT,https://spdx.org/licenses/MIT.html,https://api.github.com/repos/99designs/keyring (normalized)
+github.com/Azure/azure-sdk-for-go/sdk/azcore,v1.4.0,go,https://github.com/Azure/azure-sdk-for-go/sdk/azcore,MIT,https://spdx.org/licenses/MIT.html,https://api.github.com/repos/Azure/azure-sdk-for-go (normalized)
+github.com/Azure/azure-sdk-for-go/sdk/internal,v1.1.2,go,https://github.com/Azure/azure-sdk-for-go/sdk/internal,MIT,https://spdx.org/licenses/MIT.html,https://api.github.com/repos/Azure/azure-sdk-for-go (normalized)
+github.com/Azure/azure-sdk-for-go/sdk/storage/azblob,v1.0.0,go,https://github.com/Azure/azure-sdk-for-go/sdk/storage/azblob,MIT,https://spdx.org/licenses/MIT.html,https://api.github.com/repos/Azure/azure-sdk-for-go (normalized)
+github.com/Azure/go-ansiterm,v0.0.0-20230124172434-306776ec8161,go,https://github.com/Azure/go-ansiterm,MIT,https://spdx.org/licenses/MIT.html,https://api.github.com/repos/Azure/go-ansiterm (normalized)
+github.com/Azure/go-autorest,v14.2.0+incompatible,go,https://github.com/Azure/go-autorest,Apache-2.0,https://spdx.org/licenses/Apache-2.0.html,https://api.github.com/repos/Azure/go-autorest (normalized)
+github.com/Azure/go-autorest/autorest/adal,v0.9.16,go,https://github.com/Azure/go-autorest/autorest/adal,Apache-2.0,https://spdx.org/licenses/Apache-2.0.html,https://api.github.com/repos/Azure/go-autorest (normalized)
+github.com/Azure/go-autorest/autorest/date,v0.3.0,go,https://github.com/Azure/go-autorest/autorest/date,Apache-2.0,https://spdx.org/licenses/Apache-2.0.html,https://api.github.com/repos/Azure/go-autorest (normalized)
+github.com/Azure/go-autorest/logger,v0.2.1,go,https://github.com/Azure/go-autorest/logger,Apache-2.0,https://spdx.org/licenses/Apache-2.0.html,https://api.github.com/repos/Azure/go-autorest (normalized)
+github.com/Azure/go-autorest/tracing,v0.6.0,go,https://github.com/Azure/go-autorest/tracing,Apache-2.0,https://spdx.org/licenses/Apache-2.0.html,https://api.github.com/repos/Azure/go-autorest (normalized)
+github.com/BurntSushi/toml,v0.3.1,go,https://github.com/BurntSushi/toml,MIT,https://spdx.org/licenses/MIT.html,https://api.github.com/repos/BurntSushi/toml (normalized)
+github.com/ClickHouse/clickhouse-go,v1.4.3,go,https://github.com/ClickHouse/clickhouse-go,Apache-2.0,https://spdx.org/licenses/Apache-2.0.html,https://api.github.com/repos/ClickHouse/clickhouse-go (normalized)
+github.com/DATA-DOG/go-sqlmock,v1.5.2,go,https://github.com/DATA-DOG/go-sqlmock,Other,Unknown,https://api.github.com/repos/DATA-DOG/go-sqlmock
+github.com/Masterminds/squirrel,v1.5.4,go,https://github.com/Masterminds/squirrel,Other,Unknown,https://api.github.com/repos/Masterminds/squirrel
+github.com/Microsoft/go-winio,v0.6.1,go,https://github.com/Microsoft/go-winio,MIT,https://spdx.org/licenses/MIT.html,https://api.github.com/repos/Microsoft/go-winio (normalized)
+github.com/aidarkhanov/nanoid,v1.0.8,go,https://github.com/aidarkhanov/nanoid,MIT,https://spdx.org/licenses/MIT.html,https://api.github.com/repos/aidarkhanov/nanoid (normalized)
+github.com/alecthomas/kingpin/v2,v2.3.2,go,https://github.com/alecthomas/kingpin/v2,MIT,https://spdx.org/licenses/MIT.html,https://api.github.com/repos/alecthomas/kingpin (normalized)
+github.com/alecthomas/units,v0.0.0-20211218093645-b94a6e3cc137,go,https://github.com/alecthomas/units,MIT,https://spdx.org/licenses/MIT.html,https://api.github.com/repos/alecthomas/units (normalized)
+github.com/andybalholm/brotli,v1.0.4,go,https://github.com/andybalholm/brotli,MIT,https://spdx.org/licenses/MIT.html,https://api.github.com/repos/andybalholm/brotli (normalized)
+github.com/apache/arrow/go/v10,v10.0.1,go,https://github.com/apache/arrow/go/v10,Apache-2.0,https://spdx.org/licenses/Apache-2.0.html,https://api.github.com/repos/apache/arrow (normalized)
+github.com/apache/thrift,v0.16.0,go,https://github.com/apache/thrift,Apache-2.0,https://spdx.org/licenses/Apache-2.0.html,https://api.github.com/repos/apache/thrift (normalized)
+github.com/armon/consul-api,v0.0.0-20180202201655-eb2c6b5be1b6,go,https://github.com/armon/consul-api,MPL-2.0,https://spdx.org/licenses/MPL-2.0.html,https://api.github.com/repos/armon/consul-api (normalized)
+github.com/armon/go-metrics,v0.4.1,go,https://github.com/armon/go-metrics,MIT,https://spdx.org/licenses/MIT.html,https://api.github.com/repos/armon/go-metrics (normalized)
+github.com/aws/aws-sdk-go,v1.49.6,go,https://github.com/aws/aws-sdk-go,Apache-2.0,https://spdx.org/licenses/Apache-2.0.html,https://api.github.com/repos/aws/aws-sdk-go (normalized)
+github.com/aws/aws-sdk-go-v2,v1.16.16,go,https://github.com/aws/aws-sdk-go-v2,Apache-2.0,https://spdx.org/licenses/Apache-2.0.html,https://api.github.com/repos/aws/aws-sdk-go-v2 (normalized)
+github.com/aws/aws-sdk-go-v2/aws/protocol/eventstream,v1.4.8,go,https://github.com/aws/aws-sdk-go-v2/aws/protocol/eventstream,Apache-2.0,https://spdx.org/licenses/Apache-2.0.html,https://api.github.com/repos/aws/aws-sdk-go-v2 (normalized)
+github.com/aws/aws-sdk-go-v2/credentials,v1.12.20,go,https://github.com/aws/aws-sdk-go-v2/credentials,Apache-2.0,https://spdx.org/licenses/Apache-2.0.html,https://api.github.com/repos/aws/aws-sdk-go-v2 (normalized)
+github.com/aws/aws-sdk-go-v2/feature/s3/manager,v1.11.33,go,https://github.com/aws/aws-sdk-go-v2/feature/s3/manager,Apache-2.0,https://spdx.org/licenses/Apache-2.0.html,https://api.github.com/repos/aws/aws-sdk-go-v2 (normalized)
+github.com/aws/aws-sdk-go-v2/internal/configsources,v1.1.23,go,https://github.com/aws/aws-sdk-go-v2/internal/configsources,Apache-2.0,https://spdx.org/licenses/Apache-2.0.html,https://api.github.com/repos/aws/aws-sdk-go-v2 (normalized)
+github.com/aws/aws-sdk-go-v2/internal/endpoints/v2,v2.4.17,go,https://github.com/aws/aws-sdk-go-v2/internal/endpoints/v2,Apache-2.0,https://spdx.org/licenses/Apache-2.0.html,https://api.github.com/repos/aws/aws-sdk-go-v2 (normalized)
+github.com/aws/aws-sdk-go-v2/internal/v4a,v1.0.14,go,https://github.com/aws/aws-sdk-go-v2/internal/v4a,Apache-2.0,https://spdx.org/licenses/Apache-2.0.html,https://api.github.com/repos/aws/aws-sdk-go-v2 (normalized)
+github.com/aws/aws-sdk-go-v2/service/internal/accept-encoding,v1.9.9,go,https://github.com/aws/aws-sdk-go-v2/service/internal/accept-encoding,Apache-2.0,https://spdx.org/licenses/Apache-2.0.html,https://api.github.com/repos/aws/aws-sdk-go-v2 (normalized)
+github.com/aws/aws-sdk-go-v2/service/internal/checksum,v1.1.18,go,https://github.com/aws/aws-sdk-go-v2/service/internal/checksum,Apache-2.0,https://spdx.org/licenses/Apache-2.0.html,https://api.github.com/repos/aws/aws-sdk-go-v2 (normalized)
+github.com/aws/aws-sdk-go-v2/service/internal/presigned-url,v1.9.17,go,https://github.com/aws/aws-sdk-go-v2/service/internal/presigned-url,Apache-2.0,https://spdx.org/licenses/Apache-2.0.html,https://api.github.com/repos/aws/aws-sdk-go-v2 (normalized)
+github.com/aws/aws-sdk-go-v2/service/internal/s3shared,v1.13.17,go,https://github.com/aws/aws-sdk-go-v2/service/internal/s3shared,Apache-2.0,https://spdx.org/licenses/Apache-2.0.html,https://api.github.com/repos/aws/aws-sdk-go-v2 (normalized)
+github.com/aws/aws-sdk-go-v2/service/s3,v1.27.11,go,https://github.com/aws/aws-sdk-go-v2/service/s3,Apache-2.0,https://spdx.org/licenses/Apache-2.0.html,https://api.github.com/repos/aws/aws-sdk-go-v2 (normalized)
+github.com/aws/smithy-go,v1.13.3,go,https://github.com/aws/smithy-go,Apache-2.0,https://spdx.org/licenses/Apache-2.0.html,https://api.github.com/repos/aws/smithy-go (normalized)
+github.com/aybabtme/rgbterm,v0.0.0-20170906152045-cc83f3b3ce59,go,https://github.com/aybabtme/rgbterm,Other,Unknown,https://api.github.com/repos/aybabtme/rgbterm
+github.com/beorn7/perks,v1.0.1,go,https://github.com/beorn7/perks,MIT,https://spdx.org/licenses/MIT.html,https://api.github.com/repos/beorn7/perks (normalized)
+github.com/blang/semver/v4,v4.0.0,go,https://github.com/blang/semver/v4,MIT,https://spdx.org/licenses/MIT.html,https://api.github.com/repos/blang/semver (normalized)
+github.com/btcsuite/btcd/btcec/v2,v2.3.2,go,https://github.com/btcsuite/btcd/btcec/v2,ISC,https://spdx.org/licenses/ISC.html,https://api.github.com/repos/btcsuite/btcd (normalized)
+github.com/cenkalti/backoff/v4,v4.1.2,go,https://github.com/cenkalti/backoff/v4,MIT,https://spdx.org/licenses/MIT.html,https://api.github.com/repos/cenkalti/backoff (normalized)
+github.com/census-instrumentation/opencensus-proto,v0.4.1,go,https://github.com/census-instrumentation/opencensus-proto,Apache-2.0,https://spdx.org/licenses/Apache-2.0.html,https://api.github.com/repos/census-instrumentation/opencensus-proto (normalized)
+github.com/cespare/xxhash/v2,v2.1.1,go,https://github.com/cespare/xxhash/v2,MIT,https://spdx.org/licenses/MIT.html,https://api.github.com/repos/cespare/xxhash (normalized)
+github.com/cespare/xxhash/v2,v2.2.0,go,https://github.com/cespare/xxhash/v2,MIT,https://spdx.org/licenses/MIT.html,https://api.github.com/repos/cespare/xxhash (normalized)
+github.com/cloudflare/golz4,v0.0.0-20150217214814-ef862a3cdc58,go,https://github.com/cloudflare/golz4,BSD-3-Clause,https://spdx.org/licenses/BSD-3-Clause.html,https://api.github.com/repos/cloudflare/golz4 (normalized)
+github.com/cncf/udpa/go,v0.0.0-20220112060539-c52dc94e7fbe,go,https://github.com/cncf/udpa/go,Apache-2.0,https://spdx.org/licenses/Apache-2.0.html,https://api.github.com/repos/cncf/udpa (normalized)
+github.com/cncf/xds/go,v0.0.0-20231109132714-523115ebc101,go,https://github.com/cncf/xds/go,Apache-2.0,https://spdx.org/licenses/Apache-2.0.html,https://api.github.com/repos/cncf/xds (normalized)
+github.com/cockroachdb/cockroach-go/v2,v2.1.1,go,https://github.com/cockroachdb/cockroach-go/v2,Apache-2.0,https://spdx.org/licenses/Apache-2.0.html,https://api.github.com/repos/cockroachdb/cockroach-go (normalized)
+github.com/coreos/etcd,v3.3.10+incompatible,go,https://github.com/coreos/etcd,Apache-2.0,https://spdx.org/licenses/Apache-2.0.html,https://api.github.com/repos/coreos/etcd (normalized)
+github.com/coreos/go-etcd,v2.0.0+incompatible,go,https://github.com/coreos/go-etcd,Apache-2.0,https://spdx.org/licenses/Apache-2.0.html,https://api.github.com/repos/coreos/go-etcd (normalized)
+github.com/coreos/go-semver,v0.2.0,go,https://github.com/coreos/go-semver,Apache-2.0,https://spdx.org/licenses/Apache-2.0.html,https://api.github.com/repos/coreos/go-semver (normalized)
+github.com/coreos/go-semver,v0.3.0,go,https://github.com/coreos/go-semver,Apache-2.0,https://spdx.org/licenses/Apache-2.0.html,https://api.github.com/repos/coreos/go-semver (normalized)
+github.com/coreos/go-systemd/v22,v22.3.2,go,https://github.com/coreos/go-systemd/v22,Apache-2.0,https://spdx.org/licenses/Apache-2.0.html,https://api.github.com/repos/coreos/go-systemd (normalized)
+github.com/cpuguy83/go-md2man,v1.0.10,go,https://github.com/cpuguy83/go-md2man,MIT,https://spdx.org/licenses/MIT.html,https://api.github.com/repos/cpuguy83/go-md2man (normalized)
+github.com/cpuguy83/go-md2man/v2,v2.0.3,go,https://github.com/cpuguy83/go-md2man/v2,MIT,https://spdx.org/licenses/MIT.html,https://api.github.com/repos/cpuguy83/go-md2man (normalized)
+github.com/creack/pty,v1.1.9,go,https://github.com/creack/pty,MIT,https://spdx.org/licenses/MIT.html,https://api.github.com/repos/creack/pty (normalized)
+github.com/cucumber/gherkin-go/v19,v19.0.3,go,https://github.com/cucumber/gherkin-go/v19,MIT,https://spdx.org/licenses/MIT.html,https://api.github.com/repos/cucumber/gherkin-go (normalized)
+github.com/cucumber/godog,v0.12.6,go,https://github.com/cucumber/godog,MIT,https://spdx.org/licenses/MIT.html,https://api.github.com/repos/cucumber/godog (normalized)
+github.com/cucumber/messages-go/v16,v16.0.1,go,https://github.com/cucumber/messages-go/v16,MIT,https://spdx.org/licenses/MIT.html,https://api.github.com/repos/cucumber/messages-go (normalized)
+github.com/cznic/mathutil,v0.0.0-20180504122225-ca4c9f2c1369,go,https://github.com/cznic/mathutil,BSD-3-Clause,https://spdx.org/licenses/BSD-3-Clause.html,https://api.github.com/repos/cznic/mathutil (normalized)
+github.com/danieljoos/wincred,v1.1.2,go,https://github.com/danieljoos/wincred,MIT,https://spdx.org/licenses/MIT.html,https://api.github.com/repos/danieljoos/wincred (normalized)
+github.com/davecgh/go-spew,v1.1.0,go,https://github.com/davecgh/go-spew,ISC,https://spdx.org/licenses/ISC.html,https://api.github.com/repos/davecgh/go-spew (normalized)
+github.com/davecgh/go-spew,v1.1.1,go,https://github.com/davecgh/go-spew,ISC,https://spdx.org/licenses/ISC.html,https://api.github.com/repos/davecgh/go-spew (normalized)
+github.com/davecgh/go-spew,v1.1.2-0.20180830191138-d8f796af33cc,go,https://github.com/davecgh/go-spew,ISC,https://spdx.org/licenses/ISC.html,https://api.github.com/repos/davecgh/go-spew (normalized)
+github.com/decred/dcrd/crypto/blake256,v1.0.1,go,https://github.com/decred/dcrd/crypto/blake256,ISC,https://spdx.org/licenses/ISC.html,https://api.github.com/repos/decred/dcrd (normalized)
+github.com/decred/dcrd/dcrec/secp256k1/v4,v4.2.0,go,https://github.com/decred/dcrd/dcrec/secp256k1/v4,ISC,https://spdx.org/licenses/ISC.html,https://api.github.com/repos/decred/dcrd (normalized)
+github.com/dhui/dktest,v0.4.0,go,https://github.com/dhui/dktest,Apache-2.0,https://spdx.org/licenses/Apache-2.0.html,https://api.github.com/repos/dhui/dktest (normalized)
+github.com/docker/distribution,v2.8.2+incompatible,go,https://github.com/docker/distribution,Apache-2.0,https://spdx.org/licenses/Apache-2.0.html,https://api.github.com/repos/docker/distribution (normalized)
+github.com/docker/docker,v24.0.7+incompatible,go,https://github.com/docker/docker,Apache-2.0,https://spdx.org/licenses/Apache-2.0.html,https://api.github.com/repos/docker/docker (normalized)
+github.com/docker/go-connections,v0.4.0,go,https://github.com/docker/go-connections,Apache-2.0,https://spdx.org/licenses/Apache-2.0.html,https://api.github.com/repos/docker/go-connections (normalized)
+github.com/docker/go-units,v0.5.0,go,https://github.com/docker/go-units,Apache-2.0,https://spdx.org/licenses/Apache-2.0.html,https://api.github.com/repos/docker/go-units (normalized)
+github.com/dvsekhvalnov/jose2go,v1.5.0,go,https://github.com/dvsekhvalnov/jose2go,MIT,https://spdx.org/licenses/MIT.html,https://api.github.com/repos/dvsekhvalnov/jose2go (normalized)
+github.com/echa/bson,v0.0.0-20220430141917-c0fbdf7f8b79,go,https://github.com/echa/bson,Other,Unknown,https://api.github.com/repos/echa/bson
+github.com/echa/log,v1.2.4,go,https://github.com/echa/log,MIT,https://spdx.org/licenses/MIT.html,https://api.github.com/repos/echa/log (normalized)
+github.com/edsrzf/mmap-go,v0.0.0-20170320065105-0bce6a688712,go,https://github.com/edsrzf/mmap-go,BSD-3-Clause,https://spdx.org/licenses/BSD-3-Clause.html,https://api.github.com/repos/edsrzf/mmap-go (normalized)
+github.com/envoyproxy/go-control-plane,v0.11.1,go,https://github.com/envoyproxy/go-control-plane,Apache-2.0,https://spdx.org/licenses/Apache-2.0.html,https://api.github.com/repos/envoyproxy/go-control-plane (normalized)
+github.com/envoyproxy/protoc-gen-validate,v1.0.2,go,https://github.com/envoyproxy/protoc-gen-validate,Apache-2.0,https://spdx.org/licenses/Apache-2.0.html,https://api.github.com/repos/envoyproxy/protoc-gen-validate (normalized)
+github.com/fatih/color,v1.14.1,go,https://github.com/fatih/color,MIT,https://spdx.org/licenses/MIT.html,https://api.github.com/repos/fatih/color (normalized)
+github.com/fatih/color,v1.15.0,go,https://github.com/fatih/color,MIT,https://spdx.org/licenses/MIT.html,https://api.github.com/repos/fatih/color (normalized)
+github.com/form3tech-oss/jwt-go,v3.2.5+incompatible,go,https://github.com/form3tech-oss/jwt-go,MIT,https://spdx.org/licenses/MIT.html,https://api.github.com/repos/form3tech-oss/jwt-go (normalized)
+github.com/frankban/quicktest,v1.14.6,go,https://github.com/frankban/quicktest,MIT,https://spdx.org/licenses/MIT.html,https://api.github.com/repos/frankban/quicktest (normalized)
+github.com/fsnotify/fsnotify,v1.4.7,go,https://github.com/fsnotify/fsnotify,BSD-3-Clause,https://spdx.org/licenses/BSD-3-Clause.html,https://api.github.com/repos/fsnotify/fsnotify (normalized)
+github.com/fsnotify/fsnotify,v1.7.0,go,https://github.com/fsnotify/fsnotify,BSD-3-Clause,https://spdx.org/licenses/BSD-3-Clause.html,https://api.github.com/repos/fsnotify/fsnotify (normalized)
+github.com/fsouza/fake-gcs-server,v1.17.0,go,https://github.com/fsouza/fake-gcs-server,BSD-2-Clause,https://spdx.org/licenses/BSD-2-Clause.html,https://api.github.com/repos/fsouza/fake-gcs-server (normalized)
+github.com/gabriel-vasile/mimetype,v1.4.1,go,https://github.com/gabriel-vasile/mimetype,MIT,https://spdx.org/licenses/MIT.html,https://api.github.com/repos/gabriel-vasile/mimetype (normalized)
+github.com/getkin/kin-openapi,v0.122.0,go,https://github.com/getkin/kin-openapi,MIT,https://spdx.org/licenses/MIT.html,https://api.github.com/repos/getkin/kin-openapi (normalized)
+github.com/ghodss/yaml,v1.0.0,go,https://github.com/ghodss/yaml,Other,Unknown,https://api.github.com/repos/ghodss/yaml
+github.com/go-kit/log,v0.2.1,go,https://github.com/go-kit/log,MIT,https://spdx.org/licenses/MIT.html,https://api.github.com/repos/go-kit/log (normalized)
+github.com/go-logfmt/logfmt,v0.5.1,go,https://github.com/go-logfmt/logfmt,MIT,https://spdx.org/licenses/MIT.html,https://api.github.com/repos/go-logfmt/logfmt (normalized)
+github.com/go-openapi/jsonpointer,v0.19.6,go,https://github.com/go-openapi/jsonpointer,Apache-2.0,https://spdx.org/licenses/Apache-2.0.html,https://api.github.com/repos/go-openapi/jsonpointer (normalized)
+github.com/go-openapi/jsonpointer,v0.20.0,go,https://github.com/go-openapi/jsonpointer,Apache-2.0,https://spdx.org/licenses/Apache-2.0.html,https://api.github.com/repos/go-openapi/jsonpointer (normalized)
+github.com/go-openapi/jsonpointer,v0.20.2,go,https://github.com/go-openapi/jsonpointer,Apache-2.0,https://spdx.org/licenses/Apache-2.0.html,https://api.github.com/repos/go-openapi/jsonpointer (normalized)
+github.com/go-openapi/jsonreference,v0.20.2,go,https://github.com/go-openapi/jsonreference,Apache-2.0,https://spdx.org/licenses/Apache-2.0.html,https://api.github.com/repos/go-openapi/jsonreference (normalized)
+github.com/go-openapi/jsonreference,v0.20.4,go,https://github.com/go-openapi/jsonreference,Apache-2.0,https://spdx.org/licenses/Apache-2.0.html,https://api.github.com/repos/go-openapi/jsonreference (normalized)
+github.com/go-openapi/spec,v0.20.14,go,https://github.com/go-openapi/spec,Apache-2.0,https://spdx.org/licenses/Apache-2.0.html,https://api.github.com/repos/go-openapi/spec (normalized)
+github.com/go-openapi/spec,v0.20.9,go,https://github.com/go-openapi/spec,Apache-2.0,https://spdx.org/licenses/Apache-2.0.html,https://api.github.com/repos/go-openapi/spec (normalized)
+github.com/go-openapi/swag,v0.22.4,go,https://github.com/go-openapi/swag,Apache-2.0,https://spdx.org/licenses/Apache-2.0.html,https://api.github.com/repos/go-openapi/swag (normalized)
+github.com/go-openapi/swag,v0.22.5,go,https://github.com/go-openapi/swag,Apache-2.0,https://spdx.org/licenses/Apache-2.0.html,https://api.github.com/repos/go-openapi/swag (normalized)
+github.com/go-openapi/swag,v0.22.6,go,https://github.com/go-openapi/swag,Apache-2.0,https://spdx.org/licenses/Apache-2.0.html,https://api.github.com/repos/go-openapi/swag (normalized)
+github.com/go-openapi/swag,v0.22.7,go,https://github.com/go-openapi/swag,Apache-2.0,https://spdx.org/licenses/Apache-2.0.html,https://api.github.com/repos/go-openapi/swag (normalized)
+github.com/go-openapi/swag,v0.22.9,go,https://github.com/go-openapi/swag,Apache-2.0,https://spdx.org/licenses/Apache-2.0.html,https://api.github.com/repos/go-openapi/swag (normalized)
+github.com/go-resty/resty/v2,v2.11.0,go,https://github.com/go-resty/resty/v2,MIT,https://spdx.org/licenses/MIT.html,https://api.github.com/repos/go-resty/resty (normalized)
+github.com/go-sql-driver/mysql,v1.5.0,go,https://github.com/go-sql-driver/mysql,MPL-2.0,https://spdx.org/licenses/MPL-2.0.html,https://api.github.com/repos/go-sql-driver/mysql (normalized)
+github.com/go-stack/stack,v1.8.0,go,https://github.com/go-stack/stack,MIT,https://spdx.org/licenses/MIT.html,https://api.github.com/repos/go-stack/stack (normalized)
+github.com/go-test/deep,v1.0.8,go,https://github.com/go-test/deep,MIT,https://spdx.org/licenses/MIT.html,https://api.github.com/repos/go-test/deep (normalized)
+github.com/gobuffalo/envy,v1.10.2,go,https://github.com/gobuffalo/envy,MIT,https://spdx.org/licenses/MIT.html,https://api.github.com/repos/gobuffalo/envy (normalized)
+github.com/gobuffalo/envy,v1.7.0,go,https://github.com/gobuffalo/envy,MIT,https://spdx.org/licenses/MIT.html,https://api.github.com/repos/gobuffalo/envy (normalized)
+github.com/gobuffalo/here,v0.6.0,go,https://github.com/gobuffalo/here,MIT,https://spdx.org/licenses/MIT.html,https://api.github.com/repos/gobuffalo/here (normalized)
+github.com/gobuffalo/logger,v1.0.0,go,https://github.com/gobuffalo/logger,MIT,https://spdx.org/licenses/MIT.html,https://api.github.com/repos/gobuffalo/logger (normalized)
+github.com/gobuffalo/packd,v0.3.0,go,https://github.com/gobuffalo/packd,MIT,https://spdx.org/licenses/MIT.html,https://api.github.com/repos/gobuffalo/packd (normalized)
+github.com/gobuffalo/packd,v1.0.2,go,https://github.com/gobuffalo/packd,MIT,https://spdx.org/licenses/MIT.html,https://api.github.com/repos/gobuffalo/packd (normalized)
+github.com/gobuffalo/packr,v1.30.1,go,https://github.com/gobuffalo/packr,MIT,https://spdx.org/licenses/MIT.html,https://api.github.com/repos/gobuffalo/packr (normalized)
+github.com/gobuffalo/packr/v2,v2.5.1,go,https://github.com/gobuffalo/packr/v2,MIT,https://spdx.org/licenses/MIT.html,https://api.github.com/repos/gobuffalo/packr (normalized)
+github.com/goccy/go-json,v0.9.11,go,https://github.com/goccy/go-json,MIT,https://spdx.org/licenses/MIT.html,https://api.github.com/repos/goccy/go-json (normalized)
+github.com/gocql/gocql,v0.0.0-20210515062232-b7ef815b4556,go,https://github.com/gocql/gocql,Apache-2.0,https://spdx.org/licenses/Apache-2.0.html,https://api.github.com/repos/gocql/gocql (normalized)
+github.com/godbus/dbus,v0.0.0-20190726142602-4481cbc300e2,go,https://github.com/godbus/dbus,BSD-2-Clause,https://spdx.org/licenses/BSD-2-Clause.html,https://api.github.com/repos/godbus/dbus (normalized)
+github.com/gofrs/uuid,v4.2.0+incompatible,go,https://github.com/gofrs/uuid,MIT,https://spdx.org/licenses/MIT.html,https://api.github.com/repos/gofrs/uuid (normalized)
+github.com/gogo/protobuf,v1.3.2,go,https://github.com/gogo/protobuf,BSD-3-Clause,https://spdx.org/licenses/BSD-3-Clause.html,https://github.com/gogo/protobuf/blob/master/LICENSE (normalized)
+github.com/golang-jwt/jwt/v4,v4.4.2,go,https://github.com/golang-jwt/jwt/v4,MIT,https://spdx.org/licenses/MIT.html,https://api.github.com/repos/golang-jwt/jwt (normalized)
+github.com/golang-migrate/migrate/v4,v4.17.0,go,https://github.com/golang-migrate/migrate/v4,Other,Unknown,https://api.github.com/repos/golang-migrate/migrate
+github.com/golang-sql/civil,v0.0.0-20190719163853-cb61b32ac6fe,go,https://github.com/golang-sql/civil,Apache-2.0,https://spdx.org/licenses/Apache-2.0.html,https://api.github.com/repos/golang-sql/civil (normalized)
+github.com/golang-sql/sqlexp,v0.1.0,go,https://github.com/golang-sql/sqlexp,BSD-3-Clause,https://spdx.org/licenses/BSD-3-Clause.html,https://api.github.com/repos/golang-sql/sqlexp (normalized)
+github.com/golang/glog,v1.1.2,go,https://github.com/golang/glog,Apache-2.0,https://spdx.org/licenses/Apache-2.0.html,https://api.github.com/repos/golang/glog (normalized)
+github.com/golang/groupcache,v0.0.0-20210331224755-41bb18bfe9da,go,https://github.com/golang/groupcache,Apache-2.0,https://spdx.org/licenses/Apache-2.0.html,https://api.github.com/repos/golang/groupcache (normalized)
+github.com/golang/protobuf,v1.4.3,go,https://github.com/golang/protobuf,BSD-3-Clause,https://spdx.org/licenses/BSD-3-Clause.html,https://api.github.com/repos/golang/protobuf (normalized)
+github.com/golang/protobuf,v1.5.0,go,https://github.com/golang/protobuf,BSD-3-Clause,https://spdx.org/licenses/BSD-3-Clause.html,https://api.github.com/repos/golang/protobuf (normalized)
+github.com/golang/protobuf,v1.5.3,go,https://github.com/golang/protobuf,BSD-3-Clause,https://spdx.org/licenses/BSD-3-Clause.html,https://api.github.com/repos/golang/protobuf (normalized)
+github.com/golang/snappy,v0.0.4,go,https://github.com/golang/snappy,BSD-3-Clause,https://spdx.org/licenses/BSD-3-Clause.html,https://api.github.com/repos/golang/snappy (normalized)
+github.com/google/flatbuffers,v2.0.8+incompatible,go,https://github.com/google/flatbuffers,Apache-2.0,https://spdx.org/licenses/Apache-2.0.html,https://api.github.com/repos/google/flatbuffers (normalized)
+github.com/google/go-cmp,v0.5.5,go,https://github.com/google/go-cmp,BSD-3-Clause,https://spdx.org/licenses/BSD-3-Clause.html,https://api.github.com/repos/google/go-cmp (normalized)
+github.com/google/go-cmp,v0.5.8,go,https://github.com/google/go-cmp,BSD-3-Clause,https://spdx.org/licenses/BSD-3-Clause.html,https://api.github.com/repos/google/go-cmp (normalized)
+github.com/google/go-cmp,v0.5.9,go,https://github.com/google/go-cmp,BSD-3-Clause,https://spdx.org/licenses/BSD-3-Clause.html,https://api.github.com/repos/google/go-cmp (normalized)
+github.com/google/go-cmp,v0.6.0,go,https://github.com/google/go-cmp,BSD-3-Clause,https://spdx.org/licenses/BSD-3-Clause.html,https://api.github.com/repos/google/go-cmp (normalized)
+github.com/google/go-github/v39,v39.2.0,go,https://github.com/google/go-github/v39,BSD-3-Clause,https://spdx.org/licenses/BSD-3-Clause.html,https://api.github.com/repos/google/go-github (normalized)
+github.com/google/go-querystring,v1.1.0,go,https://github.com/google/go-querystring,BSD-3-Clause,https://spdx.org/licenses/BSD-3-Clause.html,https://api.github.com/repos/google/go-querystring (normalized)
+github.com/google/s2a-go,v0.1.7,go,https://github.com/google/s2a-go,Apache-2.0,https://spdx.org/licenses/Apache-2.0.html,https://api.github.com/repos/google/s2a-go (normalized)
+github.com/google/uuid,v1.4.0,go,https://github.com/google/uuid,BSD-3-Clause,https://spdx.org/licenses/BSD-3-Clause.html,https://api.github.com/repos/google/uuid (normalized)
+github.com/google/uuid,v1.5.0,go,https://github.com/google/uuid,BSD-3-Clause,https://spdx.org/licenses/BSD-3-Clause.html,https://api.github.com/repos/google/uuid (normalized)
+github.com/googleapis/enterprise-certificate-proxy,v0.3.2,go,https://github.com/googleapis/enterprise-certificate-proxy,Apache-2.0,https://spdx.org/licenses/Apache-2.0.html,https://api.github.com/repos/googleapis/enterprise-certificate-proxy (normalized)
+github.com/googleapis/gax-go/v2,v2.12.0,go,https://github.com/googleapis/gax-go/v2,BSD-3-Clause,https://spdx.org/licenses/BSD-3-Clause.html,https://api.github.com/repos/googleapis/gax-go (normalized)
+github.com/googleapis/google-cloud-go-testing,v0.0.0-20210719221736-1c9a4c676720,go,https://github.com/googleapis/google-cloud-go-testing,Apache-2.0,https://spdx.org/licenses/Apache-2.0.html,https://api.github.com/repos/googleapis/google-cloud-go-testing (normalized)
+github.com/gorilla/handlers,v1.4.2,go,https://github.com/gorilla/handlers,BSD-3-Clause,https://spdx.org/licenses/BSD-3-Clause.html,https://api.github.com/repos/gorilla/handlers (normalized)
+github.com/gorilla/mux,v1.7.4,go,https://github.com/gorilla/mux,BSD-3-Clause,https://spdx.org/licenses/BSD-3-Clause.html,https://api.github.com/repos/gorilla/mux (normalized)
+github.com/gorilla/mux,v1.8.0,go,https://github.com/gorilla/mux,BSD-3-Clause,https://spdx.org/licenses/BSD-3-Clause.html,https://api.github.com/repos/gorilla/mux (normalized)
+github.com/gorilla/mux,v1.8.1,go,https://github.com/gorilla/mux,BSD-3-Clause,https://spdx.org/licenses/BSD-3-Clause.html,https://api.github.com/repos/gorilla/mux (normalized)
+github.com/gorilla/websocket,v1.5.1,go,https://github.com/gorilla/websocket,BSD-2-Clause,https://spdx.org/licenses/BSD-2-Clause.html,https://api.github.com/repos/gorilla/websocket (normalized)
+github.com/gsterjov/go-libsecret,v0.0.0-20161001094733-a6f4afe4910c,go,https://github.com/gsterjov/go-libsecret,MIT,https://spdx.org/licenses/MIT.html,https://api.github.com/repos/gsterjov/go-libsecret (normalized)
+github.com/hailocab/go-hostpool,v0.0.0-20160125115350-e80d13ce29ed,go,https://github.com/hailocab/go-hostpool,MIT,https://spdx.org/licenses/MIT.html,https://api.github.com/repos/hailocab/go-hostpool (normalized)
+github.com/hashicorp/consul/api,v1.25.1,go,https://github.com/hashicorp/consul/api,Other,Unknown,https://api.github.com/repos/hashicorp/consul
+github.com/hashicorp/errwrap,v1.0.0,go,https://github.com/hashicorp/errwrap,MPL-2.0,https://spdx.org/licenses/MPL-2.0.html,https://api.github.com/repos/hashicorp/errwrap (normalized)
+github.com/hashicorp/errwrap,v1.1.0,go,https://github.com/hashicorp/errwrap,MPL-2.0,https://spdx.org/licenses/MPL-2.0.html,https://api.github.com/repos/hashicorp/errwrap (normalized)
+github.com/hashicorp/go-cleanhttp,v0.5.2,go,https://github.com/hashicorp/go-cleanhttp,MPL-2.0,https://spdx.org/licenses/MPL-2.0.html,https://api.github.com/repos/hashicorp/go-cleanhttp (normalized)
+github.com/hashicorp/go-hclog,v1.5.0,go,https://github.com/hashicorp/go-hclog,MIT,https://spdx.org/licenses/MIT.html,https://api.github.com/repos/hashicorp/go-hclog (normalized)
+github.com/hashicorp/go-immutable-radix,v1.3.1,go,https://github.com/hashicorp/go-immutable-radix,MPL-2.0,https://spdx.org/licenses/MPL-2.0.html,https://api.github.com/repos/hashicorp/go-immutable-radix (normalized)
+github.com/hashicorp/go-memdb,v1.3.3,go,https://github.com/hashicorp/go-memdb,MPL-2.0,https://spdx.org/licenses/MPL-2.0.html,https://api.github.com/repos/hashicorp/go-memdb (normalized)
+github.com/hashicorp/go-multierror,v1.1.1,go,https://github.com/hashicorp/go-multierror,MPL-2.0,https://spdx.org/licenses/MPL-2.0.html,https://api.github.com/repos/hashicorp/go-multierror (normalized)
+github.com/hashicorp/go-rootcerts,v1.0.2,go,https://github.com/hashicorp/go-rootcerts,MPL-2.0,https://spdx.org/licenses/MPL-2.0.html,https://api.github.com/repos/hashicorp/go-rootcerts (normalized)
+github.com/hashicorp/golang-lru,v0.5.4,go,https://github.com/hashicorp/golang-lru,MPL-2.0,https://spdx.org/licenses/MPL-2.0.html,https://api.github.com/repos/hashicorp/golang-lru (normalized)
+github.com/hashicorp/hcl,v1.0.0,go,https://github.com/hashicorp/hcl,MPL-2.0,https://spdx.org/licenses/MPL-2.0.html,https://api.github.com/repos/hashicorp/hcl (normalized)
+github.com/hashicorp/serf,v0.10.1,go,https://github.com/hashicorp/serf,MPL-2.0,https://spdx.org/licenses/MPL-2.0.html,https://api.github.com/repos/hashicorp/serf (normalized)
+github.com/hyperledger/fabric-chaincode-go,v0.0.0-20230731094759-d626e9ab09b9,go,https://github.com/hyperledger/fabric-chaincode-go,Apache-2.0,https://spdx.org/licenses/Apache-2.0.html,https://api.github.com/repos/hyperledger/fabric-chaincode-go (normalized)
+github.com/hyperledger/fabric-chaincode-go,v0.0.0-20240124143825-7dec3c7e7d45,go,https://github.com/hyperledger/fabric-chaincode-go,Apache-2.0,https://spdx.org/licenses/Apache-2.0.html,https://api.github.com/repos/hyperledger/fabric-chaincode-go (normalized)
+github.com/hyperledger/fabric-contract-api-go,v1.2.2,go,https://github.com/hyperledger/fabric-contract-api-go,Apache-2.0,https://spdx.org/licenses/Apache-2.0.html,https://api.github.com/repos/hyperledger/fabric-contract-api-go (normalized)
+github.com/hyperledger/fabric-protos-go,v0.3.0,go,https://github.com/hyperledger/fabric-protos-go,Apache-2.0,https://spdx.org/licenses/Apache-2.0.html,https://api.github.com/repos/hyperledger/fabric-protos-go (normalized)
+github.com/hyperledger/fabric-protos-go,v0.3.3,go,https://github.com/hyperledger/fabric-protos-go,Apache-2.0,https://spdx.org/licenses/Apache-2.0.html,https://api.github.com/repos/hyperledger/fabric-protos-go (normalized)
+github.com/hyperledger/firefly-common,v1.4.11,go,https://github.com/hyperledger/firefly-common,Apache-2.0,https://spdx.org/licenses/Apache-2.0.html,https://api.github.com/repos/hyperledger/firefly-common (normalized)
+github.com/hyperledger/firefly-common,v1.4.12,go,https://github.com/hyperledger/firefly-common,Apache-2.0,https://spdx.org/licenses/Apache-2.0.html,https://api.github.com/repos/hyperledger/firefly-common (normalized)
+github.com/hyperledger/firefly-signer,v1.1.17,go,https://github.com/hyperledger/firefly-signer,Apache-2.0,https://spdx.org/licenses/Apache-2.0.html,https://api.github.com/repos/hyperledger/firefly-signer (normalized)
+github.com/inconshreveable/mousetrap,v1.0.0,go,https://github.com/inconshreveable/mousetrap,Apache-2.0,https://spdx.org/licenses/Apache-2.0.html,https://api.github.com/repos/inconshreveable/mousetrap (normalized)
+github.com/inconshreveable/mousetrap,v1.1.0,go,https://github.com/inconshreveable/mousetrap,Apache-2.0,https://spdx.org/licenses/Apache-2.0.html,https://api.github.com/repos/inconshreveable/mousetrap (normalized)
+github.com/invopop/yaml,v0.2.0,go,https://github.com/invopop/yaml,Other,Unknown,https://api.github.com/repos/invopop/yaml
+github.com/jackc/chunkreader/v2,v2.0.1,go,https://github.com/jackc/chunkreader/v2,MIT,https://spdx.org/licenses/MIT.html,https://api.github.com/repos/jackc/chunkreader (normalized)
+github.com/jackc/pgconn,v1.14.0,go,https://github.com/jackc/pgconn,MIT,https://spdx.org/licenses/MIT.html,https://api.github.com/repos/jackc/pgconn (normalized)
+github.com/jackc/pgerrcode,v0.0.0-20220416144525-469b46aa5efa,go,https://github.com/jackc/pgerrcode,Other,Unknown,https://api.github.com/repos/jackc/pgerrcode
+github.com/jackc/pgio,v1.0.0,go,https://github.com/jackc/pgio,MIT,https://spdx.org/licenses/MIT.html,https://api.github.com/repos/jackc/pgio (normalized)
+github.com/jackc/pgpassfile,v1.0.0,go,https://github.com/jackc/pgpassfile,MIT,https://spdx.org/licenses/MIT.html,https://api.github.com/repos/jackc/pgpassfile (normalized)
+github.com/jackc/pgproto3/v2,v2.3.2,go,https://github.com/jackc/pgproto3/v2,MIT,https://spdx.org/licenses/MIT.html,https://api.github.com/repos/jackc/pgproto3 (normalized)
+github.com/jackc/pgservicefile,v0.0.0-20221227161230-091c0ba34f0a,go,https://github.com/jackc/pgservicefile,MIT,https://spdx.org/licenses/MIT.html,https://api.github.com/repos/jackc/pgservicefile (normalized)
+github.com/jackc/pgtype,v1.14.0,go,https://github.com/jackc/pgtype,MIT,https://spdx.org/licenses/MIT.html,https://api.github.com/repos/jackc/pgtype (normalized)
+github.com/jackc/pgx/v4,v4.18.1,go,https://github.com/jackc/pgx/v4,MIT,https://spdx.org/licenses/MIT.html,https://api.github.com/repos/jackc/pgx (normalized)
+github.com/jackc/pgx/v5,v5.3.1,go,https://github.com/jackc/pgx/v5,MIT,https://spdx.org/licenses/MIT.html,https://api.github.com/repos/jackc/pgx (normalized)
+github.com/jarcoal/httpmock,v1.2.0,go,https://github.com/jarcoal/httpmock,MIT,https://spdx.org/licenses/MIT.html,https://api.github.com/repos/jarcoal/httpmock (normalized)
+github.com/jmespath/go-jmespath,v0.4.0,go,https://github.com/jmespath/go-jmespath,Apache-2.0,https://spdx.org/licenses/Apache-2.0.html,https://api.github.com/repos/jmespath/go-jmespath (normalized)
+github.com/joho/godotenv,v1.3.0,go,https://github.com/joho/godotenv,MIT,https://spdx.org/licenses/MIT.html,https://api.github.com/repos/joho/godotenv (normalized)
+github.com/joho/godotenv,v1.4.0,go,https://github.com/joho/godotenv,MIT,https://spdx.org/licenses/MIT.html,https://api.github.com/repos/joho/godotenv (normalized)
+github.com/joho/godotenv,v1.5.1,go,https://github.com/joho/godotenv,MIT,https://spdx.org/licenses/MIT.html,https://api.github.com/repos/joho/godotenv (normalized)
+github.com/josharian/intern,v1.0.0,go,https://github.com/josharian/intern,MIT,https://spdx.org/licenses/MIT.html,https://api.github.com/repos/josharian/intern (normalized)
+github.com/jpillora/backoff,v1.0.0,go,https://github.com/jpillora/backoff,MIT,https://spdx.org/licenses/MIT.html,https://api.github.com/repos/jpillora/backoff (normalized)
+github.com/json-iterator/go,v1.1.12,go,https://github.com/json-iterator/go,MIT,https://spdx.org/licenses/MIT.html,https://api.github.com/repos/json-iterator/go (normalized)
+github.com/julienschmidt/httprouter,v1.3.0,go,https://github.com/julienschmidt/httprouter,BSD-3-Clause,https://spdx.org/licenses/BSD-3-Clause.html,https://api.github.com/repos/julienschmidt/httprouter (normalized)
+github.com/k0kubun/pp,v2.3.0+incompatible,go,https://github.com/k0kubun/pp,MIT,https://spdx.org/licenses/MIT.html,https://api.github.com/repos/k0kubun/pp (normalized)
+github.com/kardianos/osext,v0.0.0-20190222173326-2bc1f35cddc0,go,https://github.com/kardianos/osext,BSD-3-Clause,https://spdx.org/licenses/BSD-3-Clause.html,https://api.github.com/repos/kardianos/osext (normalized)
+github.com/karlseguin/ccache,v2.0.3+incompatible,go,https://github.com/karlseguin/ccache,MIT,https://spdx.org/licenses/MIT.html,https://api.github.com/repos/karlseguin/ccache (normalized)
+github.com/karlseguin/expect,v1.0.8,go,https://github.com/karlseguin/expect,MIT,https://spdx.org/licenses/MIT.html,https://api.github.com/repos/karlseguin/expect (normalized)
+github.com/karrick/godirwalk,v1.10.12,go,https://github.com/karrick/godirwalk,BSD-2-Clause,https://spdx.org/licenses/BSD-2-Clause.html,https://api.github.com/repos/karrick/godirwalk (normalized)
+github.com/kballard/go-shellquote,v0.0.0-20180428030007-95032a82bc51,go,https://github.com/kballard/go-shellquote,MIT,https://spdx.org/licenses/MIT.html,https://api.github.com/repos/kballard/go-shellquote (normalized)
+github.com/kisielk/sqlstruct,v0.0.0-20201105191214-5f3e10d3ab46,go,https://github.com/kisielk/sqlstruct,MIT,https://spdx.org/licenses/MIT.html,https://api.github.com/repos/kisielk/sqlstruct (normalized)
+github.com/klauspost/asmfmt,v1.3.2,go,https://github.com/klauspost/asmfmt,MIT,https://spdx.org/licenses/MIT.html,https://api.github.com/repos/klauspost/asmfmt (normalized)
+github.com/klauspost/compress,v1.15.11,go,https://github.com/klauspost/compress,Other,Unknown,https://api.github.com/repos/klauspost/compress
+github.com/klauspost/compress,v1.17.0,go,https://github.com/klauspost/compress,Other,Unknown,https://api.github.com/repos/klauspost/compress
+github.com/klauspost/cpuid/v2,v2.0.9,go,https://github.com/klauspost/cpuid/v2,MIT,https://spdx.org/licenses/MIT.html,https://api.github.com/repos/klauspost/cpuid (normalized)
+github.com/konsorten/go-windows-terminal-sequences,v1.0.1,go,https://github.com/konsorten/go-windows-terminal-sequences,MIT,https://spdx.org/licenses/MIT.html,https://api.github.com/repos/konsorten/go-windows-terminal-sequences (normalized)
+github.com/konsorten/go-windows-terminal-sequences,v1.0.2,go,https://github.com/konsorten/go-windows-terminal-sequences,MIT,https://spdx.org/licenses/MIT.html,https://api.github.com/repos/konsorten/go-windows-terminal-sequences (normalized)
+github.com/kr/fs,v0.1.0,go,https://github.com/kr/fs,BSD-3-Clause,https://spdx.org/licenses/BSD-3-Clause.html,https://api.github.com/repos/kr/fs (normalized)
+github.com/kr/pretty,v0.1.0,go,https://github.com/kr/pretty,MIT,https://spdx.org/licenses/MIT.html,https://api.github.com/repos/kr/pretty (normalized)
+github.com/kr/pretty,v0.2.1,go,https://github.com/kr/pretty,MIT,https://spdx.org/licenses/MIT.html,https://api.github.com/repos/kr/pretty (normalized)
+github.com/kr/pretty,v0.3.0,go,https://github.com/kr/pretty,MIT,https://spdx.org/licenses/MIT.html,https://api.github.com/repos/kr/pretty (normalized)
+github.com/kr/pretty,v0.3.1,go,https://github.com/kr/pretty,MIT,https://spdx.org/licenses/MIT.html,https://api.github.com/repos/kr/pretty (normalized)
+github.com/kr/pty,v1.1.1,go,https://github.com/kr/pty,MIT,https://spdx.org/licenses/MIT.html,https://api.github.com/repos/kr/pty (normalized)
+github.com/kr/text,v0.1.0,go,https://github.com/kr/text,MIT,https://spdx.org/licenses/MIT.html,https://api.github.com/repos/kr/text (normalized)
+github.com/kr/text,v0.2.0,go,https://github.com/kr/text,MIT,https://spdx.org/licenses/MIT.html,https://api.github.com/repos/kr/text (normalized)
+github.com/ktrysmt/go-bitbucket,v0.6.4,go,https://github.com/ktrysmt/go-bitbucket,Apache-2.0,https://spdx.org/licenses/Apache-2.0.html,https://api.github.com/repos/ktrysmt/go-bitbucket (normalized)
+github.com/lann/builder,v0.0.0-20180802200727-47ae307949d0,go,https://github.com/lann/builder,MIT,https://spdx.org/licenses/MIT.html,https://api.github.com/repos/lann/builder (normalized)
+github.com/lann/ps,v0.0.0-20150810152359-62de8c46ede0,go,https://github.com/lann/ps,MIT,https://spdx.org/licenses/MIT.html,https://api.github.com/repos/lann/ps (normalized)
+github.com/lib/pq,v1.10.9,go,https://github.com/lib/pq,MIT,https://spdx.org/licenses/MIT.html,https://api.github.com/repos/lib/pq (normalized)
+github.com/magiconair/properties,v1.8.0,go,https://github.com/magiconair/properties,BSD-2-Clause,https://spdx.org/licenses/BSD-2-Clause.html,https://api.github.com/repos/magiconair/properties (normalized)
+github.com/magiconair/properties,v1.8.7,go,https://github.com/magiconair/properties,BSD-2-Clause,https://spdx.org/licenses/BSD-2-Clause.html,https://api.github.com/repos/magiconair/properties (normalized)
+github.com/mailru/easyjson,v0.7.7,go,https://github.com/mailru/easyjson,MIT,https://spdx.org/licenses/MIT.html,https://api.github.com/repos/mailru/easyjson (normalized)
+github.com/markbates/pkger,v0.15.1,go,https://github.com/markbates/pkger,MIT,https://spdx.org/licenses/MIT.html,https://api.github.com/repos/markbates/pkger (normalized)
+github.com/mattn/go-colorable,v0.1.13,go,https://github.com/mattn/go-colorable,MIT,https://spdx.org/licenses/MIT.html,https://api.github.com/repos/mattn/go-colorable (normalized)
+github.com/mattn/go-colorable,v0.1.6,go,https://github.com/mattn/go-colorable,MIT,https://spdx.org/licenses/MIT.html,https://api.github.com/repos/mattn/go-colorable (normalized)
+github.com/mattn/go-isatty,v0.0.16,go,https://github.com/mattn/go-isatty,MIT,https://spdx.org/licenses/MIT.html,https://api.github.com/repos/mattn/go-isatty (normalized)
+github.com/mattn/go-isatty,v0.0.17,go,https://github.com/mattn/go-isatty,MIT,https://spdx.org/licenses/MIT.html,https://api.github.com/repos/mattn/go-isatty (normalized)
+github.com/mattn/go-isatty,v0.0.19,go,https://github.com/mattn/go-isatty,MIT,https://spdx.org/licenses/MIT.html,https://api.github.com/repos/mattn/go-isatty (normalized)
+github.com/mattn/go-isatty,v0.0.20,go,https://github.com/mattn/go-isatty,MIT,https://spdx.org/licenses/MIT.html,https://api.github.com/repos/mattn/go-isatty (normalized)
+github.com/mattn/go-sqlite3,v1.14.16,go,https://github.com/mattn/go-sqlite3,MIT,https://spdx.org/licenses/MIT.html,https://api.github.com/repos/mattn/go-sqlite3 (normalized)
+github.com/mattn/go-sqlite3,v1.14.19,go,https://github.com/mattn/go-sqlite3,MIT,https://spdx.org/licenses/MIT.html,https://api.github.com/repos/mattn/go-sqlite3 (normalized)
+github.com/matttproud/golang_protobuf_extensions,v1.0.1,go,https://github.com/matttproud/golang_protobuf_extensions,Apache-2.0,https://spdx.org/licenses/Apache-2.0.html,https://api.github.com/repos/matttproud/golang_protobuf_extensions (normalized)
+github.com/matttproud/golang_protobuf_extensions/v2,v2.0.0,go,https://github.com/matttproud/golang_protobuf_extensions/v2,Apache-2.0,https://spdx.org/licenses/Apache-2.0.html,https://api.github.com/repos/matttproud/golang_protobuf_extensions (normalized)
+github.com/maxatome/go-testdeep,v1.11.0,go,https://github.com/maxatome/go-testdeep,BSD-2-Clause,https://spdx.org/licenses/BSD-2-Clause.html,https://api.github.com/repos/maxatome/go-testdeep (normalized)
+github.com/mgutz/ansi,v0.0.0-20200706080929-d51e80ef957d,go,https://github.com/mgutz/ansi,MIT,https://spdx.org/licenses/MIT.html,https://api.github.com/repos/mgutz/ansi (normalized)
+github.com/microsoft/go-mssqldb,v1.0.0,go,https://github.com/microsoft/go-mssqldb,BSD-3-Clause,https://spdx.org/licenses/BSD-3-Clause.html,https://api.github.com/repos/microsoft/go-mssqldb (normalized)
+github.com/minio/asm2plan9s,v0.0.0-20200509001527-cdd76441f9d8,go,https://github.com/minio/asm2plan9s,Apache-2.0,https://spdx.org/licenses/Apache-2.0.html,https://api.github.com/repos/minio/asm2plan9s (normalized)
+github.com/minio/c2goasm,v0.0.0-20190812172519-36a3d3bbc4f3,go,https://github.com/minio/c2goasm,Apache-2.0,https://spdx.org/licenses/Apache-2.0.html,https://api.github.com/repos/minio/c2goasm (normalized)
+github.com/mitchellh/go-homedir,v1.1.0,go,https://github.com/mitchellh/go-homedir,MIT,https://spdx.org/licenses/MIT.html,https://api.github.com/repos/mitchellh/go-homedir (normalized)
+github.com/mitchellh/mapstructure,v1.1.2,go,https://github.com/mitchellh/mapstructure,MIT,https://spdx.org/licenses/MIT.html,https://api.github.com/repos/mitchellh/mapstructure (normalized)
+github.com/mitchellh/mapstructure,v1.5.0,go,https://github.com/mitchellh/mapstructure,MIT,https://spdx.org/licenses/MIT.html,https://api.github.com/repos/mitchellh/mapstructure (normalized)
+github.com/moby/term,v0.5.0,go,https://github.com/moby/term,Apache-2.0,https://spdx.org/licenses/Apache-2.0.html,https://api.github.com/repos/moby/term (normalized)
+github.com/modern-go/concurrent,v0.0.0-20180306012644-bacd9c7ef1dd,go,https://github.com/modern-go/concurrent,Apache-2.0,https://spdx.org/licenses/Apache-2.0.html,https://api.github.com/repos/modern-go/concurrent (normalized)
+github.com/modern-go/reflect2,v1.0.2,go,https://github.com/modern-go/reflect2,Apache-2.0,https://spdx.org/licenses/Apache-2.0.html,https://api.github.com/repos/modern-go/reflect2 (normalized)
+github.com/mohae/deepcopy,v0.0.0-20170929034955-c48cc78d4826,go,https://github.com/mohae/deepcopy,MIT,https://spdx.org/licenses/MIT.html,https://api.github.com/repos/mohae/deepcopy (normalized)
+github.com/morikuni/aec,v1.0.0,go,https://github.com/morikuni/aec,MIT,https://spdx.org/licenses/MIT.html,https://api.github.com/repos/morikuni/aec (normalized)
+github.com/mtibben/percent,v0.2.1,go,https://github.com/mtibben/percent,MIT,https://spdx.org/licenses/MIT.html,https://api.github.com/repos/mtibben/percent (normalized)
+github.com/mutecomm/go-sqlcipher/v4,v4.4.0,go,https://github.com/mutecomm/go-sqlcipher/v4,Other,Unknown,https://api.github.com/repos/mutecomm/go-sqlcipher
+github.com/mwitkow/go-conntrack,v0.0.0-20190716064945-2f068394615f,go,https://github.com/mwitkow/go-conntrack,Apache-2.0,https://spdx.org/licenses/Apache-2.0.html,https://api.github.com/repos/mwitkow/go-conntrack (normalized)
+github.com/nakagami/firebirdsql,v0.0.0-20190310045651-3c02a58cfed8,go,https://github.com/nakagami/firebirdsql,MIT,https://spdx.org/licenses/MIT.html,https://api.github.com/repos/nakagami/firebirdsql (normalized)
+github.com/nats-io/nats.go,v1.31.0,go,https://github.com/nats-io/nats.go,Apache-2.0,https://spdx.org/licenses/Apache-2.0.html,https://api.github.com/repos/nats-io/nats.go (normalized)
+github.com/nats-io/nkeys,v0.4.6,go,https://github.com/nats-io/nkeys,Apache-2.0,https://spdx.org/licenses/Apache-2.0.html,https://api.github.com/repos/nats-io/nkeys (normalized)
+github.com/nats-io/nuid,v1.0.1,go,https://github.com/nats-io/nuid,Apache-2.0,https://spdx.org/licenses/Apache-2.0.html,https://api.github.com/repos/nats-io/nuid (normalized)
+github.com/neo4j/neo4j-go-driver,v1.8.1-0.20200803113522-b626aa943eba,go,https://github.com/neo4j/neo4j-go-driver,Apache-2.0,https://spdx.org/licenses/Apache-2.0.html,https://api.github.com/repos/neo4j/neo4j-go-driver (normalized)
+github.com/nfnt/resize,v0.0.0-20180221191011-83c6a9932646,go,https://github.com/nfnt/resize,ISC,https://spdx.org/licenses/ISC.html,https://api.github.com/repos/nfnt/resize (normalized)
+github.com/nxadm/tail,v1.4.8,go,https://github.com/nxadm/tail,MIT,https://spdx.org/licenses/MIT.html,https://api.github.com/repos/nxadm/tail (normalized)
+github.com/onsi/ginkgo,v1.16.4,go,https://github.com/onsi/ginkgo,MIT,https://spdx.org/licenses/MIT.html,https://api.github.com/repos/onsi/ginkgo (normalized)
+github.com/onsi/ginkgo,v1.16.5,go,https://github.com/onsi/ginkgo,MIT,https://spdx.org/licenses/MIT.html,https://api.github.com/repos/onsi/ginkgo (normalized)
+github.com/onsi/gomega,v1.15.0,go,https://github.com/onsi/gomega,MIT,https://spdx.org/licenses/MIT.html,https://api.github.com/repos/onsi/gomega (normalized)
+github.com/onsi/gomega,v1.19.0,go,https://github.com/onsi/gomega,MIT,https://spdx.org/licenses/MIT.html,https://api.github.com/repos/onsi/gomega (normalized)
+github.com/opencontainers/go-digest,v1.0.0,go,https://github.com/opencontainers/go-digest,Other,Unknown,https://api.github.com/repos/opencontainers/go-digest
+github.com/opencontainers/image-spec,v1.0.2,go,https://github.com/opencontainers/image-spec,Apache-2.0,https://spdx.org/licenses/Apache-2.0.html,https://api.github.com/repos/opencontainers/image-spec (normalized)
+github.com/pelletier/go-toml,v1.2.0,go,https://github.com/pelletier/go-toml,Other,Unknown,https://api.github.com/repos/pelletier/go-toml
+github.com/pelletier/go-toml,v1.9.5,go,https://github.com/pelletier/go-toml,Other,Unknown,https://api.github.com/repos/pelletier/go-toml
+github.com/pelletier/go-toml/v2,v2.1.0,go,https://github.com/pelletier/go-toml/v2,Other,Unknown,https://api.github.com/repos/pelletier/go-toml
+github.com/pelletier/go-toml/v2,v2.1.1,go,https://github.com/pelletier/go-toml/v2,Other,Unknown,https://api.github.com/repos/pelletier/go-toml
+github.com/perimeterx/marshmallow,v1.1.5,go,https://github.com/perimeterx/marshmallow,MIT,https://spdx.org/licenses/MIT.html,https://api.github.com/repos/perimeterx/marshmallow (normalized)
+github.com/pierrec/lz4/v4,v4.1.16,go,https://github.com/pierrec/lz4/v4,BSD-3-Clause,https://spdx.org/licenses/BSD-3-Clause.html,https://api.github.com/repos/pierrec/lz4 (normalized)
+github.com/pkg/browser,v0.0.0-20210911075715-681adbf594b8,go,https://github.com/pkg/browser,BSD-2-Clause,https://spdx.org/licenses/BSD-2-Clause.html,https://api.github.com/repos/pkg/browser (normalized)
+github.com/pkg/diff,v0.0.0-20210226163009-20ebb0f2a09e,go,https://github.com/pkg/diff,BSD-3-Clause,https://spdx.org/licenses/BSD-3-Clause.html,https://api.github.com/repos/pkg/diff (normalized)
+github.com/pkg/errors,v0.9.1,go,https://github.com/pkg/errors,BSD-2-Clause,https://spdx.org/licenses/BSD-2-Clause.html,https://api.github.com/repos/pkg/errors (normalized)
+github.com/pkg/sftp,v1.13.6,go,https://github.com/pkg/sftp,BSD-2-Clause,https://spdx.org/licenses/BSD-2-Clause.html,https://api.github.com/repos/pkg/sftp (normalized)
+github.com/pmezard/go-difflib,v1.0.0,go,https://github.com/pmezard/go-difflib,BSD-3-Clause,https://spdx.org/licenses/BSD-3-Clause.html,https://github.com/pmezard/go-difflib/blob/master/LICENSE (normalized)
+github.com/pmezard/go-difflib,v1.0.1-0.20181226105442-5d4384ee4fb2,go,https://github.com/pmezard/go-difflib,Other,Unknown,https://api.github.com/repos/pmezard/go-difflib
+github.com/prometheus/client_golang,v1.11.0,go,https://github.com/prometheus/client_golang,Apache-2.0,https://spdx.org/licenses/Apache-2.0.html,https://api.github.com/repos/prometheus/client_golang (normalized)
+github.com/prometheus/client_golang,v1.17.0,go,https://github.com/prometheus/client_golang,Apache-2.0,https://spdx.org/licenses/Apache-2.0.html,https://api.github.com/repos/prometheus/client_golang (normalized)
+github.com/prometheus/client_golang,v1.18.0,go,https://github.com/prometheus/client_golang,Apache-2.0,https://spdx.org/licenses/Apache-2.0.html,https://api.github.com/repos/prometheus/client_golang (normalized)
+github.com/prometheus/client_model,v0.2.0,go,https://github.com/prometheus/client_model,Apache-2.0,https://spdx.org/licenses/Apache-2.0.html,https://api.github.com/repos/prometheus/client_model (normalized)
+github.com/prometheus/client_model,v0.4.1-0.20230718164431-9a2bf3000d16,go,https://github.com/prometheus/client_model,Apache-2.0,https://spdx.org/licenses/Apache-2.0.html,https://api.github.com/repos/prometheus/client_model (normalized)
+github.com/prometheus/client_model,v0.5.0,go,https://github.com/prometheus/client_model,Apache-2.0,https://spdx.org/licenses/Apache-2.0.html,https://api.github.com/repos/prometheus/client_model (normalized)
+github.com/prometheus/common,v0.26.0,go,https://github.com/prometheus/common,Apache-2.0,https://spdx.org/licenses/Apache-2.0.html,https://api.github.com/repos/prometheus/common (normalized)
+github.com/prometheus/common,v0.45.0,go,https://github.com/prometheus/common,Apache-2.0,https://spdx.org/licenses/Apache-2.0.html,https://api.github.com/repos/prometheus/common (normalized)
+github.com/prometheus/procfs,v0.11.1,go,https://github.com/prometheus/procfs,Apache-2.0,https://spdx.org/licenses/Apache-2.0.html,https://api.github.com/repos/prometheus/procfs (normalized)
+github.com/prometheus/procfs,v0.12.0,go,https://github.com/prometheus/procfs,Apache-2.0,https://spdx.org/licenses/Apache-2.0.html,https://api.github.com/repos/prometheus/procfs (normalized)
+github.com/prometheus/procfs,v0.6.0,go,https://github.com/prometheus/procfs,Apache-2.0,https://spdx.org/licenses/Apache-2.0.html,https://api.github.com/repos/prometheus/procfs (normalized)
+github.com/qeesung/image2ascii,v1.0.1,go,https://github.com/qeesung/image2ascii,MIT,https://spdx.org/licenses/MIT.html,https://api.github.com/repos/qeesung/image2ascii (normalized)
+github.com/remyoudompheng/bigfft,v0.0.0-20200410134404-eec4a21b6bb0,go,https://github.com/remyoudompheng/bigfft,BSD-3-Clause,https://spdx.org/licenses/BSD-3-Clause.html,https://api.github.com/repos/remyoudompheng/bigfft (normalized)
+github.com/rogpeppe/go-internal,v1.1.0,go,https://github.com/rogpeppe/go-internal,BSD-3-Clause,https://spdx.org/licenses/BSD-3-Clause.html,https://api.github.com/repos/rogpeppe/go-internal (normalized)
+github.com/rogpeppe/go-internal,v1.10.0,go,https://github.com/rogpeppe/go-internal,BSD-3-Clause,https://spdx.org/licenses/BSD-3-Clause.html,https://api.github.com/repos/rogpeppe/go-internal (normalized)
+github.com/rogpeppe/go-internal,v1.11.0,go,https://github.com/rogpeppe/go-internal,BSD-3-Clause,https://spdx.org/licenses/BSD-3-Clause.html,https://api.github.com/repos/rogpeppe/go-internal (normalized)
+github.com/rogpeppe/go-internal,v1.12.0,go,https://github.com/rogpeppe/go-internal,BSD-3-Clause,https://spdx.org/licenses/BSD-3-Clause.html,https://api.github.com/repos/rogpeppe/go-internal (normalized)
+github.com/rogpeppe/go-internal,v1.3.0,go,https://github.com/rogpeppe/go-internal,BSD-3-Clause,https://spdx.org/licenses/BSD-3-Clause.html,https://api.github.com/repos/rogpeppe/go-internal (normalized)
+github.com/rogpeppe/go-internal,v1.9.0,go,https://github.com/rogpeppe/go-internal,BSD-3-Clause,https://spdx.org/licenses/BSD-3-Clause.html,https://api.github.com/repos/rogpeppe/go-internal (normalized)
+github.com/rqlite/gorqlite,v0.0.0-20230708021416-2acd02b70b79,go,https://github.com/rqlite/gorqlite,MIT,https://spdx.org/licenses/MIT.html,https://api.github.com/repos/rqlite/gorqlite (normalized)
+github.com/rs/cors,v1.10.1,go,https://github.com/rs/cors,MIT,https://spdx.org/licenses/MIT.html,https://api.github.com/repos/rs/cors (normalized)
+github.com/russross/blackfriday,v1.5.2,go,https://github.com/russross/blackfriday,Other,Unknown,https://api.github.com/repos/russross/blackfriday
+github.com/russross/blackfriday/v2,v2.1.0,go,https://github.com/russross/blackfriday/v2,BSD-3-Clause,https://spdx.org/licenses/BSD-3-Clause.html,https://github.com/russross/blackfriday/blob/master/LICENSE.txt (normalized)
+github.com/sagikazarmark/crypt,v0.17.0,go,https://github.com/sagikazarmark/crypt,MIT,https://spdx.org/licenses/MIT.html,https://api.github.com/repos/sagikazarmark/crypt (normalized)
+github.com/sagikazarmark/locafero,v0.4.0,go,https://github.com/sagikazarmark/locafero,MIT,https://spdx.org/licenses/MIT.html,https://api.github.com/repos/sagikazarmark/locafero (normalized)
+github.com/sagikazarmark/slog-shim,v0.1.0,go,https://github.com/sagikazarmark/slog-shim,BSD-3-Clause,https://spdx.org/licenses/BSD-3-Clause.html,https://api.github.com/repos/sagikazarmark/slog-shim (normalized)
+github.com/santhosh-tekuri/jsonschema/v5,v5.3.1,go,https://github.com/santhosh-tekuri/jsonschema/v5,Apache-2.0,https://spdx.org/licenses/Apache-2.0.html,https://api.github.com/repos/santhosh-tekuri/jsonschema (normalized)
+github.com/shopspring/decimal,v1.2.0,go,https://github.com/shopspring/decimal,Other,Unknown,https://api.github.com/repos/shopspring/decimal
+github.com/sirupsen/logrus,v1.4.2,go,https://github.com/sirupsen/logrus,MIT,https://spdx.org/licenses/MIT.html,https://api.github.com/repos/sirupsen/logrus (normalized)
+github.com/sirupsen/logrus,v1.9.2,go,https://github.com/sirupsen/logrus,MIT,https://spdx.org/licenses/MIT.html,https://api.github.com/repos/sirupsen/logrus (normalized)
+github.com/sirupsen/logrus,v1.9.3,go,https://github.com/sirupsen/logrus,MIT,https://spdx.org/licenses/MIT.html,https://api.github.com/repos/sirupsen/logrus (normalized)
+github.com/snowflakedb/gosnowflake,v1.6.19,go,https://github.com/snowflakedb/gosnowflake,Apache-2.0,https://spdx.org/licenses/Apache-2.0.html,https://api.github.com/repos/snowflakedb/gosnowflake (normalized)
+github.com/sourcegraph/conc,v0.3.0,go,https://github.com/sourcegraph/conc,MIT,https://spdx.org/licenses/MIT.html,https://api.github.com/repos/sourcegraph/conc (normalized)
+github.com/spf13/afero,v1.1.2,go,https://github.com/spf13/afero,Apache-2.0,https://spdx.org/licenses/Apache-2.0.html,https://api.github.com/repos/spf13/afero (normalized)
+github.com/spf13/afero,v1.11.0,go,https://github.com/spf13/afero,Apache-2.0,https://spdx.org/licenses/Apache-2.0.html,https://api.github.com/repos/spf13/afero (normalized)
+github.com/spf13/cast,v1.3.0,go,https://github.com/spf13/cast,MIT,https://spdx.org/licenses/MIT.html,https://api.github.com/repos/spf13/cast (normalized)
+github.com/spf13/cast,v1.6.0,go,https://github.com/spf13/cast,MIT,https://spdx.org/licenses/MIT.html,https://api.github.com/repos/spf13/cast (normalized)
+github.com/spf13/cobra,v0.0.5,go,https://github.com/spf13/cobra,Apache-2.0,https://spdx.org/licenses/Apache-2.0.html,https://api.github.com/repos/spf13/cobra (normalized)
+github.com/spf13/cobra,v1.8.0,go,https://github.com/spf13/cobra,Apache-2.0,https://spdx.org/licenses/Apache-2.0.html,https://api.github.com/repos/spf13/cobra (normalized)
+github.com/spf13/jwalterweatherman,v1.0.0,go,https://github.com/spf13/jwalterweatherman,MIT,https://spdx.org/licenses/MIT.html,https://api.github.com/repos/spf13/jwalterweatherman (normalized)
+github.com/spf13/pflag,v1.0.3,go,https://github.com/spf13/pflag,BSD-3-Clause,https://spdx.org/licenses/BSD-3-Clause.html,https://api.github.com/repos/spf13/pflag (normalized)
+github.com/spf13/pflag,v1.0.5,go,https://github.com/spf13/pflag,BSD-3-Clause,https://spdx.org/licenses/BSD-3-Clause.html,https://api.github.com/repos/spf13/pflag (normalized)
+github.com/spf13/viper,v1.18.2,go,https://github.com/spf13/viper,MIT,https://spdx.org/licenses/MIT.html,https://api.github.com/repos/spf13/viper (normalized)
+github.com/spf13/viper,v1.3.2,go,https://github.com/spf13/viper,MIT,https://spdx.org/licenses/MIT.html,https://api.github.com/repos/spf13/viper (normalized)
+github.com/stretchr/objx,v0.1.0,go,https://github.com/stretchr/objx,MIT,https://spdx.org/licenses/MIT.html,https://api.github.com/repos/stretchr/objx (normalized)
+github.com/stretchr/objx,v0.1.1,go,https://github.com/stretchr/objx,MIT,https://spdx.org/licenses/MIT.html,https://api.github.com/repos/stretchr/objx (normalized)
+github.com/stretchr/objx,v0.4.0,go,https://github.com/stretchr/objx,MIT,https://spdx.org/licenses/MIT.html,https://api.github.com/repos/stretchr/objx (normalized)
+github.com/stretchr/objx,v0.5.0,go,https://github.com/stretchr/objx,MIT,https://spdx.org/licenses/MIT.html,https://api.github.com/repos/stretchr/objx (normalized)
+github.com/stretchr/objx,v0.5.1,go,https://github.com/stretchr/objx,MIT,https://spdx.org/licenses/MIT.html,https://api.github.com/repos/stretchr/objx (normalized)
+github.com/stretchr/testify,v1.2.2,go,https://github.com/stretchr/testify,MIT,https://spdx.org/licenses/MIT.html,https://api.github.com/repos/stretchr/testify (normalized)
+github.com/stretchr/testify,v1.3.0,go,https://github.com/stretchr/testify,MIT,https://spdx.org/licenses/MIT.html,https://api.github.com/repos/stretchr/testify (normalized)
+github.com/stretchr/testify,v1.7.0,go,https://github.com/stretchr/testify,MIT,https://spdx.org/licenses/MIT.html,https://api.github.com/repos/stretchr/testify (normalized)
+github.com/stretchr/testify,v1.7.1,go,https://github.com/stretchr/testify,MIT,https://spdx.org/licenses/MIT.html,https://api.github.com/repos/stretchr/testify (normalized)
+github.com/stretchr/testify,v1.7.5,go,https://github.com/stretchr/testify,MIT,https://spdx.org/licenses/MIT.html,https://api.github.com/repos/stretchr/testify (normalized)
+github.com/stretchr/testify,v1.8.0,go,https://github.com/stretchr/testify,MIT,https://spdx.org/licenses/MIT.html,https://api.github.com/repos/stretchr/testify (normalized)
+github.com/stretchr/testify,v1.8.1,go,https://github.com/stretchr/testify,MIT,https://spdx.org/licenses/MIT.html,https://api.github.com/repos/stretchr/testify (normalized)
+github.com/stretchr/testify,v1.8.2,go,https://github.com/stretchr/testify,MIT,https://spdx.org/licenses/MIT.html,https://api.github.com/repos/stretchr/testify (normalized)
+github.com/stretchr/testify,v1.8.3,go,https://github.com/stretchr/testify,MIT,https://spdx.org/licenses/MIT.html,https://api.github.com/repos/stretchr/testify (normalized)
+github.com/stretchr/testify,v1.8.4,go,https://github.com/stretchr/testify,MIT,https://spdx.org/licenses/MIT.html,https://api.github.com/repos/stretchr/testify (normalized)
+github.com/subosito/gotenv,v1.6.0,go,https://github.com/subosito/gotenv,MIT,https://spdx.org/licenses/MIT.html,https://api.github.com/repos/subosito/gotenv (normalized)
+github.com/ugorji/go/codec,v0.0.0-20181204163529-d75b2dcb6bc8,go,https://github.com/ugorji/go/codec,MIT,https://spdx.org/licenses/MIT.html,https://api.github.com/repos/ugorji/go (normalized)
+github.com/ugorji/go/codec,v1.2.7,go,https://github.com/ugorji/go/codec,MIT,https://spdx.org/licenses/MIT.html,https://api.github.com/repos/ugorji/go (normalized)
+github.com/wayneashleyberry/terminal-dimensions,v1.1.0,go,https://github.com/wayneashleyberry/terminal-dimensions,MIT,https://spdx.org/licenses/MIT.html,https://api.github.com/repos/wayneashleyberry/terminal-dimensions (normalized)
+github.com/wsxiaoys/terminal,v0.0.0-20160513160801-0940f3fc43a0,go,https://github.com/wsxiaoys/terminal,BSD-3-Clause,https://spdx.org/licenses/BSD-3-Clause.html,https://api.github.com/repos/wsxiaoys/terminal (normalized)
+github.com/x-cray/logrus-prefixed-formatter,v0.5.2,go,https://github.com/x-cray/logrus-prefixed-formatter,MIT,https://spdx.org/licenses/MIT.html,https://api.github.com/repos/x-cray/logrus-prefixed-formatter (normalized)
+github.com/xanzy/go-gitlab,v0.15.0,go,https://github.com/xanzy/go-gitlab,Apache-2.0,https://spdx.org/licenses/Apache-2.0.html,https://api.github.com/repos/xanzy/go-gitlab (normalized)
+github.com/xdg-go/pbkdf2,v1.0.0,go,https://github.com/xdg-go/pbkdf2,Apache-2.0,https://spdx.org/licenses/Apache-2.0.html,https://api.github.com/repos/xdg-go/pbkdf2 (normalized)
+github.com/xdg-go/scram,v1.1.1,go,https://github.com/xdg-go/scram,Apache-2.0,https://spdx.org/licenses/Apache-2.0.html,https://api.github.com/repos/xdg-go/scram (normalized)
+github.com/xdg-go/stringprep,v1.0.3,go,https://github.com/xdg-go/stringprep,Apache-2.0,https://spdx.org/licenses/Apache-2.0.html,https://api.github.com/repos/xdg-go/stringprep (normalized)
+github.com/xeipuuv/gojsonpointer,v0.0.0-20180127040702-4e3ac2762d5f,go,https://github.com/xeipuuv/gojsonpointer,Unknown,Unknown,Unknown
+github.com/xeipuuv/gojsonpointer,v0.0.0-20190905194746-02993c407bfb,go,https://github.com/xeipuuv/gojsonpointer,Unknown,Unknown,Unknown
+github.com/xeipuuv/gojsonreference,v0.0.0-20180127040603-bd5ef7bd5415,go,https://github.com/xeipuuv/gojsonreference,Unknown,Unknown,Unknown
+github.com/xeipuuv/gojsonschema,v1.2.0,go,https://github.com/xeipuuv/gojsonschema,Unknown,Unknown,Unknown
+github.com/xhit/go-str2duration/v2,v2.1.0,go,https://github.com/xhit/go-str2duration/v2,BSD-3-Clause,https://spdx.org/licenses/BSD-3-Clause.html,https://api.github.com/repos/xhit/go-str2duration (normalized)
+github.com/xordataexchange/crypt,v0.0.3-0.20170626215501-b2862e3d0a77,go,https://github.com/xordataexchange/crypt,MIT,https://spdx.org/licenses/MIT.html,https://api.github.com/repos/xordataexchange/crypt (normalized)
+github.com/youmark/pkcs8,v0.0.0-20181117223130-1be2e3e5546d,go,https://github.com/youmark/pkcs8,MIT,https://spdx.org/licenses/MIT.html,https://api.github.com/repos/youmark/pkcs8 (normalized)
+github.com/yuin/goldmark,v1.4.13,go,https://github.com/yuin/goldmark,MIT,https://spdx.org/licenses/MIT.html,https://api.github.com/repos/yuin/goldmark (normalized)
+github.com/zeebo/xxh3,v1.0.2,go,https://github.com/zeebo/xxh3,BSD-2-Clause,https://spdx.org/licenses/BSD-2-Clause.html,https://api.github.com/repos/zeebo/xxh3 (normalized)
+gitlab.com/hfuss/mux-prometheus,v0.0.5,go,unknown,Unknown,Unknown,Unknown
+gitlab.com/nyarla/go-crypt,v0.0.0-20160106005555-d9a5dc2b789b,go,unknown,Unknown,Unknown,Unknown
+go,1.22,go,unknown,Unknown,Unknown,Unknown
+go.etcd.io/etcd/api/v3,v3.5.10,go,unknown,Unknown,Unknown,Unknown
+go.etcd.io/etcd/client/pkg/v3,v3.5.10,go,unknown,Unknown,Unknown,Unknown
+go.etcd.io/etcd/client/v2,v2.305.10,go,unknown,Unknown,Unknown,Unknown
+go.etcd.io/etcd/client/v3,v3.5.10,go,unknown,Unknown,Unknown,Unknown
+go.mongodb.org/mongo-driver,v1.7.5,go,unknown,Unknown,Unknown,Unknown
+go.opencensus.io,v0.24.0,go,unknown,Unknown,Unknown,Unknown
+go.uber.org/atomic,v1.11.0,go,unknown,Unknown,Unknown,Unknown
+go.uber.org/atomic,v1.7.0,go,unknown,Unknown,Unknown,Unknown
+go.uber.org/atomic,v1.9.0,go,unknown,Unknown,Unknown,Unknown
+go.uber.org/multierr,v1.11.0,go,unknown,Unknown,Unknown,Unknown
+go.uber.org/multierr,v1.9.0,go,unknown,Unknown,Unknown,Unknown
+go.uber.org/zap,v1.21.0,go,unknown,Unknown,Unknown,Unknown
+golang.org/x/crypto,v0.0.0-20181203042331-505ab145d0a9,go,unknown,Unknown,Unknown,Unknown
+golang.org/x/crypto,v0.0.0-20190308221718-c2843e01d9a2,go,unknown,BSD-3-Clause,https://spdx.org/licenses/BSD-3-Clause.html,https://cs.opensource.google/go/x/crypto/+/master:LICENSE (normalized)
+golang.org/x/crypto,v0.0.0-20190621222207-cc06ce4a13d4,go,unknown,Unknown,Unknown,Unknown
+golang.org/x/crypto,v0.0.0-20210921155107-089bfa567519,go,unknown,Unknown,Unknown,Unknown
+golang.org/x/crypto,v0.10.0,go,unknown,BSD-3-Clause,https://spdx.org/licenses/BSD-3-Clause.html,https://cs.opensource.google/go/x/crypto/+/master:LICENSE (normalized)
+golang.org/x/crypto,v0.14.0,go,unknown,Unknown,Unknown,Unknown
+golang.org/x/crypto,v0.16.0,go,unknown,Unknown,Unknown,Unknown
+golang.org/x/crypto,v0.17.0,go,unknown,BSD-3-Clause,https://spdx.org/licenses/BSD-3-Clause.html,https://cs.opensource.google/go/x/crypto/+/master:LICENSE (normalized)
+golang.org/x/crypto,v0.18.0,go,unknown,Unknown,Unknown,Unknown
+golang.org/x/exp,v0.0.0-20230315142452-642cacee5cc0,go,unknown,Unknown,Unknown,Unknown
+golang.org/x/exp,v0.0.0-20230905200255-921286631fa9,go,unknown,Unknown,Unknown,Unknown
+golang.org/x/exp,v0.0.0-20240110193028-0dcbfd608b1e,go,unknown,Unknown,Unknown,Unknown
+golang.org/x/mod,v0.11.0,go,unknown,Unknown,Unknown,Unknown
+golang.org/x/mod,v0.14.0,go,unknown,BSD-3-Clause,https://spdx.org/licenses/BSD-3-Clause.html,https://cs.opensource.google/go/x/mod/+/master:LICENSE (normalized)
+golang.org/x/mod,v0.6.0-dev.0.20220419223038-86c51ed26bb4,go,unknown,Unknown,Unknown,Unknown
+golang.org/x/mod,v0.8.0,go,unknown,Unknown,Unknown,Unknown
+golang.org/x/mod,v0.9.0,go,unknown,Unknown,Unknown,Unknown
+golang.org/x/net,v0.0.0-20190311183353-d8887717615a,go,unknown,Unknown,Unknown,Unknown
+golang.org/x/net,v0.0.0-20190404232315-eb5bcb51f2a3,go,unknown,BSD-3-Clause,https://spdx.org/licenses/BSD-3-Clause.html,https://cs.opensource.google/go/x/net/+/master:LICENSE (normalized)
+golang.org/x/net,v0.0.0-20190620200207-3b0461eec859,go,unknown,BSD-3-Clause,https://spdx.org/licenses/BSD-3-Clause.html,https://cs.opensource.google/go/x/net/+/master:LICENSE (normalized)
+golang.org/x/net,v0.0.0-20210226172049-e18ecbb05110,go,unknown,Unknown,Unknown,Unknown
+golang.org/x/net,v0.0.0-20220722155237-a158d28d115b,go,unknown,Unknown,Unknown,Unknown
+golang.org/x/net,v0.10.0,go,unknown,BSD-3-Clause,https://spdx.org/licenses/BSD-3-Clause.html,https://cs.opensource.google/go/x/net/+/master:LICENSE (normalized)
+golang.org/x/net,v0.17.0,go,unknown,BSD-3-Clause,https://spdx.org/licenses/BSD-3-Clause.html,https://cs.opensource.google/go/x/net/+/master:LICENSE (normalized)
+golang.org/x/net,v0.18.0,go,unknown,BSD-3-Clause,https://spdx.org/licenses/BSD-3-Clause.html,https://cs.opensource.google/go/x/net/+/master:LICENSE (normalized)
+golang.org/x/net,v0.19.0,go,unknown,Unknown,Unknown,Unknown
+golang.org/x/net,v0.20.0,go,unknown,Unknown,Unknown,Unknown
+golang.org/x/net,v0.6.0,go,unknown,Unknown,Unknown,Unknown
+golang.org/x/oauth2,v0.12.0,go,unknown,BSD-3-Clause,https://spdx.org/licenses/BSD-3-Clause.html,https://cs.opensource.google/go/x/oauth2/+/master:LICENSE (normalized)
+golang.org/x/oauth2,v0.14.0,go,unknown,Unknown,Unknown,Unknown
+golang.org/x/oauth2,v0.15.0,go,unknown,Unknown,Unknown,Unknown
+golang.org/x/sync,v0.0.0-20190423024810-112230192c58,go,unknown,BSD-3-Clause,https://spdx.org/licenses/BSD-3-Clause.html,https://cs.opensource.google/go/x/sync/+/master:LICENSE (normalized)
+golang.org/x/sync,v0.0.0-20220722155255-886fb9371eb4,go,unknown,Unknown,Unknown,Unknown
+golang.org/x/sync,v0.1.0,go,unknown,BSD-3-Clause,https://spdx.org/licenses/BSD-3-Clause.html,https://cs.opensource.google/go/x/sync/+/master:LICENSE (normalized)
+golang.org/x/sync,v0.3.0,go,unknown,BSD-3-Clause,https://spdx.org/licenses/BSD-3-Clause.html,https://cs.opensource.google/go/x/sync/+/master:LICENSE (normalized)
+golang.org/x/sync,v0.5.0,go,unknown,BSD-3-Clause,https://spdx.org/licenses/BSD-3-Clause.html,https://cs.opensource.google/go/x/sync/+/master:LICENSE (normalized)
+golang.org/x/sys,v0.0.0-20181205085412-a5c9d58dba9a,go,unknown,Unknown,Unknown,Unknown
+golang.org/x/sys,v0.0.0-20190215142949-d0b11bdaac8a,go,unknown,BSD-3-Clause,https://spdx.org/licenses/BSD-3-Clause.html,https://cs.opensource.google/go/x/sys/+/master:LICENSE (normalized)
+golang.org/x/sys,v0.0.0-20190412213103-97732733099d,go,unknown,BSD-3-Clause,https://spdx.org/licenses/BSD-3-Clause.html,https://cs.opensource.google/go/x/sys/+/master:LICENSE (normalized)
+golang.org/x/sys,v0.0.0-20190422165155-953cdadca894,go,unknown,Unknown,Unknown,Unknown
+golang.org/x/sys,v0.0.0-20190515120540-06a5c4944438,go,unknown,Unknown,Unknown,Unknown
+golang.org/x/sys,v0.0.0-20201119102817-f84b799fce68,go,unknown,BSD-3-Clause,https://spdx.org/licenses/BSD-3-Clause.html,https://cs.opensource.google/go/x/sys/+/master:LICENSE (normalized)
+golang.org/x/sys,v0.0.0-20210603081109-ebe580a85c40,go,unknown,Unknown,Unknown,Unknown
+golang.org/x/sys,v0.0.0-20210615035016-665e8c7367d1,go,unknown,BSD-3-Clause,https://spdx.org/licenses/BSD-3-Clause.html,https://cs.opensource.google/go/x/sys/+/master:LICENSE (normalized)
+golang.org/x/sys,v0.0.0-20220520151302-bc2c85ada10a,go,unknown,BSD-3-Clause,https://spdx.org/licenses/BSD-3-Clause.html,https://cs.opensource.google/go/x/sys/+/master:LICENSE (normalized)
+golang.org/x/sys,v0.0.0-20220715151400-c0bba94af5f8,go,unknown,Unknown,Unknown,Unknown
+golang.org/x/sys,v0.0.0-20220722155257-8c9f86f7a55f,go,unknown,Unknown,Unknown,Unknown
+golang.org/x/sys,v0.0.0-20220811171246-fbc7d0a398ab,go,unknown,BSD-3-Clause,https://spdx.org/licenses/BSD-3-Clause.html,https://cs.opensource.google/go/x/sys/+/master:LICENSE (normalized)
+golang.org/x/sys,v0.12.0,go,unknown,BSD-3-Clause,https://spdx.org/licenses/BSD-3-Clause.html,https://cs.opensource.google/go/x/sys/+/master:LICENSE (normalized)
+golang.org/x/sys,v0.13.0,go,unknown,BSD-3-Clause,https://spdx.org/licenses/BSD-3-Clause.html,https://cs.opensource.google/go/x/sys/+/master:LICENSE (normalized)
+golang.org/x/sys,v0.14.0,go,unknown,Unknown,Unknown,Unknown
+golang.org/x/sys,v0.15.0,go,unknown,Unknown,Unknown,Unknown
+golang.org/x/sys,v0.16.0,go,unknown,BSD-3-Clause,https://spdx.org/licenses/BSD-3-Clause.html,https://cs.opensource.google/go/x/sys/+/master:LICENSE (normalized)
+golang.org/x/sys,v0.3.0,go,unknown,Unknown,Unknown,Unknown
+golang.org/x/sys,v0.4.0,go,unknown,Unknown,Unknown,Unknown
+golang.org/x/sys,v0.5.0,go,unknown,BSD-3-Clause,https://spdx.org/licenses/BSD-3-Clause.html,https://cs.opensource.google/go/x/sys/+/master:LICENSE (normalized)
+golang.org/x/sys,v0.6.0,go,unknown,BSD-3-Clause,https://spdx.org/licenses/BSD-3-Clause.html,https://cs.opensource.google/go/x/sys/+/master:LICENSE (normalized)
+golang.org/x/sys,v0.8.0,go,unknown,Unknown,Unknown,Unknown
+golang.org/x/sys,v0.9.0,go,unknown,BSD-3-Clause,https://spdx.org/licenses/BSD-3-Clause.html,https://cs.opensource.google/go/x/sys/+/master:LICENSE (normalized)
+golang.org/x/term,v0.0.0-20201126162022-7de9c90e9dd1,go,unknown,BSD-3-Clause,https://spdx.org/licenses/BSD-3-Clause.html,https://cs.opensource.google/go/x/term/+/master:LICENSE (normalized)
+golang.org/x/term,v0.0.0-20210927222741-03fcf44c2211,go,unknown,BSD-3-Clause,https://spdx.org/licenses/BSD-3-Clause.html,https://cs.opensource.google/go/x/term/+/master:LICENSE (normalized)
+golang.org/x/term,v0.13.0,go,unknown,Unknown,Unknown,Unknown
+golang.org/x/term,v0.15.0,go,unknown,Unknown,Unknown,Unknown
+golang.org/x/term,v0.16.0,go,unknown,Unknown,Unknown,Unknown
+golang.org/x/term,v0.5.0,go,unknown,Unknown,Unknown,Unknown
+golang.org/x/term,v0.8.0,go,unknown,Unknown,Unknown,Unknown
+golang.org/x/term,v0.9.0,go,unknown,Unknown,Unknown,Unknown
+golang.org/x/text,v0.12.0,go,unknown,Unknown,Unknown,Unknown
+golang.org/x/text,v0.13.0,go,unknown,BSD-3-Clause,https://spdx.org/licenses/BSD-3-Clause.html,https://cs.opensource.google/go/x/text/+/master:LICENSE (normalized)
+golang.org/x/text,v0.14.0,go,unknown,BSD-3-Clause,https://spdx.org/licenses/BSD-3-Clause.html,https://cs.opensource.google/go/x/text/+/master:LICENSE (normalized)
+golang.org/x/text,v0.3.0,go,unknown,BSD-3-Clause,https://spdx.org/licenses/BSD-3-Clause.html,https://cs.opensource.google/go/x/text/+/master:LICENSE (normalized)
+golang.org/x/text,v0.3.3,go,unknown,BSD-3-Clause,https://spdx.org/licenses/BSD-3-Clause.html,https://cs.opensource.google/go/x/text/+/master:LICENSE (normalized)
+golang.org/x/text,v0.3.7,go,unknown,BSD-3-Clause,https://spdx.org/licenses/BSD-3-Clause.html,https://cs.opensource.google/go/x/text/+/master:LICENSE (normalized)
+golang.org/x/text,v0.7.0,go,unknown,BSD-3-Clause,https://spdx.org/licenses/BSD-3-Clause.html,https://cs.opensource.google/go/x/text/+/master:LICENSE (normalized)
+golang.org/x/text,v0.9.0,go,unknown,BSD-3-Clause,https://spdx.org/licenses/BSD-3-Clause.html,https://cs.opensource.google/go/x/text/+/master:LICENSE (normalized)
+golang.org/x/time,v0.3.0,go,unknown,BSD-3-Clause,https://spdx.org/licenses/BSD-3-Clause.html,https://cs.opensource.google/go/x/time/+/master:LICENSE (normalized)
+golang.org/x/time,v0.5.0,go,unknown,Unknown,Unknown,Unknown
+golang.org/x/tools,v0.0.0-20180917221912-90fa682c2a6e,go,unknown,BSD-3-Clause,https://spdx.org/licenses/BSD-3-Clause.html,https://cs.opensource.google/go/x/tools/+/master:LICENSE (normalized)
+golang.org/x/tools,v0.0.0-20190624180213-70d37148ca0c,go,unknown,Unknown,Unknown,Unknown
+golang.org/x/tools,v0.0.0-20191119224855-298f0cb1881e,go,unknown,BSD-3-Clause,https://spdx.org/licenses/BSD-3-Clause.html,https://cs.opensource.google/go/x/tools/+/master:LICENSE (normalized)
+golang.org/x/tools,v0.1.12,go,unknown,Unknown,Unknown,Unknown
+golang.org/x/tools,v0.10.0,go,unknown,Unknown,Unknown,Unknown
+golang.org/x/tools,v0.13.0,go,unknown,Unknown,Unknown,Unknown
+golang.org/x/tools,v0.16.0,go,unknown,Unknown,Unknown,Unknown
+golang.org/x/tools,v0.6.0,go,unknown,Unknown,Unknown,Unknown
+golang.org/x/xerrors,v0.0.0-20190717185122-a985d3407aa7,go,unknown,BSD-3-Clause,https://spdx.org/licenses/BSD-3-Clause.html,https://cs.opensource.google/go/x/xerrors/+/master:LICENSE (normalized)
+golang.org/x/xerrors,v0.0.0-20191204190536-9bdfabe68543,go,unknown,BSD-3-Clause,https://spdx.org/licenses/BSD-3-Clause.html,https://cs.opensource.google/go/x/xerrors/+/master:LICENSE (normalized)
+golang.org/x/xerrors,v0.0.0-20220907171357-04be3eba64a2,go,unknown,Unknown,Unknown,Unknown
+google.golang.org/api,v0.150.0,go,unknown,Unknown,Unknown,Unknown
+google.golang.org/api,v0.152.0,go,unknown,Unknown,Unknown,Unknown
+google.golang.org/api,v0.153.0,go,unknown,Unknown,Unknown,Unknown
+google.golang.org/appengine,v1.6.7,go,unknown,Apache-2.0,https://spdx.org/licenses/Apache-2.0.html,https://github.com/golang/appengine/blob/master/LICENSE (normalized)
+google.golang.org/appengine,v1.6.8,go,unknown,Unknown,Unknown,Unknown
+google.golang.org/genproto,v0.0.0-20230110181048-76db0878b65f,go,unknown,Unknown,Unknown,Unknown
+google.golang.org/genproto,v0.0.0-20230410155749-daa745c078e1,go,unknown,Unknown,Unknown,Unknown
+google.golang.org/genproto,v0.0.0-20231016165738-49dd2c1f3d0b,go,unknown,Unknown,Unknown,Unknown
+google.golang.org/genproto,v0.0.0-20231106174013-bbf56f31fb17,go,unknown,Unknown,Unknown,Unknown
+google.golang.org/genproto,v0.0.0-20240116215550-a9fa1716bcac,go,unknown,Unknown,Unknown,Unknown
+google.golang.org/genproto/googleapis/api,v0.0.0-20231016165738-49dd2c1f3d0b,go,unknown,Unknown,Unknown,Unknown
+google.golang.org/genproto/googleapis/api,v0.0.0-20231106174013-bbf56f31fb17,go,unknown,Unknown,Unknown,Unknown
+google.golang.org/genproto/googleapis/rpc,v0.0.0-20231030173426-d783a09b4405,go,unknown,Unknown,Unknown,Unknown
+google.golang.org/genproto/googleapis/rpc,v0.0.0-20231106174013-bbf56f31fb17,go,unknown,Unknown,Unknown,Unknown
+google.golang.org/genproto/googleapis/rpc,v0.0.0-20231120223509-83a465c0220f,go,unknown,Unknown,Unknown,Unknown
+google.golang.org/genproto/googleapis/rpc,v0.0.0-20240125205218-1f4bbc51befe,go,unknown,Unknown,Unknown,Unknown
+google.golang.org/grpc,v1.54.0,go,unknown,Unknown,Unknown,Unknown
+google.golang.org/grpc,v1.56.3,go,unknown,Unknown,Unknown,Unknown
+google.golang.org/grpc,v1.59.0,go,unknown,Unknown,Unknown,Unknown
+google.golang.org/grpc,v1.61.0,go,unknown,Unknown,Unknown,Unknown
+google.golang.org/protobuf,v1.26.0,go,unknown,BSD-3-Clause,https://spdx.org/licenses/BSD-3-Clause.html,https://github.com/protocolbuffers/protobuf-go/blob/master/LICENSE (normalized)
+google.golang.org/protobuf,v1.26.0-rc.1,go,unknown,BSD-3-Clause,https://spdx.org/licenses/BSD-3-Clause.html,https://github.com/protocolbuffers/protobuf-go/blob/master/LICENSE (normalized)
+google.golang.org/protobuf,v1.28.1,go,unknown,BSD-3-Clause,https://spdx.org/licenses/BSD-3-Clause.html,https://github.com/protocolbuffers/protobuf-go/blob/master/LICENSE (normalized)
+google.golang.org/protobuf,v1.31.0,go,unknown,BSD-3-Clause,https://spdx.org/licenses/BSD-3-Clause.html,https://github.com/protocolbuffers/protobuf-go/blob/master/LICENSE (normalized)
+google.golang.org/protobuf,v1.32.0,go,unknown,Unknown,Unknown,Unknown
+gopkg.in/bson.v2,v2.0.0-20171018101713-d8c8987b8862,go,unknown,Unknown,Unknown,Unknown
+gopkg.in/check.v1,v0.0.0-20161208181325-20d25e280405,go,unknown,BSD-2-Clause,https://spdx.org/licenses/BSD-2-Clause.html,https://github.com/go-check/check/tree/v1?tab=License-1-ov-file#readme (normalized)
+gopkg.in/check.v1,v1.0.0-20180628173108-788fd7840127,go,unknown,Unknown,Unknown,Unknown
+gopkg.in/check.v1,v1.0.0-20190902080502-41f04d3bba15,go,unknown,Unknown,Unknown,Unknown
+gopkg.in/check.v1,v1.0.0-20201130134442-10cb98267c6c,go,unknown,BSD-2-Clause,https://spdx.org/licenses/BSD-2-Clause.html,https://github.com/go-check/check/tree/v1?tab=License-1-ov-file#readme (normalized)
+gopkg.in/errgo.v2,v2.1.0,go,unknown,Unknown,Unknown,Unknown
+gopkg.in/inf.v0,v0.9.1,go,unknown,Unknown,Unknown,Unknown
+gopkg.in/ini.v1,v1.67.0,go,unknown,Apache-2.0,https://spdx.org/licenses/Apache-2.0.html,https://github.com/go-ini/ini/blob/v1.67.0/LICENSE (normalized)
+gopkg.in/mgo.v2,v2.0.0-20190816093944-a6b53ec6cb22,go,unknown,Unknown,Unknown,Unknown
+gopkg.in/natefinch/lumberjack.v2,v2.2.1,go,unknown,Unknown,Unknown,Unknown
+gopkg.in/tomb.v1,v1.0.0-20141024135613-dd632973f1e7,go,unknown,BSD-3-Clause,https://spdx.org/licenses/BSD-3-Clause.html,https://github.com/go-tomb/tomb/blob/v1/LICENSE (normalized)
+gopkg.in/yaml.v2,v2.2.2,go,unknown,MIT and Apache License 2.0 (CHECKED BY HENDRIK),https://github.com/go-yaml/yaml/blob/v3/LICENSE,https://github.com/go-yaml/yaml/blob/v3/LICENSE
+gopkg.in/yaml.v2,v2.4.0,go,unknown,MIT and Apache License 2.0 (CHECKED BY HENDRIK),https://github.com/go-yaml/yaml/blob/v3/LICENSE,https://github.com/go-yaml/yaml/blob/v3/LICENSE
+gopkg.in/yaml.v3,v3.0.0,go,unknown,Unknown,Unknown,Unknown
+gopkg.in/yaml.v3,v3.0.0-20200313102051-9f266ea9e77c,go,unknown,Unknown,Unknown,Unknown
+gopkg.in/yaml.v3,v3.0.1,go,unknown,MIT and Apache License 2.0 (CHECKED BY HENDRIK),https://github.com/go-yaml/yaml/blob/v3/LICENSE,https://github.com/go-yaml/yaml/blob/v3/LICENSE
+gotest.tools,v2.2.0+incompatible,go,unknown,Unknown,Unknown,Unknown
+gotest.tools/v3,v3.0.3,go,unknown,Unknown,Unknown,Unknown
+gotest.tools/v3,v3.1.0,go,unknown,Unknown,Unknown,Unknown
+lukechampine.com/uint128,v1.2.0,go,unknown,Unknown,Unknown,Unknown
+modernc.org/b,v1.0.0,go,unknown,Unknown,Unknown,Unknown
+modernc.org/cc/v3,v3.36.3,go,unknown,Unknown,Unknown,Unknown
+modernc.org/ccgo/v3,v3.16.9,go,unknown,Unknown,Unknown,Unknown
+modernc.org/db,v1.0.0,go,unknown,Unknown,Unknown,Unknown
+modernc.org/file,v1.0.0,go,unknown,Unknown,Unknown,Unknown
+modernc.org/fileutil,v1.0.0,go,unknown,Unknown,Unknown,Unknown
+modernc.org/golex,v1.0.0,go,unknown,Unknown,Unknown,Unknown
+modernc.org/internal,v1.0.0,go,unknown,Unknown,Unknown,Unknown
+modernc.org/libc,v1.17.1,go,unknown,Unknown,Unknown,Unknown
+modernc.org/lldb,v1.0.0,go,unknown,Unknown,Unknown,Unknown
+modernc.org/mathutil,v1.5.0,go,unknown,Unknown,Unknown,Unknown
+modernc.org/memory,v1.2.1,go,unknown,Unknown,Unknown,Unknown
+modernc.org/opt,v0.1.3,go,unknown,Unknown,Unknown,Unknown
+modernc.org/ql,v1.0.0,go,unknown,Unknown,Unknown,Unknown
+modernc.org/sortutil,v1.1.0,go,unknown,Unknown,Unknown,Unknown
+modernc.org/sqlite,v1.18.1,go,unknown,Unknown,Unknown,Unknown
+modernc.org/strutil,v1.1.3,go,unknown,Unknown,Unknown,Unknown
+modernc.org/token,v1.0.0,go,unknown,Unknown,Unknown,Unknown
+modernc.org/zappy,v1.0.0,go,unknown,Unknown,Unknown,Unknown
+toolchain,go1.22,go,unknown,Unknown,Unknown,Unknown

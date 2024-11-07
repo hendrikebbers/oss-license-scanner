@@ -1,0 +1,232 @@
+name,version,language,repository,license,license-url,license-source
+aead,v0.5.2,rust,https://github.com/RustCrypto/traits,MIT OR Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/aead
+aes,v0.8.3,rust,https://github.com/RustCrypto/block-ciphers,MIT OR Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/aes
+aes-gcm,v0.10.3,rust,https://github.com/RustCrypto/AEADs,Apache-2.0 OR MIT,UNKNOWN,https://crates.io/api/v1/crates/aes-gcm
+ahash,v0.8.6,rust,https://github.com/tkaitchuck/ahash,MIT OR Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/ahash
+aho-corasick,v1.1.2,rust,https://github.com/BurntSushi/aho-corasick,Unlicense OR MIT,UNKNOWN,https://crates.io/api/v1/crates/aho-corasick
+allocator-api2,v0.2.16,rust,https://github.com/zakarumych/allocator-api2,MIT OR Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/allocator-api2
+anes,v0.1.6,rust,https://github.com/zrzka/anes-rs,MIT OR Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/anes
+anstyle,v1.0.4,rust,https://github.com/rust-cli/anstyle.git,MIT OR Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/anstyle
+arc-swap,v1.6.0,rust,https://github.com/vorner/arc-swap,MIT OR Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/arc-swap
+argon2,v0.5.2,rust,https://github.com/RustCrypto/password-hashes/tree/master/argon2,MIT OR Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/argon2
+aries-askar,v0.3.2,rust,https://github.com/hyperledger/aries-askar/,Apache-2.0,https://spdx.org/licenses/Apache-2.0.html,https://api.github.com/repos/hyperledger/aries-askar (normalized)
+askar-crypto,v0.3.2,rust,https://github.com/hyperledger/aries-askar/,Apache-2.0,https://spdx.org/licenses/Apache-2.0.html,https://api.github.com/repos/hyperledger/aries-askar (normalized)
+askar-storage,v0.1.1,rust,https://github.com/hyperledger/aries-askar/,MIT OR Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/askar-storage
+async-lock,v3.2.0,rust,https://github.com/smol-rs/async-lock,Apache-2.0 OR MIT,UNKNOWN,https://crates.io/api/v1/crates/async-lock
+async-stream,v0.3.5,rust,https://github.com/tokio-rs/async-stream,MIT,https://spdx.org/licenses/MIT.html,https://github.com/tokio-rs/async-stream/blob/master/LICENSE (normalized)
+async-stream-impl,v0.3.5,rust,https://github.com/tokio-rs/async-stream,MIT,https://spdx.org/licenses/MIT.html,https://github.com/tokio-rs/async-stream/blob/master/LICENSE (normalized)
+atoi,v2.0.0,rust,https://github.com/pacman82/atoi-rs,MIT,https://spdx.org/licenses/MIT.html,https://crates.io/api/v1/crates/atoi (normalized)
+atomic-write-file,v0.1.2,rust,https://github.com/andreacorbellini/rust-atomic-write-file,BSD-3-Clause,https://spdx.org/licenses/BSD-3-Clause.html,https://crates.io/api/v1/crates/atomic-write-file (normalized)
+autocfg,v1.1.0,rust,https://github.com/cuviper/autocfg,Apache-2.0 OR MIT,UNKNOWN,https://crates.io/api/v1/crates/autocfg
+base16ct,v0.2.0,rust,https://github.com/RustCrypto/formats/tree/master/base16ct,Apache-2.0,https://spdx.org/licenses/Apache-2.0.html,https://github.com/RustCrypto/formats/blob/master/base16ct/LICENSE-APACHE (normalized)
+base64,v0.21.5,rust,https://github.com/marshallpierce/rust-base64,MIT OR Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/base64
+base64ct,v1.6.0,rust,https://github.com/RustCrypto/formats/tree/master/base64ct,Apache-2.0 OR MIT,UNKNOWN,https://crates.io/api/v1/crates/base64ct
+bitflags,v2.4.1,rust,https://github.com/bitflags/bitflags,MIT OR Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/bitflags
+blake2,v0.10.6,rust,https://github.com/RustCrypto/hashes,MIT OR Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/blake2
+block-buffer,v0.10.4,rust,https://github.com/RustCrypto/utils,Apache-2.0,https://spdx.org/licenses/Apache-2.0.html,https://github.com/RustCrypto/utils/blob/master/block-buffer/LICENSE-APACHE (normalized)
+block-modes,v0.9.1,rust,UNKNOWN,MIT OR Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/block-modes
+block-padding,v0.3.3,rust,https://github.com/RustCrypto/utils,Apache-2.0,https://spdx.org/licenses/Apache-2.0.html,https://github.com/RustCrypto/utils/blob/master/block-padding/LICENSE-APACHE (normalized)
+bls12_381,v0.8.0,rust,https://github.com/zkcrypto/bls12_381,MIT/Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/bls12_381
+bs58,v0.5.0,rust,https://github.com/Nullus157/bs58-rs,MIT/Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/bs58
+byteorder,v1.5.0,rust,https://github.com/BurntSushi/byteorder,Unlicense OR MIT,UNKNOWN,https://crates.io/api/v1/crates/byteorder
+bytes,v1.5.0,rust,https://github.com/tokio-rs/bytes,MIT,https://spdx.org/licenses/MIT.html,https://crates.io/api/v1/crates/bytes (normalized)
+cast,v0.3.0,rust,https://github.com/japaric/cast.rs,MIT OR Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/cast
+cbc,v0.1.2,rust,https://github.com/RustCrypto/block-modes,Apache-2.0,https://spdx.org/licenses/Apache-2.0.html,https://github.com/RustCrypto/block-modes/blob/master/cbc/LICENSE-APACHE (normalized)
+cc,v1.0.83,rust,https://github.com/rust-lang/cc-rs,MIT OR Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/cc
+cfg-if,v1.0.0,rust,https://github.com/alexcrichton/cfg-if,MIT/Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/cfg-if
+chacha20,v0.9.1,rust,https://github.com/RustCrypto/stream-ciphers,Apache-2.0 OR MIT,UNKNOWN,https://crates.io/api/v1/crates/chacha20
+chacha20poly1305,v0.10.1,rust,https://github.com/RustCrypto/AEADs/tree/master/chacha20poly1305,Apache-2.0 OR MIT,UNKNOWN,https://crates.io/api/v1/crates/chacha20poly1305
+chrono,v0.4.31,rust,https://github.com/chronotope/chrono,MIT OR Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/chrono
+ciborium,v0.2.1,rust,https://github.com/enarx/ciborium,Apache-2.0,https://spdx.org/licenses/Apache-2.0.html,https://crates.io/api/v1/crates/ciborium (normalized)
+ciborium-io,v0.2.1,rust,https://github.com/enarx/ciborium,Apache-2.0,https://spdx.org/licenses/Apache-2.0.html,https://crates.io/api/v1/crates/ciborium-io (normalized)
+ciborium-ll,v0.2.1,rust,https://github.com/enarx/ciborium,Apache-2.0,https://spdx.org/licenses/Apache-2.0.html,https://crates.io/api/v1/crates/ciborium-ll (normalized)
+cipher,v0.4.4,rust,https://github.com/RustCrypto/traits,Apache-2.0,https://spdx.org/licenses/Apache-2.0.html,https://github.com/RustCrypto/traits/blob/master/cipher/LICENSE-APACHE (normalized)
+clap,v4.4.11,rust,https://github.com/clap-rs/clap,MIT OR Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/clap
+clap_builder,v4.4.11,rust,https://github.com/clap-rs/clap,MIT OR Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/clap_builder
+clap_lex,v0.6.0,rust,https://github.com/clap-rs/clap/tree/master/clap_lex,MIT OR Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/clap_lex
+concurrent-queue,v2.4.0,rust,https://github.com/smol-rs/concurrent-queue,Apache-2.0 OR MIT,UNKNOWN,https://crates.io/api/v1/crates/concurrent-queue
+const-oid,v0.9.6,rust,https://github.com/RustCrypto/formats/tree/master/const-oid,Apache-2.0,https://spdx.org/licenses/Apache-2.0.html,https://github.com/RustCrypto/formats/blob/master/const-oid/LICENSE-APACHE (normalized)
+core-foundation-sys,v0.8.6,rust,https://github.com/servo/core-foundation-rs,MIT OR Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/core-foundation-sys
+cpufeatures,v0.2.11,rust,https://github.com/RustCrypto/utils,MIT OR Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/cpufeatures
+crc,v3.0.1,rust,https://github.com/mrhooray/crc-rs.git,MIT OR Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/crc
+crc-catalog,v2.4.0,rust,https://github.com/akhilles/crc-catalog.git,MIT OR Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/crc-catalog
+criterion,v0.5.1,rust,https://github.com/bheisler/criterion.rs,Apache-2.0 OR MIT,UNKNOWN,https://crates.io/api/v1/crates/criterion
+criterion-plot,v0.5.0,rust,https://github.com/bheisler/criterion.rs,MIT/Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/criterion-plot
+crossbeam-deque,v0.8.4,rust,https://github.com/crossbeam-rs/crossbeam,MIT OR Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/crossbeam-deque
+crossbeam-epoch,v0.9.16,rust,https://github.com/crossbeam-rs/crossbeam,MIT OR Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/crossbeam-epoch
+crossbeam-queue,v0.3.9,rust,https://github.com/crossbeam-rs/crossbeam,MIT OR Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/crossbeam-queue
+crossbeam-utils,v0.8.17,rust,https://github.com/crossbeam-rs/crossbeam,MIT OR Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/crossbeam-utils
+crypto-bigint,v0.5.5,rust,https://github.com/RustCrypto/crypto-bigint,Apache-2.0 OR MIT,UNKNOWN,https://crates.io/api/v1/crates/crypto-bigint
+crypto-common,v0.1.6,rust,https://github.com/RustCrypto/traits,Apache-2.0,https://spdx.org/licenses/Apache-2.0.html,https://github.com/RustCrypto/traits/blob/master/crypto-common/LICENSE-APACHE (normalized)
+crypto_box,v0.9.1,rust,https://github.com/RustCrypto/nacl-compat/tree/master/crypto_box,Apache-2.0 OR MIT,UNKNOWN,https://crates.io/api/v1/crates/crypto_box
+crypto_secretbox,v0.1.1,rust,https://github.com/RustCrypto/nacl-compat/tree/master/crypto_secretbox,Apache-2.0 OR MIT,UNKNOWN,https://crates.io/api/v1/crates/crypto_secretbox
+ctr,v0.9.2,rust,https://github.com/RustCrypto/block-modes,MIT OR Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/ctr
+curve25519-dalek,v4.1.1,rust,https://github.com/dalek-cryptography/curve25519-dalek/tree/main/curve25519-dalek,BSD-3-Clause,https://spdx.org/licenses/BSD-3-Clause.html,https://crates.io/api/v1/crates/curve25519-dalek (normalized)
+der,v0.7.8,rust,https://github.com/RustCrypto/formats/tree/master/der,Apache-2.0 OR MIT,UNKNOWN,https://crates.io/api/v1/crates/der
+digest,v0.10.7,rust,https://github.com/RustCrypto/traits,Apache-2.0,https://spdx.org/licenses/Apache-2.0.html,https://github.com/RustCrypto/traits/blob/master/digest/LICENSE-APACHE (normalized)
+dotenvy,v0.15.7,rust,https://github.com/allan2/dotenvy,MIT,https://spdx.org/licenses/MIT.html,https://crates.io/api/v1/crates/dotenvy (normalized)
+ecdsa,v0.16.9,rust,https://github.com/RustCrypto/signatures/tree/master/ecdsa,Apache-2.0,https://spdx.org/licenses/Apache-2.0.html,https://github.com/RustCrypto/signatures/blob/master/ecdsa/LICENSE-APACHE (normalized)
+ed25519,v2.2.3,rust,https://github.com/RustCrypto/signatures/tree/master/ed25519,Apache-2.0,https://spdx.org/licenses/Apache-2.0.html,https://github.com/RustCrypto/signatures/blob/master/ed25519/LICENSE-APACHE (normalized)
+ed25519-dalek,v2.1.0,rust,https://github.com/dalek-cryptography/curve25519-dalek/tree/main/ed25519-dalek,BSD-3-Clause,https://spdx.org/licenses/BSD-3-Clause.html,https://crates.io/api/v1/crates/ed25519-dalek (normalized)
+either,v1.9.0,rust,https://github.com/bluss/either,MIT OR Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/either
+elliptic-curve,v0.13.8,rust,https://github.com/RustCrypto/traits/tree/master/elliptic-curve,Apache-2.0,https://spdx.org/licenses/Apache-2.0.html,https://github.com/RustCrypto/traits/blob/master/elliptic-curve/LICENSE-APACHE (normalized)
+env_logger,v0.10.1,rust,https://github.com/rust-cli/env_logger,MIT OR Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/env_logger
+equivalent,v1.0.1,rust,https://github.com/cuviper/equivalent,Apache-2.0 OR MIT,UNKNOWN,https://crates.io/api/v1/crates/equivalent
+errno,v0.3.8,rust,https://github.com/lambda-fairy/rust-errno,MIT OR Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/errno
+event-listener,v2.5.3,rust,https://github.com/smol-rs/event-listener,Apache-2.0 OR MIT,UNKNOWN,https://crates.io/api/v1/crates/event-listener
+event-listener,v4.0.1,rust,https://github.com/smol-rs/event-listener,Apache-2.0 OR MIT,UNKNOWN,https://crates.io/api/v1/crates/event-listener
+event-listener-strategy,v0.4.0,rust,https://github.com/smol-rs/event-listener,Apache-2.0 OR MIT,UNKNOWN,https://crates.io/api/v1/crates/event-listener-strategy
+fastrand,v2.0.1,rust,https://github.com/smol-rs/fastrand,Apache-2.0 OR MIT,UNKNOWN,https://crates.io/api/v1/crates/fastrand
+ff,v0.13.0,rust,https://github.com/zkcrypto/ff,MIT/Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/ff
+ffi-support,v0.4.4,rust,https://github.com/mozilla/ffi-support,Apache-2.0 / MIT,UNKNOWN,https://crates.io/api/v1/crates/ffi-support
+finl_unicode,v1.2.0,rust,https://github.com/dahosek/finl_unicode,MIT OR Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/finl_unicode
+flume,v0.11.0,rust,https://github.com/zesterer/flume,Apache-2.0/MIT,UNKNOWN,https://crates.io/api/v1/crates/flume
+form_urlencoded,v1.2.1,rust,https://github.com/servo/rust-url,MIT OR Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/form_urlencoded
+futures-channel,v0.3.29,rust,https://github.com/rust-lang/futures-rs,MIT OR Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/futures-channel
+futures-core,v0.3.29,rust,https://github.com/rust-lang/futures-rs,MIT OR Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/futures-core
+futures-executor,v0.3.29,rust,https://github.com/rust-lang/futures-rs,MIT OR Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/futures-executor
+futures-intrusive,v0.5.0,rust,https://github.com/Matthias247/futures-intrusive,MIT OR Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/futures-intrusive
+futures-io,v0.3.29,rust,https://github.com/rust-lang/futures-rs,MIT OR Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/futures-io
+futures-lite,v2.1.0,rust,https://github.com/smol-rs/futures-lite,Apache-2.0 OR MIT,UNKNOWN,https://crates.io/api/v1/crates/futures-lite
+futures-sink,v0.3.29,rust,https://github.com/rust-lang/futures-rs,MIT OR Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/futures-sink
+futures-task,v0.3.29,rust,https://github.com/rust-lang/futures-rs,MIT OR Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/futures-task
+futures-util,v0.3.29,rust,https://github.com/rust-lang/futures-rs,MIT OR Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/futures-util
+generic-array,v0.14.7,rust,https://github.com/fizyk20/generic-array.git,MIT,https://spdx.org/licenses/MIT.html,https://crates.io/api/v1/crates/generic-array (normalized)
+getrandom,v0.2.11,rust,https://github.com/rust-random/getrandom,MIT OR Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/getrandom
+ghash,v0.5.0,rust,https://github.com/RustCrypto/universal-hashes,Apache-2.0 OR MIT,UNKNOWN,https://crates.io/api/v1/crates/ghash
+group,v0.13.0,rust,https://github.com/zkcrypto/group,Apache-2.0,https://spdx.org/licenses/Apache-2.0.html,https://github.com/zkcrypto/group/blob/main/LICENSE-APACHE (normalized)
+half,v1.8.2,rust,https://github.com/starkat99/half-rs,MIT OR Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/half
+hashbrown,v0.14.3,rust,https://github.com/rust-lang/hashbrown,MIT OR Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/hashbrown
+hashlink,v0.8.4,rust,https://github.com/kyren/hashlink,MIT OR Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/hashlink
+heck,v0.4.1,rust,https://github.com/withoutboats/heck,MIT OR Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/heck
+hex,v0.4.3,rust,https://github.com/KokaKiwi/rust-hex,MIT OR Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/hex
+hkdf,v0.12.4,rust,https://github.com/RustCrypto/KDFs/,MIT OR Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/hkdf
+hmac,v0.12.1,rust,https://github.com/RustCrypto/MACs,Apache-2.0,https://spdx.org/licenses/Apache-2.0.html,https://github.com/RustCrypto/MACs/blob/master/hmac/LICENSE-APACHE (normalized)
+home,v0.5.5,rust,https://github.com/rust-lang/cargo,MIT OR Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/home
+humantime,v2.1.0,rust,https://github.com/tailhook/humantime,MIT/Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/humantime
+iana-time-zone,v0.1.58,rust,https://github.com/strawlab/iana-time-zone,MIT OR Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/iana-time-zone
+idna,v0.5.0,rust,https://github.com/servo/rust-url/,MIT OR Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/idna
+indexmap,v2.1.0,rust,https://github.com/bluss/indexmap,Apache-2.0 OR MIT,UNKNOWN,https://crates.io/api/v1/crates/indexmap
+inout,v0.1.3,rust,https://github.com/RustCrypto/utils,MIT OR Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/inout
+is-terminal,v0.4.9,rust,https://github.com/sunfishcode/is-terminal,MIT,https://spdx.org/licenses/MIT.html,https://crates.io/api/v1/crates/is-terminal (normalized)
+itertools,v0.10.5,rust,https://github.com/rust-itertools/itertools,MIT/Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/itertools
+itertools,v0.12.0,rust,https://github.com/rust-itertools/itertools,MIT OR Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/itertools
+itoa,v1.0.10,rust,https://github.com/dtolnay/itoa,MIT OR Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/itoa
+k256,v0.13.2,rust,https://github.com/RustCrypto/elliptic-curves/tree/master/k256,Apache-2.0 OR MIT,UNKNOWN,https://crates.io/api/v1/crates/k256
+lazy_static,v1.4.0,rust,https://github.com/rust-lang-nursery/lazy-static.rs,MIT/Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/lazy_static
+libc,v0.2.155,rust,https://github.com/rust-lang/libc,MIT OR Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/libc
+libsqlite3-sys,v0.27.0,rust,https://github.com/rusqlite/rusqlite,MIT,https://spdx.org/licenses/MIT.html,https://crates.io/api/v1/crates/libsqlite3-sys (normalized)
+lock_api,v0.4.11,rust,https://github.com/Amanieu/parking_lot,MIT OR Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/lock_api
+log,v0.4.21,rust,https://github.com/rust-lang/log,MIT OR Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/log
+md-5,v0.10.6,rust,https://github.com/RustCrypto/hashes,MIT OR Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/md-5
+memchr,v2.6.4,rust,https://github.com/BurntSushi/memchr,Unlicense OR MIT,UNKNOWN,https://crates.io/api/v1/crates/memchr
+memoffset,v0.9.0,rust,https://github.com/Gilnaa/memoffset,MIT,https://spdx.org/licenses/MIT.html,https://crates.io/api/v1/crates/memoffset (normalized)
+minimal-lexical,v0.2.1,rust,https://github.com/Alexhuszagh/minimal-lexical,MIT/Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/minimal-lexical
+mio,v0.8.11,rust,https://github.com/tokio-rs/mio,MIT,https://spdx.org/licenses/MIT.html,https://crates.io/api/v1/crates/mio (normalized)
+nix,v0.27.1,rust,https://github.com/nix-rust/nix,MIT,https://spdx.org/licenses/MIT.html,https://crates.io/api/v1/crates/nix (normalized)
+nom,v7.1.3,rust,https://github.com/Geal/nom,MIT,https://spdx.org/licenses/MIT.html,https://crates.io/api/v1/crates/nom (normalized)
+num-traits,v0.2.17,rust,https://github.com/rust-num/num-traits,MIT OR Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/num-traits
+num_cpus,v1.16.0,rust,https://github.com/seanmonstar/num_cpus,MIT OR Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/num_cpus
+once_cell,v1.19.0,rust,https://github.com/matklad/once_cell,MIT OR Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/once_cell
+oorandom,v11.1.3,rust,UNKNOWN,MIT,https://spdx.org/licenses/MIT.html,https://crates.io/api/v1/crates/oorandom (normalized)
+opaque-debug,v0.3.0,rust,https://github.com/RustCrypto/utils,MIT OR Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/opaque-debug
+p256,v0.13.2,rust,https://github.com/RustCrypto/elliptic-curves/tree/master/p256,Apache-2.0 OR MIT,UNKNOWN,https://crates.io/api/v1/crates/p256
+p384,v0.13.0,rust,https://github.com/RustCrypto/elliptic-curves/tree/master/p384,Apache-2.0 OR MIT,UNKNOWN,https://crates.io/api/v1/crates/p384
+parking,v2.2.0,rust,https://github.com/smol-rs/parking,Apache-2.0 OR MIT,UNKNOWN,https://crates.io/api/v1/crates/parking
+parking_lot,v0.12.1,rust,https://github.com/Amanieu/parking_lot,MIT OR Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/parking_lot
+parking_lot_core,v0.9.9,rust,https://github.com/Amanieu/parking_lot,MIT OR Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/parking_lot_core
+password-hash,v0.5.0,rust,https://github.com/RustCrypto/traits/tree/master/password-hash,MIT OR Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/password-hash
+paste,v1.0.15,rust,https://github.com/dtolnay/paste,MIT OR Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/paste
+percent-encoding,v2.3.1,rust,https://github.com/servo/rust-url/,MIT OR Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/percent-encoding
+pin-project-lite,v0.2.13,rust,https://github.com/taiki-e/pin-project-lite,Apache-2.0 OR MIT,UNKNOWN,https://crates.io/api/v1/crates/pin-project-lite
+pin-utils,v0.1.0,rust,https://github.com/rust-lang-nursery/pin-utils,MIT OR Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/pin-utils
+pkg-config,v0.3.27,rust,https://github.com/rust-lang/pkg-config-rs,MIT OR Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/pkg-config
+platforms,v3.2.0,rust,https://github.com/rustsec/rustsec/tree/main/platforms,Apache-2.0 OR MIT,UNKNOWN,https://crates.io/api/v1/crates/platforms
+plotters,v0.3.5,rust,https://github.com/plotters-rs/plotters,MIT,https://spdx.org/licenses/MIT.html,https://crates.io/api/v1/crates/plotters (normalized)
+plotters-backend,v0.3.5,rust,https://github.com/plotters-rs/plotters,MIT,https://spdx.org/licenses/MIT.html,https://crates.io/api/v1/crates/plotters-backend (normalized)
+plotters-svg,v0.3.5,rust,https://github.com/plotters-rs/plotters.git,MIT,https://spdx.org/licenses/MIT.html,https://crates.io/api/v1/crates/plotters-svg (normalized)
+poly1305,v0.8.0,rust,https://github.com/RustCrypto/universal-hashes,Apache-2.0 OR MIT,UNKNOWN,https://crates.io/api/v1/crates/poly1305
+polyval,v0.6.1,rust,https://github.com/RustCrypto/universal-hashes,Apache-2.0 OR MIT,UNKNOWN,https://crates.io/api/v1/crates/polyval
+ppv-lite86,v0.2.17,rust,https://github.com/cryptocorrosion/cryptocorrosion,MIT/Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/ppv-lite86
+primeorder,v0.13.6,rust,https://github.com/RustCrypto/elliptic-curves/tree/master/primeorder,Apache-2.0 OR MIT,UNKNOWN,https://crates.io/api/v1/crates/primeorder
+proc-macro2,v1.0.82,rust,https://github.com/dtolnay/proc-macro2,MIT OR Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/proc-macro2
+quote,v1.0.36,rust,https://github.com/dtolnay/quote,MIT OR Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/quote
+rand,v0.8.5,rust,https://github.com/rust-random/rand,Apache-2.0,https://spdx.org/licenses/Apache-2.0.html,https://github.com/rust-random/rand/blob/master/COPYRIGHT (normalized)
+rand_chacha,v0.3.1,rust,https://github.com/rust-random/rand,Apache-2.0,https://spdx.org/licenses/Apache-2.0.html,https://github.com/rust-random/rand/blob/master/rand_chacha/LICENSE-APACHE (normalized)
+rand_core,v0.6.4,rust,https://github.com/rust-random/rand,Apache-2.0,https://spdx.org/licenses/Apache-2.0.html,https://github.com/rust-random/rand/blob/master/rand_core/LICENSE-APACHE (normalized)
+rayon,v1.8.0,rust,https://github.com/rayon-rs/rayon,MIT OR Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/rayon
+rayon-core,v1.12.0,rust,https://github.com/rayon-rs/rayon,MIT OR Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/rayon-core
+regex,v1.10.2,rust,https://github.com/rust-lang/regex,MIT OR Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/regex
+regex-automata,v0.4.3,rust,https://github.com/rust-lang/regex/tree/master/regex-automata,MIT OR Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/regex-automata
+regex-syntax,v0.8.2,rust,https://github.com/rust-lang/regex/tree/master/regex-syntax,MIT OR Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/regex-syntax
+rfc6979,v0.4.0,rust,https://github.com/RustCrypto/signatures/tree/master/rfc6979,Apache-2.0,https://spdx.org/licenses/Apache-2.0.html,https://github.com/RustCrypto/signatures/blob/master/rfc6979/LICENSE-APACHE (normalized)
+ring,v0.17.7,rust,https://github.com/briansmith/ring,non-standard,UNKNOWN,https://crates.io/api/v1/crates/ring
+rmp,v0.8.12,rust,https://github.com/3Hren/msgpack-rust,MIT,https://spdx.org/licenses/MIT.html,https://crates.io/api/v1/crates/rmp (normalized)
+rmp-serde,v1.1.2,rust,https://github.com/3Hren/msgpack-rust,MIT,https://spdx.org/licenses/MIT.html,https://crates.io/api/v1/crates/rmp-serde (normalized)
+rustc_version,v0.4.0,rust,https://github.com/Kimundi/rustc-version-rs,MIT/Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/rustc_version
+rustix,v0.38.28,rust,https://github.com/bytecodealliance/rustix,Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT,UNKNOWN,https://crates.io/api/v1/crates/rustix
+rustls,v0.21.11,rust,https://github.com/rustls/rustls,Apache-2.0 OR ISC OR MIT,UNKNOWN,https://crates.io/api/v1/crates/rustls
+rustls-pemfile,v1.0.4,rust,https://github.com/rustls/pemfile,Apache-2.0 OR ISC OR MIT,UNKNOWN,https://crates.io/api/v1/crates/rustls-pemfile
+rustls-webpki,v0.101.7,rust,https://github.com/rustls/webpki,ISC,https://spdx.org/licenses/ISC.html,https://crates.io/api/v1/crates/rustls-webpki (normalized)
+ryu,v1.0.16,rust,https://github.com/dtolnay/ryu,Apache-2.0 OR BSL-1.0,UNKNOWN,https://crates.io/api/v1/crates/ryu
+salsa20,v0.10.2,rust,https://github.com/RustCrypto/stream-ciphers,Apache-2.0,https://spdx.org/licenses/Apache-2.0.html,https://github.com/RustCrypto/stream-ciphers/blob/master/salsa20/LICENSE-APACHE (normalized)
+same-file,v1.0.6,rust,https://github.com/BurntSushi/same-file,Unlicense/MIT,UNKNOWN,https://crates.io/api/v1/crates/same-file
+scopeguard,v1.2.0,rust,https://github.com/bluss/scopeguard,MIT OR Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/scopeguard
+sct,v0.7.1,rust,https://github.com/rustls/sct.rs,Apache-2.0 OR ISC OR MIT,UNKNOWN,https://crates.io/api/v1/crates/sct
+sec1,v0.7.3,rust,https://github.com/RustCrypto/formats/tree/master/sec1,Apache-2.0,https://spdx.org/licenses/Apache-2.0.html,https://github.com/RustCrypto/formats/blob/master/sec1/LICENSE-APACHE (normalized)
+semver,v1.0.20,rust,https://github.com/dtolnay/semver,MIT OR Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/semver
+serde,v1.0.193,rust,https://github.com/serde-rs/serde,MIT OR Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/serde
+serde-json-core,v0.5.1,rust,https://github.com/rust-embedded-community/serde-json-core,MIT OR Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/serde-json-core
+serde_cbor,v0.11.2,rust,https://github.com/pyfisch/cbor,MIT/Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/serde_cbor
+serde_derive,v1.0.193,rust,https://github.com/serde-rs/serde,MIT OR Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/serde_derive
+serde_json,v1.0.108,rust,https://github.com/serde-rs/json,MIT OR Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/serde_json
+sha1,v0.10.6,rust,https://github.com/RustCrypto/hashes,MIT OR Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/sha1
+sha2,v0.10.8,rust,https://github.com/RustCrypto/hashes,Apache-2.0,https://spdx.org/licenses/Apache-2.0.html,https://github.com/RustCrypto/hashes/blob/master/sha2/LICENSE-APACHE (normalized)
+signature,v2.2.0,rust,https://github.com/RustCrypto/traits/tree/master/signature,Apache-2.0,https://spdx.org/licenses/Apache-2.0.html,https://github.com/RustCrypto/traits/blob/master/signature/LICENSE-APACHE (normalized)
+slab,v0.4.9,rust,https://github.com/tokio-rs/slab,MIT,https://spdx.org/licenses/MIT.html,https://crates.io/api/v1/crates/slab (normalized)
+smallvec,v1.11.2,rust,https://github.com/servo/rust-smallvec,MIT OR Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/smallvec
+socket2,v0.5.5,rust,https://github.com/rust-lang/socket2,MIT OR Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/socket2
+spin,v0.9.8,rust,https://github.com/mvdnes/spin-rs.git,MIT,https://spdx.org/licenses/MIT.html,https://crates.io/api/v1/crates/spin (normalized)
+sqlformat,v0.2.3,rust,https://github.com/shssoichiro/sqlformat-rs,MIT OR Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/sqlformat
+sqlx,v0.7.3,rust,https://github.com/launchbadge/sqlx,MIT OR Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/sqlx
+sqlx-core,v0.7.3,rust,https://github.com/launchbadge/sqlx,MIT OR Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/sqlx-core
+sqlx-macros,v0.7.3,rust,https://github.com/launchbadge/sqlx,MIT OR Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/sqlx-macros
+sqlx-macros-core,v0.7.3,rust,https://github.com/launchbadge/sqlx,MIT OR Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/sqlx-macros-core
+sqlx-postgres,v0.7.3,rust,https://github.com/launchbadge/sqlx,MIT OR Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/sqlx-postgres
+sqlx-sqlite,v0.7.3,rust,https://github.com/launchbadge/sqlx,MIT OR Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/sqlx-sqlite
+stringprep,v0.1.4,rust,https://github.com/sfackler/rust-stringprep,MIT/Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/stringprep
+subtle,v2.5.0,rust,https://github.com/dalek-cryptography/subtle,BSD-3-Clause,https://spdx.org/licenses/BSD-3-Clause.html,https://crates.io/api/v1/crates/subtle (normalized)
+syn,v1.0.109,rust,https://github.com/dtolnay/syn,MIT OR Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/syn
+syn,v2.0.61,rust,https://github.com/dtolnay/syn,MIT OR Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/syn
+tempfile,v3.8.1,rust,https://github.com/Stebalien/tempfile,MIT OR Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/tempfile
+termcolor,v1.4.0,rust,https://github.com/BurntSushi/termcolor,Unlicense OR MIT,UNKNOWN,https://crates.io/api/v1/crates/termcolor
+thiserror,v1.0.60,rust,https://github.com/dtolnay/thiserror,MIT OR Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/thiserror
+thiserror-impl,v1.0.60,rust,https://github.com/dtolnay/thiserror,MIT OR Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/thiserror-impl
+tinytemplate,v1.2.1,rust,https://github.com/bheisler/TinyTemplate,Apache-2.0 OR MIT,UNKNOWN,https://crates.io/api/v1/crates/tinytemplate
+tinyvec,v1.6.0,rust,https://github.com/Lokathor/tinyvec,Zlib OR Apache-2.0 OR MIT,UNKNOWN,https://crates.io/api/v1/crates/tinyvec
+tinyvec_macros,v0.1.1,rust,https://github.com/Soveu/tinyvec_macros,MIT OR Apache-2.0 OR Zlib,UNKNOWN,https://crates.io/api/v1/crates/tinyvec_macros
+tokio,v1.35.1,rust,https://github.com/tokio-rs/tokio,MIT,https://spdx.org/licenses/MIT.html,https://crates.io/api/v1/crates/tokio (normalized)
+tokio-stream,v0.1.14,rust,https://github.com/tokio-rs/tokio,MIT,https://spdx.org/licenses/MIT.html,https://crates.io/api/v1/crates/tokio-stream (normalized)
+tracing,v0.1.40,rust,https://github.com/tokio-rs/tracing,MIT,https://spdx.org/licenses/MIT.html,https://crates.io/api/v1/crates/tracing (normalized)
+tracing-attributes,v0.1.27,rust,https://github.com/tokio-rs/tracing,MIT,https://spdx.org/licenses/MIT.html,https://crates.io/api/v1/crates/tracing-attributes (normalized)
+tracing-core,v0.1.32,rust,https://github.com/tokio-rs/tracing,MIT,https://spdx.org/licenses/MIT.html,https://crates.io/api/v1/crates/tracing-core (normalized)
+typenum,v1.17.0,rust,https://github.com/paholg/typenum,Apache-2.0,https://spdx.org/licenses/Apache-2.0.html,https://github.com/paholg/typenum/blob/main/LICENSE-APACHE (normalized)
+unicode-bidi,v0.3.14,rust,https://github.com/servo/unicode-bidi,MIT OR Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/unicode-bidi
+unicode-ident,v1.0.12,rust,https://github.com/dtolnay/unicode-ident,(MIT OR Apache-2.0) AND Unicode-DFS-2016,UNKNOWN,https://crates.io/api/v1/crates/unicode-ident
+unicode-normalization,v0.1.22,rust,https://github.com/unicode-rs/unicode-normalization,MIT/Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/unicode-normalization
+unicode-segmentation,v1.10.1,rust,https://github.com/unicode-rs/unicode-segmentation,MIT/Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/unicode-segmentation
+unicode_categories,v0.1.1,rust,https://github.com/swgillespie/unicode-categories,MIT OR Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/unicode_categories
+universal-hash,v0.5.1,rust,https://github.com/RustCrypto/traits,MIT OR Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/universal-hash
+untrusted,v0.9.0,rust,https://github.com/briansmith/untrusted,ISC,https://spdx.org/licenses/ISC.html,https://github.com/briansmith/untrusted/blob/main/LICENSE.txt (normalized)
+url,v2.5.0,rust,https://github.com/servo/rust-url,MIT OR Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/url
+urlencoding,v2.1.3,rust,https://github.com/kornelski/rust_urlencoding,MIT,https://spdx.org/licenses/MIT.html,https://crates.io/api/v1/crates/urlencoding (normalized)
+uuid,v1.8.0,rust,https://github.com/uuid-rs/uuid,Apache-2.0 OR MIT,UNKNOWN,https://crates.io/api/v1/crates/uuid
+vcpkg,v0.2.15,rust,https://github.com/mcgoo/vcpkg-rs,MIT/Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/vcpkg
+version_check,v0.9.4,rust,https://github.com/SergioBenitez/version_check,MIT/Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/version_check
+walkdir,v2.4.0,rust,https://github.com/BurntSushi/walkdir,Unlicense/MIT,UNKNOWN,https://crates.io/api/v1/crates/walkdir
+webpki-roots,v0.25.3,rust,https://github.com/rustls/webpki-roots,MPL-2.0,https://spdx.org/licenses/MPL-2.0.html,https://crates.io/api/v1/crates/webpki-roots (normalized)
+whoami,v1.5.1,rust,https://github.com/ardaku/whoami,Apache-2.0 OR BSL-1.0 OR MIT,UNKNOWN,https://crates.io/api/v1/crates/whoami
+x25519-dalek,v2.0.0,rust,https://github.com/dalek-cryptography/x25519-dalek,BSD-3-Clause,https://spdx.org/licenses/BSD-3-Clause.html,https://crates.io/api/v1/crates/x25519-dalek (normalized)
+zerocopy,v0.7.31,rust,https://github.com/google/zerocopy,BSD-2-Clause OR Apache-2.0 OR MIT,UNKNOWN,https://crates.io/api/v1/crates/zerocopy
+zeroize,v1.7.0,rust,https://github.com/RustCrypto/utils/tree/master/zeroize,Apache-2.0 OR MIT,UNKNOWN,https://crates.io/api/v1/crates/zeroize
+zeroize_derive,v1.4.2,rust,https://github.com/RustCrypto/utils/tree/master/zeroize/derive,Apache-2.0 OR MIT,UNKNOWN,https://crates.io/api/v1/crates/zeroize_derive

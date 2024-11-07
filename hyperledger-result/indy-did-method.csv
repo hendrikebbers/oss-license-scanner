@@ -1,0 +1,2 @@
+name,version,language,repository,license,license-url,license-source
+spec-up,0.10.6,js,https://github.com/decentralized-identity/spec-up,Apache-2.0,https://spdx.org/licenses/Apache-2.0.html,npm show (normalized)

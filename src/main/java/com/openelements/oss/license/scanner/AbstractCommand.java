@@ -34,19 +34,19 @@ public abstract class AbstractCommand implements Callable<Integer> {
 
     private final static Logger log = LoggerFactory.getLogger(AbstractCommand.class);
 
-    @Option(names = {"-N", "--normalize"}, description = "Normalize dependecies")
+    @Option(names = {"-N", "--normalize"}, description = "normalize dependencies")
     private boolean normalizeDependencies;
 
-    @Option(names = {"-n", "--name"}, description = "the name of the library")
+    @Option(names = {"-n", "--name"}, description = "name of the library")
     private String name;
 
-    @Option(names = {"-r", "--repository"}, description = "the repository url of the library")
+    @Option(names = {"-r", "--repository"}, description = "repository url of the library")
     private String repositoryUrl;
 
-    @Option(names = {"-l", "--local"}, description = "the local path to the project")
+    @Option(names = {"-l", "--local"}, description = "local path to the project")
     private String localPath;
 
-    @Option(names = {"-v", "--version"}, description = "the version of the library")
+    @Option(names = {"-v", "--version"}, description = "version of the library")
     private String version;
 
     @Option(names = {"-t", "--token"}, description = "the GitHub token that is used to authenticate with the GitHub API")
@@ -192,11 +192,11 @@ public abstract class AbstractCommand implements Callable<Integer> {
     }
 
     private void printAsMarkdown(Set<Dependency> dependencies) throws IOException {
-        System.out.println("| name | version | language | repository | license | license-url | license-source |");
-        System.out.println("| --- | --- | --- |  --- |--- | --- | --- |");
+        System.out.println("| name | version | language | license |");
+        System.out.println("| ---- | ------- | -------- |  ------ |");
         dependencies.stream()
                 .sorted(Comparator.comparing(d -> d.identifier()))
-                .forEach(d -> System.out.println("| " + d.identifier().name() + " | " + d.identifier().version() + " | " + getLanguageType() + " | " + d.repository() + " | " + d.license().name() + " | " + d.license().url() + " | " + d.license().source() + " |"));
+                .forEach(d -> System.out.println("| [" + d.identifier().name() + "]("+ d.repository() +") | " + d.identifier().version() + " | " + getLanguageType() + " | [" + d.license().name() + "]("+ d.license().url() +") |"));
     }
 
     private void printAsJson(Set<Dependency> dependencies) throws IOException {

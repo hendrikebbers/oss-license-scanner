@@ -1,0 +1,4 @@
+name,version,language,repository,license,license-url,license-source
+axios,1.6.8,js,https://github.com/axios/axios,MIT,https://spdx.org/licenses/MIT.html,npm show (normalized)
+form-data,4.0.0,js,https://github.com/form-data/form-data,MIT,https://spdx.org/licenses/MIT.html,npm show (normalized)
+ws,8.17.1,js,https://github.com/websockets/ws,MIT,https://spdx.org/licenses/MIT.html,npm show (normalized)

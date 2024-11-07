@@ -1,0 +1,11 @@
+name,version,language,repository,license,license-url,license-source
+ajv,8.11.0,js,https://github.com/ajv-validator/ajv,MIT,https://spdx.org/licenses/MIT.html,npm show (normalized)
+axios,1.6.8,js,https://github.com/axios/axios,MIT,https://spdx.org/licenses/MIT.html,npm show (normalized)
+busboy,1.6.0,js,https://github.com/mscdex/busboy,MIT,https://spdx.org/licenses/MIT.html,https://api.github.com/repos/mscdex/busboy (normalized)
+express,4.19.2,js,https://github.com/expressjs/express,MIT,https://spdx.org/licenses/MIT.html,npm show (normalized)
+form-data,4.0.0,js,https://github.com/form-data/form-data,MIT,https://spdx.org/licenses/MIT.html,npm show (normalized)
+jsrsasign,11.1.0,js,https://github.com/kjur/jsrsasign,MIT,https://spdx.org/licenses/MIT.html,npm show (normalized)
+swagger-ui-express,4.3.0,js,https://github.com/scottie1984/swagger-ui-express,MIT,https://spdx.org/licenses/MIT.html,npm show (normalized)
+uuid,8.3.2,js,https://github.com/uuidjs/uuid,MIT,https://spdx.org/licenses/MIT.html,npm show (normalized)
+ws,8.17.1,js,https://github.com/websockets/ws,MIT,https://spdx.org/licenses/MIT.html,npm show (normalized)
+yamljs,0.3.0,js,https://github.com/jeremyfa/yaml.js,MIT,https://spdx.org/licenses/MIT.html,npm show (normalized)

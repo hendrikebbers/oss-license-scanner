@@ -1,0 +1,30 @@
+name,version,language,repository,license,license-url,license-source
+amcl,v0.2.0,rust,https://github.com/milagro-crypto/amcl,Apache-2.0,https://spdx.org/licenses/Apache-2.0.html,https://crates.io/api/v1/crates/amcl (normalized)
+block-buffer,v0.10.4,rust,https://github.com/RustCrypto/utils,Apache-2.0,https://spdx.org/licenses/Apache-2.0.html,https://github.com/RustCrypto/utils/blob/master/block-buffer/LICENSE-APACHE (normalized)
+cfg-if,v1.0.0,rust,https://github.com/alexcrichton/cfg-if,MIT/Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/cfg-if
+cpufeatures,v0.2.9,rust,https://github.com/RustCrypto/utils,MIT OR Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/cpufeatures
+crypto-common,v0.1.6,rust,https://github.com/RustCrypto/traits,Apache-2.0,https://spdx.org/licenses/Apache-2.0.html,https://github.com/RustCrypto/traits/blob/master/crypto-common/LICENSE-APACHE (normalized)
+digest,v0.10.7,rust,https://github.com/RustCrypto/traits,Apache-2.0,https://spdx.org/licenses/Apache-2.0.html,https://github.com/RustCrypto/traits/blob/master/digest/LICENSE-APACHE (normalized)
+generic-array,v0.14.7,rust,https://github.com/fizyk20/generic-array.git,MIT,https://spdx.org/licenses/MIT.html,https://crates.io/api/v1/crates/generic-array (normalized)
+getrandom,v0.2.10,rust,https://github.com/rust-random/getrandom,MIT OR Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/getrandom
+hex,v0.4.3,rust,https://github.com/KokaKiwi/rust-hex,MIT OR Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/hex
+indy-blssignatures,v0.1.1,rust,https://github.com/hyperledger/indy-blssignatures-rs,Apache-2.0,https://spdx.org/licenses/Apache-2.0.html,https://api.github.com/repos/hyperledger/indy-blssignatures-rs (normalized)
+itoa,v1.0.9,rust,https://github.com/dtolnay/itoa,MIT OR Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/itoa
+keccak,v0.1.4,rust,https://github.com/RustCrypto/sponges/tree/master/keccak,Apache-2.0 OR MIT,UNKNOWN,https://crates.io/api/v1/crates/keccak
+libc,v0.2.147,rust,https://github.com/rust-lang/libc,MIT OR Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/libc
+ppv-lite86,v0.2.17,rust,https://github.com/cryptocorrosion/cryptocorrosion,MIT/Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/ppv-lite86
+proc-macro2,v1.0.86,rust,https://github.com/dtolnay/proc-macro2,MIT OR Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/proc-macro2
+quote,v1.0.36,rust,https://github.com/dtolnay/quote,MIT OR Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/quote
+rand,v0.8.5,rust,https://github.com/rust-random/rand,Apache-2.0,https://spdx.org/licenses/Apache-2.0.html,https://github.com/rust-random/rand/blob/master/COPYRIGHT (normalized)
+rand_chacha,v0.3.1,rust,https://github.com/rust-random/rand,Apache-2.0,https://spdx.org/licenses/Apache-2.0.html,https://github.com/rust-random/rand/blob/master/rand_chacha/LICENSE-APACHE (normalized)
+rand_core,v0.6.4,rust,https://github.com/rust-random/rand,Apache-2.0,https://spdx.org/licenses/Apache-2.0.html,https://github.com/rust-random/rand/blob/master/rand_core/LICENSE-APACHE (normalized)
+ryu,v1.0.15,rust,https://github.com/dtolnay/ryu,Apache-2.0 OR BSL-1.0,UNKNOWN,https://crates.io/api/v1/crates/ryu
+serde,v1.0.203,rust,https://github.com/serde-rs/serde,MIT OR Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/serde
+serde_derive,v1.0.203,rust,https://github.com/serde-rs/serde,MIT OR Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/serde_derive
+serde_json,v1.0.119,rust,https://github.com/serde-rs/json,MIT OR Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/serde_json
+sha2,v0.10.7,rust,https://github.com/RustCrypto/hashes,MIT OR Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/sha2
+sha3,v0.10.8,rust,https://github.com/RustCrypto/hashes,Apache-2.0,https://spdx.org/licenses/Apache-2.0.html,https://github.com/RustCrypto/hashes/blob/master/sha3/LICENSE-APACHE (normalized)
+syn,v2.0.68,rust,https://github.com/dtolnay/syn,MIT OR Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/syn
+typenum,v1.16.0,rust,https://github.com/paholg/typenum,MIT OR Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/typenum
+unicode-ident,v1.0.11,rust,https://github.com/dtolnay/unicode-ident,(MIT OR Apache-2.0) AND Unicode-DFS-2016,UNKNOWN,https://crates.io/api/v1/crates/unicode-ident
+version_check,v0.9.4,rust,https://github.com/SergioBenitez/version_check,MIT/Apache-2.0,UNKNOWN,https://crates.io/api/v1/crates/version_check
