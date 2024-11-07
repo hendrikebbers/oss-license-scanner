@@ -1,9 +1,0 @@
-name,version,repository,license,license-url,license-source
-cffi,1.17.1,Unknown,MIT,https://api.github.com/licenses/mit,https://pypi.org/pypi/cffi/1.17.1/json (normalized)
-cryptography,43.0.3,https://github.com/pyca/cryptography/,Apache-2.0 OR BSD-3-Clause,UNKNOWN,https://pypi.org/pypi/cryptography/43.0.3/json
-grpcio,1.67.1,Unknown,Apache License 2.0,UNKNOWN,https://pypi.org/pypi/grpcio/1.67.1/json
-grpcio-tools,1.67.1,Unknown,Apache License 2.0,UNKNOWN,https://pypi.org/pypi/grpcio-tools/1.67.1/json
-protobuf,5.27.2,Unknown,3-Clause BSD License,UNKNOWN,https://pypi.org/pypi/protobuf/5.27.2/json
-pycparser,2.22,Unknown,BSD-3-Clause,https://api.github.com/licenses/bsd-3-clause,https://pypi.org/pypi/pycparser/2.22/json (normalized)
-python-dotenv,1.0.1,Unknown,BSD-3-Clause,https://api.github.com/licenses/bsd-3-clause,https://pypi.org/pypi/python-dotenv/1.0.1/json (normalized)
-setuptools,75.3.0,Unknown,Unknown,Unknown,Unknown

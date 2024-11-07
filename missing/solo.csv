@@ -1,5 +1,0 @@
-name,version,repository,license,license-url,license-source
-semver,7.6.3,https://github.com/npm/node-semver,ISC,https://spdx.org/licenses/ISC.html,npm show (normalized)
-stream-buffers,3.0.3,https://github.com/samcday/node-stream-buffer,Unlicense,https://spdx.org/licenses/Unlicense.html,npm show (normalized)
-tar,7.4.3,https://github.com/isaacs/node-tar,ISC,https://spdx.org/licenses/ISC.html,npm show (normalized)
-yaml,2.6.0,https://github.com/eemeli/yaml,ISC,https://spdx.org/licenses/ISC.html,npm show (normalized)

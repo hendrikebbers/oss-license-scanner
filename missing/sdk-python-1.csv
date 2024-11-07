@@ -1,5 +1,0 @@
-name,version,repository,license,license-url,license-source
-docutils,0.21.2,https://docutils.sourceforge.io,",OSI-Approved Open Source,Public Domain",UNKNOWN,https://sourceforge.net/rest/p/docutils
-mdurl,0.1.2,https://github.com/executablebooks/mdurl,,UNKNOWN,https://pypi.org/pypi/mdurl/0.1.2/json
-packaging,24.1,https://github.com/pypa/packaging,Other,Unknown,https://api.github.com/repos/pypa/packaging
-pyjnius,1.6.1,https://github.com/kivy/pyjnius,,UNKNOWN,https://pypi.org/pypi/pyjnius/1.6.1/json

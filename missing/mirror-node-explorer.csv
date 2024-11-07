@@ -1,4 +1,0 @@
-name,version,repository,license,license-url,license-source
-@fortawesome/free-brands-svg-icons,6.6.0,https://github.com/FortAwesome/Font-Awesome,CC-BY-4.0 AND MIT,https://www.npmjs.com/package/@fortawesome/free-brands-svg-icons,https://www.npmjs.com/package/@fortawesome/free-brands-svg-icons
-@fortawesome/free-solid-svg-icons,6.6.0,https://github.com/FortAwesome/Font-Awesome,CC-BY-4.0 AND MIT,https://www.npmjs.com/package/@fortawesome/free-brands-svg-icons,https://www.npmjs.com/package/@fortawesome/free-brands-svg-icons
-jszip,3.10.1,https://github.com/Stuk/jszip,(MIT OR GPL-3.0-or-later),UNKNOWN,npm show
