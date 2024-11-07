@@ -1,18 +1,5 @@
 name,version,repository,license,license-url,license-source
-docutils,0.21.2,,Unknown,Unknown,Unknown
-idna,3.10,,Unknown,Unknown,Unknown
-importlib_metadata,8.5.0,,Unknown,Unknown,Unknown
-jaraco.classes,3.4.0,,Unknown,Unknown,Unknown
-jaraco.context,6.0.1,,Unknown,Unknown,Unknown
-jaraco.functools,4.1.0,,Unknown,Unknown,Unknown
-keyring,25.5.0,,Unknown,Unknown,Unknown
-markdown-it-py,3.0.0,,Unknown,Unknown,Unknown
-mdurl,0.1.2,,,UNKNOWN,https://pypi.org/pypi/mdurl/0.1.2/json
-more-itertools,10.5.0,,Unknown,Unknown,Unknown
-packaging,24.1,,Unknown,Unknown,Unknown
-pyjnius,1.6.1,,,UNKNOWN,https://pypi.org/pypi/pyjnius/1.6.1/json
-pyproject_hooks,1.2.0,,Unknown,Unknown,Unknown
-setuptools,75.3.0,,Unknown,Unknown,Unknown
-twine,5.1.1,,Unknown,Unknown,Unknown
-urllib3,2.2.3,,Unknown,Unknown,Unknown
-zipp,3.20.2,,Unknown,Unknown,Unknown
+docutils,0.21.2,https://docutils.sourceforge.io,",OSI-Approved Open Source,Public Domain",UNKNOWN,https://sourceforge.net/rest/p/docutils
+mdurl,0.1.2,https://github.com/executablebooks/mdurl,,UNKNOWN,https://pypi.org/pypi/mdurl/0.1.2/json
+packaging,24.1,https://github.com/pypa/packaging,Other,Unknown,https://api.github.com/repos/pypa/packaging
+pyjnius,1.6.1,https://github.com/kivy/pyjnius,,UNKNOWN,https://pypi.org/pypi/pyjnius/1.6.1/json
