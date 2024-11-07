@@ -138,6 +138,9 @@ public class GitHubClient {
     }
 
     public Optional<License> getLicense(String repositoryUrl) {
+        if(repositoryUrl == null) {
+            return Optional.empty();
+        }
         final Repository repository = parseRepository(repositoryUrl);
         log.info("Getting license for repository {}/{}", repository.owner, repository.repo);
         try {

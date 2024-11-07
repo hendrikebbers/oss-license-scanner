@@ -39,6 +39,7 @@ public class PypiClient {
             }
             final JsonElement jsonElement = infoObject.get("license");
             if(jsonElement.isJsonNull()) {
+                log.info("License not provided at pypi.org for {}", identifier);
                 return Optional.empty();
             }
             final String license = jsonElement.getAsString();
@@ -65,10 +66,12 @@ public class PypiClient {
             final JsonObject root = JsonParser.parseString(body).getAsJsonObject();
             final JsonObject infoObject = root.get("info").getAsJsonObject();
             if(!infoObject.has("project_urls")) {
+                log.info("Repository url not provided at pypi.org for {}", identifier);
                 return Optional.empty();
             }
             final JsonObject UrlsObject = infoObject.get("project_urls").getAsJsonObject();
             if(!UrlsObject.has("source")) {
+                log.info("Repository url not provided at pypi.org for {}", identifier);
                 return Optional.empty();
             }
             final String repoUrl = UrlsObject.get("source").getAsString();

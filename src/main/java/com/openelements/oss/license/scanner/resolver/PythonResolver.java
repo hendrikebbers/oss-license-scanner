@@ -14,6 +14,7 @@ import com.openelements.oss.license.scanner.tools.PythonTool;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.Set;
+import java.util.function.Supplier;
 import java.util.stream.Collectors;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -37,7 +38,7 @@ public class PythonResolver extends AbstractResolver {
         return dependencies.stream()
                 .map(i -> {
                     final String repository = PypiClient.getRepository(i)
-                            .orElse("Unknown");
+                            .orElse(null);
                     final License license = getLicence(i, repository);
                     return new Dependency(i, license, repository);
                 })
@@ -45,7 +46,8 @@ public class PythonResolver extends AbstractResolver {
     }
 
     private License getLicence(Identifier identifier, String repository) {
-        return PypiClient.getLicense(identifier)
+        final Supplier<License> supplier = () -> PypiClient.getLicense(identifier)
                 .orElseGet(() -> getLicenseFromGitHub(repository));
+        return LicenseCache.getInstance().computeIfAbsent(identifier, supplier);
     }
 }

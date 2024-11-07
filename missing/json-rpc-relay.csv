@@ -3,4 +3,4 @@ name,version,repository,license,license-url,license-source
 @hashgraph/json-rpc-relay,0.60.0-SNAPSHOT,,Unknown,Unknown,Unknown
 @hashgraph/json-rpc-server,0.60.0-SNAPSHOT,,Unknown,Unknown,Unknown
 @hashgraph/json-rpc-ws-server,0.60.0-SNAPSHOT,,Unknown,Unknown,Unknown
-lru-cache,7.18.3,https://github.com/isaacs/node-lru-cache,ISC,https://api.github.com/licenses/isc,npm show (normalized)
+lru-cache,7.18.3,https://github.com/isaacs/node-lru-cache,ISC,https://spdx.org/licenses/ISC.html,npm show (normalized)

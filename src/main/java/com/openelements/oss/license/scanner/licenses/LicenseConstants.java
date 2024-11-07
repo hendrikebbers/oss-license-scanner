@@ -1,88 +1,178 @@
 package com.openelements.oss.license.scanner.licenses;
 
-import java.util.List;
 import java.util.Set;
 
 public interface LicenseConstants {
 
-    List<String> APACHE_2_0_URLS = List.of("https://api.github.com/licenses/apache-2.0",
+    String APACHE_2_0_SPDX_URL = "https://spdx.org/licenses/Apache-2.0.html";
+
+    String APACHE_2_0_GITHUB_URL = "https://api.github.com/licenses/apache-2.0";
+
+    Set<String> APACHE_2_0_ALTERNATIVE_URLS = Set.of(
             "http://www.apache.org/licenses/LICENSE-2.0.txt",
             "https://www.apache.org/licenses/LICENSE-2.0.txt",
             "http://www.apache.org/licenses/LICENSE-2.0",
             "https://www.apache.org/licenses/LICENSE-2.0",
-            "http://repository.jboss.org/licenses/apache-2.0.txt");
+            "http://repository.jboss.org/licenses/apache-2.0.txt", "https://opensource.org/licenses/Apache-2.0");
 
-    List<String> MIT_URLS = List.of("https://api.github.com/licenses/mit",
-            "https://opensource.org/licenses/MIT",
+    String MIT_SPDX_URL = "https://spdx.org/licenses/MIT.html";
+
+    String MIT_GITHUB_URL = "https://api.github.com/licenses/mit";
+
+    Set<String> MIT_ALTERNATIVE_URLS = Set.of("https://opensource.org/licenses/MIT",
             "http://www.opensource.org/licenses/mit-license.php");
 
-    List<String> BSD_3_CLAUSE_URLS = List.of("https://api.github.com/licenses/bsd-3-clause",
-            "http://opensource.org/licenses/BSD-3-Clause");
+    String BSD_3_CLAUSE_SPDX_URL = "https://spdx.org/licenses/BSD-3-Clause.html";
 
-    List<String> BSD_2_CLAUSE_URLS = List.of("https://api.github.com/licenses/bsd-2-clause");
+    String BSD_3_CLAUSE_GITHUB_URL = "https://api.github.com/licenses/bsd-3-clause";
 
-    List<String> EPL_2_0_URLS = List.of("https://api.github.com/licenses/epl-2.0");
+    Set<String> BSD_3_CLAUSE_ALTERNATIVE_URLS = Set.of("http://opensource.org/licenses/BSD-3-Clause", "https://api.github.com/licenses/edl-1.0", "https://www.eclipse.org/org/documents/edl-v10.php");
 
-    List<String> EPL_1_0_URLS = List.of("https://api.github.com/licenses/epl-1.0",
-            "https://www.eclipse.org/legal/epl-v10.html");
+    String BSD_2_CLAUSE_SPDX_URL = "https://spdx.org/licenses/BSD-2-Clause.html";
 
-    List<String> EDL_1_0_URLS = List.of("https://api.github.com/licenses/edl-1.0");
+    String BSD_2_CLAUSE_GITHUB_URL = "https://api.github.com/licenses/bsd-2-clause";
 
-    List<String> PUBLIC_DOMAIN_URLS = List.of("https://api.github.com/licenses/unlicense");
+    Set<String> BSD_2_CLAUSE_ALTERNATIVE_URLS = Set.of("https://opensource.org/licenses/BSD-2-Clause");
 
-    List<String> GPL_3_0_URLS = List.of("https://api.github.com/licenses/gpl-3.0");
+    String EPL_2_0_SPDX_URL = "https://spdx.org/licenses/EPL-2.0.html";
 
-    List<String> GPL_2_0_URLS = List.of("https://api.github.com/licenses/gpl-2.0");
+    String EPL_2_0_GITHUB_URL = "https://api.github.com/licenses/epl-2.0";
 
-    List<String> LGPL_2_0_URLS = List.of("https://api.github.com/licenses/lgpl-2.0");
+    Set<String> EPL_2_0_URLS = Set.of("https://www.eclipse.org/legal/epl-2.0", "https://www.opensource.org/licenses/EPL-2.0");
 
-    List<String> LGPL_2_1_URLS = List.of("https://api.github.com/licenses/lgpl-2.1", "https://www.gnu.org/licenses/old-licenses/lgpl-2.1.en.html");
+    String EPL_1_0_SPDX_URL = "https://spdx.org/licenses/EPL-1.0.html";
 
-    List<String> LGPL_3_0_URLS = List.of("https://api.github.com/licenses/lgpl-3.0");
+    String EPL_1_0_GITHUB_URL = "https://api.github.com/licenses/epl-1.0";
 
-    List<String> MOZILLA_2_0_URLS = List.of("https://api.github.com/licenses/mpl-2.0");
+    Set<String> EPL_1_0_URLS = Set.of("https://www.eclipse.org/legal/epl-v10.html", "https://opensource.org/licenses/EPL-1.0");
 
-    List<String> CC0_1_0_URLS = List.of("https://api.github.com/licenses/cc0-1.0", "https://creativecommons.org/publicdomain/zero/1.0/");
+    String UNLICENSE_SPDX_URL = "https://spdx.org/licenses/Unlicense.html";
 
-    List<String> ISC_URLS = List.of("https://api.github.com/licenses/isc");
+    String UNLICENSE_GITHUB_URL = "https://api.github.com/licenses/unlicense";
 
-    List<String> CDDL_1_0_URLS = List.of("http://www.sun.com/cddl/cddl.html");
+    Set<String> UNLICENSE_URLS = Set.of("https://unlicense.org/", "https://opensource.org/license/unlicense");
 
-    List<String> APACHE_2_0_NAMES = List.of("Apache-2.0", "Apache","Apache License, Version 2.0", "Apache 2.0",
+    String GPL_3_0_SPDX_URL = "https://spdx.org/licenses/GPL-3.0.html";
+
+    String GPL_3_0_GITHUB_URL = "https://api.github.com/licenses/gpl-3.0";
+
+    Set<String> GPL_3_0_URLS = Set.of("https://www.gnu.org/licenses/gpl-3.0-standalone.html", "https://opensource.org/licenses/GPL-3.0");
+
+    String GPL_2_0_SPDX_URL = "https://spdx.org/licenses/GPL-2.0.html";
+
+    String GPL_2_0_GITHUB_URL = "https://api.github.com/licenses/gpl-2.0";
+
+    Set<String> GPL_2_0_URLS = Set.of("https://www.gnu.org/licenses/old-licenses/gpl-2.0-standalone.html", "https://opensource.org/licenses/GPL-2.0");
+
+    String LGPL_2_0_SPDX_URL = "https://spdx.org/licenses/LGPL-2.0.html";
+
+    String LGPL_2_0_GITHUB_URL = "https://api.github.com/licenses/lgpl-2.0";
+
+    Set<String> LGPL_2_0_URLS = Set.of("https://opensource.org/license/lgpl-2-0");
+
+    String LGPL_2_1_SPDX_URL = "https://spdx.org/licenses/LGPL-2.1.html";
+
+    String LGPL_2_1_GITHUB_URL = "https://api.github.com/licenses/lgpl-2.1";
+
+    Set<String> LGPL_2_1_URLS = Set.of("https://www.gnu.org/licenses/old-licenses/lgpl-2.1-standalone.html", "https://opensource.org/licenses/LGPL-2.1");
+
+    String LGPL_3_0_SPDX_URL = "https://spdx.org/licenses/LGPL-3.0.html";
+
+    String LGPL_3_0_GITHUB_URL = "https://api.github.com/licenses/lgpl-3.0";
+
+    Set<String> LGPL_3_0_URLS = Set.of("https://www.gnu.org/licenses/lgpl-3.0-standalone.html", "https://www.gnu.org/licenses/lgpl+gpl-3.0.txt", "https://opensource.org/licenses/LGPL-3.0");
+
+    String MPL_2_0_SPDX_URL = "https://spdx.org/licenses/MPL-2.0.html";
+
+    String MPL_2_0_GITHUB_URL = "https://api.github.com/licenses/mpl-2.0";
+
+    Set<String> MPL_2_0_URLS = Set.of("https://www.mozilla.org/MPL/2.0/", "https://opensource.org/licenses/MPL-2.0");
+
+    String CC0_1_0_SPDX_URL = "https://spdx.org/licenses/CC0-1.0.html";
+
+    String CC0_1_0_GITHUB_URL = "https://api.github.com/licenses/cc0-1.0";
+
+    Set<String> CC0_1_0_URLS = Set.of("https://creativecommons.org/publicdomain/zero/1.0/legalcode");
+
+    String ISC_SPDX_URL = "https://spdx.org/licenses/ISC.html";
+
+    String ISC_GITHUB_URL = "https://api.github.com/licenses/isc";
+
+    Set<String> ISC_URLS = Set.of("https://www.isc.org/downloads/software-support-policy/isc-license/", "https://www.isc.org/licenses/", "https://opensource.org/licenses/ISC");
+
+    String CDDL_1_0_SPDX_URL = "https://spdx.org/licenses/CDDL-1.0.html";
+
+    String CDDL_1_0_GITHUB_URL = "https://api.github.com/licenses/cddl-1.0";
+
+    Set<String> CDDL_1_0_URLS = Set.of("http://www.sun.com/cddl/cddl.html", "https://opensource.org/license/cddl-1-0");
+
+
+    String APACHE_2_0_SPDX_ID = "Apache-2.0";
+
+    Set<String> APACHE_2_0_ALTERNATIVE_NAMES = Set.of("Apache","Apache License, Version 2.0", "Apache 2.0",
             "The Apache Software License, Version 2.0", "Apache 2.0 License", "Apache License 2.0");
 
-    List<String> MIT_NAMES = List.of("MIT", "The MIT License (MIT)", "MIT License", "The MIT License", "MIT license");
+    String MIT_SPDX_ID = "MIT";
 
-    List<String> BSD_3_CLAUSE_NAMES = List.of("BSD-3-Clause", "BSD-3", "BSD 3-Clause", "BSD License 3",
+    Set<String> MIT_ALTERNATIVE_NAMES = Set.of("The MIT License (MIT)", "MIT License", "The MIT License", "MIT license");
+
+    String BSD_3_CLAUSE_SPDX_ID = "BSD-3-Clause";
+
+    Set<String> BSD_3_CLAUSE_ALTERNATIVE_NAMES = Set.of("BSD-3", "BSD 3-Clause", "BSD License 3",
             "BSD 3-Clause \"New\" or \"Revised\" License", "3-Clause BSD License");
 
-    List<String> BSD_2_CLAUSE_NAMES = List.of("BSD-2-Clause", "BSD-2", "BSD 2-Clause \"Simplified\" License");
+    String BSD_2_CLAUSE_SPDX_ID = "BSD-2-Clause";
 
-    List<String> EPL_2_0_NAMES = List.of("EPL-2.0", "EPL-2", "Eclipse Public License, Version 2.0", "Eclipse Public License v2.0", "EPL 2.0");
+    Set<String> BSD_2_CLAUSE_ALTERNATIVE_NAMES = Set.of("BSD-2", "BSD 2-Clause \"Simplified\" License");
 
-    List<String> EPL_1_0_NAMES = List.of("EPL-1.0", "EPL-1", "Eclipse Public License - v 1.0",
+    String EPL_2_0_SPDX_ID = "EPL-2.0";
+
+    Set<String> EPL_2_0_ALTERNATIVE_NAMES = Set.of("EPL-2", "Eclipse Public License, Version 2.0", "Eclipse Public License v2.0", "EPL 2.0");
+
+    String EPL_1_0_SPDX_ID = "EPL-1.0";
+
+    Set<String> EPL_1_0_ALTERNATIVE_NAMES = Set.of("EPL-1", "Eclipse Public License - v 1.0",
             "Eclipse Public License v1.0");
 
-    List<String> EDL_1_0_NAMES = List.of("EDL-1.0","EDL 1.0", "Eclipse Distribution License - v 1.0");
+    String UNLICENSE_SPDX_ID = "Unlicense";
 
-    List<String> PUBLIC_DOMAIN_NAMES = List.of("Public-Domain", "Unlicense", "Public Domain");
+    Set<String> UNLICENSE_ALTERNATIVE_NAMES = Set.of("The Unlicense");
 
-    List<String> GPL_3_0_NAMES = List.of("GPL-3.0", "GPL-3");
+    String GPL_3_0_SPDX_ID = "GPL-3.0";
 
-    List<String> GPL_2_0_NAMES = List.of("GPL-2.0", "GPL-2");
+    Set<String> GPL_3_0_ALTERNATIVE_NAMES = Set.of("GPL-3");
 
-    List<String> LGPL_2_0_NAMES = List.of("LGPL-2.0", "LGPL-2");
+    String GPL_2_0_SPDX_ID = "GPL-2.0";
 
-    List<String> LGPL_2_1_NAMES = List.of("LGPL-2.1", "GNU LESSER GENERAL PUBLIC LICENSE, Version 2.1");
+    Set<String> GPL_2_0_ALTERNATIVE_NAMES = Set.of("GPL-2");
 
-    List<String> LGPL_3_0_NAMES = List.of("LGPL-3.0", "LGPL-3", "GNU Lesser General Public License v3.0");
+    String LGPL_2_0_SPDX_ID = "LGPL-2.0";
 
-    List<String> MOZILLA_2_0_NAMES = List.of("MPL-2.0", "MPL-2", "Mozilla Public License, Version 2.0");
+    Set<String> LGPL_2_0_ALTERNATIVE_NAMES = Set.of("LGPL-2");
 
-    List<String> CC0_1_0_NAMES = List.of("CC0-1.0", "CC0-1", "CC0 1.0 Universal");
+    String LGPL_2_1_SPDX_ID = "LGPL-2.1";
 
-    List<String> ISC_NAMES = List.of("ISC","ISC License");
+    Set<String> LGPL_2_1_ALTERNATIVE_NAMES = Set.of("GNU LESSER GENERAL PUBLIC LICENSE, Version 2.1");
 
-    List<String> CDDL_1_0_NAMES = List.of("CDDL-1.0");
+    String LGPL_3_0_SPDX_ID = "LGPL-3.0";
+
+    Set<String> LGPL_3_0_ALTERNATIVE_NAMES = Set.of("LGPL-3", "GNU Lesser General Public License v3.0");
+
+    String MPL_2_0_SPDX_ID = "MPL-2.0";
+
+    Set<String> MPL_2_0_ALTERNATIVE_NAMES = Set.of("MPL-2", "Mozilla Public License, Version 2.0");
+
+    String CC0_1_0_SPDX_ID = "CC0-1.0";
+
+    Set<String> CC0_1_0_ALTERNATIVE_NAMES = Set.of("CC0-1", "CC0 1.0 Universal");
+
+    String ISC_SPDX_ID = "ISC";
+
+    Set<String> ISC_ALTERNATIVE_NAMES = Set.of("ISC License");
+
+    String CDDL_1_0_SPDX_ID = "CDDL-1.0";
+
+    Set<String> CDDL_1_0_ALTERNATIVE_NAMES = Set.of();
+
 
 }

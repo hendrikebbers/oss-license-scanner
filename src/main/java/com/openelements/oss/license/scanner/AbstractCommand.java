@@ -153,7 +153,7 @@ public abstract class AbstractCommand implements Callable<Integer> {
             return false;
         }
         final String licenseName = KnownLicenses.of(license)
-                .map(knownLicenses -> knownLicenses.getName())
+                .map(knownLicenses -> knownLicenses.getSpdxId())
                 .orElse(license.name());
         return excludeLicenses.stream()
                 .anyMatch(excludeLicense -> excludeLicense.equalsIgnoreCase(licenseName));
@@ -228,7 +228,7 @@ public abstract class AbstractCommand implements Callable<Integer> {
 
     public static License normalize(License license) {
         return KnownLicenses.of(license)
-                .map(knownLicense -> new License(knownLicense.getName(), knownLicense.getUrl(), license.source() + " (normalized)"))
+                .map(knownLicense -> new License(knownLicense.getSpdxId(), knownLicense.getSpdxUrl(), license.source() + " (normalized)"))
                 .orElseGet(() -> {
                     log.warn("Can not normalize: {}", license);
                     return license;

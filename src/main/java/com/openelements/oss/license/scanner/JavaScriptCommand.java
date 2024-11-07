@@ -14,7 +14,7 @@ import picocli.CommandLine.Option;
 public class JavaScriptCommand extends AbstractCommand {
 
     public static void main(String[] args) {
-        new CommandLine(new JavaScriptCommand()).execute("-n", "@hashgraph/hedera-local", "-v", "2.31.0");
+        new CommandLine(new JavaScriptCommand()).execute("-r", "https://github.com/hashgraph/hedera-mirror-node-explorer", "-m", "hedera-manual.csv");
     }
 
     @Override

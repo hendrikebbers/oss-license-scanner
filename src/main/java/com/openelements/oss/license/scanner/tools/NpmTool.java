@@ -42,8 +42,7 @@ public class NpmTool {
     }
 
     private static Optional<String> extractRepositoryFromNpmShowOut(List<String> lines) {
-        final JsonObject jsonObject = npmOutToJson(lines);
-        if (!jsonObject.has("repository")) {
+        final JsonObject jsonObject = npmOutToJson(lines);if (!jsonObject.has("repository")) {
             return Optional.empty();
         } else if (!jsonObject.get("repository").isJsonObject()) {
             return Optional.empty();

@@ -84,14 +84,23 @@ public class NpmResolver extends AbstractResolver {
         }
         final Dependency dependency = NpmTool.callNpmShowAndReturnRepository(identifier)
                 .map(repository -> new Dependency(identifier, getLicence(identifier, repository), repository))
-                .orElseGet(() -> new Dependency(identifier, License.UNKNOWN, null));
+                .orElseGet(() -> new Dependency(identifier, getLicence(identifier), null));
         cache.put(identifier, dependency);
         return Optional.of(dependency);
     }
 
+    private License getLicence(Identifier identifier) {
+        log.info("Getting license for: {}", identifier);
+        return LicenseCache.getInstance()
+                .computeIfAbsent(identifier, () -> NpmTool.callNpmShowAndReturnLicense(identifier)
+                        .orElseGet(() -> License.UNKNOWN));
+    }
+
     private License getLicence(Identifier identifier, String repository) {
-        return NpmTool.callNpmShowAndReturnLicense(identifier)
-                .orElseGet(() -> getLicenseFromGitHub(repository));
+        log.info("Getting license for: {}", identifier);
+        return LicenseCache.getInstance()
+                .computeIfAbsent(identifier, () -> NpmTool.callNpmShowAndReturnLicense(identifier)
+                .orElseGet(() -> getLicenseFromGitHub(repository)));
     }
 
 }

@@ -4,11 +4,13 @@ import com.openelements.oss.license.scanner.clients.GitHubClient;
 import com.openelements.oss.license.scanner.api.Dependency;
 import com.openelements.oss.license.scanner.api.Identifier;
 import com.openelements.oss.license.scanner.api.License;
+import com.openelements.oss.license.scanner.clients.PypiClient;
 import com.openelements.oss.license.scanner.licenses.LicenseCache;
 import com.openelements.oss.license.scanner.tools.SwiftTool;
 import com.openelements.oss.license.scanner.tools.SwiftTool.SwiftLib;
 import java.nio.file.Path;
 import java.util.Set;
+import java.util.function.Supplier;
 import java.util.stream.Collectors;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -36,8 +38,13 @@ public class SwiftResolver extends AbstractResolver {
     }
 
     private Dependency convertToDependency(SwiftLib lib) {
-        License license = LicenseCache.getInstance().computeIfAbsent(lib.identifier(), () -> getLicenseFromGitHub(lib.repositoryUrl()));
+        License license = getLicence(lib.identifier(), lib.repositoryUrl());
         return new Dependency(lib.identifier(), license, lib.repositoryUrl());
+    }
+
+    private License getLicence(Identifier identifier, String repository) {
+        final Supplier<License> supplier = () -> getLicenseFromGitHub(repository);
+        return LicenseCache.getInstance().computeIfAbsent(identifier, supplier);
     }
 
 }

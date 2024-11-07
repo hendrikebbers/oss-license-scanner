@@ -1,21 +1,21 @@
 name,version,repository,license,license-url,license-source
-github.com/btcsuite/btcd/btcec/v2,v2.2.0,https://github.com/btcsuite/btcd/btcec/v2,ISC,https://api.github.com/licenses/isc,https://api.github.com/repos/btcsuite/btcd (normalized)
-github.com/btcsuite/btcd/btcec/v2,v2.3.4,https://github.com/btcsuite/btcd/btcec/v2,ISC,https://api.github.com/licenses/isc,https://api.github.com/repos/btcsuite/btcd (normalized)
-github.com/btcsuite/btcd/chaincfg/chainhash,v1.0.1,https://github.com/btcsuite/btcd/chaincfg/chainhash,ISC,https://api.github.com/licenses/isc,https://api.github.com/repos/btcsuite/btcd (normalized)
-github.com/davecgh/go-spew,v1.1.0,https://github.com/davecgh/go-spew,ISC,https://api.github.com/licenses/isc,https://api.github.com/repos/davecgh/go-spew (normalized)
-github.com/davecgh/go-spew,v1.1.1,https://github.com/davecgh/go-spew,ISC,https://api.github.com/licenses/isc,https://api.github.com/repos/davecgh/go-spew (normalized)
-github.com/decred/dcrd/crypto/blake256,v1.0.0,https://github.com/decred/dcrd/crypto/blake256,ISC,https://api.github.com/licenses/isc,https://api.github.com/repos/decred/dcrd (normalized)
-github.com/decred/dcrd/crypto/blake256,v1.0.1,https://github.com/decred/dcrd/crypto/blake256,ISC,https://api.github.com/licenses/isc,https://api.github.com/repos/decred/dcrd (normalized)
-github.com/decred/dcrd/dcrec/secp256k1/v4,v4.0.1,https://github.com/decred/dcrd/dcrec/secp256k1/v4,ISC,https://api.github.com/licenses/isc,https://api.github.com/repos/decred/dcrd (normalized)
-github.com/decred/dcrd/dcrec/secp256k1/v4,v4.3.0,https://github.com/decred/dcrd/dcrec/secp256k1/v4,ISC,https://api.github.com/licenses/isc,https://api.github.com/repos/decred/dcrd (normalized)
-github.com/ethereum/go-ethereum,v1.13.15,https://github.com/ethereum/go-ethereum,LGPL-3.0,https://api.github.com/licenses/lgpl-3.0,https://api.github.com/repos/ethereum/go-ethereum (normalized)
-github.com/gballet/go-verkle,v0.1.1-0.20231031103413-a67434b50f46,https://github.com/gballet/go-verkle,Public-Domain,https://api.github.com/licenses/unlicense,https://api.github.com/repos/gballet/go-verkle (normalized)
-github.com/karalabe/usb,v0.0.2,https://github.com/karalabe/usb,LGPL-3.0,https://api.github.com/licenses/lgpl-3.0,https://api.github.com/repos/karalabe/usb (normalized)
+github.com/btcsuite/btcd/btcec/v2,v2.2.0,https://github.com/btcsuite/btcd/btcec/v2,ISC,https://spdx.org/licenses/ISC.html,https://api.github.com/repos/btcsuite/btcd (normalized)
+github.com/btcsuite/btcd/btcec/v2,v2.3.4,https://github.com/btcsuite/btcd/btcec/v2,ISC,https://spdx.org/licenses/ISC.html,https://api.github.com/repos/btcsuite/btcd (normalized)
+github.com/btcsuite/btcd/chaincfg/chainhash,v1.0.1,https://github.com/btcsuite/btcd/chaincfg/chainhash,ISC,https://spdx.org/licenses/ISC.html,https://api.github.com/repos/btcsuite/btcd (normalized)
+github.com/davecgh/go-spew,v1.1.0,https://github.com/davecgh/go-spew,ISC,https://spdx.org/licenses/ISC.html,https://api.github.com/repos/davecgh/go-spew (normalized)
+github.com/davecgh/go-spew,v1.1.1,https://github.com/davecgh/go-spew,ISC,https://spdx.org/licenses/ISC.html,https://api.github.com/repos/davecgh/go-spew (normalized)
+github.com/decred/dcrd/crypto/blake256,v1.0.0,https://github.com/decred/dcrd/crypto/blake256,ISC,https://spdx.org/licenses/ISC.html,https://api.github.com/repos/decred/dcrd (normalized)
+github.com/decred/dcrd/crypto/blake256,v1.0.1,https://github.com/decred/dcrd/crypto/blake256,ISC,https://spdx.org/licenses/ISC.html,https://api.github.com/repos/decred/dcrd (normalized)
+github.com/decred/dcrd/dcrec/secp256k1/v4,v4.0.1,https://github.com/decred/dcrd/dcrec/secp256k1/v4,ISC,https://spdx.org/licenses/ISC.html,https://api.github.com/repos/decred/dcrd (normalized)
+github.com/decred/dcrd/dcrec/secp256k1/v4,v4.3.0,https://github.com/decred/dcrd/dcrec/secp256k1/v4,ISC,https://spdx.org/licenses/ISC.html,https://api.github.com/repos/decred/dcrd (normalized)
+github.com/ethereum/go-ethereum,v1.13.15,https://github.com/ethereum/go-ethereum,LGPL-3.0,https://spdx.org/licenses/LGPL-3.0.html,https://api.github.com/repos/ethereum/go-ethereum (normalized)
+github.com/gballet/go-verkle,v0.1.1-0.20231031103413-a67434b50f46,https://github.com/gballet/go-verkle,Unlicense,https://spdx.org/licenses/Unlicense.html,https://api.github.com/repos/gballet/go-verkle (normalized)
+github.com/karalabe/usb,v0.0.2,https://github.com/karalabe/usb,LGPL-3.0,https://spdx.org/licenses/LGPL-3.0.html,https://api.github.com/repos/karalabe/usb (normalized)
 github.com/klauspost/compress,v1.15.15,https://github.com/klauspost/compress,Multiple licenses,https://github.com/klauspost/compress?tab=License-1-ov-file#readme,https://github.com/klauspost/compress?tab=License-1-ov-file#readme
 github.com/klauspost/compress,v1.16.0,https://github.com/klauspost/compress,Multiple licenses,https://github.com/klauspost/compress?tab=License-1-ov-file#readme,https://github.com/klauspost/compress?tab=License-1-ov-file#readme
-gopkg.in/yaml.v2,v2.2.2,unknown,MIT and Apache License 2.0 ,https://github.com/go-yaml/yaml/blob/v3/LICENSE,https://github.com/go-yaml/yaml/blob/v3/LICENSE
-gopkg.in/yaml.v2,v2.2.4,unknown,MIT and Apache License 2.0 ,https://github.com/go-yaml/yaml/blob/v3/LICENSE,https://github.com/go-yaml/yaml/blob/v3/LICENSE
-gopkg.in/yaml.v2,v2.3.0,unknown,MIT and Apache License 2.0 ,https://github.com/go-yaml/yaml/blob/v3/LICENSE,https://github.com/go-yaml/yaml/blob/v3/LICENSE
-gopkg.in/yaml.v2,v2.4.0,unknown,MIT and Apache License 2.0 ,https://github.com/go-yaml/yaml/blob/v3/LICENSE,https://github.com/go-yaml/yaml/blob/v3/LICENSE
-gopkg.in/yaml.v3,v3.0.1,unknown,MIT and Apache License 2.0 ,https://github.com/go-yaml/yaml/blob/v3/LICENSE,https://github.com/go-yaml/yaml/blob/v3/LICENSE
+gopkg.in/yaml.v2,v2.2.2,unknown,MIT and Apache License 2.0 (CHECKED BY HENDRIK),https://github.com/go-yaml/yaml/blob/v3/LICENSE,https://github.com/go-yaml/yaml/blob/v3/LICENSE
+gopkg.in/yaml.v2,v2.2.4,unknown,MIT and Apache License 2.0 (CHECKED BY HENDRIK),https://github.com/go-yaml/yaml/blob/v3/LICENSE,https://github.com/go-yaml/yaml/blob/v3/LICENSE
+gopkg.in/yaml.v2,v2.3.0,unknown,MIT and Apache License 2.0 (CHECKED BY HENDRIK),https://github.com/go-yaml/yaml/blob/v3/LICENSE,https://github.com/go-yaml/yaml/blob/v3/LICENSE
+gopkg.in/yaml.v2,v2.4.0,unknown,MIT and Apache License 2.0 (CHECKED BY HENDRIK),https://github.com/go-yaml/yaml/blob/v3/LICENSE,https://github.com/go-yaml/yaml/blob/v3/LICENSE
+gopkg.in/yaml.v3,v3.0.1,unknown,MIT and Apache License 2.0 (CHECKED BY HENDRIK),https://github.com/go-yaml/yaml/blob/v3/LICENSE,https://github.com/go-yaml/yaml/blob/v3/LICENSE
 toolchain,go1.21,unknown,Unknown,Unknown,-

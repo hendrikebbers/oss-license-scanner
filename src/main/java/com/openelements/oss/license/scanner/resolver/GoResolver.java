@@ -3,11 +3,14 @@ package com.openelements.oss.license.scanner.resolver;
 import com.openelements.oss.license.scanner.api.Dependency;
 import com.openelements.oss.license.scanner.api.Identifier;
 import com.openelements.oss.license.scanner.api.License;
+import com.openelements.oss.license.scanner.clients.CratesClient;
 import com.openelements.oss.license.scanner.clients.GitHubClient;
 import com.openelements.oss.license.scanner.licenses.LicenseCache;
+import com.openelements.oss.license.scanner.tools.CargoTool.CargoLibrary;
 import com.openelements.oss.license.scanner.tools.GoTool;
 import java.nio.file.Path;
 import java.util.Set;
+import java.util.function.Supplier;
 import java.util.stream.Collectors;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -38,7 +41,7 @@ public class GoResolver extends AbstractResolver {
                     final License license;
                     if(id.name().startsWith("github.com/")) {
                         repository = "https://" + id.name();
-                        license = LicenseCache.getInstance().computeIfAbsent(id, () -> getLicenseFromGitHub(repository));
+                        license = getLicence(id, repository);
                     } else {
                         log.debug("Unsupported repository: {}", id.name());
                         repository = "unknown";
@@ -46,5 +49,11 @@ public class GoResolver extends AbstractResolver {
                     }
                     return new Dependency(id, license, repository);
                 }).collect(Collectors.toUnmodifiableSet());
+    }
+
+    private License getLicence(Identifier identifier, final String repository) {
+        final Supplier<License> supplier = () -> getLicenseFromGitHub(repository);
+        return LicenseCache.getInstance()
+                .computeIfAbsent(identifier, supplier);
     }
 }
