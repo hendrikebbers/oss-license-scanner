@@ -260,3 +260,6 @@ anyhow,v1.0.86,rust,Apache License 2.0,https://api.github.com/licenses/apache-2.
 arc-swap,v1.7.1,rust,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://github.com/vorner/arc-swap?tab=readme-ov-file#license
 arrayvec,v0.7.4,rust,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://github.com/bluss/arrayvec?tab=readme-ov-file#license
 assert_matches,v1.5.0,rust,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://github.com/murarth/assert_matches?tab=readme-ov-file#license
+org.bouncycastle:bcpkix-jdk18on,1.78.1,java,MIT License,https://api.github.com/licenses/mit,https://www.bouncycastle.org/licence.html
+org.bouncycastle:bcprov-jdk18on,1.78.1,java,MIT License,https://api.github.com/licenses/mit,https://www.bouncycastle.org/licence.html
+org.bouncycastle:bcutil-jdk18on,1.78.1,java,MIT License,https://api.github.com/licenses/mit,https://www.bouncycastle.org/licence.html
