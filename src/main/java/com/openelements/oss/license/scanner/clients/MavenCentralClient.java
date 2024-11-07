@@ -80,8 +80,7 @@ public class MavenCentralClient {
                         } else {
                             licenseUrl = "unknown";
                         }
-                        final License license = LicenseCache.getInstance().computeIfAbsent(identifier.toIdentifier(),
-                                () -> new License(licenseName, licenseUrl, "pom(" + identifier + ")"));
+                        final License license = new License(licenseName, licenseUrl, "pom(" + identifier + ")");
                         return Optional.of(license);
                     }
                 }
