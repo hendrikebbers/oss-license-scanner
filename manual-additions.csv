@@ -266,4 +266,8 @@ org.bouncycastle:bcutil-jdk18on,1.78.1,java,MIT License,https://api.github.com/l
 google.golang.org/protobuf,v1.35.1,go,BSD 3-Clause,https://api.github.com/licenses/bsd-3-clause,https://github.com/protocolbuffers/protobuf-go
 gopkg.in/yaml.v3,v3.0.1,go,MIT and Apache License 2.0 (CHECKED BY HENDRIK),https://github.com/go-yaml/yaml/blob/v3.0.1/LICENSE,https://github.com/go-yaml/yaml/blob/v3.0.1/LICENSE
 toolchain,go1.21,go,BSD 3-Clause,https://api.github.com/licenses/bsd-3-clause,https://github.com/golang/go
+multiformats,13.3.1,js,MIT License,https://api.github.com/licenses/mit,https://github.com/multiformats/js-multiformats
+mdurl,0.1.2,python,MIT License,https://api.github.com/licenses/mit,https://github.com/executablebooks/mdurl/blob/master/LICENSE
+packaging,24.2,python,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://github.com/pypa/packaging/blob/main/LICENSE
+pyjnius,1.6.1,python,MIT License,https://api.github.com/licenses/mit,https://github.com/kivy/pyjnius
 
