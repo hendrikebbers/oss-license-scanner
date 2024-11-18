@@ -1,3 +1,26 @@
 name,version,language,repository,license,license-url,license-source
-@fortawesome/free-brands-svg-icons,6.6.0,js,https://github.com/FortAwesome/Font-Awesome,CC BY 4.0 License AND SIL OFL 1.1 License AND MIT License, -, https://github.com/FortAwesome/Font-Awesome?tab=readme-ov-file#license
-@fortawesome/free-solid-svg-icons,6.6.0,js,https://github.com/FortAwesome/Font-Awesome,CC BY 4.0 License AND SIL OFL 1.1 License AND MIT License, -, https://github.com/FortAwesome/Font-Awesome?tab=readme-ov-file#license
+@bladelabs/blade-web3.js,UNKNOWN,js,,Unknown,Unknown,Unknown
+@ethereum-sourcify/bytecode-utils,UNKNOWN,js,,Unknown,Unknown,Unknown
+@fortawesome/fontawesome-svg-core,UNKNOWN,js,,Unknown,Unknown,Unknown
+@fortawesome/free-brands-svg-icons,UNKNOWN,js,,Unknown,Unknown,Unknown
+@fortawesome/free-solid-svg-icons,UNKNOWN,js,,Unknown,Unknown,Unknown
+@fortawesome/vue-fontawesome,UNKNOWN,js,,Unknown,Unknown,Unknown
+@hashgraph/proto,UNKNOWN,js,,Unknown,Unknown,Unknown
+@hashgraph/sdk,UNKNOWN,js,,Unknown,Unknown,Unknown
+@hedera-name-service/hns-resolution-sdk,UNKNOWN,js,,Unknown,Unknown,Unknown
+@kabuto-sh/ns,UNKNOWN,js,,Unknown,Unknown,Unknown
+@oruga-ui/oruga-next,UNKNOWN,js,,Unknown,Unknown,Unknown
+@vuepic/vue-datepicker,UNKNOWN,js,,Unknown,Unknown,Unknown
+axios,UNKNOWN,js,,Unknown,Unknown,Unknown
+base32-decode,UNKNOWN,js,,Unknown,Unknown,Unknown
+base32-encode,UNKNOWN,js,,Unknown,Unknown,Unknown
+bulma,UNKNOWN,js,,Unknown,Unknown,Unknown
+core-js,UNKNOWN,js,,Unknown,Unknown,Unknown
+ethers,UNKNOWN,js,,Unknown,Unknown,Unknown
+file-saver,UNKNOWN,js,,Unknown,Unknown,Unknown
+hashconnect,UNKNOWN,js,,Unknown,Unknown,Unknown
+jszip,UNKNOWN,js,,Unknown,Unknown,Unknown
+multiformats,UNKNOWN,js,,Unknown,Unknown,Unknown
+prismjs,UNKNOWN,js,,Unknown,Unknown,Unknown
+vue,UNKNOWN,js,,Unknown,Unknown,Unknown
+vue-router,UNKNOWN,js,,Unknown,Unknown,Unknown

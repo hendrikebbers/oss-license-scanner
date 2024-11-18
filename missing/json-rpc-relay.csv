@@ -1,1 +1,5 @@
 name,version,language,repository,license,license-url,license-source
+@hashgraph/json-rpc-config-service,0.61.0-SNAPSHOT,js,,Unknown,Unknown,Unknown
+@hashgraph/json-rpc-relay,0.61.0-SNAPSHOT,js,,Unknown,Unknown,Unknown
+@hashgraph/json-rpc-server,0.61.0-SNAPSHOT,js,,Unknown,Unknown,Unknown
+@hashgraph/json-rpc-ws-server,0.61.0-SNAPSHOT,js,,Unknown,Unknown,Unknown

@@ -1,0 +1,19 @@
+name,version,language,repository,license,license-url,license-source
+CouchDB,1.2,python,https://github.com/djc/couchdb-python/,BSD,UNKNOWN,https://pypi.org/pypi/CouchDB/1.2/json
+Rx,3.2.0,python,https://github.com/ReactiveX/RxPY,MIT,https://spdx.org/licenses/MIT.html,https://pypi.org/pypi/Rx/3.2.0/json (normalized)
+aiogrpc,1.8,python,https://github.com/hubo1016/aiogrpc,Apache-2.0,https://spdx.org/licenses/Apache-2.0.html,https://pypi.org/pypi/aiogrpc/1.8/json (normalized)
+certifi,2024.8.30,python,https://github.com/certifi/python-certifi,MPL-2.0,https://spdx.org/licenses/MPL-2.0.html,https://pypi.org/pypi/certifi/2024.8.30/json (normalized)
+cffi,1.17.1,python,https://github.com/python-cffi/cffi/releases,MIT,https://spdx.org/licenses/MIT.html,https://pypi.org/pypi/cffi/1.17.1/json (normalized)
+charset-normalizer,3.4.0,python,https://github.com/Ousret/charset_normalizer/issues,MIT,https://spdx.org/licenses/MIT.html,https://pypi.org/pypi/charset-normalizer/3.4.0/json (normalized)
+cryptography,43.0.3,python,https://github.com/pyca/cryptography,Apache-2.0,https://spdx.org/licenses/Apache-2.0.html,https://github.com/pyca/cryptography/blob/main/LICENSE (normalized)
+grpcio,1.67.1,python,https://github.com/grpc/grpc/issues,Apache-2.0,https://spdx.org/licenses/Apache-2.0.html,https://pypi.org/pypi/grpcio/1.67.1/json (normalized)
+hkdf,0.0.3,python,https://github.com/casebeer/python-hkdf,UNKNOWN,UNKNOWN,https://pypi.org/pypi/hkdf/0.0.3/json
+idna,3.10,python,https://github.com/kjd/idna/blob/master/HISTORY.rst,BSD-3-Clause,https://spdx.org/licenses/BSD-3-Clause.html,https://api.github.com/repos/kjd/idna (normalized)
+lark-parser,0.7.1,python,https://github.com/erezsh/lark/tarball/master,MIT,https://spdx.org/licenses/MIT.html,https://pypi.org/pypi/lark-parser/0.7.1/json (normalized)
+protobuf,5.28.3,python,,BSD-3-Clause,https://spdx.org/licenses/BSD-3-Clause.html,https://pypi.org/pypi/protobuf/5.28.3/json (normalized)
+pycparser,2.22,python,https://github.com/eliben/pycparser,BSD-3-Clause,https://spdx.org/licenses/BSD-3-Clause.html,https://pypi.org/pypi/pycparser/2.22/json (normalized)
+pycryptodomex,3.21.0,python,https://github.com/Legrandin/pycryptodome/,"BSD, Public Domain",UNKNOWN,https://pypi.org/pypi/pycryptodomex/3.21.0/json
+requests,2.32.3,python,https://github.com/psf/requests,Apache-2.0,https://spdx.org/licenses/Apache-2.0.html,https://pypi.org/pypi/requests/2.32.3/json (normalized)
+safe-pysha3,1.0.4,python,https://github.com/5afe/pysha3,PSFL (Keccak: CC0 1.0 Universal),UNKNOWN,https://pypi.org/pypi/safe-pysha3/1.0.4/json
+six,1.16.0,python,https://github.com/benjaminp/six,MIT,https://spdx.org/licenses/MIT.html,https://pypi.org/pypi/six/1.16.0/json (normalized)
+urllib3,2.2.3,python,https://github.com/urllib3/urllib3/blob/main/CHANGES.rst,MIT,https://spdx.org/licenses/MIT.html,https://api.github.com/repos/urllib3/urllib3 (normalized)
