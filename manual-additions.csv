@@ -263,3 +263,7 @@ assert_matches,v1.5.0,rust,Apache License 2.0,https://api.github.com/licenses/ap
 org.bouncycastle:bcpkix-jdk18on,1.78.1,java,MIT License,https://api.github.com/licenses/mit,https://www.bouncycastle.org/licence.html
 org.bouncycastle:bcprov-jdk18on,1.78.1,java,MIT License,https://api.github.com/licenses/mit,https://www.bouncycastle.org/licence.html
 org.bouncycastle:bcutil-jdk18on,1.78.1,java,MIT License,https://api.github.com/licenses/mit,https://www.bouncycastle.org/licence.html
+google.golang.org/protobuf,v1.35.1,go,BSD 3-Clause,https://api.github.com/licenses/bsd-3-clause,https://github.com/protocolbuffers/protobuf-go
+gopkg.in/yaml.v3,v3.0.1,go,MIT and Apache License 2.0 (CHECKED BY HENDRIK),https://github.com/go-yaml/yaml/blob/v3.0.1/LICENSE,https://github.com/go-yaml/yaml/blob/v3.0.1/LICENSE
+toolchain,go1.21,go,BSD 3-Clause,https://api.github.com/licenses/bsd-3-clause,https://github.com/golang/go
+
