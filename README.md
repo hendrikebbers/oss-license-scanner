@@ -1,4 +1,4 @@
-# oss-licence-scanner
+# oss-licence-scanner TEST
 
 A small tool that scans a library, repository or local directory for the licences of all (transitive) dependencies.
 
