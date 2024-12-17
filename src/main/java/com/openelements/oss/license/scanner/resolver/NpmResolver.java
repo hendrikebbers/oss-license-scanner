@@ -1,19 +1,18 @@
 package com.openelements.oss.license.scanner.resolver;
 
 import com.google.gson.JsonObject;
-import com.openelements.oss.license.scanner.api.License;
-import com.openelements.oss.license.scanner.clients.GitHubClient;
 import com.openelements.oss.license.scanner.api.Dependency;
+import com.openelements.oss.license.scanner.api.DependencyType;
 import com.openelements.oss.license.scanner.api.Identifier;
-import com.openelements.oss.license.scanner.licenses.LicenseCache;
+import com.openelements.oss.license.scanner.api.License;
+import com.openelements.oss.license.scanner.cache.Cache;
+import com.openelements.oss.license.scanner.clients.GitHubClient;
 import com.openelements.oss.license.scanner.tools.NpmTool;
 import java.nio.file.Path;
 import java.util.HashSet;
-import java.util.Map;
 import java.util.Optional;
 import java.util.Set;
-import java.util.concurrent.ConcurrentHashMap;
-import java.util.function.Supplier;
+import java.util.stream.Collectors;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -22,84 +21,62 @@ public class NpmResolver extends AbstractResolver {
     private final static Logger log = LoggerFactory.getLogger(NpmResolver.class);
 
     public NpmResolver(GitHubClient gitHubClient) {
-       super(gitHubClient);
+        super(gitHubClient);
     }
 
     @Override
     public Set<Dependency> resolve(Path localProject) {
-        final JsonObject jsonObject = NpmTool.callNpmLs(localProject);
-        return getDependencies(jsonObject);
+        log.info("Analyzing project at {}", localProject);
+        final JsonObject jsonObject = NpmTool.callPnpmList(localProject);
+        if (!jsonObject.has("dependencies")) {
+            return Set.of();
+        }
+        return jsonObject.get("dependencies").getAsJsonObject().entrySet().stream()
+                .map(entry -> {
+                    final String name = entry.getKey();
+                    final String version = entry.getValue().getAsJsonObject().get("version").getAsString();
+                    final Identifier identifier = new Identifier(name, version);
+                    final License license = NpmTool.callNpmShowAndReturnLicense(identifier).orElse(License.UNKNOWN);
+                    final String repository = NpmTool.callNpmShowAndReturnRepository(identifier).orElse("UNKNOWN");
+                    final Dependency dependency = new Dependency(identifier, license, repository,
+                            DependencyType.DIRECT);
+                    final Set<Dependency> allDependencies = new HashSet<>();
+                    allDependencies.add(dependency);
+
+                    String path = entry.getValue().getAsJsonObject().get("path").getAsString();
+                    resolve(identifier, path).stream()
+                            .map(d -> new Dependency(d.identifier(), d.license(), d.repository(),
+                                    DependencyType.TRANSITIVE))
+                            .forEach(allDependencies::add);
+                    return allDependencies;
+                }).flatMap(Set::stream)
+                .collect(Collectors.toSet());
+    }
+
+    private Set<Dependency> resolve(Identifier identifier, String path) {
+        if (Cache.getInstance().containsKeyForJS(identifier)) {
+            log.info("Returning cached dependencies for: {}", identifier);
+            return Cache.getInstance().getJS(identifier);
+        }
+        final Set<Dependency> dependencies = resolve(Path.of(path));
+        Cache.getInstance().putJS(identifier, dependencies);
+        return dependencies;
     }
 
     @Override
     public Set<Dependency> resolve(Identifier identifier) {
-        log.debug("Resolving dependencies for: {}", identifier);
-        final Dependency asDependency = fromNpmShow(identifier).orElseThrow(() -> new RuntimeException("Dependency not found: " + identifier));
-        final String repositoryUrl = asDependency.repository();
-        if(repositoryUrl == null) {
-            throw new RuntimeException("No repository found for lib: " + identifier);
+        if (Cache.getInstance().containsKeyForJS(identifier)) {
+            log.info("Returning cached dependencies for: {}", identifier);
+            return Cache.getInstance().getJS(identifier);
         }
-        return installLocally(repositoryUrl, identifier.version(), path -> resolve(path));
-    }
-
-    private Set<Dependency> getDependencies(final JsonObject jsonObject) {
-        final Set<Dependency> dependencies = new HashSet<>();
-        if(!jsonObject.has("dependencies")) {
-            return dependencies;
+        final Optional<String> repository = NpmTool.callNpmShowAndReturnRepository(identifier);
+        if (repository.isEmpty()) {
+            throw new IllegalStateException("No repository found for lib: " + identifier);
         }
-        jsonObject.get("dependencies").getAsJsonObject().entrySet().stream().parallel()
-                .map(e -> {
-                    final String name = e.getKey();
-                    if (!e.getValue().getAsJsonObject().has("version")) {
-                        log.error("No version found for dependency: {}", name);
-                        return new Identifier(name, "UNKNOWN");
-                    }
-                    final String version = e.getValue().getAsJsonObject().get("version").getAsString();
-                    return new Identifier(name, version);
-                })
-                .map(identifier -> {
-                    final Optional<Dependency> dependency = fromNpmShow(identifier);
-                    if(dependency.isEmpty()) {
-                        log.error("Dependency not found: {}", identifier);
-                    }
-                    return dependency;
-                }).forEach(o -> o.ifPresent(dependencies::add));
-
-        jsonObject.get("dependencies").getAsJsonObject().entrySet().stream().parallel()
-                .forEach(e -> {
-                    if (e.getValue().getAsJsonObject().has("dependencies")) {
-                        Set<Dependency> transitiveDependencies = getDependencies(e.getValue().getAsJsonObject());
-                        dependencies.addAll(transitiveDependencies);
-                    }
-                });
+        String repositoryUrl = repository.get();
+        final Set<Dependency> dependencies = installLocally(repositoryUrl, identifier.version(),
+                path -> resolve(identifier, path.toString()));
+        Cache.getInstance().putJS(identifier, dependencies);
         return dependencies;
     }
-
-    private final Map<Identifier, Dependency> cache = new ConcurrentHashMap<>();
-
-    private Optional<Dependency> fromNpmShow(Identifier identifier) {
-        if(cache.containsKey(identifier)) {
-            return Optional.of(cache.get(identifier));
-        }
-        final Dependency dependency = NpmTool.callNpmShowAndReturnRepository(identifier)
-                .map(repository -> new Dependency(identifier, getLicence(identifier, repository), repository))
-                .orElseGet(() -> new Dependency(identifier, getLicence(identifier), null));
-        cache.put(identifier, dependency);
-        return Optional.of(dependency);
-    }
-
-    private License getLicence(Identifier identifier) {
-        final Supplier<License> supplier = () -> NpmTool.callNpmShowAndReturnLicense(identifier)
-                .orElse(License.UNKNOWN);
-        return LicenseCache.getInstance()
-                .computeIfAbsent(identifier, supplier);
-    }
-
-    private License getLicence(Identifier identifier, String repository) {
-        final Supplier<License> supplier = () -> NpmTool.callNpmShowAndReturnLicense(identifier)
-                .or(() -> getLicenseFromProjectUrl(repository))
-                .orElse(License.UNKNOWN);
-        return LicenseCache.getInstance().computeIfAbsent(identifier, supplier);
-    }
-
 }

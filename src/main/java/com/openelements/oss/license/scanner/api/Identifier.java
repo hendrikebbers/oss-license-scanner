@@ -14,4 +14,9 @@ public record Identifier(String name, String version) implements Comparable<Iden
     public static Identifier from(String name, String version) {
         return new Identifier(name, version);
     }
+
+    @Override
+    public String toString() {
+        return name + ":" + version;
+    }
 }
