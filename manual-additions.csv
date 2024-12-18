@@ -18,20 +18,20 @@ com.open-elements.hedera:hedera-spring,0.10.0-SNAPSHOT,java,Apache License 2.0,h
 io.github.x-stream:mxparser,1.2.2,java,"Indiana University Extreme! Lab Software License, Version 1.2",https://github.com/x-stream/mxparser/blob/master/LICENSE.txt,https://github.com/x-stream/mxparser/blob/master/LICENSE.txt
 com.thoughtworks.xstream:xstream,1.4.20,java,BSD-Style,https://github.com/x-stream/xstream?tab=License-1-ov-file#readme,https://github.com/x-stream/xstream?tab=License-1-ov-file#readme
 net.java.dev.jna:jna,5.14.0,java,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://github.com/java-native-access/jna?tab=License-1-ov-file#readme
-org.checkerframework:checker-qual,3.41.0,java,MIT,Unknown,https://github.com/typetools/checker-framework/blob/master/checker-qual/LICENSE.txt
+org.checkerframework:checker-qual,3.41.0,java,MIT,UNKNOWN,https://github.com/typetools/checker-framework/blob/master/checker-qual/LICENSE.txt
 tech.pegasys:jc-kzg-4844,0.8.0,java,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://github.com/Consensys/jc-kzg-4844?tab=Apache-2.0-1-ov-file#readme
-jakarta.annotation:jakarta.annotation-api,2.1.1,java,EPL-2.0,Unknown,https://github.com/jakartaee/common-annotations-api/blob/master/LICENSE.md
-javax.annotation:javax.annotation-api,1.3.2,java,CCDL 1.1,Unknown,https://github.com/javaee/javax.annotation/blob/master/LICENSE
-jakarta.interceptor:jakarta.interceptor-api,2.1.0,java,EPL-2.0,Unknown,https://github.com/jakartaee/interceptors/blob/master/LICENSE.md
-org.graalvm.sdk:nativeimage,23.1.2,java,GPL 2.0 with the Classpath Exception,Unknown,https://github.com/oracle/graal/blob/master/LICENSE
-jakarta.el:jakarta.el-api,5.0.0,java,EPL-2.0,Unknown,https://github.com/jakartaee/expression-language/blob/master/LICENSE.md
-jakarta.ws.rs:jakarta.ws.rs-api,3.1.0,java,EPL-2.0,Unknown,https://github.com/jakartaee/rest/blob/main/LICENSE.md
-jakarta.transaction:jakarta.transaction-api,2.0.1,java,EPL-2.0,Unknown,https://github.com/jakartaee/transactions/blob/master/LICENSE.md
-org.eclipse.parsson:parsson,1.1.6,java,EPL-2.0,Unknown,https://github.com/eclipse-ee4j/parsson/blob/master/LICENSE.md
-org.checkerframework:checker-qual,3.33.0,java,MIT,Unknown,https://github.com/typetools/checker-framework/blob/master/checker-qual/LICENSE.txt
-org.graalvm.sdk:word,23.1.2,java,GPL 2.0 with the Classpath Exception,Unknown,https://github.com/oracle/graal/blob/master/LICENSE
+jakarta.annotation:jakarta.annotation-api,2.1.1,java,EPL-2.0,UNKNOWN,https://github.com/jakartaee/common-annotations-api/blob/master/LICENSE.md
+javax.annotation:javax.annotation-api,1.3.2,java,CCDL 1.1,UNKNOWN,https://github.com/javaee/javax.annotation/blob/master/LICENSE
+jakarta.interceptor:jakarta.interceptor-api,2.1.0,java,EPL-2.0,UNKNOWN,https://github.com/jakartaee/interceptors/blob/master/LICENSE.md
+org.graalvm.sdk:nativeimage,23.1.2,java,GPL 2.0 with the Classpath Exception,UNKNOWN,https://github.com/oracle/graal/blob/master/LICENSE
+jakarta.el:jakarta.el-api,5.0.0,java,EPL-2.0,UNKNOWN,https://github.com/jakartaee/expression-language/blob/master/LICENSE.md
+jakarta.ws.rs:jakarta.ws.rs-api,3.1.0,java,EPL-2.0,UNKNOWN,https://github.com/jakartaee/rest/blob/main/LICENSE.md
+jakarta.transaction:jakarta.transaction-api,2.0.1,java,EPL-2.0,UNKNOWN,https://github.com/jakartaee/transactions/blob/master/LICENSE.md
+org.eclipse.parsson:parsson,1.1.6,java,EPL-2.0,UNKNOWN,https://github.com/eclipse-ee4j/parsson/blob/master/LICENSE.md
+org.checkerframework:checker-qual,3.33.0,java,MIT,UNKNOWN,https://github.com/typetools/checker-framework/blob/master/checker-qual/LICENSE.txt
+org.graalvm.sdk:word,23.1.2,java,GPL 2.0 with the Classpath Exception,UNKNOWN,https://github.com/oracle/graal/blob/master/LICENSE
 org.codehaus.plexus:plexus-classworlds,2.8.0,java,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://github.com/codehaus-plexus/plexus-classworlds?tab=License-1-ov-file#readme
-jakarta.json:jakarta.json-api,2.1.0,java,EPL-2.0,Unknown,https://github.com/jakartaee/jsonp-api/blob/master/LICENSE.md
+jakarta.json:jakarta.json-api,2.1.0,java,EPL-2.0,UNKNOWN,https://github.com/jakartaee/jsonp-api/blob/master/LICENSE.md
 org.checkerframework:checker-qual,3.37.0,java,MIT License,https://api.github.com/licenses/mit,https://repo1.maven.org/maven2/org/checkerframework/checker-qual/3.33.0/checker-qual-3.33.0.pom
 @web3-storage/w3up-client,16.0.0,js,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://github.com/storacha/w3up?tab=License-1-ov-file#readme
 @ethereumjs/util,9.1.0,js,Mozilla Public License 2.0,https://api.github.com/licenses/mpl-2.0,https://github.com/ethereumjs/ethereumjs-monorepo/blob/master/packages/util/LICENSE
@@ -40,10 +40,10 @@ org.checkerframework:checker-qual,3.37.0,java,MIT License,https://api.github.com
 @fortawesome/fontawesome-svg-core,6.6.0,js,MIT License,https://api.github.com/licenses/mit,https://github.com/FortAwesome/Font-Awesome?tab=License-1-ov-file#readme
 @fortawesome/free-solid-svg-icons,6.6.0,js,CC-BY-4.0 AND MIT,https://www.npmjs.com/package/@fortawesome/free-brands-svg-icons,https://www.npmjs.com/package/@fortawesome/free-brands-svg-icons
 @fortawesome/free-brands-svg-icons,6.6.0,js,CC-BY-4.0 AND MIT,https://www.npmjs.com/package/@fortawesome/free-brands-svg-icons,https://www.npmjs.com/package/@fortawesome/free-brands-svg-icons
-@hashgraph/json-rpc-config-service,0.60.0-SNAPSHOT,js,Apache License 2.0,Unknown,Unknown
-@hashgraph/json-rpc-server,0.60.0-SNAPSHOT,js,Apache License 2.0,Unknown,Unknown
-@hashgraph/json-rpc-relay,0.60.0-SNAPSHOT,js,Apache License 2.0,Unknown,Unknown
-@hashgraph/json-rpc-ws-server,0.60.0-SNAPSHOT,js,Apache License 2.0,Unknown,Unknown
+@hashgraph/json-rpc-config-service,0.60.0-SNAPSHOT,js,Apache License 2.0,UNKNOWN,UNKNOWN
+@hashgraph/json-rpc-server,0.60.0-SNAPSHOT,js,Apache License 2.0,UNKNOWN,UNKNOWN
+@hashgraph/json-rpc-relay,0.60.0-SNAPSHOT,js,Apache License 2.0,UNKNOWN,UNKNOWN
+@hashgraph/json-rpc-ws-server,0.60.0-SNAPSHOT,js,Apache License 2.0,UNKNOWN,UNKNOWN
 rlp,3.0.0,js,Mozilla Public License 2.0,https://api.github.com/licenses/mpl-2.0,https://www.npmjs.com/package/rlp
 lodash,4.17.21,js,MIT License,https://api.github.com/licenses/mit,https://www.npmjs.com/package/lodash
 axios-retry,3.9.1,js,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://www.npmjs.com/package/axios-retry
@@ -193,59 +193,59 @@ gopkg.in/yaml.v2,v2.3.0,go,MIT and Apache License 2.0 (CHECKED BY HENDRIK),https
 gopkg.in/yaml.v2,v2.4.0,go,MIT and Apache License 2.0 (CHECKED BY HENDRIK),https://github.com/go-yaml/yaml/blob/v3/LICENSE,https://github.com/go-yaml/yaml/blob/v3/LICENSE
 gopkg.in/yaml.v3,v3.0.1,go,MIT and Apache License 2.0 (CHECKED BY HENDRIK),https://github.com/go-yaml/yaml/blob/v3/LICENSE,https://github.com/go-yaml/yaml/blob/v3/LICENSE
 rsc.io/tmplfunc,v0.0.3,go,BSD 3-Clause,https://api.github.com/licenses/bsd-3-clause,https://github.com/rsc/tmplfunc/blob/main/LICENSE
-aes,v0.8.4,rust,Apache License 2.0,Unknown,https://github.com/RustCrypto/block-ciphers/blob/master/aes/LICENSE-APACHE
-anstream,v0.6.15,rust,Apache License 2.0,Unknown,https://github.com/rust-cli/anstyle/blob/main/crates/anstream/LICENSE-APACHE
-anstyle,v1.0.8,rust,Apache License 2.0,Unknown,https://github.com/rust-cli/anstyle/blob/main/crates/anstyle/LICENSE-APACHE
-anstyle-parse,v0.2.5,rust,Apache License 2.0,Unknown,https://github.com/rust-cli/anstyle/blob/main/crates/anstyle-parse/LICENSE-APACHE
-async-stream,v0.3.5,rust,MIT,Unknown,https://github.com/tokio-rs/async-stream/blob/master/LICENSE
-async-stream-impl,v0.3.5,rust,MIT,Unknown,https://github.com/tokio-rs/async-stream/blob/master/LICENSE
-axum,v0.6.20,rust,MIT,Unknown,https://github.com/tokio-rs/axum/blob/main/axum/LICENSE
-axum-core,v0.3.4,rust,MIT,Unknown,https://github.com/tokio-rs/axum/blob/main/axum-core/LICENSE
-base16ct,v0.2.0,rust,Apache License 2.0,Unknown,https://github.com/RustCrypto/formats/blob/master/base16ct/LICENSE-APACHE
-block-buffer,v0.10.4,rust,Apache License 2.0,Unknown,https://github.com/RustCrypto/utils/blob/master/block-buffer/LICENSE-APACHE
-block-padding,v0.3.3,rust,Apache License 2.0,Unknown,https://github.com/RustCrypto/utils/blob/master/block-padding/LICENSE-APACHE
-cbc,v0.1.2,rust,Apache License 2.0,Unknown,https://github.com/RustCrypto/block-modes/blob/master/cbc/LICENSE-APACHE
-cipher,v0.4.4,rust,Apache License 2.0,Unknown,https://github.com/RustCrypto/traits/blob/master/cipher/LICENSE-APACHE
-const-oid,v0.9.6,rust,Apache License 2.0,Unknown,https://github.com/RustCrypto/formats/blob/master/const-oid/LICENSE-APACHE
-cpufeatures,v0.2.12,rust,Apache License 2.0,Unknown,https://github.com/RustCrypto/utils/blob/master/cpufeatures/LICENSE-APACHE
-crypto-common,v0.1.6,rust,Apache License 2.0,Unknown,https://github.com/RustCrypto/traits/blob/master/crypto-common/LICENSE-APACHE
-der,v0.7.9,rust,Apache License 2.0,Unknown,https://github.com/RustCrypto/formats/blob/master/der/LICENSE-APACHE
-digest,v0.10.7,rust,Apache License 2.0,Unknown,https://github.com/RustCrypto/traits/blob/master/digest/LICENSE-APACHE
-ecdsa,v0.16.9,rust,Apache License 2.0,Unknown,https://github.com/RustCrypto/signatures/blob/master/ecdsa/LICENSE-APACHE
-ed25519,v2.2.3,rust,Apache License 2.0,Unknown,https://github.com/RustCrypto/signatures/blob/master/ed25519/LICENSE-APACHE
-elliptic-curve,v0.13.8,rust,Apache License 2.0,Unknown,https://github.com/RustCrypto/traits/blob/master/elliptic-curve/LICENSE-APACHE
-group,v0.13.0,rust,Apache License 2.0,Unknown,https://github.com/zkcrypto/group/blob/main/LICENSE-APACHE
-hex-literal,v0.4.1,rust,Apache License 2.0,Unknown,https://github.com/RustCrypto/utils/blob/master/hex-literal/LICENSE-APACHE
-hmac,v0.12.1,rust,Apache License 2.0,Unknown,https://github.com/RustCrypto/MACs/blob/master/hmac/LICENSE-APACHE
-hyper-timeout,v0.4.1,rust,Apache License 2.0,Unknown,https://github.com/hjr3/hyper-timeout/blob/master/LICENSE-APACHE
-k256,v0.13.3,rust,Apache License 2.0,Unknown,https://github.com/RustCrypto/elliptic-curves/blob/master/k256/LICENSE-APACHE
-keccak,v0.1.5,rust,Apache License 2.0,Unknown,https://github.com/RustCrypto/sponges/blob/master/keccak/LICENSE-APACHE
-md5,v0.7.0,rust,Apache License 2.0,Unknown,https://github.com/stainless-steel/md5/blob/main/LICENSE.md
-multimap,v0.10.0,rust,Apache License 2.0,Unknown,https://github.com/havarnov/multimap/blob/master/LICENSE-APACHE
-pbkdf2,v0.12.2,rust,Apache License 2.0,Unknown,https://github.com/RustCrypto/password-hashes/blob/master/pbkdf2/LICENSE-APACHE
-pkcs5,v0.7.1,rust,Apache License 2.0,Unknown,https://github.com/RustCrypto/formats/blob/master/pkcs5/LICENSE-APACHE
-pkcs8,v0.10.2,rust,Apache License 2.0,Unknown,https://github.com/RustCrypto/formats/blob/master/pkcs8/LICENSE-APACHE
-rand,v0.8.5,rust,Apache License 2.0,Unknown,https://github.com/rust-random/rand/blob/master/COPYRIGHT
-rand_chacha,v0.3.1,rust,Apache License 2.0,Unknown,https://github.com/rust-random/rand/blob/master/rand_chacha/LICENSE-APACHE
-rand_core,v0.6.4,rust,Apache License 2.0,Unknown,https://github.com/rust-random/rand/blob/master/rand_core/LICENSE-APACHE
-rfc6979,v0.4.0,rust,Apache License 2.0,Unknown,https://github.com/RustCrypto/signatures/blob/master/rfc6979/LICENSE-APACHE
-rustix,v0.38.34,rust,Apache License 2.0,Unknown,https://github.com/bytecodealliance/rustix/blob/main/COPYRIGHT
-rustls,v0.22.4,rust,Apache License 2.0,Unknown,https://github.com/rustls/rustls/blob/main/LICENSE-APACHE
-rustls-pemfile,v2.1.3,rust,Apache License 2.0,Unknown,https://github.com/rustls/pemfile/blob/main/LICENSE-APACHE
-salsa20,v0.10.2,rust,Apache License 2.0,Unknown,https://github.com/RustCrypto/stream-ciphers/blob/master/salsa20/LICENSE-APACHE
-scrypt,v0.11.0,rust,Apache License 2.0,Unknown,https://github.com/RustCrypto/password-hashes/blob/master/scrypt/LICENSE-APACHE
-sec1,v0.7.3,rust,Apache License 2.0,Unknown,https://github.com/RustCrypto/formats/blob/master/sec1/LICENSE-APACHE
-sha2,v0.10.8,rust,Apache License 2.0,Unknown,https://github.com/RustCrypto/hashes/blob/master/sha2/LICENSE-APACHE
-sha3,v0.10.8,rust,Apache License 2.0,Unknown,https://github.com/RustCrypto/hashes/blob/master/sha3/LICENSE-APACHE
-signature,v2.2.0,rust,Apache License 2.0,Unknown,https://github.com/RustCrypto/traits/blob/master/signature/LICENSE-APACHE
-spki,v0.7.3,rust,Apache License 2.0,Unknown,https://github.com/RustCrypto/formats/blob/master/spki/LICENSE-APACHE
-tinystr,v0.7.6,rust,UNICODE LICENSE V3,Unknown,https://github.com/unicode-org/icu4x/blob/main/LICENSE
-typenum,v1.17.0,rust,Apache License 2.0,Unknown,https://github.com/paholg/typenum/blob/main/LICENSE-APACHE
-untrusted,v0.9.0,rust,ISC-Lizenz,Unknown,https://github.com/briansmith/untrusted/blob/main/LICENSE.txt
-zeroize,v1.8.1,rust,Apache License 2.0,Unknown,https://github.com/RustCrypto/utils/blob/master/zeroize/LICENSE-APACHE
+aes,v0.8.4,rust,Apache License 2.0,UNKNOWN,https://github.com/RustCrypto/block-ciphers/blob/master/aes/LICENSE-APACHE
+anstream,v0.6.15,rust,Apache License 2.0,UNKNOWN,https://github.com/rust-cli/anstyle/blob/main/crates/anstream/LICENSE-APACHE
+anstyle,v1.0.8,rust,Apache License 2.0,UNKNOWN,https://github.com/rust-cli/anstyle/blob/main/crates/anstyle/LICENSE-APACHE
+anstyle-parse,v0.2.5,rust,Apache License 2.0,UNKNOWN,https://github.com/rust-cli/anstyle/blob/main/crates/anstyle-parse/LICENSE-APACHE
+async-stream,v0.3.5,rust,MIT,UNKNOWN,https://github.com/tokio-rs/async-stream/blob/master/LICENSE
+async-stream-impl,v0.3.5,rust,MIT,UNKNOWN,https://github.com/tokio-rs/async-stream/blob/master/LICENSE
+axum,v0.6.20,rust,MIT,UNKNOWN,https://github.com/tokio-rs/axum/blob/main/axum/LICENSE
+axum-core,v0.3.4,rust,MIT,UNKNOWN,https://github.com/tokio-rs/axum/blob/main/axum-core/LICENSE
+base16ct,v0.2.0,rust,Apache License 2.0,UNKNOWN,https://github.com/RustCrypto/formats/blob/master/base16ct/LICENSE-APACHE
+block-buffer,v0.10.4,rust,Apache License 2.0,UNKNOWN,https://github.com/RustCrypto/utils/blob/master/block-buffer/LICENSE-APACHE
+block-padding,v0.3.3,rust,Apache License 2.0,UNKNOWN,https://github.com/RustCrypto/utils/blob/master/block-padding/LICENSE-APACHE
+cbc,v0.1.2,rust,Apache License 2.0,UNKNOWN,https://github.com/RustCrypto/block-modes/blob/master/cbc/LICENSE-APACHE
+cipher,v0.4.4,rust,Apache License 2.0,UNKNOWN,https://github.com/RustCrypto/traits/blob/master/cipher/LICENSE-APACHE
+const-oid,v0.9.6,rust,Apache License 2.0,UNKNOWN,https://github.com/RustCrypto/formats/blob/master/const-oid/LICENSE-APACHE
+cpufeatures,v0.2.12,rust,Apache License 2.0,UNKNOWN,https://github.com/RustCrypto/utils/blob/master/cpufeatures/LICENSE-APACHE
+crypto-common,v0.1.6,rust,Apache License 2.0,UNKNOWN,https://github.com/RustCrypto/traits/blob/master/crypto-common/LICENSE-APACHE
+der,v0.7.9,rust,Apache License 2.0,UNKNOWN,https://github.com/RustCrypto/formats/blob/master/der/LICENSE-APACHE
+digest,v0.10.7,rust,Apache License 2.0,UNKNOWN,https://github.com/RustCrypto/traits/blob/master/digest/LICENSE-APACHE
+ecdsa,v0.16.9,rust,Apache License 2.0,UNKNOWN,https://github.com/RustCrypto/signatures/blob/master/ecdsa/LICENSE-APACHE
+ed25519,v2.2.3,rust,Apache License 2.0,UNKNOWN,https://github.com/RustCrypto/signatures/blob/master/ed25519/LICENSE-APACHE
+elliptic-curve,v0.13.8,rust,Apache License 2.0,UNKNOWN,https://github.com/RustCrypto/traits/blob/master/elliptic-curve/LICENSE-APACHE
+group,v0.13.0,rust,Apache License 2.0,UNKNOWN,https://github.com/zkcrypto/group/blob/main/LICENSE-APACHE
+hex-literal,v0.4.1,rust,Apache License 2.0,UNKNOWN,https://github.com/RustCrypto/utils/blob/master/hex-literal/LICENSE-APACHE
+hmac,v0.12.1,rust,Apache License 2.0,UNKNOWN,https://github.com/RustCrypto/MACs/blob/master/hmac/LICENSE-APACHE
+hyper-timeout,v0.4.1,rust,Apache License 2.0,UNKNOWN,https://github.com/hjr3/hyper-timeout/blob/master/LICENSE-APACHE
+k256,v0.13.3,rust,Apache License 2.0,UNKNOWN,https://github.com/RustCrypto/elliptic-curves/blob/master/k256/LICENSE-APACHE
+keccak,v0.1.5,rust,Apache License 2.0,UNKNOWN,https://github.com/RustCrypto/sponges/blob/master/keccak/LICENSE-APACHE
+md5,v0.7.0,rust,Apache License 2.0,UNKNOWN,https://github.com/stainless-steel/md5/blob/main/LICENSE.md
+multimap,v0.10.0,rust,Apache License 2.0,UNKNOWN,https://github.com/havarnov/multimap/blob/master/LICENSE-APACHE
+pbkdf2,v0.12.2,rust,Apache License 2.0,UNKNOWN,https://github.com/RustCrypto/password-hashes/blob/master/pbkdf2/LICENSE-APACHE
+pkcs5,v0.7.1,rust,Apache License 2.0,UNKNOWN,https://github.com/RustCrypto/formats/blob/master/pkcs5/LICENSE-APACHE
+pkcs8,v0.10.2,rust,Apache License 2.0,UNKNOWN,https://github.com/RustCrypto/formats/blob/master/pkcs8/LICENSE-APACHE
+rand,v0.8.5,rust,Apache License 2.0,UNKNOWN,https://github.com/rust-random/rand/blob/master/COPYRIGHT
+rand_chacha,v0.3.1,rust,Apache License 2.0,UNKNOWN,https://github.com/rust-random/rand/blob/master/rand_chacha/LICENSE-APACHE
+rand_core,v0.6.4,rust,Apache License 2.0,UNKNOWN,https://github.com/rust-random/rand/blob/master/rand_core/LICENSE-APACHE
+rfc6979,v0.4.0,rust,Apache License 2.0,UNKNOWN,https://github.com/RustCrypto/signatures/blob/master/rfc6979/LICENSE-APACHE
+rustix,v0.38.34,rust,Apache License 2.0,UNKNOWN,https://github.com/bytecodealliance/rustix/blob/main/COPYRIGHT
+rustls,v0.22.4,rust,Apache License 2.0,UNKNOWN,https://github.com/rustls/rustls/blob/main/LICENSE-APACHE
+rustls-pemfile,v2.1.3,rust,Apache License 2.0,UNKNOWN,https://github.com/rustls/pemfile/blob/main/LICENSE-APACHE
+salsa20,v0.10.2,rust,Apache License 2.0,UNKNOWN,https://github.com/RustCrypto/stream-ciphers/blob/master/salsa20/LICENSE-APACHE
+scrypt,v0.11.0,rust,Apache License 2.0,UNKNOWN,https://github.com/RustCrypto/password-hashes/blob/master/scrypt/LICENSE-APACHE
+sec1,v0.7.3,rust,Apache License 2.0,UNKNOWN,https://github.com/RustCrypto/formats/blob/master/sec1/LICENSE-APACHE
+sha2,v0.10.8,rust,Apache License 2.0,UNKNOWN,https://github.com/RustCrypto/hashes/blob/master/sha2/LICENSE-APACHE
+sha3,v0.10.8,rust,Apache License 2.0,UNKNOWN,https://github.com/RustCrypto/hashes/blob/master/sha3/LICENSE-APACHE
+signature,v2.2.0,rust,Apache License 2.0,UNKNOWN,https://github.com/RustCrypto/traits/blob/master/signature/LICENSE-APACHE
+spki,v0.7.3,rust,Apache License 2.0,UNKNOWN,https://github.com/RustCrypto/formats/blob/master/spki/LICENSE-APACHE
+tinystr,v0.7.6,rust,UNICODE LICENSE V3,UNKNOWN,https://github.com/unicode-org/icu4x/blob/main/LICENSE
+typenum,v1.17.0,rust,Apache License 2.0,UNKNOWN,https://github.com/paholg/typenum/blob/main/LICENSE-APACHE
+untrusted,v0.9.0,rust,ISC-Lizenz,UNKNOWN,https://github.com/briansmith/untrusted/blob/main/LICENSE.txt
+zeroize,v1.8.1,rust,Apache License 2.0,UNKNOWN,https://github.com/RustCrypto/utils/blob/master/zeroize/LICENSE-APACHE
 cryptography,43.0.3,python,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://github.com/pyca/cryptography/blob/main/LICENSE
 cryptography,44.0.0,python,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://github.com/pyca/cryptography/blob/main/LICENSE
-aopalliance:aopalliance,1.0,java,Unknown,Unknown,Not on page or in jar (https://sourceforge.net/projects/aopalliance/files/aopalliance/1.0/),""
+aopalliance:aopalliance,1.0,java,UNKNOWN,UNKNOWN,Not on page or in jar (https://sourceforge.net/projects/aopalliance/files/aopalliance/1.0/),""
 @web3-storage/w3up-client,16.0.0, javascript,MIT License,https://api.github.com/licenses/mit,https://github.com/storacha/w3up?tab=License-1-ov-file#readme
 org.bouncycastle:bcpkix-jdk18on,1.78,java,MIT License,https://api.github.com/licenses/mit,https://www.bouncycastle.org/licence.html
 org.bouncycastle:bcprov-jdk18on,1.78,java,MIT License,https://api.github.com/licenses/mit,https://www.bouncycastle.org/licence.html
@@ -253,8 +253,8 @@ org.bouncycastle:bcutil-jdk18on,1.78,java,MIT License,https://api.github.com/lic
 org.bouncycastle:bcpkix-jdk15to18,1.76,java,MIT License,https://api.github.com/licenses/mit,https://www.bouncycastle.org/licence.html
 org.bouncycastle:bcprov-jdk15to18,1.76,java,MIT License,https://api.github.com/licenses/mit,https://www.bouncycastle.org/licence.html
 org.bouncycastle:bcutil-jdk15to18,1.76,java,MIT License,https://api.github.com/licenses/mit,https://www.bouncycastle.org/licence.html
-@fortawesome/free-brands-svg-icons,6.6.0,js,CC BY 4.0 License AND SIL OFL 1.1 License AND MIT License, -, https://github.com/FortAwesome/Font-Awesome?tab=readme-ov-file#license
-@fortawesome/free-solid-svg-icons,6.6.0,js,CC BY 4.0 License AND SIL OFL 1.1 License AND MIT License, -, https://github.com/FortAwesome/Font-Awesome?tab=readme-ov-file#license
+@fortawesome/free-brands-svg-icons,6.6.0,js,CC BY 4.0 License AND SIL OFL 1.1 License AND MIT License,UNKNOWN https://github.com/FortAwesome/Font-Awesome?tab=readme-ov-file#license
+@fortawesome/free-solid-svg-icons,6.6.0,js,CC BY 4.0 License AND SIL OFL 1.1 License AND MIT License,UNKNOWN https://github.com/FortAwesome/Font-Awesome?tab=readme-ov-file#license
 jszip,3.10.1,js,MIT License,https://api.github.com/licenses/mit,https://github.com/Stuk/jszip?tab=readme-ov-file#license
 aho-corasick,v1.1.3,rust,MIT License,https://api.github.com/licenses/mit,https://github.com/BurntSushi/aho-corasick
 anyhow,v1.0.86,rust,Apache License 2.0,https://api.github.com/licenses/apache-2.0,https://github.com/dtolnay/anyhow?tab=readme-ov-file#license

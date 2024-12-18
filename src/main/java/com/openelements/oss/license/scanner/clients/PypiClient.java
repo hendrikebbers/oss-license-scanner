@@ -3,6 +3,7 @@ package com.openelements.oss.license.scanner.clients;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
+import com.openelements.oss.license.scanner.api.ApiConstants;
 import com.openelements.oss.license.scanner.api.Identifier;
 import com.openelements.oss.license.scanner.api.License;
 import java.net.URI;
@@ -29,23 +30,26 @@ public class PypiClient {
             HttpRequest request = builder.build();
             final HttpResponse<String> response = client.send(request, BodyHandlers.ofString());
             if (response.statusCode() != 200) {
-                throw new RuntimeException("Failed to get licence info for " + identifier.name() + ":" + identifier.version() + ": status code " + response.statusCode());
+                throw new RuntimeException(
+                        "Failed to get licence info for " + identifier.name() + ":" + identifier.version()
+                                + ": status code " + response.statusCode());
             }
             String body = response.body();
             final JsonObject root = JsonParser.parseString(body).getAsJsonObject();
             final JsonObject infoObject = root.get("info").getAsJsonObject();
-            if(!infoObject.has("license")) {
+            if (!infoObject.has("license")) {
                 return Optional.empty();
             }
             final JsonElement jsonElement = infoObject.get("license");
-            if(jsonElement.isJsonNull()) {
+            if (jsonElement.isJsonNull()) {
                 log.info("License not provided at pypi.org for {}", identifier);
                 return Optional.empty();
             }
             final String license = jsonElement.getAsString();
-            return Optional.ofNullable(new License(license, "UNKNOWN", url));
+            return Optional.ofNullable(new License(license, ApiConstants.UNKNOWN, url));
         } catch (Exception e) {
-            throw new RuntimeException("Failed to get licence info for " + identifier.name() + ":" + identifier.version(), e);
+            throw new RuntimeException(
+                    "Failed to get licence info for " + identifier.name() + ":" + identifier.version(), e);
         }
     }
 
@@ -60,12 +64,14 @@ public class PypiClient {
             HttpRequest request = builder.build();
             final HttpResponse<String> response = client.send(request, BodyHandlers.ofString());
             if (response.statusCode() != 200) {
-                throw new RuntimeException("Failed to get licence info for " + identifier.name() + ":" + identifier.version() + ": status code " + response.statusCode());
+                throw new RuntimeException(
+                        "Failed to get licence info for " + identifier.name() + ":" + identifier.version()
+                                + ": status code " + response.statusCode());
             }
             String body = response.body();
             final JsonObject root = JsonParser.parseString(body).getAsJsonObject();
             final JsonObject infoObject = root.get("info").getAsJsonObject();
-            if(!infoObject.has("project_urls")) {
+            if (!infoObject.has("project_urls")) {
                 log.info("Repository url not provided at pypi.org for {}", identifier);
                 return Optional.empty();
             }
@@ -76,7 +82,8 @@ public class PypiClient {
                     .filter(value -> value.contains("github") || value.contains("sourceforge"))
                     .findFirst();
         } catch (Exception e) {
-            throw new RuntimeException("Failed to get licence info for " + identifier.name() + ":" + identifier.version(), e);
+            throw new RuntimeException(
+                    "Failed to get licence info for " + identifier.name() + ":" + identifier.version(), e);
         }
     }
 }

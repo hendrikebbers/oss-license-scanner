@@ -1,6 +1,7 @@
 package com.openelements.oss.license.scanner.resolver;
 
 import com.google.gson.JsonObject;
+import com.openelements.oss.license.scanner.api.ApiConstants;
 import com.openelements.oss.license.scanner.api.Dependency;
 import com.openelements.oss.license.scanner.api.DependencyType;
 import com.openelements.oss.license.scanner.api.Identifier;
@@ -37,7 +38,8 @@ public class NpmResolver extends AbstractResolver {
                     final String version = entry.getValue().getAsJsonObject().get("version").getAsString();
                     final Identifier identifier = new Identifier(name, version);
                     final License license = NpmTool.callNpmShowAndReturnLicense(identifier).orElse(License.UNKNOWN);
-                    final String repository = NpmTool.callNpmShowAndReturnRepository(identifier).orElse("UNKNOWN");
+                    final String repository = NpmTool.callNpmShowAndReturnRepository(identifier)
+                            .orElse(ApiConstants.UNKNOWN);
                     final Dependency dependency = new Dependency(identifier, license, repository,
                             DependencyType.DIRECT);
                     final Set<Dependency> allDependencies = new HashSet<>();

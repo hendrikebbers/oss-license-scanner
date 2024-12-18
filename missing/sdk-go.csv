@@ -1,0 +1,8 @@
+name,version,language,repository,license,license-url,license-source
+golang.org/x/crypto,v0.30.0,go,unknown,Unknown,Unknown,Unknown
+golang.org/x/sync,v0.10.0,go,unknown,Unknown,Unknown,Unknown
+golang.org/x/sys,v0.28.0,go,unknown,Unknown,Unknown,Unknown
+golang.org/x/term,v0.27.0,go,unknown,Unknown,Unknown,Unknown
+golang.org/x/text,v0.21.0,go,unknown,Unknown,Unknown,Unknown
+google.golang.org/protobuf,v1.35.2,go,unknown,Unknown,Unknown,Unknown
+gopkg.in/yaml.v3,v3.0.1,go,unknown,MIT and Apache License 2.0 (CHECKED BY HENDRIK),https://github.com/go-yaml/yaml/blob/v3.0.1/LICENSE,https://github.com/go-yaml/yaml/blob/v3.0.1/LICENSE

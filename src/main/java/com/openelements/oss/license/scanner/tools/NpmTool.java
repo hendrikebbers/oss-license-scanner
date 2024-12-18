@@ -3,6 +3,7 @@ package com.openelements.oss.license.scanner.tools;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
+import com.openelements.oss.license.scanner.api.ApiConstants;
 import com.openelements.oss.license.scanner.api.Identifier;
 import com.openelements.oss.license.scanner.api.License;
 import com.openelements.oss.license.scanner.clients.GitHubClient;
@@ -76,7 +77,7 @@ public class NpmTool {
             return Optional.empty();
         } else {
             final String licenceName = jsonObject.get("license").getAsString();
-            return Optional.of(new License(licenceName, "UNKNOWN", "npm show"));
+            return Optional.of(new License(licenceName, ApiConstants.UNKNOWN, "npm show"));
         }
     }
 

@@ -1,8 +1,8 @@
 package com.openelements.oss.license.scanner.clients;
 
+import com.openelements.oss.license.scanner.api.ApiConstants;
 import com.openelements.oss.license.scanner.api.Identifier;
 import com.openelements.oss.license.scanner.api.License;
-import com.openelements.oss.license.scanner.licenses.LicenseCache;
 import java.io.ByteArrayInputStream;
 import java.io.InputStream;
 import java.net.URI;
@@ -70,7 +70,7 @@ public class MavenCentralClient {
                             Element nameElement = (Element) nameList.item(0);
                             licenseName = nameElement.getTextContent();
                         } else {
-                            licenseName = "unknown";
+                            licenseName = ApiConstants.UNKNOWN;
                         }
                         final String licenseUrl;
                         NodeList urlList = licenseElement.getElementsByTagName("url");
@@ -78,7 +78,7 @@ public class MavenCentralClient {
                             Element urlElement = (Element) urlList.item(0);
                             licenseUrl = urlElement.getTextContent();
                         } else {
-                            licenseUrl = "unknown";
+                            licenseUrl = ApiConstants.UNKNOWN;
                         }
                         final License license = new License(licenseName, licenseUrl, "pom(" + identifier + ")");
                         return Optional.of(license);
@@ -95,11 +95,13 @@ public class MavenCentralClient {
                     NodeList parentArtifactIdList = parentElement.getElementsByTagName("artifactId");
                     NodeList parentGroupIdList = parentElement.getElementsByTagName("groupId");
                     NodeList parentVersionList = parentElement.getElementsByTagName("version");
-                    if (parentArtifactIdList.getLength() > 0 && parentGroupIdList.getLength() > 0 && parentVersionList.getLength() > 0) {
+                    if (parentArtifactIdList.getLength() > 0 && parentGroupIdList.getLength() > 0
+                            && parentVersionList.getLength() > 0) {
                         Element parentArtifactIdElement = (Element) parentArtifactIdList.item(0);
                         Element parentGroupIdElement = (Element) parentGroupIdList.item(0);
                         Element parentVersionElement = (Element) parentVersionList.item(0);
-                        MavenIdentifier parentIdentifier = new MavenIdentifier(parentGroupIdElement.getTextContent(), parentArtifactIdElement.getTextContent(), parentVersionElement.getTextContent());
+                        MavenIdentifier parentIdentifier = new MavenIdentifier(parentGroupIdElement.getTextContent(),
+                                parentArtifactIdElement.getTextContent(), parentVersionElement.getTextContent());
                         return getLicenceFromPom(parentIdentifier);
                     }
                 }
@@ -153,11 +155,13 @@ public class MavenCentralClient {
                     NodeList parentArtifactIdList = parentElement.getElementsByTagName("artifactId");
                     NodeList parentGroupIdList = parentElement.getElementsByTagName("groupId");
                     NodeList parentVersionList = parentElement.getElementsByTagName("version");
-                    if (parentArtifactIdList.getLength() > 0 && parentGroupIdList.getLength() > 0 && parentVersionList.getLength() > 0) {
+                    if (parentArtifactIdList.getLength() > 0 && parentGroupIdList.getLength() > 0
+                            && parentVersionList.getLength() > 0) {
                         Element parentArtifactIdElement = (Element) parentArtifactIdList.item(0);
                         Element parentGroupIdElement = (Element) parentGroupIdList.item(0);
                         Element parentVersionElement = (Element) parentVersionList.item(0);
-                        MavenIdentifier parentIdentifier = new MavenIdentifier(parentGroupIdElement.getTextContent(), parentArtifactIdElement.getTextContent(), parentVersionElement.getTextContent());
+                        MavenIdentifier parentIdentifier = new MavenIdentifier(parentGroupIdElement.getTextContent(),
+                                parentArtifactIdElement.getTextContent(), parentVersionElement.getTextContent());
                         return getRepository(parentIdentifier);
                     }
                 }
@@ -165,7 +169,7 @@ public class MavenCentralClient {
 
             return Optional.empty();
         } catch (Exception e) {
-           throw new RuntimeException("Error in finding repository for dependency " + identifier, e);
+            throw new RuntimeException("Error in finding repository for dependency " + identifier, e);
         }
     }
 }

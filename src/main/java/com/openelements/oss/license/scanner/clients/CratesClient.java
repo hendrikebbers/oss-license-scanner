@@ -3,6 +3,7 @@ package com.openelements.oss.license.scanner.clients;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
+import com.openelements.oss.license.scanner.api.ApiConstants;
 import com.openelements.oss.license.scanner.api.Identifier;
 import com.openelements.oss.license.scanner.api.License;
 import java.net.URI;
@@ -56,7 +57,7 @@ public class CratesClient {
                                 final String version = elem.getAsJsonObject().get("num").getAsString();
                                 return compareVersions(version, identifier.version());
                             }).map(elem -> elem.getAsJsonObject().get("license").getAsString())
-                            .map(name -> new License(name, "UNKNOWN", url))
+                            .map(name -> new License(name, ApiConstants.UNKNOWN, url))
                     .findFirst();
         } catch (Exception e) {
             throw new RuntimeException("Failed to get licence info for " + identifier.name() + ":" + identifier.version(), e);

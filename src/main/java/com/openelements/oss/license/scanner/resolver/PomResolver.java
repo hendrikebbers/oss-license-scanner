@@ -1,5 +1,6 @@
 package com.openelements.oss.license.scanner.resolver;
 
+import com.openelements.oss.license.scanner.api.ApiConstants;
 import com.openelements.oss.license.scanner.api.Dependency;
 import com.openelements.oss.license.scanner.api.Identifier;
 import com.openelements.oss.license.scanner.api.License;
@@ -37,7 +38,7 @@ public class PomResolver extends AbstractResolver {
                     final License license = getLicense(i);
                     final String repository = mavenCentralClient.getRepository(i)
                             .map(r -> GitHubClient.normalizeUrl(r))
-                            .orElse("UNKNOWN");
+                            .orElse(ApiConstants.UNKNOWN);
                     return new Dependency(i.toIdentifier(), license, repository);
                 }).collect(Collectors.toSet());
     }

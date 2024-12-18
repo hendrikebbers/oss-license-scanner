@@ -1,0 +1,2 @@
+name,version,language,repository,license,license-url,license-source
+com.github.spotbugs:spotbugs-annotations,4.8.3,java,https://github.com/spotbugs/spotbugs/,LGPL-2.1,https://spdx.org/licenses/LGPL-2.1.html,pom(com.github.spotbugs:spotbugs-annotations:4.8.3) (normalized)

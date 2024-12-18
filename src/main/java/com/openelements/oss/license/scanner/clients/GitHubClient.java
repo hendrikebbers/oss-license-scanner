@@ -3,6 +3,7 @@ package com.openelements.oss.license.scanner.clients;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
+import com.openelements.oss.license.scanner.api.ApiConstants;
 import com.openelements.oss.license.scanner.api.License;
 import java.io.BufferedInputStream;
 import java.io.FileOutputStream;
@@ -154,8 +155,8 @@ public class GitHubClient {
             final JsonObject jsonObject = JsonParser.parseString(body).getAsJsonObject();
             if(jsonObject.has("license") && !jsonObject.get("license").isJsonNull()) {
                 JsonObject licenseObject = jsonObject.get("license").getAsJsonObject();
-                final String name = getOrDefault(licenseObject, "name", "Unknown");
-                final String url = getOrDefault(licenseObject, "url", "Unknown");
+                final String name = getOrDefault(licenseObject, "name", ApiConstants.UNKNOWN);
+                final String url = getOrDefault(licenseObject, "url", ApiConstants.UNKNOWN);
                 License license = new License(name, url, requestUrl);
                 return Optional.of(license);
             }

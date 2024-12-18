@@ -3,9 +3,8 @@ package com.openelements.oss.license.scanner.clients;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
-import com.openelements.oss.license.scanner.api.Identifier;
+import com.openelements.oss.license.scanner.api.ApiConstants;
 import com.openelements.oss.license.scanner.api.License;
-import com.openelements.oss.license.scanner.tools.PythonTool;
 import java.net.URI;
 import java.net.http.HttpClient;
 import java.net.http.HttpRequest;
@@ -30,19 +29,20 @@ public class SourceforgeClient {
             HttpRequest request = builder.build();
             final HttpResponse<String> response = client.send(request, BodyHandlers.ofString());
             if (response.statusCode() != 200) {
-                throw new RuntimeException("Failed to get licence info for " + project + ": status code " + response.statusCode());
+                throw new RuntimeException(
+                        "Failed to get licence info for " + project + ": status code " + response.statusCode());
             }
             String body = response.body();
             final JsonObject root = JsonParser.parseString(body).getAsJsonObject();
-            if(root.has("categories")) {
+            if (root.has("categories")) {
                 final JsonObject categories = root.getAsJsonObject("categories");
-                if(categories.has("license")) {
+                if (categories.has("license")) {
                     final String license = categories.get("license").getAsJsonArray().asList().stream()
                             .map(JsonElement::getAsJsonObject)
                             .map(obj -> obj.get("fullname").getAsString())
-                            .reduce("", (a, b) -> a +","+ b);
-                    if(!license.isBlank()) {
-                        return Optional.of(new License(license, "UNKNOWN", url));
+                            .reduce("", (a, b) -> a + "," + b);
+                    if (!license.isBlank()) {
+                        return Optional.of(new License(license, ApiConstants.UNKNOWN, url));
                     }
                 }
             }

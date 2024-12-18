@@ -1,5 +1,6 @@
 package com.openelements.oss.license.scanner.resolver;
 
+import com.openelements.oss.license.scanner.api.ApiConstants;
 import com.openelements.oss.license.scanner.api.Dependency;
 import com.openelements.oss.license.scanner.api.Identifier;
 import com.openelements.oss.license.scanner.api.License;
@@ -48,7 +49,7 @@ public class GoResolver extends AbstractResolver {
                         license = getLicence(id, repository);
                     } else {
                         log.debug("Unsupported repository: {}", id.name());
-                        repository = "unknown";
+                        repository = ApiConstants.UNKNOWN;
                         license = LicenseCache.getInstance().computeIfAbsent(id, () -> License.UNKNOWN);
                     }
                     return new Dependency(id, license, repository);
