@@ -1,5 +1,6 @@
 package com.openelements.oss.license.scanner.resolver;
 
+import com.openelements.oss.license.scanner.cache.Cache;
 import com.openelements.oss.license.scanner.clients.GitHubClient;
 import com.openelements.oss.license.scanner.api.Dependency;
 import com.openelements.oss.license.scanner.api.Identifier;
@@ -25,8 +26,13 @@ public class SwiftResolver extends AbstractResolver {
     @Override
     public Set<Dependency> resolve(Identifier identifier) {
         log.info("Resolving dependencies for: {}", identifier);
+        if(Cache.getInstance().containsKeyForSwift(identifier)) {
+            return Cache.getInstance().getSwift(identifier);
+        }
         final String repositoryUrl = identifier.name();
-        return installLocally(repositoryUrl, identifier.version(), this::resolve);
+        final Set<Dependency> dependencies = installLocally(repositoryUrl, identifier.version(), this::resolve);
+        Cache.getInstance().putSwift(identifier, dependencies);
+        return dependencies;
     }
 
     @Override

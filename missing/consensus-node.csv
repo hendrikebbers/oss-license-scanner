@@ -1,3 +1,0 @@
-name,version,language,repository,license,license-url,license-source
-com.github.spotbugs:spotbugs-annotations,4.7.3,java,https://github.com/spotbugs/spotbugs/,LGPL-2.1,https://spdx.org/licenses/LGPL-2.1.html,pom(com.github.spotbugs:spotbugs-annotations:4.7.3) (normalized)
-net.i2p.crypto:eddsa,0.3.0,java,https://github.com/str4d/ed25519-java,CC0-1.0,https://spdx.org/licenses/CC0-1.0.html,pom(net.i2p.crypto:eddsa:0.3.0) (normalized)

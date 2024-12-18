@@ -74,6 +74,10 @@ public class Cache {
         this.put(new CacheIdentifier(language, identifier), dependencies);
     }
 
+    public Set<Dependency> getGo(Identifier cacheIdentifier) {
+        return get("Go", cacheIdentifier);
+    }
+
     public Set<Dependency> getJS(Identifier cacheIdentifier) {
         return get("JS", cacheIdentifier);
     }
@@ -86,8 +90,40 @@ public class Cache {
         return containsKey("JS", identifier);
     }
 
+    public boolean containsKeyForGo(Identifier identifier) {
+        return containsKey("Go", identifier);
+    }
+
     public boolean containsKey(String language, Identifier identifier) {
         return containsKey(new CacheIdentifier(language, identifier));
+    }
+
+    public void putGo(Identifier identifier, Set<Dependency> dependencies) {
+        put("Go", identifier, dependencies);
+    }
+
+    public boolean containsKeyForJava(Identifier identifier) {
+        return containsKey("Java", identifier);
+    }
+
+    public Set<Dependency> getJava(Identifier identifier) {
+        return get("Java", identifier);
+    }
+
+    public void putJava(Identifier identifier, Set<Dependency> dependencies) {
+        put("Java", identifier, dependencies);
+    }
+
+    public boolean containsKeyForSwift(Identifier identifier) {
+        return containsKey("Swift", identifier);
+    }
+
+    public Set<Dependency> getSwift(Identifier identifier) {
+        return get("Swift", identifier);
+    }
+
+    public void putSwift(Identifier identifier, Set<Dependency> dependencies) {
+        put("Swift", identifier, dependencies);
     }
 
     public class DependenciesSerializer implements Serializer<Set<Dependency>> {

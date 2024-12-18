@@ -1,6 +1,6 @@
 name,version,language,repository,license,license-url,license-source
 @eslint/eslintrc,3.1.0,js,https://github.com/eslint/eslintrc,MIT,https://spdx.org/licenses/MIT.html,npm show (normalized)
-@hashgraph/sdk,2.52.0,js,https://github.com/hashgraph/hedera-sdk-js,Apache-2.0,https://spdx.org/licenses/Apache-2.0.html,npm show (normalized)
+@hashgraph/sdk,2.53.0,js,https://github.com/hashgraph/hedera-sdk-js,Apache-2.0,https://spdx.org/licenses/Apache-2.0.html,npm show (normalized)
 @kubernetes/client-node,0.22.2,js,https://github.com/kubernetes-client/javascript,Apache-2.0,https://spdx.org/licenses/Apache-2.0.html,npm show (normalized)
 @listr2/prompt-adapter-enquirer,2.0.12,js,https://github.com/listr2/listr2,MIT,https://spdx.org/licenses/MIT.html,npm show (normalized)
 @peculiar/x509,1.12.3,js,https://github.com/PeculiarVentures/x509,MIT,https://spdx.org/licenses/MIT.html,npm show (normalized)
@@ -23,6 +23,6 @@ stream-buffers,3.0.3,js,https://github.com/samcday/node-stream-buffer,Unlicense,
 tar,7.4.3,js,https://github.com/isaacs/node-tar,ISC,https://spdx.org/licenses/ISC.html,npm show (normalized)
 ts-node,10.9.2,js,https://github.com/TypeStrong/ts-node,MIT,https://spdx.org/licenses/MIT.html,npm show (normalized)
 uuid,11.0.2,js,https://github.com/uuidjs/uuid,MIT,https://spdx.org/licenses/MIT.html,npm show (normalized)
-winston,3.16.0,js,https://github.com/winstonjs/winston,MIT,https://spdx.org/licenses/MIT.html,npm show (normalized)
+winston,3.17.0,js,https://github.com/winstonjs/winston,MIT,https://spdx.org/licenses/MIT.html,npm show (normalized)
 yaml,2.6.0,js,https://github.com/eemeli/yaml,ISC,https://spdx.org/licenses/ISC.html,npm show (normalized)
 yargs,17.7.2,js,https://github.com/yargs/yargs,MIT,https://spdx.org/licenses/MIT.html,npm show (normalized)

@@ -1,11 +1,12 @@
 package com.openelements.oss.license.scanner.resolver;
 
-import com.openelements.oss.license.scanner.clients.GitHubClient;
-import com.openelements.oss.license.scanner.clients.MavenCentralClient;
-import com.openelements.oss.license.scanner.clients.MavenIdentifier;
 import com.openelements.oss.license.scanner.api.Dependency;
 import com.openelements.oss.license.scanner.api.Identifier;
 import com.openelements.oss.license.scanner.api.License;
+import com.openelements.oss.license.scanner.cache.Cache;
+import com.openelements.oss.license.scanner.clients.GitHubClient;
+import com.openelements.oss.license.scanner.clients.MavenCentralClient;
+import com.openelements.oss.license.scanner.clients.MavenIdentifier;
 import com.openelements.oss.license.scanner.licenses.LicenseCache;
 import com.openelements.oss.license.scanner.tools.MavenTool;
 import java.io.File;
@@ -43,6 +44,9 @@ public class PomResolver extends AbstractResolver {
 
     @Override
     public Set<Dependency> resolve(Identifier identifier) {
+        if (Cache.getInstance().containsKeyForJava(identifier)) {
+            return Cache.getInstance().getJava(identifier);
+        }
         log.info("Resolving dependencies for: {}", identifier);
         try {
             Path tempDir = Files.createTempDirectory("unzipped_repo");
@@ -52,7 +56,9 @@ public class PomResolver extends AbstractResolver {
                 final String pom = mavenCentralClient.getPom(mavenIdentifier);
                 //TODO: throw exception if type of pom == pom/bom...
                 Files.write(tempDir.resolve("pom.xml"), pom.getBytes());
-                return resolve(tempDir);
+                Set<Dependency> dependencies = resolve(tempDir);
+                Cache.getInstance().putJava(identifier, dependencies);
+                return dependencies;
             } catch (Exception e) {
                 log.error("Error in resolving dependencies", e);
                 return Set.of();
@@ -74,7 +80,8 @@ public class PomResolver extends AbstractResolver {
         log.info("Getting license for: " + identifier);
         MavenCentralClient mavenCentralClient = new MavenCentralClient();
         final Supplier<License> supplier = () -> mavenCentralClient.getLicenceFromPom(identifier)
-                .or(() -> mavenCentralClient.getRepository(identifier).map(r -> getLicenseFromProjectUrl(r).orElse(License.UNKNOWN)))
+                .or(() -> mavenCentralClient.getRepository(identifier)
+                        .map(r -> getLicenseFromProjectUrl(r).orElse(License.UNKNOWN)))
                 .orElse(License.UNKNOWN);
         return LicenseCache.getInstance().computeIfAbsent(identifier.toIdentifier(), supplier);
     }

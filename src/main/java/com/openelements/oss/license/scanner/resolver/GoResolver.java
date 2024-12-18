@@ -3,6 +3,7 @@ package com.openelements.oss.license.scanner.resolver;
 import com.openelements.oss.license.scanner.api.Dependency;
 import com.openelements.oss.license.scanner.api.Identifier;
 import com.openelements.oss.license.scanner.api.License;
+import com.openelements.oss.license.scanner.cache.Cache;
 import com.openelements.oss.license.scanner.clients.GitHubClient;
 import com.openelements.oss.license.scanner.licenses.LicenseCache;
 import com.openelements.oss.license.scanner.tools.GoTool;
@@ -23,10 +24,15 @@ public class GoResolver extends AbstractResolver {
 
     @Override
     public Set<Dependency> resolve(Identifier identifier) {
-        if(identifier.name().startsWith("github.com/")) {
+        if (Cache.getInstance().containsKeyForGo(identifier)) {
+            return Cache.getInstance().getGo(identifier);
+        }
+        if (identifier.name().startsWith("github.com/")) {
             final String repositoryUrl = "https://" + identifier.name();
-            return installLocally(repositoryUrl, identifier.version(), path -> resolve(path));
-        }else {
+            Set<Dependency> dependencies = installLocally(repositoryUrl, identifier.version(), path -> resolve(path));
+            Cache.getInstance().putGo(identifier, dependencies);
+            return dependencies;
+        } else {
             throw new RuntimeException("Unsupported Go package: " + identifier.name());
         }
     }
@@ -37,7 +43,7 @@ public class GoResolver extends AbstractResolver {
                 .map(id -> {
                     final String repository;
                     final License license;
-                    if(id.name().startsWith("github.com/")) {
+                    if (id.name().startsWith("github.com/")) {
                         repository = "https://" + id.name();
                         license = getLicence(id, repository);
                     } else {
