@@ -2,6 +2,11 @@ name: Running ORT
 
 on:
   workflow_dispatch:
+    inputs:
+      repository:
+        description: 'Repository to checkout'
+        required: true
+        default: 'hashgraph/hedera-local-node'
 
 jobs:
   ort:
@@ -12,6 +17,6 @@ jobs:
       - name: Checkout project
         uses: actions/checkout@v3
         with:
-          repository: 'hashgraph/hedera-local-node'
+          repository: ${{ inputs.repository }}
       - name: Run GitHub Action for ORT
         uses: oss-review-toolkit/ort-ci-github-action@v1
